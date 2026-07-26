@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  postgres_casce:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: casce_environment
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: postgres
+    ports:
+      - "5433:5432"
+    # Share the host PID namespace so Postgres backend PIDs match eBPF Kernel PIDs perfectly
+    pid: "host"
+    # Privileged is required to load eBPF programs via bpf() syscall from inside the container or attach to tracepoints
+    privileged: true
+    cap_add:
+      - SYS_ADMIN
+      - BPF
+      - PERFMON
+      - SYSLOG
+    volumes:
+      # eBPF requires access to kernel headers, debugfs, and bpf fs
+      - /sys/kernel/debug:/sys/kernel/debug:rw
+      - /sys/fs/bpf:/sys/fs/bpf:rw
+      - /lib/modules:/lib/modules:ro
+      - /usr/src:/usr/src:ro
+      - /etc/os-release:/etc/os-release:ro
+      # Mount the local project folder into the container to run scripts later
+      - ./:/dataset_workspace

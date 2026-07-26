@@ -1,0 +1,18 @@
+session_id,label
+56791,Normal
+56803,Privilege Abuse
+56795,Privilege Abuse
+56799,Privilege Abuse
+56798,Privilege Abuse
+56796,Privilege Abuse
+56801,Privilege Abuse
+56797,Privilege Abuse
+56802,Privilege Abuse
+56804,Privilege Abuse
+56800,Privilege Abuse
+56813,Data Exfiltration
+56821,Sabotage
+56824,Privilege Escalation
+56826,Normal
+56828,Privilege Abuse
+56831,Reverse Shell

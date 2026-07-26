@@ -1,0 +1,24 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Raw Telemetry Logs (Never commit the full dataset)
+postgres_events.json
+kernel_events.json
+*.json
+
+# C Extension Compilations
+pg_telemetry_extension/*.o
+pg_telemetry_extension/*.so
+
+# Compressed Archives
+*.tar.gz
+*.tar
+*.zip
+
+# The Final Frozen Output Folder
+dataset/
+
+# OS specific
+.DS_Store
