@@ -33,7 +33,9 @@ psql -U postgres -d casce_tpcb -c "ALTER DATABASE casce_tpcb SET session_preload
 ### 3. Generate Dataset
 ```bash
 # 1. Start the Background dual-logger
-./collector.py &
+./logger.sh start
+./logger.sh stop
+./logger.sh status
 
 # 2. Run the deterministic testing profiles
 ./normal_workload.sh

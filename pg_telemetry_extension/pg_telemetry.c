@@ -8,8 +8,14 @@
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
+#include <unistd.h>
 
 PG_MODULE_MAGIC;
+
+/* Presence of this file is the on/off switch for logging.
+ * Created by logger.sh on "start", removed on "stop", so that
+ * this extension can be started/stopped without restarting Postgres. */
+#define CASCE_LOGGING_FLAG "/dataset_workspace/.casce_logging_active"
 
 void _PG_init(void);
 void _PG_fini(void);
@@ -28,6 +34,9 @@ static void log_casce_event(const char* event_type, const char* query) {
     const char* username = "unknown";
 
     if (!query) return;
+
+    // Logging is toggled on/off by logger.sh via this flag file's presence.
+    if (access(CASCE_LOGGING_FLAG, F_OK) != 0) return;
 
     // Open file to append structured event log for collector
     fp = fopen("/dataset_workspace/postgres_events.json", "a");
