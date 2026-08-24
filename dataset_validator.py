@@ -13,6 +13,8 @@ def validate_dataset():
         with open("/dataset_workspace/postgres_events.json", "r") as f:
             for i, line in enumerate(f):
                 event = json.loads(line)
+                if "marker" in event:
+                    continue
                 if not all(k in event for k in ("session_id", "backend_pid", "query", "timestamp")):
                     print(f"Malformed PG event at line {i+1}")
                     pg_valid = False
@@ -32,6 +34,8 @@ def validate_dataset():
         with open("/dataset_workspace/kernel_events.json", "r") as f:
             for i, line in enumerate(f):
                 event = json.loads(line)
+                if "marker" in event:
+                    continue
                 if not all(k in event for k in ("pid", "timestamp")):
                     print(f"Malformed Kernel event at line {i+1}")
                     kernel_valid = False

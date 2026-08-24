@@ -1,0 +1,28 @@
+session_id,label
+,Normal
+54037,Normal
+54047,Privilege Abuse
+54044,Privilege Abuse
+54043,Privilege Abuse
+54041,Privilege Abuse
+54042,Privilege Abuse
+54045,Privilege Abuse
+54049,Privilege Abuse
+54050,Privilege Abuse
+54046,Privilege Abuse
+54048,Privilege Abuse
+54098,Normal
+54099,Normal
+54100,Normal
+54103,Data Exfiltration
+54109,Data Exfiltration
+54114,Data Exfiltration
+54142,Data Exfiltration
+54165,Normal
+54168,Normal
+54171,Data Exfiltration
+54184,Privilege Escalation
+54186,Normal
+54188,Privilege Abuse
+54191,Reverse Shell
+54197,Sabotage

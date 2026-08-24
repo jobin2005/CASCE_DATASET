@@ -1,0 +1,28 @@
+session_id,label
+,Normal
+52667,Normal
+52672,Privilege Abuse
+52671,Privilege Abuse
+52677,Privilege Abuse
+52675,Privilege Abuse
+52674,Privilege Abuse
+52676,Privilege Abuse
+52680,Privilege Abuse
+52673,Privilege Abuse
+52679,Privilege Abuse
+52678,Privilege Abuse
+52734,Normal
+52736,Normal
+52735,Normal
+52739,Data Exfiltration
+52745,Data Exfiltration
+52750,Data Exfiltration
+52757,Data Exfiltration
+52785,Normal
+52790,Normal
+52793,Data Exfiltration
+52806,Privilege Escalation
+52808,Normal
+52810,Privilege Abuse
+52813,Reverse Shell
+52819,Sabotage

@@ -2,7 +2,7 @@
 set -euo pipefail
 
 echo "Building and starting casce_environment..."
-docker-compose up -d --build
+docker compose up -d --build
 
 echo "Waiting for the container to report healthy..."
 for i in $(seq 1 30); do

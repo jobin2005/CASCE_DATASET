@@ -1,0 +1,28 @@
+session_id,label
+,Normal
+53126,Normal
+53131,Privilege Abuse
+53133,Privilege Abuse
+53130,Privilege Abuse
+53139,Privilege Abuse
+53132,Privilege Abuse
+53136,Privilege Abuse
+53137,Privilege Abuse
+53134,Privilege Abuse
+53135,Privilege Abuse
+53138,Privilege Abuse
+53188,Normal
+53189,Normal
+53190,Normal
+53193,Data Exfiltration
+53199,Data Exfiltration
+53204,Data Exfiltration
+53229,Data Exfiltration
+53245,Normal
+53250,Normal
+53253,Data Exfiltration
+53266,Privilege Escalation
+53268,Normal
+53270,Privilege Abuse
+53273,Reverse Shell
+53279,Sabotage
