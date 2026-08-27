@@ -22,3 +22,9 @@ dataset/
 
 # OS specific
 .DS_Store
+
+
+dataset_dev/
+dataset_test/
+*.bc
+*.log

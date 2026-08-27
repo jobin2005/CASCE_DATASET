@@ -162,50 +162,30 @@ Stop whenever you're done:
 
 ---
 
-## 5. Step D (optional) — Generate workload
+## 5. Automated Dataset Generation (Dev / Test Pipelines)
 
-Either replay a timestamped benign/malicious schedule:
-
-```bash
-chmod +x run_schedule.py
-./logger.sh start
-./run_schedule.py sample_data/schedule.json casce_sample
-./logger.sh stop
-```
-
-...or run the original deterministic scripts:
+Instead of running individual tests manually, the environment uses a dedicated, full-cycle orchestrator:
 
 ```bash
-./logger.sh start
-./normal_workload.sh
-./attack_workload/attack_exfiltration.sh
-./attack_workload/attack_sabotage.sh
-./attack_workload/attack_privilege_abuse.sh
-./attack_workload/attack_reverse_shell.sh
-./logger.sh stop
+chmod +x generate_eval_datasets.sh
+./generate_eval_datasets.sh
 ```
 
-Both run in real wall-clock time by design, so the Postgres and eBPF
-timestamps stay on the same clock (see the note at the bottom of
-`run_schedule.py` if you want to explore `faketime`-based compression
-instead).
+The orchestrator guarantees mathematical independence by actively clearing existing schemas and dropping database caches between runs.
 
 ---
 
-## 6. Step E — Label, validate, freeze
+## 6. The Outputs Obtained
 
-```bash
-./generate_labels.py
-./dataset_validator.py
-./freeze_dataset.sh
-```
+Running the generation script will create two rigorous Dataset artifacts that satisfy strict academic baselines:
 
-A clean, compressed dataset directory (`dataset/`) is produced, containing
-`postgres_events.json`, `kernel_events.json`, `labels.csv`, the attack
-scripts used, and a generated `README.md` describing the artifacts —
-ready for machine learning use.
+- **`dataset_dev/`** (Contains `run_1`, `run_2`, `run_3`) — Dedicated purely for model tuning, threshold adjusting (e.g., configuring optimal $D_{max}$ depth), and running internal Ablation testing across the 4 CASCE Methodology algorithms. 
+- **`dataset_test/`** (Contains `run_1`, `run_2`, `run_3`) — The strictly held-out testing partitions. You must only evaluate Sreedeep's final GAT ML detection on this folder once everything is locked.
 
----
+Inside each `run_X/` folder, the 3 Golden Artifacts are generated:
+- `postgres_events.json`: High-level Semantics.
+- `kernel_events.json`: Low-level eBPF traces (with dynamically resolved string `syscall` types linked at the C boundary).
+- `labels.csv`: The ground truth bounds.
 
 ## Troubleshooting quick reference
 
