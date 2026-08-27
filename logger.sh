@@ -68,9 +68,20 @@ stop() {
     echo "Logging STOPPED."
 }
 
+mark_attack() {
+    local attack_name="$1"
+    local phase="$2"  # "start" or "end"
+    local ts
+    ts="$(date +%s.%N)"
+    local marker_type="ATTACK_$(echo "$phase" | tr '[:lower:]' '[:upper:]')"
+    echo "{\"marker\": \"${marker_type}\", \"attack_name\": \"${attack_name}\", \"timestamp\": ${ts}}" >> "$KERNEL_LOG"
+    echo "{\"marker\": \"${marker_type}\", \"attack_name\": \"${attack_name}\", \"timestamp\": ${ts}}" >> "$PG_LOG"
+}
+
 case "${1:-}" in
-    start)  start ;;
-    stop)   stop ;;
-    status) status ;;
-    *) echo "usage: $0 start|stop|status"; exit 1 ;;
+    start)       start ;;
+    stop)        stop ;;
+    status)      status ;;
+    mark_attack) mark_attack "$2" "$3" ;;
+    *) echo "usage: $0 start|stop|status|mark_attack <name> <start|end>"; exit 1 ;;
 esac

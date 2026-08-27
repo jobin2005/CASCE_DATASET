@@ -20,12 +20,39 @@ run_pipeline() {
     # 2. Reset and Secure Logs -> Start Telemetry
     docker exec -u root casce_environment bash -c "cd /dataset_workspace && ./logger.sh stop 2>/dev/null || true && rm -f postgres_events.json kernel_events.json && touch postgres_events.json kernel_events.json && chmod 666 postgres_events.json kernel_events.json && ./logger.sh start > /dev/null"
     
-    # 3. Simulate Normal & Attack Traffic
-    docker exec -u root casce_environment bash -c "cd /dataset_workspace && ./normal_workload.sh > /dev/null"
-    docker exec -u root casce_environment bash -c "cd /dataset_workspace && for script in attack_workload/*.sh; do bash \$script > /dev/null 2>&1 || true; done"
+    # 3. Simulate Normal & Attack Traffic (CONCURRENT)
+    # Background normal workload — runs pgbench concurrently with everything else
+    docker exec -u root casce_environment bash -c "cd /dataset_workspace && ./normal_workload.sh > /dev/null" &
+    NORMAL_PID=$!
+
+    # Background benign edge cases — hard-negative DBA traffic
+    docker exec -u root casce_environment bash -c "cd /dataset_workspace && chmod +x benign_edge_cases.sh && ./benign_edge_cases.sh > /dev/null 2>&1 || true" &
+    BENIGN_PID=$!
+
+    # Run attack scripts — first two (exfiltration + sabotage) concurrently,
+    # then remaining scripts sequentially to produce genuine interleaved sessions
+    docker exec -u root casce_environment bash -c "cd /dataset_workspace && \
+        bash attack_workload/attack_exfiltration.sh > /dev/null 2>&1 & \
+        bash attack_workload/attack_sabotage.sh > /dev/null 2>&1 & \
+        wait; \
+        for script in \
+            attack_workload/attack_privilege_abuse.sh \
+            attack_workload/attack_reverse_shell.sh \
+            attack_workload/attack_os_priv_escalation.sh \
+            attack_workload/attack_db_unauthorized_read.sh \
+            attack_workload/attack_multi_stage_apt.sh \
+            attack_workload/attack_exfiltration_delayed_2s.sh \
+            attack_workload/attack_exfiltration_delayed_30s.sh \
+            attack_workload/attack_exfiltration_alt_process.sh; do \
+            bash \$script > /dev/null 2>&1 || true; \
+        done"
+
+    # Wait for background normal + benign workloads to finish
+    wait $NORMAL_PID || true
+    wait $BENIGN_PID || true
     
-    # 4. Stop Telemetry, Process Labels, Freeze
-    docker exec -u root casce_environment bash -c "cd /dataset_workspace && ./logger.sh stop > /dev/null && ./generate_labels.py > /dev/null && ./dataset_validator.py > /dev/null && ./freeze_dataset.sh > /dev/null"
+    # 4. Stop Telemetry, Process Labels, Validate, Freeze
+    docker exec -u root casce_environment bash -c "cd /dataset_workspace && ./logger.sh stop > /dev/null && python3 ./generate_labels.py && python3 ./dataset_validator.py && ./freeze_dataset.sh > /dev/null"
     
     # 5. Extract to Isolated Run Folder
     mkdir -p "${dataset_dir}/run_${run_id}"
