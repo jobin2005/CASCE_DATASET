@@ -78,11 +78,10 @@ cd CASCE_DATASET
 
 ---
 
-## 2. Step A — Build & launch the environment
+## 2. Build & Launch the Environment
 
 ```bash
-chmod +x build_env.sh
-./build_env.sh
+docker compose up -d
 ```
 
 This builds the Ubuntu 24.04 + PostgreSQL 17 + eBPF-toolchain image and
@@ -125,20 +124,7 @@ This single script will autonomously:
 
 ---
 
-## 5. Automated Dataset Generation (Dev / Test Pipelines)
-
-Instead of running individual tests manually, the environment uses a dedicated, full-cycle orchestrator:
-
-```bash
-chmod +x generate_eval_datasets.sh
-./generate_eval_datasets.sh
-```
-
-The orchestrator guarantees mathematical independence by actively clearing existing schemas and dropping database caches between runs.
-
----
-
-## 6. The Outputs Obtained
+## 5. The Outputs Obtained
 
 Running the generation script will create two rigorous Dataset artifacts that satisfy strict academic baselines:
 
