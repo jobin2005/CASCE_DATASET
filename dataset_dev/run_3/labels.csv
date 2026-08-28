@@ -1,0 +1,40 @@
+session_id,label
+,Normal
+34929,Normal
+34939,Privilege Abuse
+34934,Privilege Abuse
+34933,Privilege Abuse
+34935,Privilege Abuse
+34936,Privilege Abuse
+34938,Privilege Abuse
+34940,Privilege Abuse
+34942,Privilege Abuse
+34941,Privilege Abuse
+34937,Privilege Abuse
+34944,Data Exfiltration
+34946,Normal
+34948,Normal
+34950,Normal
+34953,Normal
+35002,Normal
+35003,Data Exfiltration
+35012,Normal
+35011,Normal
+35016,Normal
+35015,Normal
+35019,Normal
+35020,Normal
+35021,Normal
+35024,Data Exfiltration
+35030,Data Exfiltration
+35035,Data Exfiltration
+35042,Data Exfiltration
+35071,Normal
+35074,Normal
+35077,Data Exfiltration
+35086,Data Exfiltration
+35098,Privilege Escalation
+35100,Normal
+35102,Privilege Abuse
+35105,Reverse Shell
+35111,Sabotage
