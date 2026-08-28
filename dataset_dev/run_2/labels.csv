@@ -1,40 +1,40 @@
 session_id,label
 ,Normal
-6758,Normal
-6764,Privilege Abuse
-6763,Privilege Abuse
-6768,Privilege Abuse
-6765,Privilege Abuse
-6767,Privilege Abuse
-6762,Privilege Abuse
-6770,Privilege Abuse
-6771,Privilege Abuse
-6769,Privilege Abuse
-6766,Privilege Abuse
-6773,Data Exfiltration
-6775,Normal
-6777,Normal
-6779,Normal
-6798,Normal
-6847,Normal
-6848,Data Exfiltration
-6856,Normal
-6857,Normal
-6860,Normal
-6861,Normal
-6864,Normal
-6866,Normal
-6865,Normal
-6875,Data Exfiltration
-6881,Data Exfiltration
-6886,Data Exfiltration
-6893,Data Exfiltration
-6916,Normal
-6919,Normal
-6922,Data Exfiltration
-6930,Data Exfiltration
-6942,Privilege Escalation
-6944,Normal
-6946,Privilege Abuse
-6949,Reverse Shell
-6955,Sabotage
+15509,Normal
+15515,Privilege Abuse
+15520,Privilege Abuse
+15514,Privilege Abuse
+15519,Privilege Abuse
+15516,Privilege Abuse
+15513,Privilege Abuse
+15521,Privilege Abuse
+15517,Privilege Abuse
+15522,Privilege Abuse
+15518,Privilege Abuse
+15524,Data Exfiltration
+15526,Normal
+15528,Normal
+15530,Normal
+15533,Normal
+15582,Normal
+15585,Data Exfiltration
+15591,Normal
+15594,Normal
+15593,Normal
+15592,Normal
+15599,Normal
+15600,Normal
+15601,Normal
+15604,Data Exfiltration
+15610,Data Exfiltration
+15615,Data Exfiltration
+15622,Data Exfiltration
+15649,Normal
+15652,Normal
+15655,Data Exfiltration
+15664,Data Exfiltration
+15676,Privilege Escalation
+15678,Normal
+15680,Privilege Abuse
+15683,Reverse Shell
+15689,Sabotage
