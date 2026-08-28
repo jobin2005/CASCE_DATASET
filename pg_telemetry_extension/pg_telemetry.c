@@ -5,6 +5,7 @@
 #include "miscadmin.h"
 #include "utils/builtins.h"
 #include "commands/dbcommands.h"
+#include "libpq/libpq-be.h"
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
@@ -21,8 +22,7 @@ void _PG_init(void);
 void _PG_fini(void);
 
 static ExecutorStart_hook_type prev_ExecutorStart = NULL;
-static ExecutorRun_hook_type prev_ExecutorRun = NULL;
-static ExecutorFinish_hook_type prev_ExecutorFinish = NULL;
+
 static ExecutorEnd_hook_type prev_ExecutorEnd = NULL;
 static ProcessUtility_hook_type prev_ProcessUtility = NULL;
 
@@ -32,6 +32,8 @@ static void log_casce_event(const char* event_type, const char* query) {
     int i;
     const char* dbname = "unknown";
     const char* username = "unknown";
+    const char* client_addr = "local";
+    const char* client_port = "0";
 
     if (!query) return;
 
@@ -54,9 +56,12 @@ static void log_casce_event(const char* event_type, const char* query) {
     
     username = GetUserNameFromId(GetUserId(), true);
     if (!username) username = "unknown";
+    
+    if (MyProcPort && MyProcPort->remote_host) client_addr = MyProcPort->remote_host;
+    if (MyProcPort && MyProcPort->remote_port) client_port = MyProcPort->remote_port;
 
-    fprintf(fp, "{\"session_id\": %d, \"backend_pid\": %d, \"timestamp\": %ld, \"event_type\": \"%s\", \"query\": \"%s\", \"database\": \"%s\", \"username\": \"%s\"}\n",
-        MyProcPid, MyProcPid, (long)time(NULL), event_type, safe_query, dbname, username);
+    fprintf(fp, "{\"session_id\": %d, \"backend_pid\": %d, \"timestamp\": %ld, \"event_type\": \"%s\", \"query\": \"%s\", \"database\": \"%s\", \"username\": \"%s\", \"client_addr\": \"%s\", \"client_port\": \"%s\"}\n",
+        MyProcPid, MyProcPid, (long)time(NULL), event_type, safe_query, dbname, username, client_addr, client_port);
     fclose(fp);
 }
 
@@ -68,17 +73,7 @@ static void casce_ExecutorStart(QueryDesc *queryDesc, int eflags) {
     else standard_ExecutorStart(queryDesc, eflags);
 }
 
-static void casce_ExecutorRun(QueryDesc *queryDesc, ScanDirection direction, uint64 count, bool execute_once) {
-    log_casce_event("ExecutorRun", queryDesc->sourceText);
-    if (prev_ExecutorRun) prev_ExecutorRun(queryDesc, direction, count, execute_once);
-    else standard_ExecutorRun(queryDesc, direction, count, execute_once);
-}
 
-static void casce_ExecutorFinish(QueryDesc *queryDesc) {
-    log_casce_event("ExecutorFinish", queryDesc->sourceText);
-    if (prev_ExecutorFinish) prev_ExecutorFinish(queryDesc);
-    else standard_ExecutorFinish(queryDesc);
-}
 
 static void casce_ExecutorEnd(QueryDesc *queryDesc) {
     log_casce_event("ExecutorEnd", queryDesc->sourceText);
@@ -113,11 +108,7 @@ void _PG_init(void) {
     prev_ExecutorStart = ExecutorStart_hook;
     ExecutorStart_hook = casce_ExecutorStart;
     
-    prev_ExecutorRun = ExecutorRun_hook;
-    ExecutorRun_hook = casce_ExecutorRun;
-    
-    prev_ExecutorFinish = ExecutorFinish_hook;
-    ExecutorFinish_hook = casce_ExecutorFinish;
+
     
     prev_ExecutorEnd = ExecutorEnd_hook;
     ExecutorEnd_hook = casce_ExecutorEnd;
@@ -128,8 +119,7 @@ void _PG_init(void) {
 
 void _PG_fini(void) {
     ExecutorStart_hook = prev_ExecutorStart;
-    ExecutorRun_hook = prev_ExecutorRun;
-    ExecutorFinish_hook = prev_ExecutorFinish;
+
     ExecutorEnd_hook = prev_ExecutorEnd;
     ProcessUtility_hook = prev_ProcessUtility;
 }

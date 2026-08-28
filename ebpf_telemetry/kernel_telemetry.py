@@ -14,6 +14,7 @@ BPF_PERF_OUTPUT(events);
 struct data_t {
     u32 pid;
     u32 ppid;
+    u32 uid;
     u64 ts;
     u32 syscall_id;
     char comm[TASK_COMM_LEN];
@@ -25,6 +26,7 @@ static inline void submit_event(void *ctx, u32 syscall_id, const char *arg) {
     struct task_struct *task = (struct task_struct *)bpf_get_current_task();
     
     data.pid = bpf_get_current_pid_tgid() >> 32;
+    data.uid = bpf_get_current_uid_gid();
     data.ppid = task->real_parent->tgid;
     data.ts = bpf_ktime_get_ns();
     data.syscall_id = syscall_id;
@@ -76,6 +78,7 @@ if __name__ == '__main__':
             out = {
                 "pid": event.pid,
                 "ppid": event.ppid,
+                "uid": event.uid,
                 "timestamp": event.ts,
                 "comm": comm,
                 "syscall": SYSCALL_MAP.get(event.syscall_id, "unknown"),
