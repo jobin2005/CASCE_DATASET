@@ -1,0 +1,424 @@
+In file included from /virtual/main.c:3:
+In file included from include/linux/sched.h:12:
+arch/x86/include/asm/current.h:23:10: warning: multiple identical address spaces specified for type [-Wduplicate-decl-specifier]
+   23 |                 return this_cpu_read_const(const_current_task);
+      |                        ^
+arch/x86/include/asm/percpu.h:560:36: note: expanded from macro 'this_cpu_read_const'
+  560 | #define this_cpu_read_const(pcp)                        __raw_cpu_read_const(pcp)
+      |                                                         ^
+arch/x86/include/asm/percpu.h:148:35: note: expanded from macro '__raw_cpu_read_const'
+  148 | #define __raw_cpu_read_const(pcp)       __raw_cpu_read(, , pcp)
+      |                                         ^
+arch/x86/include/asm/percpu.h:140:38: note: expanded from macro '__raw_cpu_read'
+  140 |         *(qual __my_cpu_type(pcp) * __force)__my_cpu_ptr(&(pcp));       \
+      |                                             ^
+note: (skipping 4 expansions in backtrace; use -fmacro-backtrace-limit=0 to see all)
+include/linux/args.h:25:24: note: expanded from macro '__CONCAT'
+   25 | #define __CONCAT(a, b) a ## b
+      |                        ^
+<scratch space>:90:1: note: expanded from here
+   90 | __seg_gs
+      | ^
+<built-in>:358:33: note: expanded from macro '__seg_gs'
+  358 | #define __seg_gs __attribute__((address_space(256)))
+      |                                 ^
+In file included from /virtual/main.c:3:
+In file included from include/linux/sched.h:12:
+arch/x86/include/asm/current.h:23:10: warning: multiple identical address spaces specified for type [-Wduplicate-decl-specifier]
+arch/x86/include/asm/percpu.h:560:36: note: expanded from macro 'this_cpu_read_const'
+  560 | #define this_cpu_read_const(pcp)                        __raw_cpu_read_const(pcp)
+      |                                                         ^
+arch/x86/include/asm/percpu.h:148:35: note: expanded from macro '__raw_cpu_read_const'
+  148 | #define __raw_cpu_read_const(pcp)       __raw_cpu_read(, , pcp)
+      |                                         ^
+arch/x86/include/asm/percpu.h:140:9: note: expanded from macro '__raw_cpu_read'
+  140 |         *(qual __my_cpu_type(pcp) * __force)__my_cpu_ptr(&(pcp));       \
+      |                ^
+note: (skipping 3 expansions in backtrace; use -fmacro-backtrace-limit=0 to see all)
+include/linux/args.h:25:24: note: expanded from macro '__CONCAT'
+   25 | #define __CONCAT(a, b) a ## b
+      |                        ^
+<scratch space>:89:1: note: expanded from here
+   89 | __seg_gs
+      | ^
+<built-in>:358:33: note: expanded from macro '__seg_gs'
+  358 | #define __seg_gs __attribute__((address_space(256)))
+      |                                 ^
+In file included from /virtual/main.c:3:
+In file included from include/linux/sched.h:13:
+arch/x86/include/asm/processor.h:554:10: warning: multiple identical address spaces specified for type [-Wduplicate-decl-specifier]
+  554 |                 return this_cpu_read_const(const_cpu_current_top_of_stack);
+      |                        ^
+arch/x86/include/asm/percpu.h:560:36: note: expanded from macro 'this_cpu_read_const'
+  560 | #define this_cpu_read_const(pcp)                        __raw_cpu_read_const(pcp)
+      |                                                         ^
+arch/x86/include/asm/percpu.h:148:35: note: expanded from macro '__raw_cpu_read_const'
+  148 | #define __raw_cpu_read_const(pcp)       __raw_cpu_read(, , pcp)
+      |                                         ^
+arch/x86/include/asm/percpu.h:140:38: note: expanded from macro '__raw_cpu_read'
+  140 |         *(qual __my_cpu_type(pcp) * __force)__my_cpu_ptr(&(pcp));       \
+      |                                             ^
+note: (skipping 4 expansions in backtrace; use -fmacro-backtrace-limit=0 to see all)
+include/linux/args.h:25:24: note: expanded from macro '__CONCAT'
+   25 | #define __CONCAT(a, b) a ## b
+      |                        ^
+<scratch space>:113:1: note: expanded from here
+  113 | __seg_gs
+      | ^
+<built-in>:358:33: note: expanded from macro '__seg_gs'
+  358 | #define __seg_gs __attribute__((address_space(256)))
+      |                                 ^
+In file included from /virtual/main.c:3:
+In file included from include/linux/sched.h:13:
+arch/x86/include/asm/processor.h:554:10: warning: multiple identical address spaces specified for type [-Wduplicate-decl-specifier]
+arch/x86/include/asm/percpu.h:560:36: note: expanded from macro 'this_cpu_read_const'
+  560 | #define this_cpu_read_const(pcp)                        __raw_cpu_read_const(pcp)
+      |                                                         ^
+arch/x86/include/asm/percpu.h:148:35: note: expanded from macro '__raw_cpu_read_const'
+  148 | #define __raw_cpu_read_const(pcp)       __raw_cpu_read(, , pcp)
+      |                                         ^
+arch/x86/include/asm/percpu.h:140:9: note: expanded from macro '__raw_cpu_read'
+  140 |         *(qual __my_cpu_type(pcp) * __force)__my_cpu_ptr(&(pcp));       \
+      |                ^
+note: (skipping 3 expansions in backtrace; use -fmacro-backtrace-limit=0 to see all)
+include/linux/args.h:25:24: note: expanded from macro '__CONCAT'
+   25 | #define __CONCAT(a, b) a ## b
+      |                        ^
+<scratch space>:112:1: note: expanded from here
+  112 | __seg_gs
+      | ^
+<built-in>:358:33: note: expanded from macro '__seg_gs'
+  358 | #define __seg_gs __attribute__((address_space(256)))
+      |                                 ^
+4 warnings generated.
+Possibly lost 34 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 90 samples
+Possibly lost 294 samples
+Possibly lost 249 samples
+Possibly lost 245 samples
+Possibly lost 1 samples
+Possibly lost 331 samples
+Possibly lost 1 samples
+Possibly lost 298 samples
+Possibly lost 467 samples
+Possibly lost 448 samples
+Possibly lost 443 samples
+Possibly lost 626 samples
+Possibly lost 630 samples
+Possibly lost 436 samples
+Possibly lost 498 samples
+Possibly lost 830 samples
+Possibly lost 533 samples
+Possibly lost 807 samples
+Possibly lost 501 samples
+Possibly lost 670 samples
+Possibly lost 577 samples
+Possibly lost 568 samples
+Possibly lost 536 samples
+Possibly lost 590 samples
+Possibly lost 464 samples
+Possibly lost 464 samples
+Possibly lost 488 samples
+Possibly lost 485 samples
+Possibly lost 664 samples
+Possibly lost 533 samples
+Possibly lost 498 samples
+Possibly lost 439 samples
+Possibly lost 423 samples
+Possibly lost 352 samples
+Possibly lost 352 samples
+Possibly lost 567 samples
+Possibly lost 783 samples
+Possibly lost 500 samples
+Possibly lost 518 samples
+Possibly lost 381 samples
+Possibly lost 759 samples
+Possibly lost 380 samples
+Possibly lost 683 samples
+Possibly lost 708 samples
+Possibly lost 575 samples
+Possibly lost 682 samples
+Possibly lost 600 samples
+Possibly lost 566 samples
+Possibly lost 510 samples
+Possibly lost 491 samples
+Possibly lost 467 samples
+Possibly lost 794 samples
+Possibly lost 578 samples
+Possibly lost 618 samples
+Possibly lost 431 samples
+Possibly lost 395 samples
+Possibly lost 637 samples
+Possibly lost 749 samples
+Possibly lost 629 samples
+Possibly lost 1 samples
+Possibly lost 452 samples
+Possibly lost 466 samples
+Possibly lost 467 samples
+Possibly lost 609 samples
+Possibly lost 538 samples
+Possibly lost 432 samples
+Possibly lost 800 samples
+Possibly lost 483 samples
+Possibly lost 1 samples
+Possibly lost 608 samples
+Possibly lost 657 samples
+Possibly lost 513 samples
+Possibly lost 847 samples
+Possibly lost 705 samples
+Possibly lost 580 samples
+Possibly lost 497 samples
+Possibly lost 1 samples
+Possibly lost 561 samples
+Possibly lost 484 samples
+Possibly lost 633 samples
+Possibly lost 1 samples
+Possibly lost 325 samples
+Possibly lost 665 samples
+Possibly lost 740 samples
+Possibly lost 533 samples
+Possibly lost 44 samples
+Possibly lost 295 samples
+Possibly lost 483 samples
+Possibly lost 174 samples
+Possibly lost 223 samples
+Possibly lost 2 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 3 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 3 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 3 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 3 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 3 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 3 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 3 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 2 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 3 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 2 samples
+Possibly lost 2 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 2 samples
+Possibly lost 3 samples
+Possibly lost 2 samples
+Possibly lost 6 samples
+Possibly lost 2 samples
+Possibly lost 2 samples
+Possibly lost 4 samples
+Possibly lost 2 samples
+Possibly lost 3 samples
+Possibly lost 3 samples
+Possibly lost 2 samples
+Possibly lost 8 samples
+Possibly lost 2 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 3 samples
+Possibly lost 2 samples
+Possibly lost 2 samples
+Possibly lost 7 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 2 samples
+Possibly lost 3 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 4 samples
+Possibly lost 6 samples
+Possibly lost 4 samples
+Possibly lost 2 samples
+Possibly lost 2 samples
+Possibly lost 2 samples
+Possibly lost 4 samples
+Possibly lost 2 samples
+Possibly lost 2 samples
+Possibly lost 7 samples
+Possibly lost 2 samples
+Possibly lost 2 samples
+Possibly lost 3 samples
+Possibly lost 2 samples
+Possibly lost 2 samples
+Possibly lost 6 samples
+Possibly lost 6 samples
+Possibly lost 3 samples
+Possibly lost 1 samples
+Possibly lost 3 samples
+Possibly lost 3 samples
+Possibly lost 3 samples
+Possibly lost 2 samples
+Possibly lost 1 samples
+Possibly lost 7 samples
+Possibly lost 2 samples
+Possibly lost 3 samples
+Possibly lost 3 samples
+Possibly lost 2 samples
+Possibly lost 5 samples
+Possibly lost 2 samples
+Possibly lost 2 samples
