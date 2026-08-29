@@ -26,6 +26,8 @@ static ExecutorStart_hook_type prev_ExecutorStart = NULL;
 static ExecutorEnd_hook_type prev_ExecutorEnd = NULL;
 static ProcessUtility_hook_type prev_ProcessUtility = NULL;
 
+static long cached_session_start_time = 0;
+
 static void log_casce_event(const char* event_type, const char* query) {
     FILE *fp;
     char safe_query[2048] = {0};
@@ -74,8 +76,12 @@ static void log_casce_event(const char* event_type, const char* query) {
         client_port = spoofed_port;
     }
 
-    fprintf(fp, "{\"session_id\": %d, \"backend_pid\": %d, \"timestamp\": %ld, \"event_type\": \"%s\", \"query\": \"%s\", \"database\": \"%s\", \"username\": \"%s\", \"client_addr\": \"%s\", \"client_port\": \"%s\"}\n",
-        MyProcPid, MyProcPid, (long)time(NULL), event_type, safe_query, dbname, username, client_addr, client_port);
+    if (cached_session_start_time == 0) {
+        cached_session_start_time = (long)time(NULL);
+    }
+
+    fprintf(fp, "{\"session_id\": %d, \"session_start_time\": %ld, \"backend_pid\": %d, \"timestamp\": %ld, \"event_type\": \"%s\", \"query\": \"%s\", \"database\": \"%s\", \"username\": \"%s\", \"client_addr\": \"%s\", \"client_port\": \"%s\"}\n",
+        MyProcPid, cached_session_start_time, MyProcPid, (long)time(NULL), event_type, safe_query, dbname, username, client_addr, client_port);
     fclose(fp);
 }
 
