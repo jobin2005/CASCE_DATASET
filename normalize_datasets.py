@@ -77,59 +77,7 @@ NOISE_COMMS = {
 }
 
 
-def load_pg_backend_pids(pg_events_path):
-    pids = set()
-    with open(pg_events_path) as f:
-        for line in f:
-            line = line.strip()
-            if not line:
-                continue
-            try:
-                event = json.loads(line)
-            except json.JSONDecodeError:
-                continue
-            if "marker" in event:
-                continue
-            bp = event.get("backend_pid")
-            if bp is not None:
-                pids.add(bp)
-    return pids
 
-
-def build_ppid_map(kernel_events_path):
-    ppid_map = {}
-    with open(kernel_events_path) as f:
-        for line in f:
-            line = line.strip()
-            if not line:
-                continue
-            try:
-                event = json.loads(line)
-            except json.JSONDecodeError:
-                continue
-            if "marker" in event:
-                continue
-            pid = event.get("pid")
-            ppid = event.get("ppid")
-            if pid is not None and pid not in ppid_map:
-                ppid_map[pid] = ppid
-    return ppid_map
-
-
-def resolve_session(pid, pg_pids, ppid_map, max_depth=10):
-    """Walk the ppid chain from `pid` until a known Postgres backend_pid
-    is found. Returns that backend_pid, or None if no ancestor matches
-    within max_depth hops (or the chain runs out)."""
-    current = pid
-    seen = set()
-    for _ in range(max_depth):
-        if current in pg_pids:
-            return current
-        if current in seen or current is None:
-            return None
-        seen.add(current)
-        current = ppid_map.get(current)
-    return None
 
 
 def normalize(run_dir, drop_noise=False):
@@ -150,27 +98,8 @@ def normalize(run_dir, drop_noise=False):
     with open(sync_path) as f:
         boot_unix = json.load(f)["server_boot_unix_time"]
 
-    print(f"[1/3] Loading Postgres backend PIDs from {pg_path.name} ...")
-    pg_pids = load_pg_backend_pids(pg_path)
-    print(f"      -> {len(pg_pids)} distinct backend PIDs")
-
-    print(f"[2/3] Building pid->ppid map from {kernel_path.name} ...")
-    ppid_map = build_ppid_map(kernel_path)
-    print(f"      -> {len(ppid_map)} distinct kernel PIDs observed")
-
-    # Cache resolution per pid so we don't re-walk the chain per event.
-    resolution_cache = {}
-
-    def get_session(pid):
-        if pid not in resolution_cache:
-            resolution_cache[pid] = resolve_session(pid, pg_pids, ppid_map)
-        return resolution_cache[pid]
-
-    print(f"[3/3] Rewriting {kernel_path.name} -> {out_path.name} ...")
+    print(f"[{'2/2' if drop_noise else '2/2'}] Rewriting {kernel_path.name} -> {out_path.name} ...")
     total = 0
-    direct = 0
-    ancestry = 0
-    unresolved_kept = 0
     dropped_noise = 0
     markers = 0
 
@@ -195,29 +124,15 @@ def normalize(run_dir, drop_noise=False):
             ts_ns = event["timestamp"]
             event["timestamp_unix"] = boot_unix + (ts_ns / 1e9)
 
-            pid = event.get("pid")
-            session = get_session(pid)
-            event["correlated_session_id"] = session
-
-            if session is not None:
-                if pid in pg_pids:
-                    direct += 1
-                else:
-                    ancestry += 1
-            elif drop_noise and event.get("comm") in NOISE_COMMS:
+            if drop_noise and event.get("comm") in NOISE_COMMS:
                 dropped_noise += 1
                 continue  # skip writing this row entirely
-            else:
-                unresolved_kept += 1
 
             fout.write(json.dumps(event) + "\n")
 
     print("\n--- Summary ---")
     print(f"Marker lines passed through:              {markers}")
     print(f"Kernel events processed:                  {total}")
-    print(f"  matched a backend PID directly:         {direct}")
-    print(f"  matched via ppid ancestry walk:         {ancestry}")
-    print(f"  unresolved but kept (workload-related): {unresolved_kept}")
     if drop_noise:
         print(f"  dropped as confirmed host noise:        {dropped_noise}")
     print(f"\nWrote {out_path}")
