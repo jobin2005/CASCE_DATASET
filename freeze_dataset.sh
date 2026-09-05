@@ -7,6 +7,7 @@ mkdir -p dataset/attack_scripts
 if [ -f "postgres_events.json" ]; then cp postgres_events.json dataset/; fi
 if [ -f "kernel_events.json" ]; then cp kernel_events.json dataset/; fi
 if [ -f "labels.csv" ]; then cp labels.csv dataset/; fi
+if [ -f "time_sync.json" ]; then cp time_sync.json dataset/; fi
 cp attack_workload/*.sh dataset/attack_scripts/ 2>/dev/null || true
 
 # Generate descriptive README

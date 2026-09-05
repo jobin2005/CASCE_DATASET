@@ -78,11 +78,10 @@ cd CASCE_DATASET
 
 ---
 
-## 2. Step A — Build & launch the environment
+## 2. Build & Launch the Environment
 
 ```bash
-chmod +x build_env.sh
-./build_env.sh
+docker compose up -d
 ```
 
 This builds the Ubuntu 24.04 + PostgreSQL 17 + eBPF-toolchain image and
@@ -98,84 +97,34 @@ cd /dataset_workspace
 
 ---
 
-## 3. Step B — Compile the extension, then create a database
-
-Compile `pg_telemetry` once (needed after any fresh build or after editing
-`pg_telemetry.c`):
+## 3. Compile the eBPF Telemetry Extension
+Before generating datasets, you must compile the C-based PostgreSQL hooking extension locally inside the container so it matches your exact kernel architecture.
 
 ```bash
 cd pg_telemetry_extension
-make clean && make && make install
+make USE_PGXS=1 clean && make USE_PGXS=1 && make USE_PGXS=1 install
 cd ..
 ```
 
-Then create a database using **one** of these two paths:
-
-**Option 1 — TPC-B benchmark schema** (feeds `normal_workload.sh`'s
-pgbench-based traffic):
-```bash
-chmod +x setup_db.sh
-./setup_db.sh
-psql -U postgres -d casce_tpcb -c "CREATE EXTENSION pg_telemetry;"
-psql -U postgres -d casce_tpcb -c "ALTER DATABASE casce_tpcb SET session_preload_libraries = 'pg_telemetry';"
-```
-
-**Option 2 — your own schema + seed data** (generic, arbitrary shape):
-```bash
-chmod +x setup_sample_db.sh load_seed.py
-./setup_sample_db.sh sample_data/schema.sql sample_data/seed_commands.json casce_sample
-psql -U postgres -d casce_sample -c "CREATE EXTENSION pg_telemetry;"
-psql -U postgres -d casce_sample -c "ALTER DATABASE casce_sample SET session_preload_libraries = 'pg_telemetry';"
-```
-
-Swap in your own `schema.sql` / `seed_commands.json` (a flat JSON list of
-SQL strings) to use a different dataset shape.
-
 ---
 
-## 4. Step C — Start logging (start/stop at will)
-
-```bash
-chmod +x logger.sh
-./logger.sh start
-./logger.sh status
-```
-
-This is the toggleable dual-plane logger: it launches the eBPF kernel
-tracer as a background process and flips a flag file that
-`pg_telemetry.c` checks on every query, so both sides can be started and
-stopped independently of any one session.
-
-Once it's running, log in and interact with the database like any normal
-user — everything gets captured automatically, no per-session setup
-needed:
-
-```bash
-psql -U postgres -d casce_sample
-```
-
-Stop whenever you're done:
-
-```bash
-./logger.sh stop
-```
-
----
-
-## 5. Automated Dataset Generation (Dev / Test Pipelines)
-
-Instead of running individual tests manually, the environment uses a dedicated, full-cycle orchestrator:
+## 4. Run the Automated Master Orchestrator
+You **do not** need to manually build databases, configure schemas, or start the trackers. We built a master orchestrator (`generate_eval_datasets.sh`) that automates the entire lifecycle!
 
 ```bash
 chmod +x generate_eval_datasets.sh
 ./generate_eval_datasets.sh
 ```
 
-The orchestrator guarantees mathematical independence by actively clearing existing schemas and dropping database caches between runs.
+This single script will autonomously:
+1. Initialize the TPC-B Banking Benchmarks.
+2. Arm the eBPF Telemetry modules.
+3. Simulate thousands of background transactions mixed directly with 10+ polymorphic attack patterns.
+4. Seamlessly tear down and repackage the environment iteratively for mathematically independent Dev & Test variants.
 
 ---
 
-## 6. The Outputs Obtained
+## 5. The Outputs Obtained
 
 Running the generation script will create two rigorous Dataset artifacts that satisfy strict academic baselines:
 

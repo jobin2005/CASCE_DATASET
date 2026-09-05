@@ -45,6 +45,12 @@ start() {
     touch "$FLAG_FILE"
     mark "LOGGING_START"
 
+    # Export machine boot time so models can safely align timestamps globally
+    UPTIME=$(cat /proc/uptime | cut -d '.' -f1)
+    NOW=$(date +%s)
+    let SYS_BOOT=NOW-UPTIME
+    echo "{\"server_boot_unix_time\": ${SYS_BOOT}}" > "${WORKDIR}/time_sync.json"
+
     echo "Logging ACTIVE."
     echo "  Kernel events   -> ${KERNEL_LOG}"
     echo "  Postgres events -> ${PG_LOG}"

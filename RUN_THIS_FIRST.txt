@@ -1,4 +1,0 @@
-chmod +x build_env.sh setup_sample_db.sh load_seed.py run_schedule.py logger.sh
-
-cd pg_telemetry_extension
-make clean && make && make install

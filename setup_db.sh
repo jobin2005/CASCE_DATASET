@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "Starting DVD Rental database setup..."
+echo "Starting TPC-B Banking database setup..."
 
 # Wait for postgres to be ready
 echo "Waiting for PostgreSQL to start..."
