@@ -1,8 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
-DEV_RUNS=3
-TEST_RUNS=3
+DEV_RUNS=56
+TEST_RUNS=24
 
 run_pipeline() {
     local dataset_dir=$1
@@ -35,16 +35,10 @@ run_pipeline() {
         bash attack_workload/attack_exfiltration.sh > /dev/null 2>&1 & \
         bash attack_workload/attack_sabotage.sh > /dev/null 2>&1 & \
         wait; \
-        for script in \
-            attack_workload/attack_privilege_abuse.sh \
-            attack_workload/attack_reverse_shell.sh \
-            attack_workload/attack_os_priv_escalation.sh \
-            attack_workload/attack_db_unauthorized_read.sh \
-            attack_workload/attack_multi_stage_apt.sh \
-            attack_workload/attack_exfiltration_delayed_2s.sh \
-            attack_workload/attack_exfiltration_delayed_30s.sh \
-            attack_workload/attack_exfiltration_alt_process.sh; do \
-            bash \$script > /dev/null 2>&1 || true; \
+        for script in attack_workload/*.sh; do \
+            if [[ "\$script" != "attack_workload/attack_exfiltration.sh" && "\$script" != "attack_workload/attack_sabotage.sh" ]]; then \
+                bash \$script > /dev/null 2>&1 || true; \
+            fi; \
         done"
 
     # Wait for background normal + benign workloads to finish

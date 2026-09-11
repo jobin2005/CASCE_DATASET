@@ -17,17 +17,24 @@ import re
 
 # ── Attack name → human-readable label mapping ──────────────────────────
 ATTACK_LABELS = {
-    "attack_exfiltration":              "Data Exfiltration",
-    "attack_exfiltration_delayed_2s":   "Data Exfiltration",
-    "attack_exfiltration_delayed_30s":  "Data Exfiltration",
-    "attack_exfiltration_alt_process":  "Data Exfiltration",
-    "attack_sabotage":                  "Sabotage",
-    "attack_privilege_abuse":           "Privilege Abuse",
-    "attack_reverse_shell":             "Reverse Shell",
-    "attack_os_priv_escalation":        "OS Privilege Escalation",
-    "attack_db_unauthorized_read":      "Unauthorized DB Read",
-    "attack_multi_stage_apt":           "Multi-Stage APT",
+    "attack_exfil": "Data Exfiltration",
+    "attack_sabotage": "Sabotage",
+    "attack_priv_var": "Privilege Abuse",
+    "attack_privilege": "Privilege Abuse",
+    "attack_reverse": "Reverse Shell",
+    "attack_os_priv": "OS Privilege Escalation",
+    "attack_db_unauth": "Unauthorized DB Read",
+    "attack_multi_stage": "Multi-Stage APT",
+    "attack_multi_session": "Multi-Stage APT",
+    "attack_sqli": "SQL Injection",
+    "attack_concurrent": "Concurrent Attacks"
 }
+
+def get_attack_label(attack_name):
+    for prefix, label in ATTACK_LABELS.items():
+        if attack_name.startswith(prefix):
+            return label
+    return "Attack"
 
 # ── pgbench TPC-B query patterns (normalized, case-insensitive) ─────────
 # These are the only queries pgbench's default -b tpcb-like generates.
@@ -152,12 +159,15 @@ def generate_labels():
         session_qs = session_queries.get(session_id, [])
         for attack_name, win_start, win_end in attack_windows:
             if int(win_start) <= first_ts <= int(win_end):
-                # Also verify the session actually executed the attack query
+                if all(_is_pgbench_query(q) for q in session_qs):
+                    continue  # Skip pgbench queries since they're normal background noise
                 expected_queries = ATTACK_QUERIES.get(attack_name, [])
-                # If expected_queries is empty, it means this attack (like OS priv escalation)
-                # does not create any PG sessions. We shouldn't label any PG session with it.
-                if expected_queries and any(eq in sq for sq in session_qs for eq in expected_queries):
-                    label = ATTACK_LABELS.get(attack_name, f"Unknown({attack_name})")
+                if expected_queries:
+                    if any(eq in sq for sq in session_qs for eq in expected_queries):
+                        label = get_attack_label(attack_name)
+                        break
+                else:
+                    label = get_attack_label(attack_name)
                     break
         labels[session_id] = label
 
