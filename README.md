@@ -136,6 +136,32 @@ Inside each `run_X/` folder, the 3 Golden Artifacts are generated:
 - `kernel_events.json`: Low-level eBPF traces (with dynamically resolved string `syscall` types linked at the C boundary).
 - `labels.csv`: The ground truth bounds.
 
+## Simulated attacker identities & timing
+
+Every script under `attack_workload/` is now a small template rather than a
+fixed one-shot command:
+
+- `attack_workload/_identity_lib.sh` hands each attack run a random
+  synthetic username and a random private-range IP (`10.x.x.x`,
+  `172.16-31.x.x`, `192.168.x.x`), and guarantees — via a persistent,
+  `flock`-protected registry file (`.casce_identity_registry.tsv`) — that no
+  two attack instances in the whole dataset-generation run ever share a
+  username or an IP, even when scripts run concurrently in the background.
+- That identity is threaded into the actual telemetry: each `psql` call is
+  prefixed with `SET casce.sim_user = '...'; SET casce.sim_ip = '...';`,
+  which the `pg_telemetry` extension now reads (see the `casce.sim_user` /
+  `casce.sim_ip` custom GUCs in `pg_telemetry.c`) and writes into
+  `postgres_events.json` in place of the old PID-derived spoof. **You must
+  rebuild the extension** (`make clean && make USE_PGXS=1 && make USE_PGXS=1 install`)
+  after pulling this change for the new fields to take effect.
+- Multi-statement attacks (`attack_sqli_time.sh`, `attack_multi_stage_apt.sh`,
+  `attack_multi_session_apt.sh`, etc.) no longer sleep a fixed number of
+  seconds between commands — `casce_random_delay MIN MAX` picks a random
+  float in that range each time, so inter-command timing varies run to run.
+- To add more SQL commands to a template, just extend its `SQL_COMMANDS`
+  array; each will run under the same session identity with a randomized
+  delay after it.
+
 ## Troubleshooting quick reference
 
 | Symptom | Likely cause |

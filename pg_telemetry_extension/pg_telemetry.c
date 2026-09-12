@@ -4,6 +4,7 @@
 #include "tcop/utility.h"
 #include "miscadmin.h"
 #include "utils/builtins.h"
+#include "utils/guc.h"
 #include "commands/dbcommands.h"
 #include "libpq/libpq-be.h"
 #include <stdio.h>
@@ -12,6 +13,15 @@
 #include <unistd.h>
 
 PG_MODULE_MAGIC;
+
+/* Simulated-identity overrides. When the attack workload sets these via
+ * `SET casce.sim_user = '...'` / `SET casce.sim_ip = '...'` at the start of
+ * a session, the dataset generator can drive exactly which synthetic
+ * username/IP shows up in postgres_events.json for that session, instead of
+ * relying on the PID-derived fallback below. Left NULL/empty, behavior is
+ * unchanged. */
+static char *casce_sim_user = NULL;
+static char *casce_sim_ip = NULL;
 
 /* Presence of this file is the on/off switch for logging.
  * Created by logger.sh on "start", removed on "stop", so that
@@ -76,6 +86,17 @@ static void log_casce_event(const char* event_type, const char* query) {
         client_port = spoofed_port;
     }
 
+    /* Explicit per-session override from the attack-generator templates takes
+     * precedence over both the real value and the PID-derived fallback above,
+     * so each generated attack instance can be tagged with its own unique
+     * synthetic username/IP. */
+    if (casce_sim_user && casce_sim_user[0] != '\0') {
+        username = casce_sim_user;
+    }
+    if (casce_sim_ip && casce_sim_ip[0] != '\0') {
+        client_addr = casce_sim_ip;
+    }
+
     if (cached_session_start_time == 0) {
         cached_session_start_time = (long)time(NULL);
     }
@@ -135,6 +156,26 @@ void _PG_init(void) {
     
     prev_ProcessUtility = ProcessUtility_hook;
     ProcessUtility_hook = casce_ProcessUtility;
+
+    DefineCustomStringVariable(
+        "casce.sim_user",
+        "Synthetic username to record for this session in postgres_events.json (set by the attack-instance generator).",
+        NULL,
+        &casce_sim_user,
+        NULL,
+        PGC_USERSET,
+        0,
+        NULL, NULL, NULL);
+
+    DefineCustomStringVariable(
+        "casce.sim_ip",
+        "Synthetic client IP to record for this session in postgres_events.json (set by the attack-instance generator).",
+        NULL,
+        &casce_sim_ip,
+        NULL,
+        PGC_USERSET,
+        0,
+        NULL, NULL, NULL);
 }
 
 void _PG_fini(void) {

