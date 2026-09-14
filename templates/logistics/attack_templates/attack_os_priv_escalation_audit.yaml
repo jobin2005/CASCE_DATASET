@@ -1,0 +1,14 @@
+name: logistics_attack_os_priv_escalation_audit
+type: attack
+schema: logistics
+description: >
+  Diagnostic template inspecting fleet dispatch database roles, table access controls, and superuser configurations.
+  (Functional exploit payloads omitted per security policy).
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+  - "SELECT rolname, rolsuper, rolcreaterole FROM pg_roles;"
+  - "SELECT grantee, table_name, privilege_type FROM information_schema.role_table_grants WHERE table_name = 'vehicles' LIMIT 10;"
+  - "SELECT current_user, current_setting('server_version');"
+

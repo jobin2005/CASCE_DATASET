@@ -1,0 +1,13 @@
+name: logistics_inventory_restock
+type: benign
+schema: logistics
+description: >
+  Simulates an automated inventory replenishment query flagging low-stock items and receiving incoming stock units.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+  - "SELECT sku, warehouse_id, product_name, quantity_on_hand, reorder_threshold FROM inventory_items WHERE quantity_on_hand <= reorder_threshold;"
+  - "UPDATE inventory_items SET quantity_on_hand = quantity_on_hand + 50 WHERE sku = 'LOG-COMP-001' AND warehouse_id = 1;"
+  - "SELECT sku, quantity_on_hand FROM inventory_items WHERE sku = 'LOG-COMP-001';"
+

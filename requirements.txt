@@ -1,0 +1,6 @@
+# TODO: pin real versions once implementations land
+networkx
+pglast
+pyyaml
+psycopg2-binary
+bcc          # eBPF (host-provided in most cases; listed for clarity)

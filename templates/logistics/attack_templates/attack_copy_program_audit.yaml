@@ -1,0 +1,14 @@
+name: logistics_attack_copy_program_audit
+type: attack
+schema: logistics
+description: >
+  Diagnostic template probing file import/export capabilities and COPY TO PROGRAM constraints.
+  (Functional exploit payloads omitted per security policy).
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+  - "SELECT rolname, rolsuper FROM pg_roles WHERE rolname = CURRENT_USER;"
+  - "SELECT table_name FROM information_schema.tables WHERE table_schema = 'public' AND table_name = 'inventory_items';"
+  - "SELECT count(*) FROM shipments;"
+

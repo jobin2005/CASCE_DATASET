@@ -1,0 +1,14 @@
+name: ecommerce_browse_catalog
+type: benign
+schema: ecommerce
+description: >
+  Simulates a user browsing product categories, filtering by price, and checking reviews.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+  - "SELECT * FROM categories ORDER BY name ASC;"
+  - "SELECT product_id, name, price, stock_quantity FROM products WHERE category_id = 1 AND price <= 1500.00 ORDER BY price DESC;"
+  - "SELECT p.name, r.rating, r.comment FROM reviews r JOIN products p ON r.product_id = p.product_id WHERE p.product_id = 1;"
+  - "SELECT COUNT(*), AVG(price) FROM products WHERE stock_quantity > 0;"
+

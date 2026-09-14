@@ -1,0 +1,14 @@
+name: healthcare_doctor_consultation
+type: benign
+schema: healthcare
+description: >
+  Simulates a doctor reviewing past medical history, logging clinical notes, and issuing a prescription.
+delay_seconds:
+  min: 0.1
+  max: 0.4
+commands:
+  - "SELECT record_id, diagnosis, treatment_plan, visit_date FROM medical_records WHERE patient_id = 1 ORDER BY visit_date DESC;"
+  - "INSERT INTO medical_records (patient_id, doctor_id, diagnosis, treatment_plan) VALUES (1, 1, 'Follow-up on hypertension: stable blood pressure', 'Continue current regimen; recheck in 6 months.');"
+  - "INSERT INTO prescriptions (record_id, patient_id, doctor_id, medication_name, dosage, frequency, refills_remaining) VALUES (currval(pg_get_serial_sequence('medical_records', 'record_id')), 1, 1, 'Amlodipine', '5mg', 'Once daily in morning', 4);"
+  - "UPDATE appointments SET status = 'COMPLETED' WHERE patient_id = 1 AND status = 'SCHEDULED';"
+

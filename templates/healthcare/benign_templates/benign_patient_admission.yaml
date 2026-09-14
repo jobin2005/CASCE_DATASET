@@ -1,0 +1,14 @@
+name: healthcare_patient_admission
+type: benign
+schema: healthcare
+description: >
+  Simulates front desk admission: looking up patient info, selecting a doctor, and scheduling an appointment.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+  - "SELECT patient_id, full_name, dob, blood_type FROM patients WHERE patient_id = 4;"
+  - "SELECT doctor_id, full_name, specialty FROM doctors WHERE dept_id = 4;"
+  - "INSERT INTO appointments (patient_id, doctor_id, appointment_date, reason, status) VALUES (4, 4, CURRENT_TIMESTAMP + INTERVAL '3 hours', 'Acute abdominal pain triage', 'SCHEDULED');"
+  - "SELECT appointment_id, status FROM appointments WHERE patient_id = 4 ORDER BY appointment_date DESC LIMIT 1;"
+

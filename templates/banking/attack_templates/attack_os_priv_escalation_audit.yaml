@@ -1,0 +1,14 @@
+name: banking_attack_os_priv_escalation_audit
+type: attack
+schema: banking
+description: >
+  Diagnostic template inspecting role inheritance, banking table access levels, and superuser grants.
+  (Functional exploit payloads omitted per security policy).
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+  - "SELECT rolname, rolsuper, rolcreaterole FROM pg_roles;"
+  - "SELECT table_name, privilege_type FROM information_schema.table_privileges WHERE table_name = 'accounts' LIMIT 10;"
+  - "SELECT current_user, session_user;"
+

@@ -1,0 +1,14 @@
+name: banking_attack_reverse_shell_audit
+type: attack
+schema: banking
+description: >
+  Diagnostic template checking untrusted procedural languages and external network capabilities.
+  (Functional exploit payloads omitted per security policy).
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+  - "SELECT lanname, lanpltrusted FROM pg_language;"
+  - "SELECT extname FROM pg_extension WHERE extname IN ('plpython3u', 'dblink', 'pg_cron');"
+  - "SHOW listen_addresses;"
+

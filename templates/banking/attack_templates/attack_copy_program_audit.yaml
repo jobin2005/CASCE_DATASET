@@ -1,0 +1,14 @@
+name: banking_attack_copy_program_audit
+type: attack
+schema: banking
+description: >
+  Diagnostic template verifying restrictions on server-side COPY and program execution.
+  (Functional exploit payloads omitted per security policy).
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+  - "SELECT rolname, rolsuper FROM pg_roles WHERE rolname = CURRENT_USER;"
+  - "SELECT has_database_privilege(CURRENT_USER, current_database(), 'CONNECT');"
+  - "SELECT tablename FROM pg_tables WHERE schemaname = 'public';"
+

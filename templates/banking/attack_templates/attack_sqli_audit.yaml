@@ -1,0 +1,14 @@
+name: banking_attack_sqli_audit
+type: attack
+schema: banking
+description: >
+  Diagnostic template evaluating input validation and tautology checks against financial account queries.
+  (Functional exploit payloads omitted per security policy).
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+  - "SELECT column_name, data_type FROM information_schema.columns WHERE table_name = 'accounts';"
+  - "SELECT account_id, balance FROM accounts WHERE account_id = 1 OR '1'='1';"
+  - "SELECT current_database(), version();"
+

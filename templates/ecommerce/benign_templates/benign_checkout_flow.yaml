@@ -1,0 +1,16 @@
+name: ecommerce_checkout_flow
+type: benign
+schema: ecommerce
+description: >
+  Simulates a shopper completing a checkout transaction: creating order, items, inventory deduction, and payment.
+delay_seconds:
+  min: 0.1
+  max: 0.4
+commands:
+  - "SELECT customer_id, email, address FROM customers WHERE customer_id = 3;"
+  - "SELECT product_id, price, stock_quantity FROM products WHERE product_id = 4 AND stock_quantity >= 2;"
+  - "INSERT INTO orders (customer_id, status, total_amount, shipping_address) VALUES (3, 'CONFIRMED', 49.98, '221B Baker Street, London, NW1 6XE, UK');"
+  - "INSERT INTO order_items (order_id, product_id, quantity, unit_price) VALUES (currval(pg_get_serial_sequence('orders', 'order_id')), 4, 2, 24.99);"
+  - "UPDATE products SET stock_quantity = stock_quantity - 2 WHERE product_id = 4;"
+  - "INSERT INTO payments (order_id, payment_method, amount, status) VALUES (currval(pg_get_serial_sequence('orders', 'order_id')), 'CREDIT_CARD', 49.98, 'COMPLETED');"
+

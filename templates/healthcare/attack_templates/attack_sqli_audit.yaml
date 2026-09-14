@@ -1,0 +1,14 @@
+name: healthcare_attack_sqli_audit
+type: attack
+schema: healthcare
+description: >
+  Diagnostic template assessing input escaping and dynamic query boundaries for patient record lookups.
+  (Functional exploit payloads omitted per security policy).
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+  - "SELECT column_name, data_type FROM information_schema.columns WHERE table_name = 'prescriptions';"
+  - "SELECT patient_id, full_name FROM patients WHERE patient_id = 1 OR 1=1;"
+  - "SELECT current_database();"
+

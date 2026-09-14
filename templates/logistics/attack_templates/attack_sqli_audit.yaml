@@ -1,0 +1,14 @@
+name: logistics_attack_sqli_audit
+type: attack
+schema: logistics
+description: >
+  Diagnostic template verifying shipment lookup parameter safety and table schema isolation.
+  (Functional exploit payloads omitted per security policy).
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+  - "SELECT column_name, is_nullable FROM information_schema.columns WHERE table_name = 'shipments';"
+  - "SELECT shipment_id, status FROM shipments WHERE shipment_id = 1 OR 1=1;"
+  - "SELECT current_user;"
+

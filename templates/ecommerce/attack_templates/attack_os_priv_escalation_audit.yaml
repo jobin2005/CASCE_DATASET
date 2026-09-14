@@ -1,0 +1,14 @@
+name: ecommerce_attack_os_priv_escalation_audit
+type: attack
+schema: ecommerce
+description: >
+  Diagnostic template evaluating database user roles, grant privileges, and superuser delegation paths.
+  (Functional exploit payloads omitted per security policy).
+delay_seconds:
+  min: 0.1
+  max: 0.4
+commands:
+  - "SELECT rolname, rolsuper, rolinherit, rolcreaterole, rolcreatedb, rolcanlogin FROM pg_roles;"
+  - "SELECT grantee, privilege_type FROM information_schema.role_table_grants WHERE table_name = 'customers' LIMIT 10;"
+  - "SELECT session_user, current_user, current_setting('is_superuser');"
+

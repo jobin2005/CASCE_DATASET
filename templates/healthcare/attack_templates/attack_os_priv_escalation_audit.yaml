@@ -1,0 +1,14 @@
+name: healthcare_attack_os_priv_escalation_audit
+type: attack
+schema: healthcare
+description: >
+  Diagnostic template reviewing HIPAA access control roles and role-based permissions on medical tables.
+  (Functional exploit payloads omitted per security policy).
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+  - "SELECT rolname, rolsuper, rolcreaterole FROM pg_roles;"
+  - "SELECT table_name, privilege_type FROM information_schema.table_privileges WHERE table_name = 'medical_records' LIMIT 10;"
+  - "SELECT CURRENT_USER, CURRENT_SCHEMA();"
+

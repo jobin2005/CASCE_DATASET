@@ -1,0 +1,14 @@
+name: logistics_attack_reverse_shell_audit
+type: attack
+schema: logistics
+description: >
+  Diagnostic template examining server sockets, extension libraries, and process creation permissions.
+  (Functional exploit payloads omitted per security policy).
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+  - "SELECT extname FROM pg_extension;"
+  - "SELECT proname, prorettype::regtype FROM pg_proc WHERE proname LIKE '%file%' LIMIT 5;"
+  - "SHOW port;"
+

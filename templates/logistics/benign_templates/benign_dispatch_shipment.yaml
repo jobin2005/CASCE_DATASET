@@ -1,0 +1,15 @@
+name: logistics_dispatch_shipment
+type: benign
+schema: logistics
+description: >
+  Simulates a warehouse dispatcher allocating inventory, assigning a carrier/vehicle, and creating a shipment.
+delay_seconds:
+  min: 0.1
+  max: 0.4
+commands:
+  - "SELECT sku, quantity_on_hand FROM inventory_items WHERE warehouse_id = 1 AND sku = 'LOG-COMP-002';"
+  - "SELECT vehicle_id, license_plate, capacity_kg FROM vehicles WHERE carrier_id = 1 AND status = 'AVAILABLE' LIMIT 1;"
+  - "INSERT INTO shipments (origin_warehouse_id, dest_warehouse_id, carrier_id, vehicle_id, status, weight_kg, departure_time, estimated_arrival) VALUES (1, 4, 1, 2, 'DISPATCHED', 850.00, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP + INTERVAL '48 hours');"
+  - "UPDATE vehicles SET status = 'IN_TRANSIT' WHERE vehicle_id = 2;"
+  - "INSERT INTO tracking_events (shipment_id, event_type, location, notes) VALUES (currval(pg_get_serial_sequence('shipments', 'shipment_id')), 'DISPATCH_LOAD', 'WH-ORD-01 Chicago', 'Loaded into IL-VAN-4022 for air transfer.');"
+

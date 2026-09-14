@@ -1,0 +1,13 @@
+name: banking_balance_inquiry
+type: benign
+schema: banking
+description: >
+  Simulates a customer checking account statuses and viewing recent transaction history.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+  - "SELECT account_id, account_type, balance, status FROM accounts WHERE customer_id = 1;"
+  - "SELECT txn_id, txn_type, amount, balance_after, txn_time FROM transactions WHERE account_id = 1 ORDER BY txn_time DESC LIMIT 5;"
+  - "SELECT b.branch_name, b.city FROM branches b JOIN accounts a ON b.branch_id = a.branch_id WHERE a.account_id = 1;"
+

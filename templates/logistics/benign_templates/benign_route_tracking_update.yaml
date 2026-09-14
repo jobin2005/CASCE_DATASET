@@ -1,0 +1,13 @@
+name: logistics_route_tracking_update
+type: benign
+schema: logistics
+description: >
+  Simulates an automated GPS waypoint check-in recording a new tracking checkpoint for an in-transit cargo shipment.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+  - "SELECT shipment_id, origin_warehouse_id, dest_warehouse_id, status FROM shipments WHERE shipment_id = 1;"
+  - "INSERT INTO tracking_events (shipment_id, event_type, location, notes) VALUES (1, 'TRANSIT_CHECKPOINT', 'Memphis Logistics Yard', 'Passed automated toll RFID reader; container temperature 21C.');"
+  - "SELECT * FROM tracking_events WHERE shipment_id = 1 ORDER BY recorded_at DESC LIMIT 3;"
+

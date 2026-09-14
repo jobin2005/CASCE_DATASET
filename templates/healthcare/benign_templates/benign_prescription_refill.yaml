@@ -1,0 +1,13 @@
+name: healthcare_prescription_refill
+type: benign
+schema: healthcare
+description: >
+  Simulates a clinical pharmacist dispensing medication and decrementing refill allowance.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+  - "SELECT prescription_id, medication_name, dosage, refills_remaining FROM prescriptions WHERE patient_id = 1 AND refills_remaining > 0;"
+  - "UPDATE prescriptions SET refills_remaining = refills_remaining - 1 WHERE prescription_id = 1;"
+  - "SELECT p.full_name, pr.medication_name, pr.refills_remaining FROM prescriptions pr JOIN patients p ON pr.patient_id = p.patient_id WHERE pr.prescription_id = 1;"
+

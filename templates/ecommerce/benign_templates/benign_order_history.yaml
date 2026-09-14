@@ -1,0 +1,13 @@
+name: ecommerce_order_history
+type: benign
+schema: ecommerce
+description: >
+  Simulates a customer checking past orders, line items, and delivery status.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+  - "SELECT order_id, order_date, status, total_amount FROM orders WHERE customer_id = 1 ORDER BY order_date DESC;"
+  - "SELECT oi.item_id, p.name, oi.quantity, oi.unit_price FROM order_items oi JOIN products p ON oi.product_id = p.product_id WHERE oi.order_id = 1;"
+  - "SELECT * FROM payments WHERE order_id = 1;"
+
