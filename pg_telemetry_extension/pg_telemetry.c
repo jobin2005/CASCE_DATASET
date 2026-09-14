@@ -11,6 +11,7 @@
 #include <string.h>
 #include <time.h>
 #include <unistd.h>
+#include <fcntl.h>
 
 PG_MODULE_MAGIC;
 
@@ -39,7 +40,7 @@ static ProcessUtility_hook_type prev_ProcessUtility = NULL;
 static long cached_session_start_time = 0;
 
 static void log_casce_event(const char* event_type, const char* query) {
-    FILE *fp;
+    int fd;
     char safe_query[2048] = {0};
     int i;
     const char* dbname = "unknown";
@@ -53,8 +54,8 @@ static void log_casce_event(const char* event_type, const char* query) {
     if (access(CASCE_LOGGING_FLAG, F_OK) != 0) return;
 
     // Open file to append structured event log for collector
-    fp = fopen("/dataset_workspace/postgres_events.json", "a");
-    if (!fp) return;
+    fd = open("/dataset_workspace/postgres_events.json", O_WRONLY | O_APPEND | O_CREAT, 0644);
+    if (fd < 0) return;
     
     // Very basic JSON escaping (replacing quotes/newlines)
     snprintf(safe_query, sizeof(safe_query)-1, "%s", query);
@@ -101,9 +102,10 @@ static void log_casce_event(const char* event_type, const char* query) {
         cached_session_start_time = (long)time(NULL);
     }
 
-    fprintf(fp, "{\"session_id\": %d, \"session_start_time\": %ld, \"backend_pid\": %d, \"timestamp\": %ld, \"event_type\": \"%s\", \"query\": \"%s\", \"database\": \"%s\", \"username\": \"%s\", \"client_addr\": \"%s\", \"client_port\": \"%s\"}\n",
-        MyProcPid, cached_session_start_time, MyProcPid, (long)time(NULL), event_type, safe_query, dbname, username, client_addr, client_port);
-    fclose(fp);
+    
+    dprintf(fd, "{\"session_id\": %d, \"session_start_time\": %ld, \"backend_pid\": %d, \"timestamp\": %ld, \"event_type\": \"%s\", \"query\": \"%s\", \"database\": \"%s\", \"username\": \"%s\", \"client_addr\": \"%s\", \"client_port\": \"%s\"}\n", MyProcPid, cached_session_start_time, MyProcPid, (long)time(NULL), event_type, safe_query, dbname, username, client_addr, client_port);
+
+    close(fd);
 }
 
 static void casce_ExecutorStart(QueryDesc *queryDesc, int eflags) {

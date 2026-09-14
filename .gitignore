@@ -28,3 +28,4 @@ dataset_dev/
 dataset_test/
 *.bc
 *.log
+.vscode/
