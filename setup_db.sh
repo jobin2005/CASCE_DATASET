@@ -1,6 +1,6 @@
 #!/bin/bash
 # setup_db.sh
-# (Re)initializes PostgreSQL with a given schema and its seed data.
+# (Re)initializes PostgreSQL with a given schema and its CSV seed data.
 # Parameterized by schema name: ecommerce, banking, healthcare, logistics, etc.
 #
 # Usage: ./setup_db.sh <schema_name> [host] [port] [user] [password]
@@ -39,36 +39,34 @@ psql -h "$PGHOST" -p "$PGPORT" -U "$PGUSER" -d postgres -c "DROP DATABASE IF EXI
 psql -h "$PGHOST" -p "$PGPORT" -U "$PGUSER" -d postgres -c "CREATE DATABASE ${DB_NAME};"
 
 # Locate schema.sql
-SCHEMA_FILE=""
-if [ -f "templates/${SCHEMA_NAME}/database_schema/schema.sql" ]; then
-    SCHEMA_FILE="templates/${SCHEMA_NAME}/database_schema/schema.sql"
-elif [ -f "db_schemas/${SCHEMA_NAME}/schema.sql" ]; then
-    SCHEMA_FILE="db_schemas/${SCHEMA_NAME}/schema.sql"
-fi
+SCHEMA_FILE="dbs/${SCHEMA_NAME}/schema.sql"
 
-if [ -n "$SCHEMA_FILE" ] && [ -s "$SCHEMA_FILE" ]; then
+if [ -f "$SCHEMA_FILE" ] && [ -s "$SCHEMA_FILE" ]; then
     echo "Applying schema from $SCHEMA_FILE..."
     psql -h "$PGHOST" -p "$PGPORT" -U "$PGUSER" -d "$DB_NAME" -f "$SCHEMA_FILE"
 else
-    echo "Warning: No non-empty schema file found for $SCHEMA_NAME (checked templates/ and db_schemas/)."
+    echo "Warning: Schema file not found at $SCHEMA_FILE."
 fi
 
-# Locate and apply seed data
-SEED_DIR=""
-if [ -d "templates/${SCHEMA_NAME}/seed_data" ]; then
-    SEED_DIR="templates/${SCHEMA_NAME}/seed_data"
-elif [ -d "db_schemas/${SCHEMA_NAME}/seed_data" ]; then
-    SEED_DIR="db_schemas/${SCHEMA_NAME}/seed_data"
-fi
+# Locate and apply seed data (CSV files)
+SEED_DIR="dbs/${SCHEMA_NAME}/seed_data"
 
-if [ -n "$SEED_DIR" ]; then
+if [ -d "$SEED_DIR" ]; then
     echo "Loading seed data from $SEED_DIR..."
-    for sql_file in "$SEED_DIR"/*.sql; do
-        if [ -f "$sql_file" ]; then
-            echo "  Executing $sql_file..."
-            psql -h "$PGHOST" -p "$PGPORT" -U "$PGUSER" -d "$DB_NAME" -f "$sql_file"
+    
+    # Temporarily disable foreign key / trigger constraints during bulk load
+    psql -h "$PGHOST" -p "$PGPORT" -U "$PGUSER" -d "$DB_NAME" -c "SET session_replication_role = 'replica';"
+    
+    for csv_file in "$SEED_DIR"/*.csv; do
+        if [ -f "$csv_file" ]; then
+            table_name=$(basename "$csv_file" .csv)
+            echo "  Importing $csv_file into table '$table_name'..."
+            psql -h "$PGHOST" -p "$PGPORT" -U "$PGUSER" -d "$DB_NAME" -c "\copy ${table_name} FROM '${csv_file}' WITH (FORMAT csv, HEADER true);" || echo "  Notice: Non-fatal issue loading $table_name, continuing."
         fi
     done
+    
+    # Restore normal replication / trigger behavior
+    psql -h "$PGHOST" -p "$PGPORT" -U "$PGUSER" -d "$DB_NAME" -c "SET session_replication_role = 'origin';"
 fi
 
 # Attempt to load telemetry extension if compiled

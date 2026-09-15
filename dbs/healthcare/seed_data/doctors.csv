@@ -1,0 +1,41 @@
+doctor_id,dept_id,first_name,last_name,specialty,license_number,npi_number,phone,email,years_experience,is_active,joined_date
+1,1,John,Smith,Cardiology,LIC1001,1000000001,555-1001,jsmith@hospital.com,15,true,2010-05-15
+2,2,Sarah,Johnson,Neurology,LIC1002,1000000002,555-1002,sjohnson@hospital.com,12,true,2012-08-20
+3,3,Michael,Williams,Pediatrics,LIC1003,1000000003,555-1003,mwilliams@hospital.com,20,true,2005-03-10
+4,4,Emily,Brown,Orthopedics,LIC1004,1000000004,555-1004,ebrown@hospital.com,8,true,2018-11-01
+5,5,David,Jones,Oncology,LIC1005,1000000005,555-1005,djones@hospital.com,10,true,2015-06-25
+6,6,Jessica,Garcia,Emergency Medicine,LIC1006,1000000006,555-1006,jgarcia@hospital.com,6,true,2019-09-12
+7,7,James,Miller,Radiology,LIC1007,1000000007,555-1007,jmiller@hospital.com,14,true,2011-04-30
+8,8,Jennifer,Davis,Pathology,LIC1008,1000000008,555-1008,jdavis@hospital.com,18,true,2007-12-05
+9,9,Robert,Rodriguez,Dermatology,LIC1009,1000000009,555-1009,rrodriguez@hospital.com,9,true,2016-02-18
+10,10,Linda,Martinez,Psychiatry,LIC1010,1000000010,555-1010,lmartinez@hospital.com,22,true,2003-10-22
+11,11,William,Hernandez,Otolaryngology,LIC1011,1000000011,555-1011,whernandez@hospital.com,11,true,2014-07-08
+12,12,Elizabeth,Lopez,Ophthalmology,LIC1012,1000000012,555-1012,elopez@hospital.com,7,true,2017-05-19
+13,1,Richard,Gonzalez,Cardiology,LIC1013,1000000013,555-1013,rgonzalez@hospital.com,13,true,2013-01-14
+14,2,Susan,Wilson,Neurology,LIC1014,1000000014,555-1014,swilson@hospital.com,5,true,2020-03-25
+15,3,Joseph,Anderson,Pediatrics,LIC1015,1000000015,555-1015,janderson@hospital.com,16,true,2009-09-09
+16,4,Margaret,Thomas,Orthopedics,LIC1016,1000000016,555-1016,mthomas@hospital.com,19,true,2006-11-30
+17,5,Charles,Taylor,Oncology,LIC1017,1000000017,555-1017,ctaylor@hospital.com,4,true,2021-08-15
+18,6,Dorothy,Moore,Emergency Medicine,LIC1018,1000000018,555-1018,dmoore@hospital.com,17,true,2008-04-02
+19,7,Christopher,Jackson,Radiology,LIC1019,1000000019,555-1019,cjackson@hospital.com,21,true,2004-12-12
+20,8,Lisa,Martin,Pathology,LIC1020,1000000020,555-1020,lmartin@hospital.com,8,true,2018-01-20
+21,9,Daniel,Lee,Dermatology,LIC1021,1000000021,555-1021,dlee@hospital.com,12,true,2013-06-05
+22,10,Nancy,Perez,Psychiatry,LIC1022,1000000022,555-1022,nperez@hospital.com,14,true,2011-09-28
+23,11,Paul,Thompson,Otolaryngology,LIC1023,1000000023,555-1023,pthompson@hospital.com,6,true,2019-11-11
+24,12,Karen,White,Ophthalmology,LIC1024,1000000024,555-1024,kwhite@hospital.com,15,true,2010-02-14
+25,1,Mark,Harris,Cardiology,LIC1025,1000000025,555-1025,mharris@hospital.com,9,true,2016-10-31
+26,2,Betty,Sanchez,Neurology,LIC1026,1000000026,555-1026,bsanchez@hospital.com,23,true,2002-05-05
+27,3,Donald,Clark,Pediatrics,LIC1027,1000000027,555-1027,dclark@hospital.com,11,true,2014-08-22
+28,4,Helen,Ramirez,Orthopedics,LIC1028,1000000028,555-1028,hramirez@hospital.com,7,true,2017-12-01
+29,5,George,Lewis,Oncology,LIC1029,1000000029,555-1029,glewis@hospital.com,18,true,2007-03-18
+30,6,Sandra,Robinson,Emergency Medicine,LIC1030,1000000030,555-1030,srobinson@hospital.com,13,true,2012-11-09
+31,7,Kenneth,Walker,Radiology,LIC1031,1000000031,555-1031,kwalker@hospital.com,5,true,2020-07-07
+32,8,Donna,Young,Pathology,LIC1032,1000000032,555-1032,dyoung@hospital.com,16,true,2009-04-24
+33,9,Steven,Allen,Dermatology,LIC1033,1000000033,555-1033,sallen@hospital.com,20,true,2005-08-30
+34,10,Carol,King,Psychiatry,LIC1034,1000000034,555-1034,cking@hospital.com,10,true,2015-01-16
+35,11,Edward,Wright,Otolaryngology,LIC1035,1000000035,555-1035,ewright@hospital.com,19,true,2006-06-26
+36,12,Ruth,Scott,Ophthalmology,LIC1036,1000000036,555-1036,rscott@hospital.com,4,true,2021-02-02
+37,1,Brian,Torres,Cardiology,LIC1037,1000000037,555-1037,btorres@hospital.com,14,true,2011-05-20
+38,2,Sharon,Nguyen,Neurology,LIC1038,1000000038,555-1038,snguyen@hospital.com,17,true,2008-09-15
+39,3,Kevin,Hill,Pediatrics,LIC1039,1000000039,555-1039,khill@hospital.com,8,true,2018-04-10
+40,4,Michelle,Flores,Orthopedics,LIC1040,1000000040,555-1040,mflores@hospital.com,12,true,2013-10-05

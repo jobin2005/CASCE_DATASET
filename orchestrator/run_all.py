@@ -28,10 +28,8 @@ from orchestrator.run_session import run_session
 def find_templates(schema_name: str) -> List[Path]:
     """Finds all YAML templates (benign and attack) for the given schema."""
     template_dirs = [
-        PROJECT_ROOT / "templates" / schema_name / "benign_templates",
-        PROJECT_ROOT / "templates" / schema_name / "attack_templates",
-        PROJECT_ROOT / "templates" / schema_name / "benign",
-        PROJECT_ROOT / "templates" / schema_name / "attack",
+        PROJECT_ROOT / "dbs" / schema_name / "templates" / "benign",
+        PROJECT_ROOT / "dbs" / schema_name / "templates" / "attack",
     ]
     found = []
     for t_dir in template_dirs:

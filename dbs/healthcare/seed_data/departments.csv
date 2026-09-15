@@ -1,0 +1,13 @@
+dept_id,name,code,head_doctor_id,building,floor,phone,is_active
+1,Cardiology,CARD,1,Main,2,555-0101,true
+2,Neurology,NEUR,2,Main,3,555-0102,true
+3,Pediatrics,PEDS,3,South,1,555-0103,true
+4,Orthopedics,ORTH,4,North,2,555-0104,true
+5,Oncology,ONCO,5,North,3,555-0105,true
+6,Emergency,EMER,6,Main,1,555-0106,true
+7,Radiology,RAD,7,Main,1,555-0107,true
+8,Pathology,PATH,8,South,2,555-0108,true
+9,Dermatology,DERM,9,East,1,555-0109,true
+10,Psychiatry,PSYC,10,East,2,555-0110,true
+11,ENT,ENT,11,West,1,555-0111,true
+12,Ophthalmology,OPHT,12,West,2,555-0112,true

@@ -1,0 +1,21 @@
+category_id,name,slug,parent_category_id,description,is_active,created_at
+1,Electronics,electronics,,Description for Electronics,TRUE,2024-09-15T21:02:46.818336
+2,Apparel,apparel,,Description for Apparel,TRUE,2024-09-15T21:02:46.818336
+3,Home & Kitchen,home-and-kitchen,,Description for Home & Kitchen,TRUE,2024-09-15T21:02:46.818336
+4,Sports & Outdoors,sports-and-outdoors,,Description for Sports & Outdoors,TRUE,2024-09-15T21:02:46.818336
+5,Beauty & Personal Care,beauty-and-personal-care,,Description for Beauty & Personal Care,TRUE,2024-09-15T21:02:46.818336
+6,Books,books,,Description for Books,TRUE,2024-09-15T21:02:46.818336
+7,Toys & Games,toys-and-games,,Description for Toys & Games,TRUE,2024-09-15T21:02:46.818336
+8,Food & Grocery,food-and-grocery,,Description for Food & Grocery,TRUE,2024-09-15T21:02:46.818336
+9,Mobiles,mobiles,5,Description for Mobiles,TRUE,2024-09-15T21:02:46.818336
+10,Laptops,laptops,1,Description for Laptops,TRUE,2024-09-15T21:02:46.818336
+11,Men Clothing,men-clothing,7,Description for Men Clothing,TRUE,2024-09-15T21:02:46.818336
+12,Women Clothing,women-clothing,4,Description for Women Clothing,TRUE,2024-09-15T21:02:46.818336
+13,Furniture,furniture,8,Description for Furniture,TRUE,2024-09-15T21:02:46.818336
+14,Decor,decor,7,Description for Decor,TRUE,2024-09-15T21:02:46.818336
+15,Fitness,fitness,2,Description for Fitness,TRUE,2024-09-15T21:02:46.818336
+16,Camping,camping,2,Description for Camping,TRUE,2024-09-15T21:02:46.818336
+17,Makeup,makeup,6,Description for Makeup,TRUE,2024-09-15T21:02:46.818336
+18,Skincare,skincare,2,Description for Skincare,TRUE,2024-09-15T21:02:46.818336
+19,Fiction,fiction,5,Description for Fiction,TRUE,2024-09-15T21:02:46.818336
+20,Non-Fiction,non-fiction,7,Description for Non-Fiction,TRUE,2024-09-15T21:02:46.818336

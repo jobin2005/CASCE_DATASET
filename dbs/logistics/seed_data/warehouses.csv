@@ -1,0 +1,16 @@
+warehouse_id,code,name,address,city,state,country,latitude,longitude,capacity_sqft,current_utilization_pct,timezone,manager_name,manager_phone,is_hazmat_certified,is_active
+1,WH-001,New York Distribution Center,100 New York Blvd,New York,NY,USA,40.7128,-74.006,241842,85.34,UTC,Manager 1,555-0101,true,true
+2,WH-002,Los Angeles Distribution Center,100 Los Angeles Blvd,Los Angeles,CA,USA,34.0522,-118.2437,65439,56.73,UTC,Manager 2,555-0102,true,true
+3,WH-003,Chicago Distribution Center,100 Chicago Blvd,Chicago,IL,USA,41.8781,-87.6298,71494,68.59,UTC,Manager 3,555-0103,false,true
+4,WH-004,Houston Distribution Center,100 Houston Blvd,Houston,TX,USA,29.7604,-95.3698,64686,44.31,UTC,Manager 4,555-0104,true,true
+5,WH-005,Phoenix Distribution Center,100 Phoenix Blvd,Phoenix,AZ,USA,33.4484,-112.074,213382,43.35,UTC,Manager 5,555-0105,true,true
+6,WH-006,London Distribution Center,100 London Blvd,London,,UK,51.5074,-0.1278,483309,81.62,UTC,Manager 6,555-0106,true,true
+7,WH-007,Berlin Distribution Center,100 Berlin Blvd,Berlin,,Germany,52.52,13.405,165222,31.89,UTC,Manager 7,555-0107,true,true
+8,WH-008,Paris Distribution Center,100 Paris Blvd,Paris,,France,48.8566,2.3522,429030,92.62,UTC,Manager 8,555-0108,true,true
+9,WH-009,Frankfurt Distribution Center,100 Frankfurt Blvd,Frankfurt,,Germany,50.1109,8.6821,195714,86.74,UTC,Manager 9,555-0109,true,true
+10,WH-010,Amsterdam Distribution Center,100 Amsterdam Blvd,Amsterdam,,Netherlands,52.3676,4.9041,177480,53.72,UTC,Manager 10,555-01010,false,true
+11,WH-011,Madrid Distribution Center,100 Madrid Blvd,Madrid,,Spain,40.4168,-3.7038,162410,56.2,UTC,Manager 11,555-01011,false,true
+12,WH-012,Rome Distribution Center,100 Rome Blvd,Rome,,Italy,41.9028,12.4964,385592,42.76,UTC,Manager 12,555-01012,false,true
+13,WH-013,Toronto Distribution Center,100 Toronto Blvd,Toronto,ON,Canada,43.651,-79.347,215433,33.5,UTC,Manager 13,555-01013,false,true
+14,WH-014,Vancouver Distribution Center,100 Vancouver Blvd,Vancouver,BC,Canada,49.2827,-123.1207,146789,70.93,UTC,Manager 14,555-01014,true,true
+15,WH-015,Seattle Distribution Center,100 Seattle Blvd,Seattle,WA,USA,47.6062,-122.3321,78871,73.01,UTC,Manager 15,555-01015,false,true
