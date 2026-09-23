@@ -1,0 +1,5 @@
+# pg_telemetry extension
+comment = 'CASCE PostgreSQL Telemetry Extension for Executor and Utility Hooks'
+default_version = '1.0'
+module_pathname = '$libdir/pg_telemetry'
+relocatable = true
