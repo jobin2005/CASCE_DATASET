@@ -1,0 +1,11 @@
+name: ecommerce_benign_inventory_check
+type: benign
+schema: ecommerce
+description: Store associate checking on-hand and reserved stock for a variant.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+- >-
+  SELECT w.name, i.quantity_on_hand, i.quantity_reserved, i.reorder_point FROM inventory i JOIN warehouses
+  w ON w.warehouse_id = i.warehouse_id WHERE i.variant_id = 500;

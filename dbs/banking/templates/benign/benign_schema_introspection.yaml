@@ -1,0 +1,16 @@
+name: banking_benign_schema_introspection
+type: benign
+schema: banking
+description: >-
+  ORM / migration tool reading the catalog at connection start-up. Resembles SQLi/COPY reconnaissance
+  but is routine metadata access.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+- >-
+  SELECT table_name FROM information_schema.tables WHERE table_schema = 'banking' ORDER BY table_name;
+- >-
+  SELECT column_name, data_type, is_nullable FROM information_schema.columns WHERE table_name = 'accounts'
+  ORDER BY ordinal_position;
+- SELECT current_database(), version();

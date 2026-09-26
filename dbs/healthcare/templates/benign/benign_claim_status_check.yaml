@@ -1,0 +1,13 @@
+name: healthcare_benign_claim_status_check
+type: benign
+schema: healthcare
+description: Billing staff checking a claim and its line items for an encounter.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+- >-
+  SELECT claim_id, claim_number, status, total_billed, total_paid FROM claims WHERE encounter_id = 1001;
+- >-
+  SELECT cl.line_number, cl.cpt_code, cl.charge_amount, cl.paid_amount FROM claim_lines cl JOIN claims
+  c ON c.claim_id = cl.claim_id WHERE c.encounter_id = 1001 ORDER BY cl.line_number;

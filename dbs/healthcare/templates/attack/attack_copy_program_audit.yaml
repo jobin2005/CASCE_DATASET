@@ -1,14 +1,15 @@
 name: healthcare_attack_copy_program_audit
 type: attack
 schema: healthcare
-description: >
-  Diagnostic template assessing file-export and program execution safeguards over patient healthcare data.
-  (Functional exploit payloads omitted per security policy).
+description: >-
+  Diagnostic template verifying restrictions on server-side COPY and program execution (the COPY ... TO/FROM
+  PROGRAM capability requires superuser or membership in pg_execute_server_program). (Functional exploit
+  payloads omitted per security policy.)
 delay_seconds:
   min: 0.1
   max: 0.3
 commands:
-  - "SELECT rolname, rolsuper FROM pg_roles WHERE rolname = CURRENT_USER;"
-  - "SELECT table_name, is_insertable_into FROM information_schema.tables WHERE table_schema = 'public';"
-  - "SELECT count(*) FROM patients;"
-
+- SELECT rolname, rolsuper FROM pg_roles WHERE rolname = CURRENT_USER;
+- >-
+  SELECT pg_has_role(CURRENT_USER, 'pg_execute_server_program', 'MEMBER') AS can_run_programs;
+- SELECT tablename FROM pg_tables WHERE schemaname = 'healthcare';

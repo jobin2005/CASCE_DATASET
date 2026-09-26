@@ -1,0 +1,43 @@
+code,description,standard_charge
+99202,"Office/outpatient new patient visit, straightforward",110.00
+99203,"Office/outpatient new patient visit, low complexity",170.00
+99204,"Office/outpatient new patient visit, moderate complexity",255.00
+99212,"Office/outpatient established visit, straightforward",90.00
+99213,"Office/outpatient established visit, low complexity",140.00
+99214,"Office/outpatient established visit, moderate complexity",205.00
+99215,"Office/outpatient established visit, high complexity",290.00
+99283,"Emergency department visit, moderate severity",480.00
+99284,"Emergency department visit, high severity",780.00
+99285,"Emergency department visit, highest severity",1150.00
+99221,"Initial hospital inpatient care, low complexity",320.00
+99222,"Initial hospital inpatient care, moderate complexity",430.00
+99223,"Initial hospital inpatient care, high complexity",560.00
+99231,"Subsequent hospital care, low complexity",150.00
+99238,"Hospital discharge day management, 30 min or less",200.00
+99395,"Preventive visit, established, age 18-39",240.00
+99396,"Preventive visit, established, age 40-64",260.00
+99397,"Preventive visit, established, age 65+",275.00
+99392,"Preventive visit, established, age 1-4",210.00
+99393,"Preventive visit, established, age 5-11",210.00
+90471,"Immunization administration, first vaccine",35.00
+90686,"Influenza vaccine, quadrivalent, preservative free",45.00
+36415,Collection of venous blood by venipuncture,18.00
+93000,"Electrocardiogram, routine with interpretation",75.00
+71046,"Chest X-ray, 2 views",160.00
+73610,"X-ray ankle, 3+ views",145.00
+73110,"X-ray wrist, 3+ views",145.00
+70450,CT head/brain without contrast,850.00
+74177,CT abdomen and pelvis with contrast,1400.00
+93306,"Echocardiography, transthoracic, complete",1100.00
+12002,"Simple repair of superficial wounds, 2.6-7.5 cm",330.00
+29125,Application of short arm splint,140.00
+20610,"Arthrocentesis/injection, major joint",210.00
+11102,"Tangential biopsy of skin, single lesion",180.00
+17000,"Destruction of premalignant lesion, first",120.00
+96372,"Therapeutic injection, subcutaneous or intramuscular",55.00
+90834,"Psychotherapy, 45 minutes",150.00
+90792,Psychiatric diagnostic evaluation with medical services,320.00
+59425,"Antepartum care, 4-6 visits",900.00
+44970,Laparoscopic appendectomy,5200.00
+96413,"Chemotherapy administration, IV infusion, first hour",690.00
+99441,"Telephone evaluation and management, 5-10 min",60.00

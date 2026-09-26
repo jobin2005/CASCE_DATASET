@@ -1,0 +1,16 @@
+name: logistics_benign_track_shipment
+type: benign
+schema: logistics
+description: 'Customer tracking a shipment: current status, recent scans, and package list.'
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+- >-
+  SELECT shipment_id, tracking_number, status, service_level, promised_delivery_at, delivered_at FROM
+  shipments WHERE tracking_number = 'HFL26030000001';
+- >-
+  SELECT event_code, status, description, occurred_at FROM tracking_events WHERE shipment_id = 1 ORDER
+  BY occurred_at DESC LIMIT 10;
+- >-
+  SELECT package_id, barcode, package_type, weight_kg FROM packages WHERE shipment_id = 1;

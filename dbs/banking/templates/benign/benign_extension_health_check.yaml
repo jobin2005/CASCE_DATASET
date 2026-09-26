@@ -1,0 +1,13 @@
+name: banking_benign_extension_health_check
+type: benign
+schema: banking
+description: >-
+  Ops health check confirming installed extensions and server version during a deploy. Resembles reverse-shell
+  capability recon but is a routine inventory.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+- SELECT extname, extversion FROM pg_extension ORDER BY extname;
+- SHOW server_version;
+- SELECT count(*) FROM pg_stat_activity WHERE datname = current_database();

@@ -1,0 +1,13 @@
+name: healthcare_benign_multi_value_search
+type: benign
+schema: healthcare
+description: >-
+  User-facing search filtering on several values with OR. Contains OR and quoted literals like a tautology
+  probe, but the predicate is a legitimate bounded filter.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+- >-
+  SELECT patient_id, mrn, last_name FROM patients WHERE last_name = 'Martinez' OR last_name = 'Martinez-Cruz'
+  ORDER BY last_name LIMIT 50;

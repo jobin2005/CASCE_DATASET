@@ -1,0 +1,14 @@
+name: healthcare_benign_lab_result_review
+type: benign
+schema: healthcare
+description: Provider reviewing lab orders and their results for an encounter.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+- >-
+  SELECT lo.lab_order_id, lt.name, lo.status, lo.ordered_at FROM lab_orders lo JOIN lab_tests lt ON lt.lab_test_id
+  = lo.lab_test_id WHERE lo.encounter_id = 1001 ORDER BY lo.ordered_at;
+- >-
+  SELECT lr.lab_result_id, lr.value_numeric, lr.abnormal_flag, lr.resulted_at FROM lab_results lr JOIN
+  lab_orders lo ON lo.lab_order_id = lr.lab_order_id WHERE lo.encounter_id = 1001;

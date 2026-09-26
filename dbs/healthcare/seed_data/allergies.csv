@@ -1,0 +1,1298 @@
+allergy_id,patient_id,allergen,reaction,severity,onset_date,recorded_by,recorded_at
+1,3,Morphine,Pruritus,mild,,49,2026-07-09T09:11:05+00:00
+2,3,Shellfish,"Swelling, hives",moderate,,100,2026-06-28T21:01:58+00:00
+3,3,Pollen,Rhinitis,severe,1951-01-16,98,2026-07-13T22:02:28+00:00
+4,5,Peanuts,Anaphylaxis,life_threatening,2013-05-19,114,2022-02-10T13:20:43+00:00
+5,6,Morphine,Pruritus,severe,,95,2022-09-02T08:26:43+00:00
+6,7,Bee stings,Anaphylaxis,life_threatening,,97,2020-04-26T23:28:01+00:00
+7,7,Sulfa drugs,Rash,mild,,55,2021-09-03T00:36:40+00:00
+8,9,Sulfa drugs,Rash,moderate,2019-05-28,95,2025-07-24T18:40:13+00:00
+9,19,Peanuts,Anaphylaxis,life_threatening,2002-11-16,97,2025-12-16T00:28:07+00:00
+10,21,Ibuprofen,GI upset,mild,2015-01-03,54,2020-10-19T12:14:52+00:00
+11,22,Peanuts,Anaphylaxis,life_threatening,2014-07-07,14,2024-02-27T13:03:48+00:00
+12,22,Latex,Contact dermatitis,mild,1972-09-22,55,2025-08-04T06:40:54+00:00
+13,22,Pollen,Rhinitis,moderate,,14,2025-11-30T05:57:36+00:00
+14,27,Eggs,Hives,mild,,9,2026-01-27T09:41:08+00:00
+15,35,Iodinated contrast,Urticaria,moderate,2023-07-02,14,2024-11-26T06:06:10+00:00
+16,39,Eggs,Hives,moderate,2020-03-08,90,2022-04-09T12:17:29+00:00
+17,40,Bee stings,Anaphylaxis,life_threatening,,93,2025-10-27T23:29:54+00:00
+18,46,Eggs,Hives,mild,2012-03-29,54,2026-01-17T14:21:54+00:00
+19,49,Peanuts,Anaphylaxis,life_threatening,,9,2022-04-21T02:34:17+00:00
+20,51,Tree nuts,Throat swelling,moderate,,113,2026-06-30T17:54:05+00:00
+21,63,Amoxicillin,Rash,mild,,92,2022-09-22T07:36:44+00:00
+22,64,Eggs,Hives,moderate,,13,2026-05-10T20:12:22+00:00
+23,67,Tree nuts,Throat swelling,severe,,52,2026-04-23T19:26:34+00:00
+24,67,Bee stings,Anaphylaxis,life_threatening,,91,2026-07-26T12:52:33+00:00
+25,70,Bee stings,Anaphylaxis,life_threatening,1966-06-05,96,2025-01-03T11:31:48+00:00
+26,70,Amoxicillin,Rash,mild,,93,2021-02-20T04:29:53+00:00
+27,73,Ibuprofen,GI upset,mild,,14,2023-06-30T15:40:17+00:00
+28,75,Shellfish,"Swelling, hives",moderate,2023-04-08,50,2025-01-21T20:32:28+00:00
+29,78,Shellfish,"Swelling, hives",moderate,2024-02-17,52,2026-03-30T17:06:55+00:00
+30,78,Iodinated contrast,Urticaria,moderate,,87,2024-02-16T21:32:35+00:00
+31,80,Ibuprofen,GI upset,mild,,87,2025-06-07T21:46:51+00:00
+32,84,Iodinated contrast,Urticaria,mild,2014-06-22,53,2023-10-13T01:59:12+00:00
+33,90,Bee stings,Anaphylaxis,life_threatening,,55,2025-10-06T12:51:27+00:00
+34,91,Eggs,Hives,moderate,,94,2021-02-09T18:35:16+00:00
+35,91,Morphine,Pruritus,mild,,94,2022-12-20T12:46:05+00:00
+36,91,Sulfa drugs,Rash,mild,1996-09-15,96,2021-07-27T15:30:46+00:00
+37,92,Ibuprofen,GI upset,severe,2017-07-15,53,2021-11-09T09:12:25+00:00
+38,96,Iodinated contrast,Urticaria,mild,2025-02-24,49,2026-08-08T13:02:18+00:00
+39,106,Latex,Contact dermatitis,mild,,89,2023-07-17T21:14:41+00:00
+40,108,Sulfa drugs,Rash,moderate,2007-10-23,114,2025-10-18T19:33:38+00:00
+41,108,Peanuts,Anaphylaxis,life_threatening,1959-07-12,50,2026-09-09T07:46:59+00:00
+42,111,Tree nuts,Throat swelling,moderate,2008-03-10,52,2024-05-21T11:42:11+00:00
+43,112,Peanuts,Anaphylaxis,life_threatening,,93,2025-10-04T12:34:18+00:00
+44,112,Iodinated contrast,Urticaria,moderate,2023-12-21,109,2019-03-22T19:22:49+00:00
+45,118,Iodinated contrast,Urticaria,mild,2007-04-29,10,2025-03-17T08:31:38+00:00
+46,122,Latex,Contact dermatitis,moderate,1991-01-13,96,2025-01-14T17:28:23+00:00
+47,124,Codeine,"Nausea, vomiting",severe,1988-11-19,95,2020-06-04T15:27:10+00:00
+48,126,Aspirin,Bronchospasm,moderate,2016-03-13,112,2023-09-09T14:29:36+00:00
+49,126,Pollen,Rhinitis,severe,1980-01-06,87,2023-08-25T21:17:18+00:00
+50,127,Sulfa drugs,Rash,mild,,95,2026-06-17T19:03:19+00:00
+51,130,Codeine,"Nausea, vomiting",severe,1983-01-25,94,2026-04-12T14:20:16+00:00
+52,130,Pollen,Rhinitis,mild,1982-03-31,92,2025-12-24T09:40:43+00:00
+53,131,Morphine,Pruritus,mild,1955-03-20,114,2025-07-13T07:49:21+00:00
+54,131,Shellfish,"Swelling, hives",moderate,1993-11-24,52,2026-05-20T05:21:51+00:00
+55,131,Iodinated contrast,Urticaria,moderate,,100,2026-07-09T18:53:07+00:00
+56,134,Bee stings,Anaphylaxis,life_threatening,2025-11-10,54,2026-06-16T06:11:53+00:00
+57,135,Shellfish,"Swelling, hives",mild,1993-02-11,101,2023-03-03T11:50:02+00:00
+58,136,Sulfa drugs,Rash,severe,2017-09-12,10,2023-08-11T14:51:38+00:00
+59,136,Aspirin,Bronchospasm,mild,,50,2026-02-15T15:43:14+00:00
+60,136,Amoxicillin,Rash,mild,,96,2021-04-03T17:34:11+00:00
+61,138,Pollen,Rhinitis,moderate,,109,2022-08-01T08:21:49+00:00
+62,138,Ibuprofen,GI upset,moderate,,12,2026-03-08T13:59:07+00:00
+63,143,Latex,Contact dermatitis,mild,,109,2026-01-01T05:37:36+00:00
+64,148,Tree nuts,Throat swelling,moderate,,110,2026-02-10T13:12:17+00:00
+65,156,Bee stings,Anaphylaxis,life_threatening,2000-01-29,11,2025-11-07T00:41:31+00:00
+66,163,Eggs,Hives,moderate,,93,2024-03-28T08:53:04+00:00
+67,165,Codeine,"Nausea, vomiting",moderate,,54,2026-01-16T07:08:11+00:00
+68,173,Amoxicillin,Rash,mild,,98,2026-05-07T20:42:47+00:00
+69,178,Aspirin,Bronchospasm,mild,,49,2021-05-07T03:37:49+00:00
+70,186,Latex,Contact dermatitis,mild,2004-04-06,89,2021-05-31T10:49:46+00:00
+71,188,Sulfa drugs,Rash,moderate,2024-08-14,55,2026-01-19T08:06:50+00:00
+72,192,Sulfa drugs,Rash,moderate,1957-09-03,110,2025-11-06T08:18:55+00:00
+73,195,Ibuprofen,GI upset,moderate,2018-10-28,91,2026-04-28T02:01:49+00:00
+74,196,Peanuts,Anaphylaxis,life_threatening,,54,2025-04-05T06:27:08+00:00
+75,199,Iodinated contrast,Urticaria,moderate,2008-11-05,11,2024-11-17T01:33:04+00:00
+76,199,Penicillin,"Hives, rash",mild,,97,2024-04-10T00:28:10+00:00
+77,202,Peanuts,Anaphylaxis,life_threatening,,110,2020-10-11T18:06:21+00:00
+78,203,Sulfa drugs,Rash,moderate,,92,2026-04-27T08:33:23+00:00
+79,207,Peanuts,Anaphylaxis,life_threatening,1956-04-11,89,2025-06-09T17:30:55+00:00
+80,207,Eggs,Hives,moderate,,109,2026-08-16T17:12:41+00:00
+81,211,Amoxicillin,Rash,mild,,97,2026-08-25T06:36:36+00:00
+82,211,Iodinated contrast,Urticaria,mild,2020-08-29,10,2026-07-14T00:42:28+00:00
+83,211,Latex,Contact dermatitis,severe,,94,2026-05-07T03:10:03+00:00
+84,216,Peanuts,Anaphylaxis,life_threatening,2005-11-01,98,2022-11-10T06:12:58+00:00
+85,216,Ibuprofen,GI upset,severe,,92,2019-01-11T14:48:07+00:00
+86,216,Tree nuts,Throat swelling,moderate,,110,2023-04-08T10:00:55+00:00
+87,217,Sulfa drugs,Rash,mild,,53,2022-10-04T10:30:40+00:00
+88,224,Penicillin,"Hives, rash",severe,1967-01-01,112,2026-03-09T16:27:20+00:00
+89,228,Codeine,"Nausea, vomiting",moderate,2025-12-30,52,2026-02-04T18:41:04+00:00
+90,230,Sulfa drugs,Rash,mild,1986-03-06,87,2025-07-27T21:55:33+00:00
+91,233,Peanuts,Anaphylaxis,life_threatening,1995-02-02,50,2022-06-25T13:34:15+00:00
+92,241,Bee stings,Anaphylaxis,life_threatening,,53,2026-08-27T00:11:52+00:00
+93,242,Shellfish,"Swelling, hives",mild,,93,2025-07-31T04:01:16+00:00
+94,247,Sulfa drugs,Rash,moderate,2024-11-17,49,2025-03-03T02:08:09+00:00
+95,248,Iodinated contrast,Urticaria,severe,,14,2025-08-21T01:03:32+00:00
+96,248,Codeine,"Nausea, vomiting",mild,1997-11-15,90,2023-12-31T00:46:20+00:00
+97,248,Pollen,Rhinitis,mild,1975-05-22,90,2026-09-05T19:38:40+00:00
+98,255,Codeine,"Nausea, vomiting",moderate,,55,2024-10-16T07:12:45+00:00
+99,263,Iodinated contrast,Urticaria,mild,,12,2023-01-26T04:17:55+00:00
+100,264,Tree nuts,Throat swelling,mild,,110,2025-07-23T18:30:41+00:00
+101,278,Shellfish,"Swelling, hives",moderate,2017-08-01,11,2022-07-28T18:19:28+00:00
+102,283,Codeine,"Nausea, vomiting",mild,,110,2023-01-14T00:36:47+00:00
+103,284,Ibuprofen,GI upset,severe,,49,2021-06-30T16:19:03+00:00
+104,286,Aspirin,Bronchospasm,mild,,96,2021-10-09T22:44:33+00:00
+105,287,Ibuprofen,GI upset,mild,2011-12-15,89,2025-12-12T14:38:44+00:00
+106,289,Iodinated contrast,Urticaria,moderate,,13,2019-09-23T16:51:25+00:00
+107,297,Iodinated contrast,Urticaria,mild,2017-09-06,114,2025-04-18T17:02:20+00:00
+108,298,Sulfa drugs,Rash,mild,,114,2024-01-26T15:34:17+00:00
+109,298,Iodinated contrast,Urticaria,mild,2018-06-03,50,2024-07-15T09:55:28+00:00
+110,300,Tree nuts,Throat swelling,mild,2025-11-19,49,2026-07-18T12:02:29+00:00
+111,300,Shellfish,"Swelling, hives",moderate,,10,2026-09-20T15:28:16+00:00
+112,301,Penicillin,"Hives, rash",moderate,2022-08-10,9,2022-09-28T05:04:41+00:00
+113,303,Shellfish,"Swelling, hives",moderate,2022-10-04,97,2025-08-26T19:57:03+00:00
+114,303,Ibuprofen,GI upset,mild,,114,2024-10-05T23:07:51+00:00
+115,306,Ibuprofen,GI upset,moderate,,110,2023-04-15T19:25:48+00:00
+116,309,Tree nuts,Throat swelling,moderate,2009-02-04,89,2026-02-20T21:37:13+00:00
+117,309,Penicillin,"Hives, rash",moderate,,99,2022-10-15T20:59:22+00:00
+118,313,Morphine,Pruritus,mild,2018-08-02,88,2023-05-14T09:30:31+00:00
+119,313,Ibuprofen,GI upset,moderate,,90,2023-05-21T01:33:02+00:00
+120,313,Tree nuts,Throat swelling,mild,2022-05-23,100,2025-08-07T08:31:37+00:00
+121,315,Sulfa drugs,Rash,mild,1958-11-09,15,2025-08-03T17:24:44+00:00
+122,321,Tree nuts,Throat swelling,mild,1979-02-03,114,2025-05-07T05:03:10+00:00
+123,321,Iodinated contrast,Urticaria,moderate,1963-04-18,112,2026-08-01T14:18:32+00:00
+124,323,Morphine,Pruritus,mild,1997-10-10,53,2022-09-19T18:12:54+00:00
+125,327,Sulfa drugs,Rash,moderate,1948-05-01,98,2024-08-03T18:49:31+00:00
+126,334,Sulfa drugs,Rash,moderate,,91,2025-06-15T19:42:26+00:00
+127,346,Tree nuts,Throat swelling,severe,,114,2022-11-04T02:26:03+00:00
+128,348,Amoxicillin,Rash,mild,2018-05-10,112,2024-08-20T11:47:13+00:00
+129,348,Peanuts,Anaphylaxis,life_threatening,1996-11-28,94,2020-05-03T00:21:30+00:00
+130,348,Eggs,Hives,moderate,2020-06-05,13,2019-01-08T22:12:10+00:00
+131,349,Morphine,Pruritus,moderate,,49,2026-09-01T19:20:34+00:00
+132,353,Sulfa drugs,Rash,moderate,2018-11-28,12,2022-08-18T19:45:55+00:00
+133,354,Iodinated contrast,Urticaria,moderate,,88,2026-07-23T22:42:19+00:00
+134,355,Morphine,Pruritus,mild,2019-10-22,90,2025-11-16T20:55:08+00:00
+135,365,Morphine,Pruritus,moderate,1996-06-09,110,2021-04-18T16:34:42+00:00
+136,365,Bee stings,Anaphylaxis,life_threatening,2010-08-14,98,2022-05-20T01:25:41+00:00
+137,368,Amoxicillin,Rash,mild,2018-07-12,53,2022-07-10T05:54:08+00:00
+138,371,Eggs,Hives,severe,,113,2025-01-07T23:11:30+00:00
+139,371,Morphine,Pruritus,moderate,1992-05-10,54,2026-07-08T10:22:56+00:00
+140,371,Shellfish,"Swelling, hives",severe,,87,2024-01-20T08:52:14+00:00
+141,377,Aspirin,Bronchospasm,moderate,,15,2026-02-28T16:12:09+00:00
+142,377,Peanuts,Anaphylaxis,life_threatening,2014-10-01,50,2026-06-08T03:09:35+00:00
+143,377,Morphine,Pruritus,moderate,,92,2025-08-13T21:55:55+00:00
+144,380,Latex,Contact dermatitis,moderate,1969-07-17,96,2026-01-06T09:41:46+00:00
+145,380,Penicillin,"Hives, rash",mild,1976-07-09,54,2020-10-18T14:04:45+00:00
+146,385,Eggs,Hives,mild,2022-05-15,110,2023-03-10T18:19:52+00:00
+147,386,Ibuprofen,GI upset,moderate,2021-12-05,112,2022-01-13T20:17:17+00:00
+148,386,Peanuts,Anaphylaxis,life_threatening,2024-03-03,90,2023-05-03T19:11:24+00:00
+149,386,Eggs,Hives,mild,,98,2023-01-29T11:00:54+00:00
+150,389,Codeine,"Nausea, vomiting",mild,2021-05-02,91,2026-09-13T23:34:13+00:00
+151,395,Aspirin,Bronchospasm,moderate,,96,2025-07-22T23:25:27+00:00
+152,399,Penicillin,"Hives, rash",mild,,109,2026-03-02T13:21:43+00:00
+153,399,Morphine,Pruritus,severe,,53,2025-01-28T21:28:55+00:00
+154,405,Eggs,Hives,mild,,49,2024-12-04T07:30:56+00:00
+155,407,Codeine,"Nausea, vomiting",mild,2022-11-06,97,2026-05-11T13:28:21+00:00
+156,409,Eggs,Hives,mild,1975-11-09,101,2023-05-13T17:25:13+00:00
+157,411,Bee stings,Anaphylaxis,life_threatening,1964-10-09,9,2026-05-22T14:48:44+00:00
+158,413,Penicillin,"Hives, rash",mild,2017-09-03,93,2020-10-27T07:04:33+00:00
+159,419,Iodinated contrast,Urticaria,mild,1995-05-19,9,2025-07-03T19:32:48+00:00
+160,420,Amoxicillin,Rash,mild,2008-06-24,14,2026-01-04T05:25:59+00:00
+161,423,Iodinated contrast,Urticaria,mild,2003-01-19,54,2026-08-12T22:36:33+00:00
+162,423,Tree nuts,Throat swelling,moderate,,99,2026-03-01T01:17:14+00:00
+163,424,Shellfish,"Swelling, hives",severe,2015-11-21,93,2026-06-10T16:51:20+00:00
+164,424,Codeine,"Nausea, vomiting",severe,,55,2025-05-11T04:53:55+00:00
+165,425,Penicillin,"Hives, rash",mild,2010-07-11,112,2025-04-05T02:02:46+00:00
+166,428,Sulfa drugs,Rash,mild,,14,2023-11-03T04:43:20+00:00
+167,432,Latex,Contact dermatitis,mild,2025-07-04,13,2025-12-29T23:58:03+00:00
+168,433,Aspirin,Bronchospasm,mild,2013-02-20,12,2026-05-21T00:42:16+00:00
+169,439,Eggs,Hives,moderate,,114,2025-10-01T09:23:49+00:00
+170,445,Amoxicillin,Rash,severe,,92,2025-01-31T10:14:20+00:00
+171,447,Ibuprofen,GI upset,moderate,,94,2020-08-04T12:06:43+00:00
+172,462,Shellfish,"Swelling, hives",moderate,2015-01-22,94,2026-03-06T14:32:56+00:00
+173,462,Peanuts,Anaphylaxis,life_threatening,2023-08-25,12,2026-08-23T17:27:05+00:00
+174,462,Ibuprofen,GI upset,severe,2022-01-20,53,2026-02-22T00:49:50+00:00
+175,468,Eggs,Hives,mild,1975-01-16,89,2025-11-09T08:31:21+00:00
+176,468,Peanuts,Anaphylaxis,life_threatening,2007-09-01,91,2026-05-28T18:20:57+00:00
+177,468,Penicillin,"Hives, rash",severe,2000-11-23,99,2024-12-29T20:04:07+00:00
+178,470,Ibuprofen,GI upset,mild,,87,2023-03-04T13:45:16+00:00
+179,471,Shellfish,"Swelling, hives",mild,,52,2022-09-21T19:15:21+00:00
+180,471,Bee stings,Anaphylaxis,life_threatening,1967-05-30,53,2023-08-15T16:01:19+00:00
+181,479,Pollen,Rhinitis,moderate,2011-10-04,10,2020-07-04T18:41:11+00:00
+182,482,Pollen,Rhinitis,mild,2023-12-16,14,2024-04-20T15:21:12+00:00
+183,483,Morphine,Pruritus,moderate,2009-05-01,13,2025-10-06T19:52:03+00:00
+184,483,Aspirin,Bronchospasm,severe,,113,2026-05-17T21:32:52+00:00
+185,485,Amoxicillin,Rash,severe,1947-05-19,14,2026-02-05T09:00:32+00:00
+186,485,Latex,Contact dermatitis,moderate,,97,2026-09-11T02:37:09+00:00
+187,490,Eggs,Hives,mild,2006-01-31,49,2021-06-23T21:13:17+00:00
+188,491,Amoxicillin,Rash,mild,,49,2026-05-15T23:51:32+00:00
+189,492,Pollen,Rhinitis,mild,2010-07-26,93,2023-01-12T02:02:32+00:00
+190,492,Bee stings,Anaphylaxis,life_threatening,,92,2026-09-01T20:47:10+00:00
+191,494,Iodinated contrast,Urticaria,mild,2024-01-19,55,2026-05-18T12:02:13+00:00
+192,495,Sulfa drugs,Rash,moderate,,88,2024-04-24T00:31:06+00:00
+193,497,Latex,Contact dermatitis,moderate,,88,2024-11-16T14:58:26+00:00
+194,497,Sulfa drugs,Rash,mild,2001-11-26,100,2025-09-11T08:23:05+00:00
+195,500,Eggs,Hives,moderate,,50,2022-05-05T02:00:35+00:00
+196,500,Iodinated contrast,Urticaria,mild,1983-12-20,92,2024-04-27T11:33:47+00:00
+197,500,Ibuprofen,GI upset,severe,,100,2020-07-10T12:58:09+00:00
+198,505,Eggs,Hives,moderate,,14,2023-11-17T05:35:48+00:00
+199,514,Codeine,"Nausea, vomiting",mild,,12,2024-01-27T21:03:48+00:00
+200,521,Pollen,Rhinitis,mild,2025-06-07,87,2025-12-08T15:25:17+00:00
+201,523,Shellfish,"Swelling, hives",moderate,,10,2026-05-03T01:33:09+00:00
+202,525,Sulfa drugs,Rash,mild,2025-03-15,112,2024-11-23T08:39:23+00:00
+203,525,Amoxicillin,Rash,mild,,92,2025-06-15T16:49:50+00:00
+204,525,Penicillin,"Hives, rash",mild,2018-04-18,101,2026-07-23T20:35:22+00:00
+205,528,Iodinated contrast,Urticaria,moderate,,92,2026-03-23T03:10:33+00:00
+206,530,Aspirin,Bronchospasm,moderate,2024-04-10,100,2026-08-02T19:04:18+00:00
+207,530,Ibuprofen,GI upset,moderate,2023-09-11,98,2026-04-20T08:25:02+00:00
+208,530,Shellfish,"Swelling, hives",moderate,2025-09-03,89,2026-05-07T15:18:18+00:00
+209,540,Bee stings,Anaphylaxis,life_threatening,1993-04-19,112,2019-07-04T03:50:37+00:00
+210,540,Peanuts,Anaphylaxis,life_threatening,1969-02-21,9,2024-05-30T22:08:17+00:00
+211,542,Pollen,Rhinitis,mild,2019-08-16,110,2025-08-29T07:32:32+00:00
+212,542,Peanuts,Anaphylaxis,life_threatening,2024-02-13,88,2021-01-03T01:40:06+00:00
+213,545,Penicillin,"Hives, rash",mild,,93,2026-05-31T04:46:40+00:00
+214,549,Morphine,Pruritus,mild,,90,2026-01-01T04:52:53+00:00
+215,549,Penicillin,"Hives, rash",mild,,10,2025-10-12T18:02:59+00:00
+216,549,Sulfa drugs,Rash,mild,,94,2026-05-26T05:36:25+00:00
+217,551,Peanuts,Anaphylaxis,life_threatening,2025-11-03,15,2025-06-29T02:07:47+00:00
+218,553,Latex,Contact dermatitis,mild,1938-11-30,12,2025-07-05T12:24:57+00:00
+219,553,Amoxicillin,Rash,moderate,,90,2020-04-30T09:35:47+00:00
+220,553,Pollen,Rhinitis,moderate,1934-09-13,12,2024-12-01T18:05:17+00:00
+221,557,Codeine,"Nausea, vomiting",mild,,52,2021-02-05T14:42:28+00:00
+222,558,Aspirin,Bronchospasm,moderate,2018-09-17,101,2025-10-02T03:34:31+00:00
+223,561,Ibuprofen,GI upset,mild,1955-08-26,52,2025-07-21T07:39:19+00:00
+224,562,Ibuprofen,GI upset,mild,2008-12-23,54,2024-10-06T14:43:58+00:00
+225,566,Sulfa drugs,Rash,severe,,109,2022-12-22T11:30:13+00:00
+226,567,Iodinated contrast,Urticaria,mild,2025-12-23,113,2023-01-15T16:41:08+00:00
+227,567,Pollen,Rhinitis,mild,2007-05-09,92,2023-12-24T10:35:40+00:00
+228,570,Shellfish,"Swelling, hives",severe,,95,2024-01-30T22:26:56+00:00
+229,571,Shellfish,"Swelling, hives",mild,2020-03-07,101,2025-11-03T11:55:27+00:00
+230,571,Bee stings,Anaphylaxis,life_threatening,,101,2025-12-15T21:39:40+00:00
+231,583,Pollen,Rhinitis,moderate,2014-05-17,10,2024-04-07T02:25:06+00:00
+232,600,Codeine,"Nausea, vomiting",mild,1987-04-10,96,2026-08-11T07:30:35+00:00
+233,603,Amoxicillin,Rash,moderate,,99,2025-08-01T03:33:19+00:00
+234,603,Eggs,Hives,moderate,1998-08-06,14,2023-03-22T05:30:32+00:00
+235,603,Bee stings,Anaphylaxis,life_threatening,,10,2021-07-01T17:17:03+00:00
+236,604,Morphine,Pruritus,mild,1942-05-10,14,2026-05-20T16:20:04+00:00
+237,611,Penicillin,"Hives, rash",mild,,13,2026-04-22T22:39:02+00:00
+238,617,Morphine,Pruritus,moderate,,13,2023-10-13T07:19:53+00:00
+239,617,Aspirin,Bronchospasm,severe,,14,2023-08-12T15:29:21+00:00
+240,618,Shellfish,"Swelling, hives",mild,,11,2026-05-10T02:22:23+00:00
+241,621,Codeine,"Nausea, vomiting",mild,2004-05-22,55,2026-05-28T10:42:45+00:00
+242,621,Eggs,Hives,moderate,,12,2025-03-02T23:00:26+00:00
+243,621,Peanuts,Anaphylaxis,life_threatening,,87,2026-09-17T19:17:53+00:00
+244,625,Bee stings,Anaphylaxis,life_threatening,2011-12-28,87,2025-11-24T00:55:16+00:00
+245,626,Iodinated contrast,Urticaria,mild,,110,2025-09-22T15:16:46+00:00
+246,631,Codeine,"Nausea, vomiting",mild,2021-12-07,55,2019-09-11T17:06:36+00:00
+247,632,Peanuts,Anaphylaxis,life_threatening,,9,2026-07-30T21:47:54+00:00
+248,632,Codeine,"Nausea, vomiting",moderate,1976-10-04,15,2023-12-23T04:05:17+00:00
+249,632,Latex,Contact dermatitis,moderate,,95,2024-02-16T20:14:02+00:00
+250,633,Aspirin,Bronchospasm,moderate,2018-07-14,98,2024-03-23T21:05:34+00:00
+251,633,Latex,Contact dermatitis,moderate,2013-02-18,49,2020-02-25T17:29:01+00:00
+252,634,Pollen,Rhinitis,severe,,92,2024-07-16T17:25:56+00:00
+253,635,Peanuts,Anaphylaxis,life_threatening,,109,2026-07-18T18:12:27+00:00
+254,640,Penicillin,"Hives, rash",mild,2016-12-26,98,2024-09-22T08:13:12+00:00
+255,641,Penicillin,"Hives, rash",mild,2016-09-23,50,2024-01-26T20:01:20+00:00
+256,643,Morphine,Pruritus,mild,1966-01-22,11,2026-07-09T05:57:15+00:00
+257,643,Latex,Contact dermatitis,mild,,13,2026-08-19T20:23:44+00:00
+258,644,Tree nuts,Throat swelling,mild,2020-03-11,92,2023-11-07T22:43:35+00:00
+259,644,Shellfish,"Swelling, hives",moderate,2024-09-30,90,2023-09-25T21:00:04+00:00
+260,648,Ibuprofen,GI upset,mild,,110,2019-12-29T04:03:56+00:00
+261,648,Shellfish,"Swelling, hives",mild,,114,2025-06-27T14:54:30+00:00
+262,652,Morphine,Pruritus,moderate,2016-05-11,54,2026-07-10T05:06:33+00:00
+263,652,Pollen,Rhinitis,mild,,90,2025-01-23T08:04:41+00:00
+264,654,Latex,Contact dermatitis,mild,2020-02-25,112,2026-07-04T08:23:56+00:00
+265,660,Sulfa drugs,Rash,moderate,,53,2026-08-26T16:36:38+00:00
+266,662,Bee stings,Anaphylaxis,life_threatening,2026-06-03,91,2026-06-19T00:28:43+00:00
+267,664,Morphine,Pruritus,moderate,,93,2024-12-31T04:27:05+00:00
+268,666,Amoxicillin,Rash,mild,2012-01-22,89,2025-01-26T11:12:47+00:00
+269,666,Penicillin,"Hives, rash",mild,2006-02-27,55,2024-07-30T15:54:03+00:00
+270,671,Tree nuts,Throat swelling,moderate,1989-12-16,88,2024-07-19T20:56:28+00:00
+271,673,Codeine,"Nausea, vomiting",mild,2020-09-09,113,2023-02-16T07:37:24+00:00
+272,679,Tree nuts,Throat swelling,moderate,2022-02-17,99,2022-01-08T09:31:16+00:00
+273,681,Penicillin,"Hives, rash",moderate,1973-10-23,49,2022-02-12T07:41:40+00:00
+274,682,Ibuprofen,GI upset,mild,,90,2025-09-25T10:57:16+00:00
+275,683,Pollen,Rhinitis,severe,,101,2022-07-17T20:30:33+00:00
+276,683,Bee stings,Anaphylaxis,life_threatening,2013-10-07,99,2022-06-04T09:42:18+00:00
+277,683,Latex,Contact dermatitis,severe,,101,2023-04-14T04:14:15+00:00
+278,686,Penicillin,"Hives, rash",mild,,96,2024-06-20T12:25:15+00:00
+279,688,Peanuts,Anaphylaxis,life_threatening,,87,2023-08-30T19:38:46+00:00
+280,692,Peanuts,Anaphylaxis,life_threatening,1995-02-16,12,2026-06-04T11:30:06+00:00
+281,695,Ibuprofen,GI upset,mild,,97,2024-07-16T18:22:14+00:00
+282,697,Tree nuts,Throat swelling,moderate,1986-08-27,90,2020-09-20T06:55:37+00:00
+283,703,Codeine,"Nausea, vomiting",moderate,,15,2026-06-25T18:41:33+00:00
+284,705,Shellfish,"Swelling, hives",moderate,,53,2025-10-28T05:04:27+00:00
+285,707,Sulfa drugs,Rash,mild,,100,2023-05-22T11:34:23+00:00
+286,707,Iodinated contrast,Urticaria,mild,,109,2023-11-07T08:31:26+00:00
+287,711,Tree nuts,Throat swelling,mild,2013-10-17,90,2022-11-17T15:45:14+00:00
+288,712,Peanuts,Anaphylaxis,life_threatening,2021-03-19,113,2026-08-29T05:36:22+00:00
+289,723,Sulfa drugs,Rash,mild,,93,2025-09-20T04:38:58+00:00
+290,723,Eggs,Hives,moderate,,94,2025-07-02T12:20:22+00:00
+291,724,Ibuprofen,GI upset,mild,2010-09-29,50,2026-04-05T03:48:51+00:00
+292,726,Peanuts,Anaphylaxis,life_threatening,,95,2026-04-09T06:14:31+00:00
+293,732,Iodinated contrast,Urticaria,mild,2006-05-01,88,2026-08-09T21:10:13+00:00
+294,735,Morphine,Pruritus,moderate,2004-09-16,11,2026-07-15T22:38:10+00:00
+295,736,Peanuts,Anaphylaxis,life_threatening,,90,2024-07-14T00:01:55+00:00
+296,736,Tree nuts,Throat swelling,moderate,,110,2026-01-27T15:10:49+00:00
+297,739,Tree nuts,Throat swelling,mild,,101,2026-01-19T07:54:42+00:00
+298,740,Amoxicillin,Rash,moderate,,109,2023-12-04T13:01:56+00:00
+299,740,Peanuts,Anaphylaxis,life_threatening,,94,2021-09-09T04:49:12+00:00
+300,740,Iodinated contrast,Urticaria,mild,,91,2020-10-15T05:12:35+00:00
+301,742,Eggs,Hives,moderate,,114,2026-07-08T11:36:06+00:00
+302,742,Morphine,Pruritus,mild,,14,2025-08-23T22:38:56+00:00
+303,744,Tree nuts,Throat swelling,severe,1965-11-24,14,2020-07-17T15:25:33+00:00
+304,744,Iodinated contrast,Urticaria,mild,1997-03-13,87,2024-12-17T21:05:24+00:00
+305,745,Ibuprofen,GI upset,mild,2016-03-21,91,2025-01-14T02:09:18+00:00
+306,748,Tree nuts,Throat swelling,severe,2005-03-28,112,2021-03-01T07:37:18+00:00
+307,748,Amoxicillin,Rash,moderate,2021-12-23,91,2023-08-12T05:54:19+00:00
+308,752,Eggs,Hives,mild,2021-04-09,91,2023-08-21T13:00:01+00:00
+309,752,Aspirin,Bronchospasm,severe,,96,2022-12-10T00:01:04+00:00
+310,753,Aspirin,Bronchospasm,moderate,,100,2024-12-31T12:30:27+00:00
+311,761,Shellfish,"Swelling, hives",moderate,,87,2022-05-14T04:41:58+00:00
+312,763,Pollen,Rhinitis,moderate,1977-08-23,97,2025-12-06T05:27:07+00:00
+313,766,Morphine,Pruritus,severe,2013-06-01,55,2023-03-03T10:46:55+00:00
+314,774,Aspirin,Bronchospasm,moderate,,11,2024-10-19T18:49:07+00:00
+315,779,Amoxicillin,Rash,mild,1987-03-05,87,2026-04-20T13:08:39+00:00
+316,780,Peanuts,Anaphylaxis,life_threatening,,87,2025-08-11T09:42:37+00:00
+317,783,Ibuprofen,GI upset,moderate,,54,2026-07-17T18:43:18+00:00
+318,788,Pollen,Rhinitis,mild,1988-01-29,109,2025-07-19T22:04:26+00:00
+319,788,Amoxicillin,Rash,moderate,,87,2024-11-20T19:46:24+00:00
+320,792,Peanuts,Anaphylaxis,life_threatening,,50,2024-03-25T04:22:52+00:00
+321,794,Penicillin,"Hives, rash",moderate,2015-07-07,91,2025-07-16T21:10:03+00:00
+322,797,Ibuprofen,GI upset,mild,,14,2026-08-29T08:40:11+00:00
+323,797,Iodinated contrast,Urticaria,moderate,,55,2026-04-03T07:16:56+00:00
+324,801,Amoxicillin,Rash,moderate,2023-01-31,9,2025-12-12T20:20:51+00:00
+325,801,Aspirin,Bronchospasm,moderate,2019-09-24,55,2026-04-21T19:16:52+00:00
+326,806,Sulfa drugs,Rash,moderate,2021-06-26,100,2020-02-17T10:38:04+00:00
+327,806,Latex,Contact dermatitis,mild,2014-06-16,14,2026-01-21T03:39:17+00:00
+328,811,Eggs,Hives,moderate,,52,2025-05-10T06:07:43+00:00
+329,814,Iodinated contrast,Urticaria,moderate,,95,2025-09-27T10:55:29+00:00
+330,818,Amoxicillin,Rash,mild,,13,2026-08-08T20:29:10+00:00
+331,820,Peanuts,Anaphylaxis,life_threatening,,113,2025-02-04T04:44:33+00:00
+332,820,Bee stings,Anaphylaxis,life_threatening,,89,2026-04-06T11:04:04+00:00
+333,821,Latex,Contact dermatitis,mild,,87,2026-09-01T22:36:17+00:00
+334,821,Pollen,Rhinitis,severe,2026-08-22,95,2026-08-31T03:54:41+00:00
+335,822,Amoxicillin,Rash,mild,,114,2023-12-18T17:02:30+00:00
+336,823,Penicillin,"Hives, rash",mild,2003-02-21,55,2019-02-02T21:43:35+00:00
+337,823,Peanuts,Anaphylaxis,life_threatening,,97,2022-01-23T18:47:27+00:00
+338,824,Penicillin,"Hives, rash",moderate,,109,2025-04-25T10:43:32+00:00
+339,824,Latex,Contact dermatitis,moderate,2021-05-18,93,2026-02-12T02:23:24+00:00
+340,825,Peanuts,Anaphylaxis,life_threatening,2001-09-26,11,2025-04-02T10:21:13+00:00
+341,825,Morphine,Pruritus,moderate,1988-08-18,98,2026-03-18T07:38:11+00:00
+342,828,Tree nuts,Throat swelling,mild,,101,2025-08-18T03:30:16+00:00
+343,831,Aspirin,Bronchospasm,moderate,2008-11-27,100,2025-01-11T17:27:12+00:00
+344,838,Iodinated contrast,Urticaria,mild,2003-05-08,96,2026-07-13T21:42:45+00:00
+345,838,Latex,Contact dermatitis,moderate,2013-12-22,96,2024-07-04T14:26:40+00:00
+346,838,Sulfa drugs,Rash,mild,,94,2026-06-21T16:10:09+00:00
+347,840,Tree nuts,Throat swelling,mild,2013-01-04,100,2026-05-26T08:15:05+00:00
+348,840,Pollen,Rhinitis,moderate,2008-12-23,10,2023-03-19T11:56:31+00:00
+349,841,Bee stings,Anaphylaxis,life_threatening,,95,2024-03-21T11:38:09+00:00
+350,842,Penicillin,"Hives, rash",mild,2016-03-02,112,2022-04-09T14:55:57+00:00
+351,842,Latex,Contact dermatitis,mild,,109,2024-03-27T12:19:09+00:00
+352,845,Peanuts,Anaphylaxis,life_threatening,,90,2025-11-02T15:40:18+00:00
+353,846,Codeine,"Nausea, vomiting",moderate,1985-01-30,13,2021-09-27T21:47:27+00:00
+354,849,Shellfish,"Swelling, hives",mild,1998-11-16,10,2022-02-27T04:18:43+00:00
+355,860,Morphine,Pruritus,mild,2024-12-04,95,2026-05-03T09:47:12+00:00
+356,860,Penicillin,"Hives, rash",mild,,49,2026-01-13T11:39:59+00:00
+357,860,Latex,Contact dermatitis,moderate,,52,2026-05-04T15:41:24+00:00
+358,864,Latex,Contact dermatitis,moderate,1998-04-25,12,2022-10-07T02:45:21+00:00
+359,865,Penicillin,"Hives, rash",moderate,,95,2025-01-14T06:13:35+00:00
+360,865,Bee stings,Anaphylaxis,life_threatening,1989-05-18,97,2025-06-20T03:17:26+00:00
+361,867,Morphine,Pruritus,mild,,97,2026-05-23T11:07:42+00:00
+362,869,Amoxicillin,Rash,mild,2021-01-26,90,2025-03-14T15:07:37+00:00
+363,869,Eggs,Hives,mild,2013-02-03,13,2021-03-04T22:30:02+00:00
+364,872,Iodinated contrast,Urticaria,moderate,2007-08-08,95,2026-06-22T05:32:24+00:00
+365,873,Peanuts,Anaphylaxis,life_threatening,1993-02-05,10,2023-01-20T12:16:59+00:00
+366,875,Morphine,Pruritus,moderate,,52,2024-11-08T20:33:35+00:00
+367,877,Amoxicillin,Rash,moderate,2009-09-16,55,2024-03-30T12:59:28+00:00
+368,880,Peanuts,Anaphylaxis,life_threatening,2021-01-25,90,2022-01-17T06:39:13+00:00
+369,884,Morphine,Pruritus,mild,2019-12-29,12,2021-05-07T17:20:19+00:00
+370,885,Iodinated contrast,Urticaria,moderate,,109,2025-12-07T17:59:20+00:00
+371,885,Shellfish,"Swelling, hives",mild,,101,2023-06-28T03:59:27+00:00
+372,886,Bee stings,Anaphylaxis,life_threatening,,110,2026-06-15T00:58:54+00:00
+373,888,Peanuts,Anaphylaxis,life_threatening,2003-01-19,53,2024-07-13T08:16:19+00:00
+374,888,Morphine,Pruritus,mild,,12,2023-11-16T21:01:23+00:00
+375,888,Tree nuts,Throat swelling,mild,2009-09-29,14,2025-05-08T05:34:01+00:00
+376,891,Iodinated contrast,Urticaria,mild,,113,2024-03-13T01:55:17+00:00
+377,895,Shellfish,"Swelling, hives",mild,,11,2026-07-09T06:17:55+00:00
+378,896,Peanuts,Anaphylaxis,life_threatening,2016-03-06,50,2026-07-28T01:44:04+00:00
+379,898,Shellfish,"Swelling, hives",severe,,92,2022-09-14T17:53:55+00:00
+380,906,Morphine,Pruritus,mild,1999-11-14,97,2024-12-06T13:44:33+00:00
+381,911,Penicillin,"Hives, rash",mild,,49,2021-10-05T06:03:34+00:00
+382,911,Latex,Contact dermatitis,moderate,,52,2024-04-26T21:55:04+00:00
+383,913,Bee stings,Anaphylaxis,life_threatening,1985-07-01,49,2026-07-31T19:23:36+00:00
+384,915,Shellfish,"Swelling, hives",severe,1950-12-15,9,2021-01-02T23:46:27+00:00
+385,916,Latex,Contact dermatitis,mild,2017-04-21,101,2020-08-17T07:18:34+00:00
+386,919,Iodinated contrast,Urticaria,severe,1954-08-12,95,2022-10-11T06:22:00+00:00
+387,927,Peanuts,Anaphylaxis,life_threatening,,15,2026-04-29T12:56:16+00:00
+388,928,Bee stings,Anaphylaxis,life_threatening,,114,2025-08-12T16:13:50+00:00
+389,928,Sulfa drugs,Rash,moderate,2012-05-08,113,2024-08-16T07:25:03+00:00
+390,928,Eggs,Hives,mild,2015-09-25,52,2025-08-11T12:02:59+00:00
+391,937,Peanuts,Anaphylaxis,life_threatening,1982-12-13,50,2022-12-15T01:23:54+00:00
+392,937,Shellfish,"Swelling, hives",mild,1981-08-31,112,2026-06-27T04:49:26+00:00
+393,937,Tree nuts,Throat swelling,mild,2000-09-05,95,2023-06-14T05:36:57+00:00
+394,939,Penicillin,"Hives, rash",mild,,89,2021-06-01T11:16:57+00:00
+395,948,Tree nuts,Throat swelling,moderate,2019-11-19,91,2026-02-09T23:44:39+00:00
+396,949,Bee stings,Anaphylaxis,life_threatening,1962-10-19,13,2024-11-11T05:50:01+00:00
+397,951,Aspirin,Bronchospasm,severe,,100,2026-02-12T03:55:53+00:00
+398,951,Peanuts,Anaphylaxis,life_threatening,1996-07-21,109,2026-03-07T08:15:09+00:00
+399,954,Codeine,"Nausea, vomiting",moderate,,99,2025-12-01T20:56:27+00:00
+400,954,Pollen,Rhinitis,moderate,1971-02-01,49,2026-07-31T21:45:32+00:00
+401,958,Iodinated contrast,Urticaria,mild,2006-07-20,52,2024-11-28T10:22:02+00:00
+402,961,Aspirin,Bronchospasm,mild,,15,2024-10-07T17:31:46+00:00
+403,961,Codeine,"Nausea, vomiting",mild,2004-07-02,109,2022-10-24T09:03:43+00:00
+404,963,Morphine,Pruritus,severe,,52,2026-09-14T15:41:59+00:00
+405,964,Shellfish,"Swelling, hives",severe,2023-12-06,88,2025-02-24T08:36:36+00:00
+406,966,Shellfish,"Swelling, hives",mild,2002-08-26,89,2020-11-30T11:29:29+00:00
+407,966,Ibuprofen,GI upset,mild,,95,2023-11-05T11:33:37+00:00
+408,968,Pollen,Rhinitis,severe,1952-04-19,89,2025-05-04T20:10:04+00:00
+409,968,Tree nuts,Throat swelling,mild,1967-08-09,113,2025-08-29T10:00:32+00:00
+410,969,Shellfish,"Swelling, hives",mild,2004-11-20,52,2022-10-24T16:20:41+00:00
+411,970,Penicillin,"Hives, rash",mild,,110,2026-03-19T22:50:12+00:00
+412,975,Eggs,Hives,moderate,2008-02-04,55,2021-11-09T04:13:14+00:00
+413,975,Iodinated contrast,Urticaria,moderate,,95,2025-09-18T09:00:56+00:00
+414,976,Codeine,"Nausea, vomiting",mild,,100,2022-05-17T00:59:35+00:00
+415,985,Sulfa drugs,Rash,moderate,2019-12-04,88,2023-09-12T17:38:36+00:00
+416,986,Bee stings,Anaphylaxis,life_threatening,,109,2026-09-06T14:22:22+00:00
+417,986,Ibuprofen,GI upset,moderate,,93,2024-01-01T00:23:23+00:00
+418,988,Codeine,"Nausea, vomiting",severe,,109,2026-06-07T21:14:22+00:00
+419,988,Shellfish,"Swelling, hives",mild,,110,2026-04-15T20:39:00+00:00
+420,990,Amoxicillin,Rash,moderate,2012-07-26,12,2026-05-18T23:40:07+00:00
+421,991,Ibuprofen,GI upset,moderate,,54,2020-03-24T00:25:32+00:00
+422,992,Iodinated contrast,Urticaria,moderate,2003-12-23,113,2025-03-23T09:07:22+00:00
+423,992,Tree nuts,Throat swelling,moderate,1996-09-04,88,2024-05-30T15:24:53+00:00
+424,993,Ibuprofen,GI upset,moderate,,98,2023-09-25T15:11:11+00:00
+425,1005,Pollen,Rhinitis,mild,2016-02-20,11,2026-05-27T21:34:13+00:00
+426,1011,Bee stings,Anaphylaxis,life_threatening,2022-11-21,15,2025-06-18T10:12:30+00:00
+427,1013,Eggs,Hives,moderate,,50,2025-09-21T16:27:25+00:00
+428,1013,Penicillin,"Hives, rash",moderate,,88,2025-11-26T22:40:35+00:00
+429,1018,Shellfish,"Swelling, hives",moderate,2000-08-20,99,2024-09-06T20:14:41+00:00
+430,1022,Latex,Contact dermatitis,mild,2024-04-07,88,2025-02-17T22:44:32+00:00
+431,1024,Pollen,Rhinitis,mild,,50,2018-11-22T00:55:29+00:00
+432,1035,Codeine,"Nausea, vomiting",mild,2002-12-31,90,2019-02-11T05:40:24+00:00
+433,1036,Peanuts,Anaphylaxis,life_threatening,,10,2023-06-17T03:18:19+00:00
+434,1038,Morphine,Pruritus,mild,2021-11-04,94,2025-11-28T18:26:28+00:00
+435,1043,Ibuprofen,GI upset,moderate,1971-05-12,55,2021-12-28T18:07:51+00:00
+436,1045,Iodinated contrast,Urticaria,mild,,49,2019-10-09T03:12:04+00:00
+437,1045,Tree nuts,Throat swelling,mild,,110,2021-08-20T13:13:00+00:00
+438,1045,Latex,Contact dermatitis,mild,,109,2021-12-21T00:59:35+00:00
+439,1047,Codeine,"Nausea, vomiting",moderate,,12,2024-05-01T18:10:27+00:00
+440,1050,Codeine,"Nausea, vomiting",mild,2005-02-04,50,2023-02-28T04:59:04+00:00
+441,1050,Latex,Contact dermatitis,moderate,1978-10-25,52,2024-02-16T21:26:14+00:00
+442,1055,Pollen,Rhinitis,mild,1989-09-24,11,2022-05-30T21:00:20+00:00
+443,1057,Penicillin,"Hives, rash",moderate,2004-08-07,11,2018-07-09T23:22:01+00:00
+444,1057,Sulfa drugs,Rash,mild,1980-09-17,101,2020-09-25T05:56:17+00:00
+445,1057,Ibuprofen,GI upset,mild,,50,2020-03-20T09:14:20+00:00
+446,1059,Sulfa drugs,Rash,mild,2001-09-23,99,2020-04-01T05:24:09+00:00
+447,1061,Penicillin,"Hives, rash",mild,,10,2023-05-14T10:48:58+00:00
+448,1061,Peanuts,Anaphylaxis,life_threatening,2017-03-13,99,2021-06-06T04:46:27+00:00
+449,1069,Eggs,Hives,severe,2012-07-19,54,2024-08-03T14:36:04+00:00
+450,1075,Iodinated contrast,Urticaria,moderate,2020-01-20,55,2025-07-23T10:29:40+00:00
+451,1075,Shellfish,"Swelling, hives",mild,2025-05-27,54,2022-10-11T15:31:58+00:00
+452,1079,Bee stings,Anaphylaxis,life_threatening,,10,2022-12-04T22:32:44+00:00
+453,1082,Shellfish,"Swelling, hives",moderate,2018-05-05,90,2021-10-19T09:04:21+00:00
+454,1083,Sulfa drugs,Rash,mild,1983-12-17,12,2026-08-02T07:57:42+00:00
+455,1089,Peanuts,Anaphylaxis,life_threatening,,110,2026-04-22T12:34:31+00:00
+456,1096,Iodinated contrast,Urticaria,moderate,2022-12-19,54,2026-09-04T05:57:05+00:00
+457,1099,Pollen,Rhinitis,mild,,113,2023-03-27T04:52:23+00:00
+458,1101,Pollen,Rhinitis,mild,,55,2022-03-03T16:50:37+00:00
+459,1109,Latex,Contact dermatitis,moderate,,52,2026-08-23T20:17:58+00:00
+460,1110,Morphine,Pruritus,severe,2018-02-17,54,2024-12-20T10:21:14+00:00
+461,1110,Bee stings,Anaphylaxis,life_threatening,,88,2022-06-11T21:20:22+00:00
+462,1110,Tree nuts,Throat swelling,mild,2011-07-30,93,2025-11-28T20:59:40+00:00
+463,1112,Bee stings,Anaphylaxis,life_threatening,2022-09-03,94,2026-04-12T13:20:07+00:00
+464,1114,Iodinated contrast,Urticaria,moderate,2024-12-25,13,2025-02-21T18:36:45+00:00
+465,1115,Latex,Contact dermatitis,mild,2013-11-04,110,2026-02-07T11:48:54+00:00
+466,1116,Amoxicillin,Rash,mild,1969-12-23,12,2025-09-11T03:06:02+00:00
+467,1116,Iodinated contrast,Urticaria,moderate,1948-10-06,11,2026-06-02T01:28:14+00:00
+468,1116,Morphine,Pruritus,severe,,91,2025-07-22T00:51:01+00:00
+469,1119,Morphine,Pruritus,severe,,90,2023-08-09T13:08:43+00:00
+470,1121,Iodinated contrast,Urticaria,mild,,15,2026-02-25T22:57:40+00:00
+471,1128,Penicillin,"Hives, rash",moderate,1975-10-27,87,2025-09-06T21:34:39+00:00
+472,1129,Amoxicillin,Rash,moderate,2014-08-16,100,2026-07-23T09:41:39+00:00
+473,1132,Tree nuts,Throat swelling,mild,,95,2025-04-28T02:00:20+00:00
+474,1143,Penicillin,"Hives, rash",severe,2013-06-27,55,2026-08-09T14:37:01+00:00
+475,1143,Bee stings,Anaphylaxis,life_threatening,,109,2025-12-27T18:05:57+00:00
+476,1148,Penicillin,"Hives, rash",severe,,96,2026-08-05T08:48:51+00:00
+477,1150,Penicillin,"Hives, rash",moderate,,95,2026-05-22T04:59:38+00:00
+478,1152,Aspirin,Bronchospasm,mild,,95,2023-12-22T17:41:51+00:00
+479,1154,Morphine,Pruritus,mild,2015-02-02,13,2024-09-03T21:26:38+00:00
+480,1155,Bee stings,Anaphylaxis,life_threatening,,54,2025-09-10T15:09:04+00:00
+481,1159,Amoxicillin,Rash,moderate,2011-12-22,95,2023-11-23T10:39:01+00:00
+482,1166,Amoxicillin,Rash,moderate,,92,2024-08-18T00:45:41+00:00
+483,1170,Penicillin,"Hives, rash",mild,1962-12-15,97,2023-05-29T00:24:24+00:00
+484,1171,Peanuts,Anaphylaxis,life_threatening,2019-03-29,10,2025-10-14T03:52:54+00:00
+485,1172,Ibuprofen,GI upset,mild,,114,2025-10-22T13:37:59+00:00
+486,1172,Pollen,Rhinitis,mild,2021-07-26,88,2020-09-16T14:57:01+00:00
+487,1176,Ibuprofen,GI upset,moderate,2020-05-23,93,2020-08-24T22:20:51+00:00
+488,1181,Codeine,"Nausea, vomiting",mild,2014-02-23,96,2023-03-17T14:51:50+00:00
+489,1188,Latex,Contact dermatitis,mild,2002-03-22,14,2025-03-01T03:46:20+00:00
+490,1192,Tree nuts,Throat swelling,moderate,2023-06-15,93,2026-05-08T01:37:14+00:00
+491,1194,Aspirin,Bronchospasm,moderate,1933-10-30,113,2022-07-21T11:58:57+00:00
+492,1199,Bee stings,Anaphylaxis,life_threatening,,93,2026-04-04T19:48:10+00:00
+493,1199,Pollen,Rhinitis,moderate,2024-09-03,113,2025-08-31T13:51:12+00:00
+494,1199,Codeine,"Nausea, vomiting",mild,2024-08-22,93,2025-06-16T09:17:29+00:00
+495,1201,Ibuprofen,GI upset,moderate,,87,2026-07-12T06:45:29+00:00
+496,1203,Codeine,"Nausea, vomiting",mild,1994-08-27,10,2024-07-03T16:05:32+00:00
+497,1204,Aspirin,Bronchospasm,moderate,2017-11-19,109,2022-11-25T10:56:18+00:00
+498,1205,Amoxicillin,Rash,moderate,,98,2020-05-20T14:23:34+00:00
+499,1205,Morphine,Pruritus,moderate,2021-04-29,92,2022-09-25T21:08:00+00:00
+500,1206,Codeine,"Nausea, vomiting",mild,,9,2025-06-15T23:49:52+00:00
+501,1209,Aspirin,Bronchospasm,severe,1997-12-16,53,2022-03-25T14:29:55+00:00
+502,1209,Sulfa drugs,Rash,moderate,,50,2020-06-05T11:37:46+00:00
+503,1212,Iodinated contrast,Urticaria,moderate,1976-02-22,10,2022-12-26T13:22:09+00:00
+504,1214,Latex,Contact dermatitis,moderate,,101,2025-08-02T04:19:33+00:00
+505,1221,Morphine,Pruritus,severe,,53,2025-04-02T00:22:00+00:00
+506,1223,Penicillin,"Hives, rash",severe,1991-07-14,92,2022-11-16T03:29:15+00:00
+507,1228,Pollen,Rhinitis,mild,,96,2025-06-17T12:09:46+00:00
+508,1229,Morphine,Pruritus,severe,,15,2019-11-03T08:29:18+00:00
+509,1234,Pollen,Rhinitis,mild,1979-01-30,53,2025-05-01T18:20:32+00:00
+510,1237,Penicillin,"Hives, rash",mild,1968-05-03,100,2026-02-15T18:28:05+00:00
+511,1237,Latex,Contact dermatitis,mild,1990-08-24,12,2026-01-27T23:38:21+00:00
+512,1238,Iodinated contrast,Urticaria,mild,2007-01-05,99,2026-05-09T16:22:20+00:00
+513,1240,Amoxicillin,Rash,mild,,112,2024-10-29T07:06:29+00:00
+514,1240,Iodinated contrast,Urticaria,mild,1989-05-24,98,2025-02-10T12:18:25+00:00
+515,1242,Ibuprofen,GI upset,severe,2025-05-24,54,2026-08-31T23:16:23+00:00
+516,1243,Amoxicillin,Rash,moderate,2017-11-24,113,2024-09-07T14:33:31+00:00
+517,1246,Tree nuts,Throat swelling,mild,1998-11-07,110,2026-01-10T09:00:01+00:00
+518,1246,Peanuts,Anaphylaxis,life_threatening,,92,2026-04-17T19:49:10+00:00
+519,1251,Sulfa drugs,Rash,moderate,2022-03-06,9,2023-02-28T17:41:20+00:00
+520,1251,Peanuts,Anaphylaxis,life_threatening,2024-01-22,112,2025-11-19T04:59:38+00:00
+521,1252,Tree nuts,Throat swelling,severe,,91,2026-03-12T18:28:22+00:00
+522,1253,Latex,Contact dermatitis,mild,,96,2026-01-01T15:36:43+00:00
+523,1253,Ibuprofen,GI upset,moderate,,100,2025-10-19T21:24:06+00:00
+524,1254,Codeine,"Nausea, vomiting",mild,2006-08-14,114,2023-03-05T15:43:15+00:00
+525,1260,Aspirin,Bronchospasm,severe,1977-03-16,55,2025-01-06T04:06:34+00:00
+526,1260,Peanuts,Anaphylaxis,life_threatening,1958-06-13,99,2024-12-27T23:33:37+00:00
+527,1260,Penicillin,"Hives, rash",mild,,87,2026-03-17T18:44:16+00:00
+528,1264,Latex,Contact dermatitis,moderate,1993-06-29,53,2026-08-03T16:34:53+00:00
+529,1265,Amoxicillin,Rash,moderate,2017-10-31,96,2025-12-25T05:09:45+00:00
+530,1267,Penicillin,"Hives, rash",moderate,2018-11-10,14,2024-11-07T08:59:33+00:00
+531,1267,Codeine,"Nausea, vomiting",severe,,98,2024-12-24T15:06:51+00:00
+532,1268,Penicillin,"Hives, rash",moderate,,90,2025-01-12T01:56:45+00:00
+533,1271,Bee stings,Anaphylaxis,life_threatening,1987-03-29,113,2019-02-28T06:34:13+00:00
+534,1271,Tree nuts,Throat swelling,mild,2020-10-27,98,2021-12-08T03:44:30+00:00
+535,1271,Shellfish,"Swelling, hives",moderate,2001-12-24,54,2022-12-01T04:22:38+00:00
+536,1273,Aspirin,Bronchospasm,severe,,15,2025-03-25T20:39:11+00:00
+537,1275,Pollen,Rhinitis,severe,,55,2026-09-18T02:49:10+00:00
+538,1275,Codeine,"Nausea, vomiting",moderate,,13,2026-06-18T12:09:48+00:00
+539,1277,Amoxicillin,Rash,moderate,,92,2024-08-17T07:54:43+00:00
+540,1278,Shellfish,"Swelling, hives",mild,,101,2026-07-14T07:55:43+00:00
+541,1278,Penicillin,"Hives, rash",mild,,91,2026-02-04T01:45:16+00:00
+542,1282,Pollen,Rhinitis,mild,,100,2026-05-25T19:27:32+00:00
+543,1282,Codeine,"Nausea, vomiting",moderate,1996-12-04,12,2024-02-20T04:22:07+00:00
+544,1288,Peanuts,Anaphylaxis,life_threatening,2005-12-31,92,2026-06-22T18:25:05+00:00
+545,1288,Bee stings,Anaphylaxis,life_threatening,2002-06-18,109,2026-01-06T04:47:50+00:00
+546,1288,Eggs,Hives,moderate,2022-03-03,113,2026-06-16T01:16:52+00:00
+547,1292,Eggs,Hives,severe,2022-05-17,93,2025-12-11T23:55:26+00:00
+548,1295,Morphine,Pruritus,mild,2018-10-01,91,2024-01-18T13:16:41+00:00
+549,1301,Tree nuts,Throat swelling,mild,,97,2022-12-07T02:26:19+00:00
+550,1308,Codeine,"Nausea, vomiting",mild,1996-11-18,112,2024-07-04T12:52:29+00:00
+551,1308,Bee stings,Anaphylaxis,life_threatening,,96,2026-04-16T09:41:59+00:00
+552,1309,Peanuts,Anaphylaxis,life_threatening,,88,2026-01-04T17:57:02+00:00
+553,1314,Amoxicillin,Rash,mild,,87,2026-09-11T01:36:46+00:00
+554,1314,Eggs,Hives,moderate,2023-07-28,98,2025-12-29T18:05:33+00:00
+555,1316,Sulfa drugs,Rash,moderate,2015-12-13,96,2026-07-25T06:31:29+00:00
+556,1316,Tree nuts,Throat swelling,mild,,15,2026-08-24T11:21:03+00:00
+557,1322,Aspirin,Bronchospasm,severe,,92,2025-07-22T08:19:15+00:00
+558,1323,Sulfa drugs,Rash,mild,2015-04-25,54,2026-03-01T21:26:30+00:00
+559,1327,Amoxicillin,Rash,moderate,,89,2020-08-08T05:41:28+00:00
+560,1327,Tree nuts,Throat swelling,moderate,2011-09-16,113,2020-06-25T20:10:28+00:00
+561,1330,Eggs,Hives,moderate,1994-05-03,11,2024-09-09T11:03:54+00:00
+562,1335,Aspirin,Bronchospasm,moderate,,110,2025-06-23T04:28:06+00:00
+563,1336,Morphine,Pruritus,severe,2014-01-15,90,2025-09-03T15:13:32+00:00
+564,1337,Aspirin,Bronchospasm,mild,1997-10-02,96,2025-08-07T23:30:08+00:00
+565,1337,Latex,Contact dermatitis,mild,,99,2025-12-16T20:33:09+00:00
+566,1338,Shellfish,"Swelling, hives",mild,2003-04-10,112,2025-01-19T22:27:56+00:00
+567,1343,Peanuts,Anaphylaxis,life_threatening,,12,2019-02-13T12:11:12+00:00
+568,1351,Penicillin,"Hives, rash",mild,,9,2023-06-20T08:07:07+00:00
+569,1352,Iodinated contrast,Urticaria,mild,,110,2026-03-23T16:53:34+00:00
+570,1353,Penicillin,"Hives, rash",mild,,112,2025-05-18T08:17:12+00:00
+571,1353,Latex,Contact dermatitis,mild,,49,2025-12-20T21:50:30+00:00
+572,1353,Iodinated contrast,Urticaria,moderate,1957-04-17,101,2024-10-12T02:57:50+00:00
+573,1354,Aspirin,Bronchospasm,moderate,,99,2026-08-03T05:10:32+00:00
+574,1367,Peanuts,Anaphylaxis,life_threatening,,98,2025-11-19T16:11:26+00:00
+575,1367,Morphine,Pruritus,moderate,1995-08-21,10,2024-12-06T12:08:33+00:00
+576,1373,Pollen,Rhinitis,mild,,91,2022-08-22T22:05:39+00:00
+577,1377,Penicillin,"Hives, rash",severe,1998-04-05,93,2026-05-05T12:58:57+00:00
+578,1379,Ibuprofen,GI upset,moderate,2000-03-12,14,2026-08-09T21:00:59+00:00
+579,1381,Shellfish,"Swelling, hives",moderate,1996-09-24,9,2021-02-15T03:30:24+00:00
+580,1386,Amoxicillin,Rash,mild,2013-12-23,9,2026-08-22T08:24:07+00:00
+581,1390,Bee stings,Anaphylaxis,life_threatening,1961-10-06,88,2026-07-05T22:53:47+00:00
+582,1393,Codeine,"Nausea, vomiting",moderate,2013-06-16,54,2023-09-18T15:39:26+00:00
+583,1394,Penicillin,"Hives, rash",moderate,2011-12-24,12,2024-12-12T04:33:07+00:00
+584,1394,Latex,Contact dermatitis,mild,1986-03-11,109,2025-10-08T09:00:25+00:00
+585,1394,Peanuts,Anaphylaxis,life_threatening,2016-01-22,113,2026-02-14T16:54:26+00:00
+586,1395,Tree nuts,Throat swelling,mild,1947-04-04,89,2026-05-23T21:31:11+00:00
+587,1397,Bee stings,Anaphylaxis,life_threatening,,54,2022-01-22T13:52:02+00:00
+588,1398,Pollen,Rhinitis,mild,,90,2021-11-27T20:35:46+00:00
+589,1402,Bee stings,Anaphylaxis,life_threatening,1963-06-05,50,2019-05-18T10:18:22+00:00
+590,1406,Sulfa drugs,Rash,moderate,,53,2022-10-06T02:46:43+00:00
+591,1409,Amoxicillin,Rash,mild,2009-05-09,53,2025-10-09T01:57:18+00:00
+592,1411,Tree nuts,Throat swelling,mild,,11,2026-07-06T05:22:12+00:00
+593,1412,Tree nuts,Throat swelling,mild,2020-12-28,88,2026-09-17T07:16:31+00:00
+594,1412,Penicillin,"Hives, rash",moderate,2017-10-06,52,2026-09-20T09:01:19+00:00
+595,1412,Pollen,Rhinitis,mild,2021-05-23,110,2026-05-10T04:04:00+00:00
+596,1413,Amoxicillin,Rash,mild,2024-09-27,10,2023-12-05T15:47:33+00:00
+597,1414,Morphine,Pruritus,moderate,1972-11-11,90,2024-09-30T03:03:21+00:00
+598,1414,Bee stings,Anaphylaxis,life_threatening,,13,2026-01-09T20:44:15+00:00
+599,1416,Pollen,Rhinitis,mild,,112,2021-03-10T18:14:51+00:00
+600,1420,Ibuprofen,GI upset,moderate,1972-07-30,92,2024-05-01T03:00:23+00:00
+601,1420,Peanuts,Anaphylaxis,life_threatening,,100,2024-07-18T18:07:56+00:00
+602,1421,Tree nuts,Throat swelling,mild,1948-10-29,93,2026-08-05T22:45:35+00:00
+603,1424,Pollen,Rhinitis,moderate,,89,2026-09-05T13:49:33+00:00
+604,1424,Latex,Contact dermatitis,moderate,,53,2023-04-29T11:33:24+00:00
+605,1426,Ibuprofen,GI upset,mild,,112,2025-09-30T04:39:28+00:00
+606,1429,Iodinated contrast,Urticaria,mild,,114,2023-12-20T20:48:58+00:00
+607,1429,Penicillin,"Hives, rash",mild,,9,2021-08-09T23:18:23+00:00
+608,1434,Pollen,Rhinitis,moderate,,110,2025-04-09T01:00:14+00:00
+609,1434,Ibuprofen,GI upset,mild,2014-12-08,13,2024-03-18T13:14:11+00:00
+610,1438,Ibuprofen,GI upset,moderate,2016-12-09,95,2026-04-09T21:23:12+00:00
+611,1438,Bee stings,Anaphylaxis,life_threatening,2012-11-22,96,2024-12-13T16:31:08+00:00
+612,1441,Peanuts,Anaphylaxis,life_threatening,2010-08-21,114,2026-07-18T23:45:12+00:00
+613,1444,Peanuts,Anaphylaxis,life_threatening,,15,2024-09-29T12:52:53+00:00
+614,1448,Sulfa drugs,Rash,mild,,101,2024-04-23T14:14:18+00:00
+615,1453,Latex,Contact dermatitis,moderate,,95,2025-03-13T23:01:17+00:00
+616,1453,Ibuprofen,GI upset,moderate,,49,2026-03-20T09:02:45+00:00
+617,1457,Sulfa drugs,Rash,moderate,,9,2026-05-15T19:06:52+00:00
+618,1459,Sulfa drugs,Rash,severe,,112,2024-09-02T13:16:23+00:00
+619,1463,Iodinated contrast,Urticaria,mild,,96,2025-06-07T18:42:11+00:00
+620,1464,Sulfa drugs,Rash,moderate,1967-08-11,91,2026-02-08T23:07:05+00:00
+621,1470,Iodinated contrast,Urticaria,severe,2020-01-14,49,2024-05-03T21:07:45+00:00
+622,1471,Morphine,Pruritus,severe,2012-08-15,53,2023-03-14T17:22:18+00:00
+623,1476,Bee stings,Anaphylaxis,life_threatening,2016-03-13,55,2026-08-13T04:46:07+00:00
+624,1476,Amoxicillin,Rash,mild,,96,2026-06-09T18:30:03+00:00
+625,1479,Shellfish,"Swelling, hives",moderate,,97,2026-06-19T20:44:26+00:00
+626,1479,Codeine,"Nausea, vomiting",severe,2024-03-04,88,2023-11-08T15:32:49+00:00
+627,1484,Latex,Contact dermatitis,mild,1984-10-18,49,2022-07-15T17:26:33+00:00
+628,1487,Amoxicillin,Rash,mild,1944-07-14,93,2026-06-06T19:16:57+00:00
+629,1487,Morphine,Pruritus,moderate,1950-07-25,114,2026-07-16T11:57:18+00:00
+630,1487,Ibuprofen,GI upset,moderate,2015-08-11,49,2026-08-17T00:10:40+00:00
+631,1493,Peanuts,Anaphylaxis,life_threatening,,10,2026-01-09T08:45:33+00:00
+632,1506,Tree nuts,Throat swelling,mild,,9,2026-03-01T11:55:41+00:00
+633,1508,Bee stings,Anaphylaxis,life_threatening,,113,2024-02-14T10:23:50+00:00
+634,1514,Codeine,"Nausea, vomiting",severe,,95,2025-04-06T12:21:42+00:00
+635,1520,Aspirin,Bronchospasm,mild,1999-06-16,101,2024-01-17T15:07:53+00:00
+636,1525,Iodinated contrast,Urticaria,moderate,2020-04-10,113,2025-06-22T02:32:36+00:00
+637,1525,Sulfa drugs,Rash,mild,,114,2026-05-16T05:18:57+00:00
+638,1525,Tree nuts,Throat swelling,mild,1984-04-05,13,2025-09-18T12:05:02+00:00
+639,1526,Codeine,"Nausea, vomiting",moderate,,88,2025-02-11T01:12:37+00:00
+640,1526,Pollen,Rhinitis,moderate,,9,2026-08-07T03:39:13+00:00
+641,1526,Aspirin,Bronchospasm,moderate,1998-09-29,14,2025-04-28T22:52:40+00:00
+642,1528,Sulfa drugs,Rash,moderate,,13,2022-02-09T09:30:04+00:00
+643,1528,Morphine,Pruritus,moderate,2020-09-11,52,2023-05-16T04:23:39+00:00
+644,1532,Morphine,Pruritus,moderate,2018-07-14,95,2026-04-08T01:01:35+00:00
+645,1533,Penicillin,"Hives, rash",mild,,109,2024-10-27T00:20:05+00:00
+646,1533,Eggs,Hives,moderate,2001-03-01,55,2024-05-13T05:04:03+00:00
+647,1538,Aspirin,Bronchospasm,moderate,,112,2021-04-17T10:46:33+00:00
+648,1539,Shellfish,"Swelling, hives",moderate,1958-09-11,98,2025-01-15T16:49:40+00:00
+649,1541,Bee stings,Anaphylaxis,life_threatening,2013-09-15,11,2026-07-27T20:12:24+00:00
+650,1547,Sulfa drugs,Rash,mild,1968-02-02,113,2023-12-01T06:44:50+00:00
+651,1551,Codeine,"Nausea, vomiting",mild,2012-09-23,109,2020-02-02T09:49:44+00:00
+652,1552,Iodinated contrast,Urticaria,mild,,55,2026-02-26T12:03:01+00:00
+653,1555,Shellfish,"Swelling, hives",moderate,2004-05-28,101,2024-08-08T22:42:30+00:00
+654,1556,Pollen,Rhinitis,moderate,2021-10-17,98,2020-08-26T18:12:33+00:00
+655,1561,Pollen,Rhinitis,mild,1961-06-13,97,2025-02-20T09:51:43+00:00
+656,1561,Sulfa drugs,Rash,mild,1989-12-12,97,2025-05-19T00:19:27+00:00
+657,1561,Bee stings,Anaphylaxis,life_threatening,,12,2023-05-15T03:54:38+00:00
+658,1566,Eggs,Hives,mild,,94,2026-03-19T21:39:39+00:00
+659,1574,Penicillin,"Hives, rash",mild,2009-07-05,50,2025-12-24T08:24:17+00:00
+660,1575,Bee stings,Anaphylaxis,life_threatening,1962-07-17,112,2023-04-23T20:55:29+00:00
+661,1578,Iodinated contrast,Urticaria,mild,2024-01-30,11,2026-07-31T04:30:45+00:00
+662,1579,Penicillin,"Hives, rash",moderate,2025-04-10,14,2024-11-05T01:57:11+00:00
+663,1584,Iodinated contrast,Urticaria,mild,2011-05-18,11,2024-04-09T08:00:45+00:00
+664,1587,Iodinated contrast,Urticaria,mild,1975-11-12,113,2023-12-22T21:28:25+00:00
+665,1596,Bee stings,Anaphylaxis,life_threatening,,95,2025-11-27T04:57:12+00:00
+666,1597,Shellfish,"Swelling, hives",mild,,50,2026-08-26T01:06:17+00:00
+667,1597,Aspirin,Bronchospasm,mild,,114,2026-03-28T11:15:16+00:00
+668,1597,Penicillin,"Hives, rash",moderate,,101,2026-08-16T05:46:50+00:00
+669,1600,Codeine,"Nausea, vomiting",moderate,,98,2023-11-06T05:54:06+00:00
+670,1600,Iodinated contrast,Urticaria,mild,2021-03-05,113,2023-10-24T17:04:47+00:00
+671,1601,Codeine,"Nausea, vomiting",severe,,9,2026-08-26T01:58:14+00:00
+672,1602,Latex,Contact dermatitis,mild,2009-09-01,94,2025-12-04T14:06:42+00:00
+673,1604,Aspirin,Bronchospasm,mild,2009-02-20,112,2023-05-24T16:30:37+00:00
+674,1604,Codeine,"Nausea, vomiting",moderate,2022-07-13,96,2026-06-05T17:35:15+00:00
+675,1606,Codeine,"Nausea, vomiting",mild,,91,2022-02-09T18:46:57+00:00
+676,1607,Codeine,"Nausea, vomiting",mild,1947-04-23,49,2026-04-03T06:39:42+00:00
+677,1608,Codeine,"Nausea, vomiting",mild,2023-02-26,89,2023-10-20T14:21:22+00:00
+678,1608,Penicillin,"Hives, rash",mild,2001-12-05,49,2022-02-20T07:50:00+00:00
+679,1615,Codeine,"Nausea, vomiting",mild,2017-08-14,87,2022-01-26T01:37:52+00:00
+680,1619,Aspirin,Bronchospasm,mild,2024-12-16,94,2023-07-15T10:21:19+00:00
+681,1623,Latex,Contact dermatitis,mild,,88,2023-11-12T01:47:27+00:00
+682,1627,Sulfa drugs,Rash,moderate,,49,2025-11-15T07:13:05+00:00
+683,1629,Shellfish,"Swelling, hives",severe,,10,2026-03-28T16:38:08+00:00
+684,1646,Shellfish,"Swelling, hives",severe,1971-10-11,87,2020-01-28T19:21:37+00:00
+685,1652,Latex,Contact dermatitis,mild,2022-12-30,88,2021-06-09T06:48:39+00:00
+686,1652,Penicillin,"Hives, rash",severe,,90,2022-11-24T20:16:24+00:00
+687,1653,Shellfish,"Swelling, hives",mild,2024-07-14,54,2026-09-04T07:50:30+00:00
+688,1653,Eggs,Hives,moderate,2021-02-24,88,2025-11-23T03:52:43+00:00
+689,1655,Morphine,Pruritus,mild,2018-04-11,11,2023-02-21T08:02:57+00:00
+690,1656,Peanuts,Anaphylaxis,life_threatening,,99,2022-01-09T17:56:44+00:00
+691,1656,Aspirin,Bronchospasm,mild,2017-02-01,94,2025-03-04T14:26:30+00:00
+692,1658,Tree nuts,Throat swelling,mild,,110,2026-06-16T16:05:24+00:00
+693,1661,Amoxicillin,Rash,mild,2026-08-14,88,2026-09-01T00:24:49+00:00
+694,1667,Penicillin,"Hives, rash",moderate,2022-06-23,99,2025-12-12T00:34:22+00:00
+695,1669,Eggs,Hives,mild,,96,2026-07-17T02:38:34+00:00
+696,1670,Ibuprofen,GI upset,mild,1976-12-14,113,2025-01-22T09:28:43+00:00
+697,1672,Ibuprofen,GI upset,severe,1999-09-27,88,2026-05-23T15:19:04+00:00
+698,1672,Peanuts,Anaphylaxis,life_threatening,2025-04-27,90,2024-03-01T23:08:59+00:00
+699,1675,Amoxicillin,Rash,moderate,,10,2020-02-09T17:57:18+00:00
+700,1676,Sulfa drugs,Rash,mild,2021-03-13,10,2022-10-15T00:28:07+00:00
+701,1676,Amoxicillin,Rash,mild,,97,2024-08-06T03:19:01+00:00
+702,1680,Peanuts,Anaphylaxis,life_threatening,,93,2024-04-17T14:44:16+00:00
+703,1681,Iodinated contrast,Urticaria,mild,,90,2024-09-21T06:30:17+00:00
+704,1683,Eggs,Hives,moderate,,112,2023-07-26T07:51:58+00:00
+705,1683,Latex,Contact dermatitis,moderate,,14,2021-01-13T13:07:46+00:00
+706,1683,Penicillin,"Hives, rash",mild,2025-02-14,100,2023-05-03T17:47:04+00:00
+707,1684,Morphine,Pruritus,moderate,,13,2024-11-12T04:02:53+00:00
+708,1686,Amoxicillin,Rash,mild,,93,2024-09-12T20:49:52+00:00
+709,1691,Shellfish,"Swelling, hives",moderate,,11,2021-06-18T13:26:59+00:00
+710,1691,Penicillin,"Hives, rash",severe,2019-08-17,53,2026-02-13T14:11:18+00:00
+711,1695,Bee stings,Anaphylaxis,life_threatening,1985-05-17,93,2026-04-11T06:11:54+00:00
+712,1697,Aspirin,Bronchospasm,mild,2017-05-06,95,2025-01-28T09:13:34+00:00
+713,1698,Sulfa drugs,Rash,severe,2016-10-21,13,2026-08-25T11:06:45+00:00
+714,1700,Eggs,Hives,severe,,53,2020-12-18T08:26:17+00:00
+715,1700,Codeine,"Nausea, vomiting",moderate,,100,2022-04-26T04:10:09+00:00
+716,1703,Codeine,"Nausea, vomiting",mild,2025-12-14,95,2026-06-11T21:06:03+00:00
+717,1704,Eggs,Hives,moderate,1941-09-14,87,2022-11-24T03:02:53+00:00
+718,1704,Bee stings,Anaphylaxis,life_threatening,1999-02-07,15,2022-10-18T13:44:23+00:00
+719,1706,Shellfish,"Swelling, hives",mild,2020-11-19,55,2023-03-20T23:56:24+00:00
+720,1706,Morphine,Pruritus,mild,2014-02-23,88,2024-08-21T11:20:51+00:00
+721,1708,Latex,Contact dermatitis,severe,,49,2026-09-21T13:42:04+00:00
+722,1712,Codeine,"Nausea, vomiting",moderate,2023-02-25,110,2024-06-23T15:36:29+00:00
+723,1714,Iodinated contrast,Urticaria,mild,2011-10-29,95,2023-10-05T04:56:07+00:00
+724,1714,Eggs,Hives,severe,,52,2024-12-16T06:26:06+00:00
+725,1716,Aspirin,Bronchospasm,severe,1950-06-24,93,2026-06-12T03:44:14+00:00
+726,1716,Penicillin,"Hives, rash",severe,1964-12-03,50,2024-12-08T04:10:48+00:00
+727,1719,Sulfa drugs,Rash,moderate,,94,2025-06-23T04:16:38+00:00
+728,1720,Morphine,Pruritus,mild,,95,2023-09-15T06:15:08+00:00
+729,1721,Iodinated contrast,Urticaria,mild,,9,2024-04-22T00:42:14+00:00
+730,1724,Ibuprofen,GI upset,mild,2025-09-19,11,2026-05-07T04:54:21+00:00
+731,1724,Amoxicillin,Rash,moderate,,101,2024-11-24T21:39:02+00:00
+732,1724,Eggs,Hives,moderate,2024-04-12,15,2025-07-08T10:25:53+00:00
+733,1730,Latex,Contact dermatitis,moderate,,49,2025-02-05T12:15:43+00:00
+734,1741,Peanuts,Anaphylaxis,life_threatening,2020-01-22,97,2022-05-15T23:56:02+00:00
+735,1744,Morphine,Pruritus,moderate,,92,2026-03-29T06:29:04+00:00
+736,1745,Penicillin,"Hives, rash",mild,,95,2021-07-18T20:04:24+00:00
+737,1748,Amoxicillin,Rash,moderate,,113,2023-12-23T22:46:35+00:00
+738,1750,Sulfa drugs,Rash,mild,,100,2025-11-02T16:03:10+00:00
+739,1750,Iodinated contrast,Urticaria,mild,2000-02-02,94,2025-07-29T10:55:15+00:00
+740,1751,Amoxicillin,Rash,severe,,92,2026-08-20T02:19:08+00:00
+741,1764,Tree nuts,Throat swelling,severe,2021-12-01,52,2019-10-03T21:09:16+00:00
+742,1765,Penicillin,"Hives, rash",mild,,109,2026-03-02T18:06:24+00:00
+743,1768,Sulfa drugs,Rash,severe,,99,2026-06-12T07:42:50+00:00
+744,1769,Aspirin,Bronchospasm,moderate,,101,2024-03-04T18:10:30+00:00
+745,1771,Eggs,Hives,moderate,,55,2025-05-29T22:21:05+00:00
+746,1772,Iodinated contrast,Urticaria,moderate,1986-12-21,109,2022-11-26T19:15:21+00:00
+747,1772,Eggs,Hives,moderate,,11,2024-03-26T19:32:32+00:00
+748,1779,Ibuprofen,GI upset,mild,2014-06-19,90,2025-07-26T22:51:54+00:00
+749,1782,Iodinated contrast,Urticaria,moderate,2015-09-28,50,2024-08-05T19:52:50+00:00
+750,1786,Iodinated contrast,Urticaria,mild,1997-10-23,14,2026-01-20T12:25:33+00:00
+751,1786,Aspirin,Bronchospasm,severe,1976-11-04,109,2024-06-09T02:39:14+00:00
+752,1786,Ibuprofen,GI upset,moderate,,11,2021-04-07T20:16:04+00:00
+753,1788,Iodinated contrast,Urticaria,moderate,,53,2026-09-01T14:40:57+00:00
+754,1796,Bee stings,Anaphylaxis,life_threatening,1997-04-06,54,2026-09-10T00:53:11+00:00
+755,1797,Pollen,Rhinitis,severe,,87,2026-07-29T20:12:05+00:00
+756,1798,Aspirin,Bronchospasm,moderate,1957-12-12,11,2025-12-01T18:12:12+00:00
+757,1798,Ibuprofen,GI upset,severe,2024-05-24,90,2025-01-18T20:47:32+00:00
+758,1799,Shellfish,"Swelling, hives",mild,,49,2026-06-05T00:39:43+00:00
+759,1800,Shellfish,"Swelling, hives",severe,2024-03-22,87,2025-10-30T04:22:57+00:00
+760,1800,Penicillin,"Hives, rash",severe,,93,2021-10-11T16:22:26+00:00
+761,1803,Codeine,"Nausea, vomiting",moderate,,99,2022-08-27T16:05:24+00:00
+762,1805,Latex,Contact dermatitis,moderate,,100,2026-04-30T11:10:35+00:00
+763,1805,Tree nuts,Throat swelling,mild,,53,2025-10-15T23:30:16+00:00
+764,1805,Morphine,Pruritus,moderate,1995-03-01,53,2026-07-07T11:51:50+00:00
+765,1806,Ibuprofen,GI upset,mild,,113,2024-04-04T14:36:11+00:00
+766,1811,Aspirin,Bronchospasm,mild,1956-05-22,91,2021-02-26T10:53:05+00:00
+767,1812,Penicillin,"Hives, rash",moderate,2022-05-10,91,2024-12-31T19:37:40+00:00
+768,1815,Penicillin,"Hives, rash",mild,1990-04-11,10,2025-09-17T12:06:59+00:00
+769,1819,Sulfa drugs,Rash,moderate,2023-09-10,10,2026-02-25T00:49:30+00:00
+770,1819,Aspirin,Bronchospasm,mild,1986-02-01,13,2026-08-05T10:29:25+00:00
+771,1821,Peanuts,Anaphylaxis,life_threatening,,93,2020-07-22T11:27:34+00:00
+772,1826,Aspirin,Bronchospasm,moderate,,113,2026-01-01T10:42:06+00:00
+773,1827,Ibuprofen,GI upset,moderate,,13,2025-05-12T11:58:45+00:00
+774,1827,Amoxicillin,Rash,moderate,2023-09-10,12,2024-09-27T20:20:03+00:00
+775,1827,Peanuts,Anaphylaxis,life_threatening,2014-05-05,87,2025-02-15T14:40:00+00:00
+776,1832,Ibuprofen,GI upset,mild,,13,2020-12-04T23:55:57+00:00
+777,1834,Bee stings,Anaphylaxis,life_threatening,,13,2026-02-27T08:10:52+00:00
+778,1840,Tree nuts,Throat swelling,moderate,,92,2026-02-22T12:27:11+00:00
+779,1841,Iodinated contrast,Urticaria,mild,2021-06-18,93,2025-02-06T01:47:00+00:00
+780,1841,Latex,Contact dermatitis,moderate,2008-07-13,94,2025-03-30T20:56:31+00:00
+781,1846,Morphine,Pruritus,moderate,,97,2026-08-02T10:23:12+00:00
+782,1847,Bee stings,Anaphylaxis,life_threatening,1998-02-21,101,2021-11-04T11:43:12+00:00
+783,1849,Morphine,Pruritus,moderate,,50,2026-04-14T16:30:25+00:00
+784,1850,Codeine,"Nausea, vomiting",severe,2013-03-10,112,2026-05-18T03:14:46+00:00
+785,1855,Ibuprofen,GI upset,mild,,90,2026-07-21T22:29:26+00:00
+786,1857,Sulfa drugs,Rash,severe,,91,2026-06-02T17:50:39+00:00
+787,1857,Aspirin,Bronchospasm,mild,2007-08-28,53,2023-09-16T09:48:58+00:00
+788,1859,Iodinated contrast,Urticaria,mild,,92,2026-04-06T03:23:14+00:00
+789,1860,Sulfa drugs,Rash,mild,2013-04-29,55,2023-11-08T01:14:49+00:00
+790,1867,Amoxicillin,Rash,mild,,94,2025-05-28T20:30:05+00:00
+791,1868,Ibuprofen,GI upset,mild,,11,2019-10-01T15:53:44+00:00
+792,1868,Aspirin,Bronchospasm,mild,,90,2020-02-23T18:20:06+00:00
+793,1871,Codeine,"Nausea, vomiting",moderate,,94,2024-06-23T09:34:02+00:00
+794,1871,Penicillin,"Hives, rash",severe,2000-07-30,91,2023-10-02T01:28:41+00:00
+795,1874,Peanuts,Anaphylaxis,life_threatening,,95,2024-05-03T00:32:21+00:00
+796,1874,Iodinated contrast,Urticaria,mild,2025-05-24,15,2021-10-17T08:00:08+00:00
+797,1874,Penicillin,"Hives, rash",moderate,,97,2022-11-25T20:04:12+00:00
+798,1880,Eggs,Hives,moderate,2008-01-30,95,2022-09-29T20:37:20+00:00
+799,1883,Sulfa drugs,Rash,moderate,,87,2023-03-25T16:47:26+00:00
+800,1884,Iodinated contrast,Urticaria,mild,,99,2025-07-27T08:41:32+00:00
+801,1885,Iodinated contrast,Urticaria,mild,,13,2025-06-23T13:40:47+00:00
+802,1885,Pollen,Rhinitis,mild,2008-03-21,49,2026-04-10T11:30:00+00:00
+803,1885,Eggs,Hives,mild,,92,2026-05-10T13:57:59+00:00
+804,1888,Ibuprofen,GI upset,mild,2007-08-31,97,2023-06-17T20:11:32+00:00
+805,1897,Sulfa drugs,Rash,mild,2020-03-02,13,2026-09-17T06:03:12+00:00
+806,1899,Iodinated contrast,Urticaria,moderate,2024-01-05,50,2025-11-20T09:28:36+00:00
+807,1900,Iodinated contrast,Urticaria,moderate,,14,2023-05-15T04:19:18+00:00
+808,1903,Penicillin,"Hives, rash",moderate,1974-08-28,50,2020-08-31T21:13:18+00:00
+809,1903,Sulfa drugs,Rash,moderate,,92,2022-03-09T20:31:00+00:00
+810,1905,Pollen,Rhinitis,mild,2021-09-22,15,2026-03-28T16:17:39+00:00
+811,1907,Iodinated contrast,Urticaria,mild,2013-03-24,91,2025-10-25T22:50:03+00:00
+812,1909,Penicillin,"Hives, rash",mild,1980-06-12,52,2023-05-07T12:32:30+00:00
+813,1912,Iodinated contrast,Urticaria,severe,,98,2023-12-26T12:40:08+00:00
+814,1913,Codeine,"Nausea, vomiting",mild,2025-01-02,9,2025-05-04T11:40:05+00:00
+815,1913,Amoxicillin,Rash,mild,,12,2025-05-06T09:04:28+00:00
+816,1913,Tree nuts,Throat swelling,mild,2025-12-21,94,2025-02-03T02:47:13+00:00
+817,1917,Shellfish,"Swelling, hives",moderate,1994-12-22,99,2022-05-01T06:42:23+00:00
+818,1917,Amoxicillin,Rash,moderate,2000-10-09,113,2021-01-08T18:25:09+00:00
+819,1919,Morphine,Pruritus,moderate,,55,2026-03-14T04:16:36+00:00
+820,1920,Pollen,Rhinitis,mild,2003-01-10,114,2025-11-07T15:44:51+00:00
+821,1926,Bee stings,Anaphylaxis,life_threatening,2011-01-09,110,2026-07-04T08:58:46+00:00
+822,1927,Sulfa drugs,Rash,mild,2025-01-26,53,2025-06-14T07:35:48+00:00
+823,1929,Latex,Contact dermatitis,mild,2023-05-27,99,2025-02-28T10:07:58+00:00
+824,1929,Peanuts,Anaphylaxis,life_threatening,2025-05-26,89,2025-04-25T03:29:00+00:00
+825,1930,Pollen,Rhinitis,moderate,1989-02-05,101,2026-05-27T19:17:39+00:00
+826,1930,Amoxicillin,Rash,moderate,1985-12-05,50,2026-07-23T22:40:44+00:00
+827,1935,Amoxicillin,Rash,mild,,9,2025-07-24T06:59:02+00:00
+828,1935,Codeine,"Nausea, vomiting",moderate,,100,2022-08-08T19:58:24+00:00
+829,1938,Eggs,Hives,moderate,,49,2026-05-14T10:39:18+00:00
+830,1939,Latex,Contact dermatitis,mild,,50,2025-07-03T22:29:02+00:00
+831,1940,Codeine,"Nausea, vomiting",mild,,90,2021-12-13T16:34:12+00:00
+832,1940,Eggs,Hives,moderate,1968-12-16,109,2023-11-19T20:41:25+00:00
+833,1942,Latex,Contact dermatitis,moderate,2025-10-18,90,2026-03-12T09:33:37+00:00
+834,1946,Aspirin,Bronchospasm,mild,,96,2025-10-12T18:11:26+00:00
+835,1952,Sulfa drugs,Rash,moderate,,10,2025-12-18T14:22:53+00:00
+836,1960,Bee stings,Anaphylaxis,life_threatening,,93,2024-11-27T23:53:42+00:00
+837,1967,Morphine,Pruritus,moderate,,112,2018-09-13T11:15:08+00:00
+838,1970,Sulfa drugs,Rash,moderate,1954-10-12,98,2026-01-18T02:28:53+00:00
+839,1971,Peanuts,Anaphylaxis,life_threatening,,88,2026-09-18T18:47:35+00:00
+840,1971,Penicillin,"Hives, rash",severe,,89,2026-09-17T19:22:55+00:00
+841,1977,Pollen,Rhinitis,severe,,90,2021-06-20T02:02:09+00:00
+842,1977,Bee stings,Anaphylaxis,life_threatening,2018-02-16,97,2022-07-30T14:54:25+00:00
+843,1979,Eggs,Hives,moderate,,114,2025-10-31T23:51:02+00:00
+844,1979,Sulfa drugs,Rash,severe,,96,2022-11-26T03:59:35+00:00
+845,1980,Ibuprofen,GI upset,mild,1976-07-10,92,2025-11-24T04:22:56+00:00
+846,1984,Codeine,"Nausea, vomiting",moderate,,109,2026-05-02T09:43:14+00:00
+847,1984,Latex,Contact dermatitis,moderate,,49,2021-12-04T17:45:45+00:00
+848,1989,Bee stings,Anaphylaxis,life_threatening,,89,2022-01-08T15:51:13+00:00
+849,1992,Penicillin,"Hives, rash",moderate,2020-08-06,96,2026-09-06T00:04:18+00:00
+850,1996,Codeine,"Nausea, vomiting",moderate,2011-10-20,50,2021-12-09T08:15:49+00:00
+851,2003,Ibuprofen,GI upset,mild,,87,2022-12-25T16:51:21+00:00
+852,2004,Aspirin,Bronchospasm,moderate,2023-02-22,114,2022-06-03T09:00:40+00:00
+853,2004,Bee stings,Anaphylaxis,life_threatening,2021-03-28,95,2026-03-19T04:39:09+00:00
+854,2005,Codeine,"Nausea, vomiting",mild,,100,2023-12-11T06:04:06+00:00
+855,2005,Shellfish,"Swelling, hives",mild,2024-01-28,112,2024-03-08T22:15:26+00:00
+856,2005,Amoxicillin,Rash,mild,2022-09-20,100,2022-10-20T04:17:28+00:00
+857,2006,Penicillin,"Hives, rash",moderate,,54,2026-03-19T16:09:48+00:00
+858,2012,Eggs,Hives,mild,1948-01-30,112,2020-12-22T01:38:21+00:00
+859,2012,Ibuprofen,GI upset,mild,,90,2020-12-23T10:55:38+00:00
+860,2018,Aspirin,Bronchospasm,mild,2010-09-02,95,2023-12-12T01:19:18+00:00
+861,2025,Tree nuts,Throat swelling,mild,1952-05-27,114,2026-08-14T23:46:19+00:00
+862,2028,Aspirin,Bronchospasm,moderate,2007-04-08,96,2025-11-29T13:58:02+00:00
+863,2029,Morphine,Pruritus,mild,,12,2026-08-01T07:34:13+00:00
+864,2029,Shellfish,"Swelling, hives",moderate,2008-10-18,13,2026-08-23T23:21:03+00:00
+865,2035,Pollen,Rhinitis,mild,1942-11-18,95,2025-03-14T17:26:39+00:00
+866,2035,Penicillin,"Hives, rash",mild,1938-05-23,96,2021-11-07T18:15:42+00:00
+867,2037,Penicillin,"Hives, rash",moderate,2019-07-23,91,2019-02-23T09:05:54+00:00
+868,2037,Morphine,Pruritus,moderate,2024-07-17,55,2021-05-13T02:33:26+00:00
+869,2038,Peanuts,Anaphylaxis,life_threatening,,101,2023-04-06T18:17:59+00:00
+870,2041,Sulfa drugs,Rash,mild,,14,2025-12-16T05:34:32+00:00
+871,2044,Eggs,Hives,moderate,1996-09-13,88,2025-09-03T16:51:39+00:00
+872,2044,Peanuts,Anaphylaxis,life_threatening,,112,2025-07-15T08:29:37+00:00
+873,2045,Bee stings,Anaphylaxis,life_threatening,,94,2024-07-20T06:16:21+00:00
+874,2045,Eggs,Hives,moderate,2016-04-24,91,2024-03-31T02:12:01+00:00
+875,2045,Aspirin,Bronchospasm,mild,,91,2024-08-31T02:56:49+00:00
+876,2054,Eggs,Hives,moderate,,90,2025-11-01T14:45:24+00:00
+877,2055,Tree nuts,Throat swelling,mild,2022-05-23,90,2025-01-23T09:05:50+00:00
+878,2057,Amoxicillin,Rash,mild,1992-05-11,49,2025-12-01T20:46:59+00:00
+879,2057,Pollen,Rhinitis,moderate,,95,2026-03-14T07:39:20+00:00
+880,2058,Pollen,Rhinitis,mild,,13,2023-01-10T01:19:20+00:00
+881,2058,Peanuts,Anaphylaxis,life_threatening,1946-06-15,11,2023-01-18T08:48:33+00:00
+882,2058,Tree nuts,Throat swelling,moderate,,15,2024-06-07T15:25:19+00:00
+883,2061,Latex,Contact dermatitis,mild,,91,2020-08-30T21:28:34+00:00
+884,2063,Shellfish,"Swelling, hives",severe,,96,2022-10-04T23:54:05+00:00
+885,2063,Amoxicillin,Rash,mild,,13,2023-10-22T16:11:12+00:00
+886,2065,Penicillin,"Hives, rash",mild,,50,2025-10-08T02:42:37+00:00
+887,2065,Eggs,Hives,severe,,50,2025-03-28T10:06:37+00:00
+888,2067,Peanuts,Anaphylaxis,life_threatening,,9,2025-12-20T22:31:45+00:00
+889,2067,Bee stings,Anaphylaxis,life_threatening,2024-02-06,112,2024-12-03T13:22:35+00:00
+890,2068,Latex,Contact dermatitis,mild,1964-05-19,54,2024-07-20T02:26:58+00:00
+891,2068,Shellfish,"Swelling, hives",mild,,55,2022-08-28T13:55:26+00:00
+892,2073,Pollen,Rhinitis,mild,1989-10-04,13,2026-01-14T19:35:43+00:00
+893,2076,Ibuprofen,GI upset,mild,,94,2026-06-21T02:25:41+00:00
+894,2076,Shellfish,"Swelling, hives",mild,1998-08-17,88,2026-01-26T03:42:45+00:00
+895,2076,Sulfa drugs,Rash,severe,2001-03-09,13,2026-06-01T13:01:48+00:00
+896,2078,Latex,Contact dermatitis,severe,2020-02-22,112,2025-09-07T23:11:06+00:00
+897,2085,Peanuts,Anaphylaxis,life_threatening,,12,2023-10-13T20:33:29+00:00
+898,2085,Sulfa drugs,Rash,moderate,,11,2023-03-07T06:15:30+00:00
+899,2085,Amoxicillin,Rash,severe,,97,2026-02-27T21:09:46+00:00
+900,2090,Shellfish,"Swelling, hives",moderate,,100,2024-12-26T06:26:11+00:00
+901,2093,Pollen,Rhinitis,moderate,2020-06-15,9,2021-12-03T16:17:15+00:00
+902,2093,Latex,Contact dermatitis,moderate,2020-11-19,50,2022-02-12T12:33:40+00:00
+903,2094,Peanuts,Anaphylaxis,life_threatening,2020-01-17,54,2025-12-02T13:46:12+00:00
+904,2100,Morphine,Pruritus,mild,,53,2025-06-11T21:37:15+00:00
+905,2103,Bee stings,Anaphylaxis,life_threatening,,99,2026-09-15T00:46:22+00:00
+906,2103,Pollen,Rhinitis,moderate,2019-07-23,89,2026-08-06T08:03:43+00:00
+907,2104,Morphine,Pruritus,moderate,1998-12-10,91,2025-07-29T11:48:50+00:00
+908,2105,Shellfish,"Swelling, hives",mild,,96,2023-09-17T18:49:29+00:00
+909,2108,Latex,Contact dermatitis,mild,,92,2026-09-16T07:03:24+00:00
+910,2109,Sulfa drugs,Rash,moderate,,98,2026-05-26T20:34:00+00:00
+911,2109,Aspirin,Bronchospasm,mild,1941-09-29,12,2025-05-29T21:52:04+00:00
+912,2109,Iodinated contrast,Urticaria,mild,,90,2026-09-10T19:10:13+00:00
+913,2111,Peanuts,Anaphylaxis,life_threatening,,11,2023-07-28T15:16:21+00:00
+914,2121,Tree nuts,Throat swelling,moderate,2022-06-15,12,2024-08-10T01:41:01+00:00
+915,2123,Latex,Contact dermatitis,severe,2006-11-11,10,2026-07-02T10:46:54+00:00
+916,2123,Peanuts,Anaphylaxis,life_threatening,,109,2025-12-20T16:12:54+00:00
+917,2124,Eggs,Hives,mild,,99,2026-08-10T08:11:24+00:00
+918,2125,Pollen,Rhinitis,moderate,,101,2026-08-29T21:41:59+00:00
+919,2126,Penicillin,"Hives, rash",mild,2023-03-11,94,2024-11-23T05:46:45+00:00
+920,2134,Ibuprofen,GI upset,mild,,94,2023-05-07T20:48:00+00:00
+921,2135,Aspirin,Bronchospasm,mild,,101,2024-02-09T06:21:35+00:00
+922,2139,Sulfa drugs,Rash,moderate,1997-11-30,94,2026-06-21T10:38:46+00:00
+923,2141,Codeine,"Nausea, vomiting",moderate,,100,2025-10-14T00:31:47+00:00
+924,2143,Penicillin,"Hives, rash",mild,,89,2025-12-24T08:35:47+00:00
+925,2148,Iodinated contrast,Urticaria,moderate,,89,2026-06-16T08:13:12+00:00
+926,2155,Aspirin,Bronchospasm,moderate,2021-04-15,13,2023-07-25T05:17:56+00:00
+927,2155,Sulfa drugs,Rash,moderate,,98,2020-01-01T01:02:22+00:00
+928,2155,Penicillin,"Hives, rash",moderate,,101,2021-09-21T06:37:39+00:00
+929,2159,Sulfa drugs,Rash,moderate,,97,2026-01-13T04:14:13+00:00
+930,2165,Latex,Contact dermatitis,mild,,98,2026-01-08T19:49:34+00:00
+931,2170,Morphine,Pruritus,moderate,1987-05-12,89,2025-03-26T12:00:42+00:00
+932,2171,Penicillin,"Hives, rash",mild,1975-07-05,53,2026-04-18T05:22:55+00:00
+933,2186,Latex,Contact dermatitis,mild,2016-12-27,95,2025-09-12T01:26:07+00:00
+934,2187,Ibuprofen,GI upset,mild,,14,2021-08-23T01:57:18+00:00
+935,2188,Eggs,Hives,moderate,,90,2025-07-09T09:14:58+00:00
+936,2191,Latex,Contact dermatitis,severe,,90,2025-08-27T14:47:44+00:00
+937,2192,Morphine,Pruritus,severe,1973-04-07,99,2025-12-15T00:26:12+00:00
+938,2193,Tree nuts,Throat swelling,mild,1982-05-24,55,2026-07-05T19:14:22+00:00
+939,2193,Amoxicillin,Rash,mild,1972-05-21,88,2024-01-20T19:19:17+00:00
+940,2194,Shellfish,"Swelling, hives",mild,,100,2024-06-10T08:23:27+00:00
+941,2196,Sulfa drugs,Rash,severe,,97,2026-01-16T07:54:40+00:00
+942,2197,Sulfa drugs,Rash,mild,,10,2026-07-03T11:21:58+00:00
+943,2197,Morphine,Pruritus,moderate,,12,2024-09-29T08:10:10+00:00
+944,2197,Pollen,Rhinitis,moderate,1993-08-05,87,2022-11-22T18:04:52+00:00
+945,2199,Bee stings,Anaphylaxis,life_threatening,,101,2026-05-04T16:43:48+00:00
+946,2200,Amoxicillin,Rash,moderate,,100,2025-03-22T07:09:45+00:00
+947,2203,Shellfish,"Swelling, hives",mild,2021-10-17,100,2025-10-02T11:52:53+00:00
+948,2208,Tree nuts,Throat swelling,mild,,101,2022-09-11T16:20:11+00:00
+949,2208,Amoxicillin,Rash,mild,,12,2020-02-06T13:07:54+00:00
+950,2208,Ibuprofen,GI upset,mild,1985-12-14,55,2023-12-14T18:10:53+00:00
+951,2213,Iodinated contrast,Urticaria,moderate,,54,2025-07-13T04:42:02+00:00
+952,2219,Morphine,Pruritus,severe,,90,2025-04-21T14:29:54+00:00
+953,2221,Tree nuts,Throat swelling,moderate,,87,2026-08-31T18:53:46+00:00
+954,2222,Amoxicillin,Rash,mild,,99,2026-06-28T13:08:43+00:00
+955,2227,Morphine,Pruritus,moderate,2000-01-10,91,2021-03-08T09:17:15+00:00
+956,2227,Latex,Contact dermatitis,mild,,55,2023-11-14T21:02:58+00:00
+957,2228,Shellfish,"Swelling, hives",mild,,12,2025-05-24T10:37:55+00:00
+958,2229,Codeine,"Nausea, vomiting",mild,,92,2021-04-18T01:38:38+00:00
+959,2229,Morphine,Pruritus,mild,2016-06-11,91,2026-03-19T05:26:59+00:00
+960,2229,Eggs,Hives,mild,,96,2022-08-01T18:21:52+00:00
+961,2230,Sulfa drugs,Rash,mild,,54,2026-06-01T11:57:12+00:00
+962,2231,Pollen,Rhinitis,moderate,,9,2022-11-11T15:41:10+00:00
+963,2235,Amoxicillin,Rash,severe,2024-07-22,92,2024-10-28T08:51:15+00:00
+964,2235,Pollen,Rhinitis,mild,,114,2026-04-09T11:06:43+00:00
+965,2236,Iodinated contrast,Urticaria,moderate,,13,2026-06-18T20:58:52+00:00
+966,2242,Amoxicillin,Rash,mild,,9,2024-10-28T03:54:54+00:00
+967,2247,Shellfish,"Swelling, hives",mild,,11,2022-01-31T13:24:25+00:00
+968,2247,Aspirin,Bronchospasm,mild,1975-06-01,87,2019-09-28T18:55:40+00:00
+969,2251,Amoxicillin,Rash,mild,,55,2020-03-02T00:05:52+00:00
+970,2254,Shellfish,"Swelling, hives",mild,,50,2026-09-05T03:31:15+00:00
+971,2254,Iodinated contrast,Urticaria,mild,2025-07-10,101,2026-02-17T21:52:33+00:00
+972,2255,Codeine,"Nausea, vomiting",mild,,99,2026-07-09T13:25:20+00:00
+973,2255,Shellfish,"Swelling, hives",moderate,1991-06-27,94,2026-08-30T11:57:56+00:00
+974,2255,Iodinated contrast,Urticaria,mild,1976-11-29,87,2026-07-27T18:33:05+00:00
+975,2256,Amoxicillin,Rash,moderate,,95,2023-05-20T08:55:19+00:00
+976,2256,Tree nuts,Throat swelling,moderate,,100,2021-04-23T08:47:35+00:00
+977,2257,Peanuts,Anaphylaxis,life_threatening,,14,2020-07-06T03:40:24+00:00
+978,2257,Penicillin,"Hives, rash",mild,,54,2023-02-08T06:52:42+00:00
+979,2260,Tree nuts,Throat swelling,mild,2023-07-26,90,2020-02-22T17:15:01+00:00
+980,2260,Sulfa drugs,Rash,severe,,50,2022-10-06T20:52:05+00:00
+981,2271,Shellfish,"Swelling, hives",mild,,90,2021-11-02T06:38:52+00:00
+982,2280,Morphine,Pruritus,mild,2016-03-28,54,2024-10-08T20:14:59+00:00
+983,2280,Ibuprofen,GI upset,severe,,55,2023-08-16T00:38:23+00:00
+984,2280,Latex,Contact dermatitis,moderate,,10,2024-09-30T22:40:40+00:00
+985,2281,Ibuprofen,GI upset,moderate,,15,2024-08-22T12:20:17+00:00
+986,2282,Peanuts,Anaphylaxis,life_threatening,1974-08-08,109,2024-07-10T21:25:03+00:00
+987,2282,Morphine,Pruritus,moderate,2013-06-06,15,2023-09-19T01:51:22+00:00
+988,2287,Shellfish,"Swelling, hives",mild,2025-10-08,11,2023-08-14T10:29:48+00:00
+989,2288,Ibuprofen,GI upset,mild,1980-09-14,114,2025-11-01T12:06:00+00:00
+990,2290,Penicillin,"Hives, rash",severe,,113,2024-11-10T00:04:09+00:00
+991,2294,Aspirin,Bronchospasm,moderate,,98,2026-08-12T09:13:44+00:00
+992,2298,Bee stings,Anaphylaxis,life_threatening,,11,2026-09-07T08:00:46+00:00
+993,2298,Shellfish,"Swelling, hives",moderate,,11,2026-08-20T06:33:20+00:00
+994,2298,Aspirin,Bronchospasm,moderate,,54,2026-08-31T21:05:52+00:00
+995,2307,Aspirin,Bronchospasm,mild,,55,2021-06-15T12:39:55+00:00
+996,2307,Peanuts,Anaphylaxis,life_threatening,2007-06-19,98,2022-06-25T20:43:47+00:00
+997,2309,Codeine,"Nausea, vomiting",mild,,54,2024-06-11T04:27:19+00:00
+998,2312,Aspirin,Bronchospasm,mild,,92,2024-11-15T23:24:24+00:00
+999,2315,Codeine,"Nausea, vomiting",mild,1995-09-16,9,2024-01-26T20:10:05+00:00
+1000,2315,Eggs,Hives,moderate,,52,2024-08-09T13:07:38+00:00
+1001,2317,Sulfa drugs,Rash,severe,,92,2025-05-02T08:47:24+00:00
+1002,2321,Morphine,Pruritus,moderate,,92,2025-04-15T16:00:53+00:00
+1003,2321,Peanuts,Anaphylaxis,life_threatening,,99,2023-06-18T13:30:07+00:00
+1004,2326,Morphine,Pruritus,severe,2019-11-16,9,2023-01-07T19:40:16+00:00
+1005,2327,Amoxicillin,Rash,moderate,,12,2025-03-07T04:37:26+00:00
+1006,2327,Eggs,Hives,mild,,52,2025-01-14T21:05:04+00:00
+1007,2329,Iodinated contrast,Urticaria,mild,,55,2025-11-29T18:08:56+00:00
+1008,2331,Latex,Contact dermatitis,mild,,91,2026-08-13T16:35:33+00:00
+1009,2332,Tree nuts,Throat swelling,mild,2017-02-25,55,2025-04-14T15:58:14+00:00
+1010,2332,Morphine,Pruritus,severe,,11,2026-03-08T08:02:33+00:00
+1011,2334,Pollen,Rhinitis,mild,,49,2026-05-30T03:58:37+00:00
+1012,2337,Bee stings,Anaphylaxis,life_threatening,,12,2022-09-21T08:47:53+00:00
+1013,2340,Aspirin,Bronchospasm,severe,1976-10-13,49,2022-09-02T15:10:06+00:00
+1014,2340,Latex,Contact dermatitis,mild,1987-02-15,53,2024-08-14T00:29:30+00:00
+1015,2342,Shellfish,"Swelling, hives",mild,,53,2024-08-09T08:10:07+00:00
+1016,2344,Bee stings,Anaphylaxis,life_threatening,,94,2026-02-15T01:36:59+00:00
+1017,2347,Shellfish,"Swelling, hives",mild,1961-12-27,91,2025-09-17T12:45:18+00:00
+1018,2349,Penicillin,"Hives, rash",moderate,,95,2022-01-16T09:49:42+00:00
+1019,2349,Iodinated contrast,Urticaria,mild,2010-02-23,112,2023-09-22T13:09:40+00:00
+1020,2350,Peanuts,Anaphylaxis,life_threatening,,14,2026-05-17T20:05:03+00:00
+1021,2365,Eggs,Hives,moderate,,15,2022-05-10T07:59:21+00:00
+1022,2366,Iodinated contrast,Urticaria,moderate,,14,2024-06-17T04:30:04+00:00
+1023,2366,Sulfa drugs,Rash,mild,,93,2024-07-03T14:26:26+00:00
+1024,2366,Aspirin,Bronchospasm,severe,,50,2025-06-19T11:01:45+00:00
+1025,2370,Bee stings,Anaphylaxis,life_threatening,1993-07-15,55,2026-04-04T19:07:13+00:00
+1026,2372,Peanuts,Anaphylaxis,life_threatening,,87,2024-12-26T13:55:31+00:00
+1027,2372,Bee stings,Anaphylaxis,life_threatening,2020-05-11,12,2025-07-31T18:54:55+00:00
+1028,2378,Ibuprofen,GI upset,mild,,110,2026-02-28T15:18:27+00:00
+1029,2378,Morphine,Pruritus,severe,,91,2025-10-24T12:30:00+00:00
+1030,2379,Eggs,Hives,mild,1961-09-24,89,2025-03-10T04:56:33+00:00
+1031,2380,Eggs,Hives,moderate,1993-12-01,10,2025-12-22T19:22:55+00:00
+1032,2380,Ibuprofen,GI upset,mild,,112,2026-09-06T14:07:20+00:00
+1033,2388,Tree nuts,Throat swelling,moderate,1967-01-04,9,2020-06-09T04:18:36+00:00
+1034,2395,Aspirin,Bronchospasm,moderate,1972-11-06,90,2023-11-30T01:59:05+00:00
+1035,2397,Codeine,"Nausea, vomiting",moderate,,54,2026-02-02T12:39:50+00:00
+1036,2399,Penicillin,"Hives, rash",mild,,93,2024-04-24T19:33:05+00:00
+1037,2401,Eggs,Hives,mild,2006-03-02,15,2023-11-22T09:40:03+00:00
+1038,2402,Codeine,"Nausea, vomiting",mild,,87,2021-02-18T11:17:26+00:00
+1039,2407,Iodinated contrast,Urticaria,mild,,12,2024-11-22T20:19:44+00:00
+1040,2409,Latex,Contact dermatitis,mild,,55,2025-07-03T22:48:24+00:00
+1041,2410,Codeine,"Nausea, vomiting",mild,,97,2021-12-25T22:11:02+00:00
+1042,2417,Amoxicillin,Rash,severe,,93,2026-07-20T19:48:00+00:00
+1043,2417,Iodinated contrast,Urticaria,moderate,,50,2026-05-27T23:40:03+00:00
+1044,2418,Codeine,"Nausea, vomiting",mild,,14,2026-01-20T10:35:23+00:00
+1045,2420,Ibuprofen,GI upset,severe,,92,2026-07-17T02:13:15+00:00
+1046,2424,Peanuts,Anaphylaxis,life_threatening,,95,2024-01-18T19:39:43+00:00
+1047,2427,Pollen,Rhinitis,severe,,100,2026-05-18T02:53:06+00:00
+1048,2428,Morphine,Pruritus,mild,,10,2023-02-03T11:20:10+00:00
+1049,2434,Shellfish,"Swelling, hives",moderate,2024-12-15,13,2025-08-24T04:59:22+00:00
+1050,2434,Tree nuts,Throat swelling,moderate,2022-07-25,53,2026-01-04T22:54:13+00:00
+1051,2435,Pollen,Rhinitis,moderate,,92,2022-11-26T02:16:25+00:00
+1052,2436,Sulfa drugs,Rash,mild,,97,2026-08-20T19:01:36+00:00
+1053,2441,Bee stings,Anaphylaxis,life_threatening,1994-03-03,55,2024-09-13T12:56:48+00:00
+1054,2443,Morphine,Pruritus,mild,2008-11-05,95,2024-11-19T13:08:13+00:00
+1055,2446,Iodinated contrast,Urticaria,severe,,95,2026-02-09T19:11:03+00:00
+1056,2449,Eggs,Hives,mild,2025-11-01,112,2026-07-02T02:55:14+00:00
+1057,2450,Aspirin,Bronchospasm,mild,,101,2026-08-02T18:33:26+00:00
+1058,2456,Aspirin,Bronchospasm,mild,,49,2025-07-11T03:32:40+00:00
+1059,2457,Morphine,Pruritus,mild,,88,2026-03-23T20:07:43+00:00
+1060,2459,Aspirin,Bronchospasm,severe,2026-02-02,92,2026-03-23T06:30:08+00:00
+1061,2461,Sulfa drugs,Rash,mild,,87,2026-09-20T20:29:32+00:00
+1062,2461,Codeine,"Nausea, vomiting",moderate,2005-02-27,92,2019-12-21T03:13:07+00:00
+1063,2463,Iodinated contrast,Urticaria,severe,2015-09-03,101,2023-05-08T18:25:50+00:00
+1064,2465,Iodinated contrast,Urticaria,severe,1989-08-07,15,2023-02-16T04:06:49+00:00
+1065,2473,Sulfa drugs,Rash,moderate,1974-01-28,113,2024-01-31T08:18:44+00:00
+1066,2481,Pollen,Rhinitis,mild,2018-11-06,50,2023-11-27T01:01:58+00:00
+1067,2483,Pollen,Rhinitis,moderate,,14,2023-07-08T00:42:51+00:00
+1068,2490,Amoxicillin,Rash,mild,1991-01-31,113,2025-12-23T21:28:54+00:00
+1069,2490,Morphine,Pruritus,moderate,,55,2025-05-09T14:52:58+00:00
+1070,2500,Pollen,Rhinitis,mild,2024-10-30,50,2026-05-14T15:51:42+00:00
+1071,2501,Iodinated contrast,Urticaria,moderate,2016-02-19,54,2024-04-22T00:43:38+00:00
+1072,2501,Latex,Contact dermatitis,mild,,110,2024-11-05T11:15:32+00:00
+1073,2507,Pollen,Rhinitis,severe,,112,2024-12-08T23:48:34+00:00
+1074,2508,Shellfish,"Swelling, hives",moderate,,113,2026-09-15T05:31:23+00:00
+1075,2509,Sulfa drugs,Rash,mild,,112,2025-11-05T01:21:48+00:00
+1076,2510,Morphine,Pruritus,moderate,,95,2020-10-12T00:27:19+00:00
+1077,2516,Tree nuts,Throat swelling,mild,,13,2022-06-18T16:03:18+00:00
+1078,2516,Eggs,Hives,mild,,109,2026-03-03T00:25:02+00:00
+1079,2516,Codeine,"Nausea, vomiting",moderate,2014-03-19,10,2026-06-06T05:56:48+00:00
+1080,2517,Latex,Contact dermatitis,mild,2010-12-20,99,2024-02-05T05:35:20+00:00
+1081,2519,Aspirin,Bronchospasm,mild,,55,2024-09-27T02:12:03+00:00
+1082,2519,Shellfish,"Swelling, hives",mild,,9,2023-06-04T04:10:19+00:00
+1083,2521,Penicillin,"Hives, rash",mild,,90,2026-09-18T20:51:21+00:00
+1084,2527,Penicillin,"Hives, rash",mild,,114,2023-11-01T06:02:55+00:00
+1085,2527,Peanuts,Anaphylaxis,life_threatening,,52,2023-10-29T15:00:00+00:00
+1086,2530,Latex,Contact dermatitis,mild,,10,2023-06-23T06:16:45+00:00
+1087,2530,Bee stings,Anaphylaxis,life_threatening,,55,2025-01-02T20:30:54+00:00
+1088,2534,Latex,Contact dermatitis,moderate,,109,2024-09-14T13:28:22+00:00
+1089,2535,Iodinated contrast,Urticaria,moderate,2023-02-23,87,2026-04-09T01:03:09+00:00
+1090,2536,Sulfa drugs,Rash,mild,,101,2022-03-26T05:51:25+00:00
+1091,2537,Shellfish,"Swelling, hives",moderate,2025-07-07,96,2024-09-10T20:07:36+00:00
+1092,2542,Pollen,Rhinitis,moderate,1970-03-09,89,2024-07-07T08:47:13+00:00
+1093,2542,Penicillin,"Hives, rash",mild,,52,2025-07-17T12:55:44+00:00
+1094,2543,Peanuts,Anaphylaxis,life_threatening,1990-04-14,90,2025-10-24T20:43:02+00:00
+1095,2544,Sulfa drugs,Rash,mild,,94,2025-10-23T17:59:23+00:00
+1096,2544,Amoxicillin,Rash,moderate,,88,2026-01-31T04:08:11+00:00
+1097,2544,Morphine,Pruritus,mild,1988-07-29,109,2026-04-23T16:25:41+00:00
+1098,2548,Aspirin,Bronchospasm,mild,,88,2026-03-31T15:22:14+00:00
+1099,2550,Eggs,Hives,moderate,1992-02-17,98,2019-12-13T20:10:27+00:00
+1100,2553,Codeine,"Nausea, vomiting",severe,,88,2020-07-31T15:23:17+00:00
+1101,2563,Aspirin,Bronchospasm,moderate,2001-06-25,89,2026-01-06T08:22:18+00:00
+1102,2564,Penicillin,"Hives, rash",mild,1959-12-31,101,2025-02-04T11:12:45+00:00
+1103,2567,Eggs,Hives,severe,1961-11-08,87,2026-04-17T18:10:53+00:00
+1104,2568,Aspirin,Bronchospasm,mild,,95,2025-11-03T13:56:36+00:00
+1105,2570,Tree nuts,Throat swelling,mild,,15,2025-06-08T20:02:47+00:00
+1106,2574,Morphine,Pruritus,mild,1979-09-11,98,2026-06-03T22:37:03+00:00
+1107,2577,Bee stings,Anaphylaxis,life_threatening,2003-07-03,101,2026-06-16T04:10:04+00:00
+1108,2577,Latex,Contact dermatitis,mild,1978-11-09,12,2026-09-12T04:09:11+00:00
+1109,2579,Pollen,Rhinitis,moderate,2007-02-08,92,2025-08-25T16:50:03+00:00
+1110,2581,Codeine,"Nausea, vomiting",mild,,53,2026-03-28T06:23:25+00:00
+1111,2583,Amoxicillin,Rash,moderate,1980-05-11,97,2024-07-25T05:57:12+00:00
+1112,2583,Codeine,"Nausea, vomiting",moderate,1981-11-04,54,2021-05-26T10:21:15+00:00
+1113,2585,Codeine,"Nausea, vomiting",moderate,,110,2025-06-01T23:26:28+00:00
+1114,2590,Tree nuts,Throat swelling,moderate,,10,2025-09-21T21:47:08+00:00
+1115,2590,Amoxicillin,Rash,mild,,88,2026-09-22T11:30:43+00:00
+1116,2591,Eggs,Hives,moderate,,109,2025-08-24T19:52:49+00:00
+1117,2591,Tree nuts,Throat swelling,severe,,10,2026-02-05T08:45:41+00:00
+1118,2593,Tree nuts,Throat swelling,mild,,95,2021-07-20T23:26:47+00:00
+1119,2598,Amoxicillin,Rash,mild,,9,2026-03-07T17:37:54+00:00
+1120,2602,Bee stings,Anaphylaxis,life_threatening,,98,2024-01-21T01:20:32+00:00
+1121,2602,Sulfa drugs,Rash,mild,,109,2024-11-18T17:44:02+00:00
+1122,2608,Eggs,Hives,mild,1998-09-06,15,2021-09-11T08:48:06+00:00
+1123,2608,Peanuts,Anaphylaxis,life_threatening,2015-05-17,90,2021-12-21T18:32:54+00:00
+1124,2609,Eggs,Hives,mild,,11,2025-04-07T21:09:10+00:00
+1125,2616,Morphine,Pruritus,mild,1959-10-05,15,2024-12-17T02:12:10+00:00
+1126,2616,Sulfa drugs,Rash,severe,,93,2026-07-17T19:57:49+00:00
+1127,2616,Aspirin,Bronchospasm,moderate,,10,2023-03-19T04:27:59+00:00
+1128,2620,Shellfish,"Swelling, hives",severe,2022-03-29,95,2026-04-09T20:52:20+00:00
+1129,2626,Aspirin,Bronchospasm,mild,2012-04-01,101,2026-08-17T12:13:58+00:00
+1130,2627,Morphine,Pruritus,moderate,,91,2025-05-18T07:52:52+00:00
+1131,2627,Sulfa drugs,Rash,mild,1980-07-18,112,2025-12-14T15:52:53+00:00
+1132,2627,Pollen,Rhinitis,severe,,93,2026-07-11T12:22:17+00:00
+1133,2629,Sulfa drugs,Rash,moderate,1959-11-22,53,2023-02-22T14:12:18+00:00
+1134,2631,Morphine,Pruritus,moderate,,114,2022-07-04T00:46:51+00:00
+1135,2631,Pollen,Rhinitis,mild,1998-03-04,100,2021-11-07T08:36:09+00:00
+1136,2632,Eggs,Hives,moderate,2015-09-13,89,2024-08-18T21:49:55+00:00
+1137,2635,Pollen,Rhinitis,moderate,,15,2022-02-14T22:21:38+00:00
+1138,2636,Pollen,Rhinitis,moderate,,109,2026-04-14T12:40:13+00:00
+1139,2638,Pollen,Rhinitis,severe,2024-04-20,49,2023-09-29T11:38:17+00:00
+1140,2639,Shellfish,"Swelling, hives",moderate,,99,2024-06-15T01:22:41+00:00
+1141,2644,Eggs,Hives,mild,1991-10-04,91,2025-03-19T10:41:16+00:00
+1142,2647,Bee stings,Anaphylaxis,life_threatening,,11,2026-07-07T21:48:36+00:00
+1143,2649,Pollen,Rhinitis,moderate,,110,2022-10-27T21:50:49+00:00
+1144,2658,Latex,Contact dermatitis,moderate,,54,2023-11-15T23:30:03+00:00
+1145,2658,Eggs,Hives,mild,1973-03-11,101,2023-07-28T19:51:22+00:00
+1146,2659,Aspirin,Bronchospasm,moderate,2018-08-13,87,2026-02-03T10:52:19+00:00
+1147,2665,Ibuprofen,GI upset,mild,1987-06-23,93,2025-09-17T18:58:30+00:00
+1148,2665,Shellfish,"Swelling, hives",moderate,,93,2022-05-17T01:52:11+00:00
+1149,2669,Peanuts,Anaphylaxis,life_threatening,,88,2025-07-13T07:22:05+00:00
+1150,2672,Bee stings,Anaphylaxis,life_threatening,,90,2025-10-16T03:45:58+00:00
+1151,2675,Sulfa drugs,Rash,mild,,52,2025-04-23T12:32:56+00:00
+1152,2675,Amoxicillin,Rash,moderate,1976-07-28,12,2024-01-04T15:43:53+00:00
+1153,2675,Peanuts,Anaphylaxis,life_threatening,,101,2026-09-19T05:00:37+00:00
+1154,2678,Peanuts,Anaphylaxis,life_threatening,,96,2024-09-05T21:02:17+00:00
+1155,2679,Aspirin,Bronchospasm,moderate,,52,2024-07-22T14:50:15+00:00
+1156,2683,Pollen,Rhinitis,severe,2010-12-24,12,2026-07-05T05:09:53+00:00
+1157,2683,Bee stings,Anaphylaxis,life_threatening,1970-11-04,109,2024-01-19T11:30:35+00:00
+1158,2696,Iodinated contrast,Urticaria,mild,2000-06-23,110,2019-08-19T01:39:25+00:00
+1159,2697,Sulfa drugs,Rash,moderate,,96,2025-08-22T00:39:38+00:00
+1160,2700,Iodinated contrast,Urticaria,mild,,14,2025-07-19T07:00:27+00:00
+1161,2707,Aspirin,Bronchospasm,mild,,110,2024-01-06T19:37:24+00:00
+1162,2708,Sulfa drugs,Rash,moderate,2019-09-17,99,2026-08-23T10:07:46+00:00
+1163,2711,Penicillin,"Hives, rash",mild,2021-04-08,13,2026-02-09T01:09:38+00:00
+1164,2713,Pollen,Rhinitis,mild,1981-07-12,12,2025-05-03T08:50:38+00:00
+1165,2715,Aspirin,Bronchospasm,severe,,93,2022-03-21T13:49:49+00:00
+1166,2716,Peanuts,Anaphylaxis,life_threatening,,110,2026-02-05T22:09:09+00:00
+1167,2717,Tree nuts,Throat swelling,mild,,101,2022-07-24T20:50:35+00:00
+1168,2718,Pollen,Rhinitis,mild,,52,2023-09-24T12:01:27+00:00
+1169,2718,Latex,Contact dermatitis,mild,2004-03-10,53,2026-09-19T14:10:11+00:00
+1170,2719,Peanuts,Anaphylaxis,life_threatening,,98,2026-04-07T14:57:45+00:00
+1171,2722,Sulfa drugs,Rash,mild,,113,2025-06-13T15:35:25+00:00
+1172,2723,Tree nuts,Throat swelling,severe,,49,2018-12-04T03:59:01+00:00
+1173,2723,Aspirin,Bronchospasm,mild,2012-08-26,95,2019-11-13T11:29:25+00:00
+1174,2725,Tree nuts,Throat swelling,mild,2005-12-29,92,2021-11-25T13:14:55+00:00
+1175,2729,Eggs,Hives,severe,,113,2025-10-14T09:18:43+00:00
+1176,2731,Ibuprofen,GI upset,mild,,53,2025-09-27T17:10:31+00:00
+1177,2732,Iodinated contrast,Urticaria,moderate,2017-02-05,87,2026-04-13T06:11:13+00:00
+1178,2737,Iodinated contrast,Urticaria,mild,1971-12-13,49,2026-05-05T03:28:28+00:00
+1179,2737,Latex,Contact dermatitis,mild,,11,2025-10-23T22:05:41+00:00
+1180,2737,Ibuprofen,GI upset,mild,,93,2024-09-11T21:32:20+00:00
+1181,2739,Iodinated contrast,Urticaria,mild,2018-03-19,110,2023-09-08T12:18:57+00:00
+1182,2745,Codeine,"Nausea, vomiting",severe,1998-02-06,50,2023-10-30T04:52:16+00:00
+1183,2745,Amoxicillin,Rash,mild,2013-08-08,87,2021-12-05T13:50:01+00:00
+1184,2751,Ibuprofen,GI upset,moderate,2025-01-28,53,2024-04-11T10:27:21+00:00
+1185,2754,Pollen,Rhinitis,mild,1998-12-22,12,2023-07-25T14:48:23+00:00
+1186,2754,Shellfish,"Swelling, hives",moderate,,114,2022-01-05T03:13:48+00:00
+1187,2757,Pollen,Rhinitis,mild,,96,2022-10-09T00:44:01+00:00
+1188,2763,Morphine,Pruritus,mild,,99,2025-08-27T06:39:33+00:00
+1189,2765,Pollen,Rhinitis,mild,2020-01-11,13,2022-02-28T03:01:04+00:00
+1190,2765,Ibuprofen,GI upset,moderate,,89,2022-08-24T00:16:45+00:00
+1191,2767,Ibuprofen,GI upset,moderate,,94,2026-03-29T12:35:28+00:00
+1192,2772,Amoxicillin,Rash,mild,,100,2025-10-02T07:04:12+00:00
+1193,2775,Penicillin,"Hives, rash",moderate,2013-09-25,15,2025-08-22T02:43:56+00:00
+1194,2776,Bee stings,Anaphylaxis,life_threatening,2001-02-03,15,2023-03-14T03:50:39+00:00
+1195,2776,Codeine,"Nausea, vomiting",severe,2001-04-07,93,2023-04-12T08:57:34+00:00
+1196,2776,Shellfish,"Swelling, hives",mild,,13,2025-04-23T05:20:38+00:00
+1197,2782,Iodinated contrast,Urticaria,mild,,50,2026-07-02T00:14:31+00:00
+1198,2783,Morphine,Pruritus,severe,2012-06-26,90,2025-06-12T06:49:43+00:00
+1199,2783,Ibuprofen,GI upset,moderate,,100,2022-12-08T20:35:06+00:00
+1200,2784,Pollen,Rhinitis,moderate,,96,2024-07-16T14:05:37+00:00
+1201,2785,Tree nuts,Throat swelling,moderate,,55,2022-04-01T18:57:21+00:00
+1202,2792,Tree nuts,Throat swelling,mild,,55,2025-07-31T12:36:02+00:00
+1203,2793,Shellfish,"Swelling, hives",mild,1987-05-12,54,2018-09-18T02:52:21+00:00
+1204,2793,Peanuts,Anaphylaxis,life_threatening,,113,2019-12-12T04:22:11+00:00
+1205,2795,Eggs,Hives,mild,2024-12-15,10,2023-07-08T14:48:51+00:00
+1206,2795,Bee stings,Anaphylaxis,life_threatening,,54,2025-02-22T05:43:45+00:00
+1207,2796,Bee stings,Anaphylaxis,life_threatening,1988-04-25,52,2025-09-14T08:05:28+00:00
+1208,2796,Penicillin,"Hives, rash",moderate,1967-01-04,96,2021-04-01T11:21:15+00:00
+1209,2798,Bee stings,Anaphylaxis,life_threatening,,14,2025-01-20T19:39:25+00:00
+1210,2800,Bee stings,Anaphylaxis,life_threatening,2018-01-01,101,2020-12-07T01:10:22+00:00
+1211,2800,Peanuts,Anaphylaxis,life_threatening,2016-12-28,50,2020-11-05T02:17:46+00:00
+1212,2800,Codeine,"Nausea, vomiting",mild,2025-03-26,94,2020-03-17T15:31:13+00:00
+1213,2801,Sulfa drugs,Rash,moderate,1999-07-07,89,2026-05-05T15:08:16+00:00
+1214,2808,Sulfa drugs,Rash,mild,,100,2024-12-13T10:01:05+00:00
+1215,2809,Penicillin,"Hives, rash",mild,,91,2022-07-12T17:17:34+00:00
+1216,2809,Sulfa drugs,Rash,severe,2016-09-10,12,2020-08-26T19:40:49+00:00
+1217,2811,Iodinated contrast,Urticaria,mild,1937-08-15,114,2025-01-21T07:44:34+00:00
+1218,2813,Morphine,Pruritus,moderate,,94,2025-07-10T17:35:10+00:00
+1219,2815,Iodinated contrast,Urticaria,mild,,49,2026-08-25T03:45:09+00:00
+1220,2815,Morphine,Pruritus,severe,2007-07-25,95,2023-08-09T16:36:40+00:00
+1221,2819,Ibuprofen,GI upset,mild,2022-03-03,15,2020-10-08T14:31:00+00:00
+1222,2823,Latex,Contact dermatitis,mild,2007-12-02,98,2025-08-30T01:17:01+00:00
+1223,2829,Shellfish,"Swelling, hives",moderate,2022-09-28,89,2021-07-05T18:37:12+00:00
+1224,2840,Shellfish,"Swelling, hives",moderate,,93,2023-05-01T18:53:09+00:00
+1225,2841,Morphine,Pruritus,moderate,,55,2024-11-03T17:55:53+00:00
+1226,2841,Eggs,Hives,mild,,98,2026-07-10T03:03:41+00:00
+1227,2842,Bee stings,Anaphylaxis,life_threatening,,97,2025-04-11T18:30:18+00:00
+1228,2845,Ibuprofen,GI upset,mild,1943-09-17,109,2025-06-06T05:47:26+00:00
+1229,2852,Aspirin,Bronchospasm,severe,2016-04-12,11,2026-01-15T19:32:27+00:00
+1230,2852,Sulfa drugs,Rash,mild,,96,2026-01-10T12:37:30+00:00
+1231,2854,Codeine,"Nausea, vomiting",moderate,,10,2025-12-31T20:25:04+00:00
+1232,2859,Eggs,Hives,mild,,89,2024-08-15T04:12:08+00:00
+1233,2859,Penicillin,"Hives, rash",mild,2005-05-20,109,2024-09-22T13:51:22+00:00
+1234,2861,Shellfish,"Swelling, hives",mild,2025-10-02,53,2025-08-18T17:00:44+00:00
+1235,2861,Amoxicillin,Rash,mild,,96,2025-01-27T22:07:18+00:00
+1236,2861,Eggs,Hives,severe,,88,2025-11-16T07:30:43+00:00
+1237,2863,Morphine,Pruritus,moderate,,94,2025-12-29T11:37:30+00:00
+1238,2863,Eggs,Hives,severe,,53,2022-01-14T23:10:21+00:00
+1239,2866,Eggs,Hives,moderate,,100,2021-09-12T20:01:47+00:00
+1240,2868,Sulfa drugs,Rash,mild,,113,2024-07-31T13:09:39+00:00
+1241,2869,Ibuprofen,GI upset,moderate,,53,2026-01-18T11:08:26+00:00
+1242,2869,Bee stings,Anaphylaxis,life_threatening,2013-10-10,12,2026-08-09T04:47:47+00:00
+1243,2869,Eggs,Hives,mild,2024-10-05,94,2026-01-08T09:53:20+00:00
+1244,2870,Eggs,Hives,mild,2013-02-26,95,2026-01-30T05:17:01+00:00
+1245,2870,Bee stings,Anaphylaxis,life_threatening,,91,2026-05-02T17:22:31+00:00
+1246,2875,Penicillin,"Hives, rash",severe,,97,2025-01-07T20:56:20+00:00
+1247,2883,Latex,Contact dermatitis,severe,,54,2026-09-22T01:41:38+00:00
+1248,2890,Bee stings,Anaphylaxis,life_threatening,1972-06-17,11,2026-04-29T19:53:45+00:00
+1249,2891,Amoxicillin,Rash,mild,2012-11-08,53,2026-03-10T08:28:41+00:00
+1250,2891,Morphine,Pruritus,moderate,,101,2026-02-24T10:18:17+00:00
+1251,2892,Iodinated contrast,Urticaria,moderate,2003-03-14,14,2023-10-12T19:39:47+00:00
+1252,2896,Ibuprofen,GI upset,mild,2019-01-25,96,2025-02-06T13:52:36+00:00
+1253,2898,Iodinated contrast,Urticaria,mild,,88,2026-03-06T03:00:45+00:00
+1254,2898,Penicillin,"Hives, rash",mild,,12,2022-02-03T11:49:57+00:00
+1255,2898,Morphine,Pruritus,mild,,15,2026-04-10T14:22:31+00:00
+1256,2902,Bee stings,Anaphylaxis,life_threatening,,112,2024-04-09T08:00:13+00:00
+1257,2906,Aspirin,Bronchospasm,moderate,1985-09-26,10,2025-10-17T11:08:07+00:00
+1258,2906,Eggs,Hives,mild,,89,2023-12-11T15:52:00+00:00
+1259,2913,Shellfish,"Swelling, hives",moderate,2024-08-30,14,2026-04-29T10:56:45+00:00
+1260,2913,Sulfa drugs,Rash,moderate,2024-12-20,95,2026-05-29T03:59:45+00:00
+1261,2914,Eggs,Hives,moderate,,100,2025-08-30T07:25:08+00:00
+1262,2915,Codeine,"Nausea, vomiting",mild,,89,2026-03-29T15:51:45+00:00
+1263,2915,Tree nuts,Throat swelling,moderate,,100,2024-06-04T05:36:44+00:00
+1264,2915,Morphine,Pruritus,moderate,2024-10-25,96,2025-02-05T22:39:06+00:00
+1265,2916,Tree nuts,Throat swelling,mild,2002-07-05,112,2026-08-07T13:34:28+00:00
+1266,2917,Aspirin,Bronchospasm,severe,,55,2022-03-14T19:12:03+00:00
+1267,2917,Latex,Contact dermatitis,moderate,1984-02-11,12,2021-08-30T16:56:58+00:00
+1268,2923,Ibuprofen,GI upset,mild,1980-06-16,98,2025-07-24T07:00:53+00:00
+1269,2924,Penicillin,"Hives, rash",moderate,,114,2021-09-02T22:29:39+00:00
+1270,2927,Iodinated contrast,Urticaria,mild,,99,2023-09-21T17:39:17+00:00
+1271,2928,Sulfa drugs,Rash,mild,,54,2025-12-19T14:14:54+00:00
+1272,2930,Pollen,Rhinitis,mild,1974-03-20,93,2025-06-28T03:11:27+00:00
+1273,2934,Iodinated contrast,Urticaria,moderate,,50,2020-07-07T10:20:03+00:00
+1274,2935,Pollen,Rhinitis,moderate,1984-10-05,98,2021-06-28T08:55:13+00:00
+1275,2935,Codeine,"Nausea, vomiting",mild,1973-02-05,99,2023-01-09T06:46:47+00:00
+1276,2942,Iodinated contrast,Urticaria,moderate,,12,2021-09-13T17:17:09+00:00
+1277,2949,Iodinated contrast,Urticaria,mild,,109,2023-07-14T09:50:24+00:00
+1278,2949,Peanuts,Anaphylaxis,life_threatening,,13,2022-11-28T01:08:45+00:00
+1279,2954,Pollen,Rhinitis,severe,,14,2025-07-24T09:04:28+00:00
+1280,2957,Iodinated contrast,Urticaria,severe,2018-08-08,53,2025-09-21T02:05:42+00:00
+1281,2960,Amoxicillin,Rash,severe,,13,2020-02-21T00:38:09+00:00
+1282,2964,Amoxicillin,Rash,moderate,2022-03-04,92,2023-09-30T03:28:02+00:00
+1283,2966,Latex,Contact dermatitis,mild,2022-10-19,95,2025-01-05T19:45:41+00:00
+1284,2971,Aspirin,Bronchospasm,mild,2016-05-29,99,2020-10-17T08:00:38+00:00
+1285,2971,Tree nuts,Throat swelling,mild,,14,2023-06-30T02:56:01+00:00
+1286,2972,Eggs,Hives,moderate,,92,2024-07-26T14:31:59+00:00
+1287,2973,Shellfish,"Swelling, hives",mild,,91,2022-11-08T18:43:32+00:00
+1288,2973,Eggs,Hives,severe,2020-11-01,97,2026-06-27T09:32:17+00:00
+1289,2973,Aspirin,Bronchospasm,severe,,91,2026-08-29T10:25:02+00:00
+1290,2975,Ibuprofen,GI upset,mild,,98,2026-03-20T01:03:15+00:00
+1291,2979,Bee stings,Anaphylaxis,life_threatening,,109,2024-05-13T17:36:47+00:00
+1292,2982,Eggs,Hives,moderate,,112,2024-05-03T08:52:47+00:00
+1293,2992,Bee stings,Anaphylaxis,life_threatening,1981-03-20,88,2026-01-15T17:17:33+00:00
+1294,2992,Amoxicillin,Rash,mild,1982-06-21,101,2024-07-01T10:46:09+00:00
+1295,2994,Ibuprofen,GI upset,moderate,2025-04-30,89,2026-02-26T14:36:30+00:00
+1296,2994,Shellfish,"Swelling, hives",mild,,53,2025-09-02T01:04:18+00:00
+1297,2997,Shellfish,"Swelling, hives",mild,2005-07-30,92,2025-12-10T22:31:09+00:00

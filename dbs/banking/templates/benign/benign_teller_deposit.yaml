@@ -1,14 +1,21 @@
-name: banking_teller_deposit
+name: banking_benign_teller_deposit
 type: benign
 schema: banking
-description: >
-  Simulates a teller executing a cash deposit into a customer savings account.
+description: Teller posting an over-the-counter cash deposit to a customer account.
 delay_seconds:
   min: 0.1
   max: 0.4
 commands:
-  - "SELECT account_id, customer_id, balance, status FROM accounts WHERE account_id = 4 AND status = 'ACTIVE';"
-  - "UPDATE accounts SET balance = balance + 500.00 WHERE account_id = 4;"
-  - "INSERT INTO transactions (account_id, teller_id, txn_type, amount, balance_after, description) VALUES (4, 3, 'DEPOSIT', 500.00, (SELECT balance FROM accounts WHERE account_id = 4), 'Over-the-counter cash deposit');"
-  - "UPDATE branches SET assets = assets + 500.00 WHERE branch_id = 3;"
-
+- >-
+  SELECT account_id, ledger_balance, status FROM accounts WHERE account_id = 4 AND status = 'active';
+- >-
+  INSERT INTO transactions (reference, transaction_type, channel, description, status, initiated_by, value_date,
+  posted_at) VALUES ('TXDEMO0000000002', 'deposit', 'branch', 'Over-the-counter cash deposit', 'posted',
+  3, CURRENT_DATE, now()) RETURNING transaction_id;
+- >-
+  INSERT INTO ledger_entries (transaction_id, account_id, direction, amount, currency_code, balance_after)
+  VALUES (currval(pg_get_serial_sequence('transactions','transaction_id')), 4, 'credit', 500.00, 'USD',
+  (SELECT ledger_balance + 500.00 FROM accounts WHERE account_id = 4));
+- >-
+  UPDATE accounts SET ledger_balance = ledger_balance + 500.00, available_balance = available_balance
+  + 500.00, last_activity_at = now() WHERE account_id = 4;

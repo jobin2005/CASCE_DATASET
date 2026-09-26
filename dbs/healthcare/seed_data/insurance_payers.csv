@@ -1,0 +1,11 @@
+payer_id,name,payer_code,phone,claims_address
+1,Blue Cross Blue Shield of Massachusetts,BCBSMA,(800) 901-3198,"PO Box 99998, Boston, MA"
+2,Harvard Pilgrim Health Care,HPHC,(800) 504-5205,"PO Box 63395, Louisville, KY"
+3,Tufts Health Plan,TUFTS,(800) 618-7418,"PO Box 23350, Louisville, KY"
+4,UnitedHealthcare,UHC,(800) 519-5474,"PO Box 9025, Boston, MA"
+5,Aetna,AETNA,(800) 684-7337,"PO Box 10459, Atlanta, GA"
+6,Cigna,CIGNA,(800) 509-8710,"PO Box 48985, Louisville, KY"
+7,Medicare Part B,MCARE,(800) 428-8322,"PO Box 4221, Louisville, KY"
+8,MassHealth (Medicaid),MHLTH,(800) 274-7720,"PO Box 78603, Hartford, CT"
+9,Humana,HUMANA,(800) 334-8289,"PO Box 43672, Atlanta, GA"
+10,Fallon Health,FALLON,(800) 911-8276,"PO Box 72853, Boston, MA"

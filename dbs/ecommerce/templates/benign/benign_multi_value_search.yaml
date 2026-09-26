@@ -1,0 +1,13 @@
+name: ecommerce_benign_multi_value_search
+type: benign
+schema: ecommerce
+description: >-
+  User-facing search filtering on several values with OR. Contains OR and quoted literals like a tautology
+  probe, but the predicate is a legitimate bounded filter.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+- >-
+  SELECT product_id, name FROM products WHERE name ILIKE '%jacket%' OR name ILIKE '%coat%' ORDER BY product_id
+  LIMIT 50;

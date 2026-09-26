@@ -1,0 +1,13 @@
+name: logistics_benign_multi_value_search
+type: benign
+schema: logistics
+description: >-
+  User-facing search filtering on several values with OR. Contains OR and quoted literals like a tautology
+  probe, but the predicate is a legitimate bounded filter.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+- >-
+  SELECT shipment_id, tracking_number, status FROM shipments WHERE service_level = 'express' OR service_level
+  = 'next_day' ORDER BY shipment_id LIMIT 50;

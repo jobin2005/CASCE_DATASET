@@ -1,13 +1,31 @@
-dept_id,name,code,head_doctor_id,building,floor,phone,is_active
-1,Cardiology,CARD,1,Main,2,555-0101,true
-2,Neurology,NEUR,2,Main,3,555-0102,true
-3,Pediatrics,PEDS,3,South,1,555-0103,true
-4,Orthopedics,ORTH,4,North,2,555-0104,true
-5,Oncology,ONCO,5,North,3,555-0105,true
-6,Emergency,EMER,6,Main,1,555-0106,true
-7,Radiology,RAD,7,Main,1,555-0107,true
-8,Pathology,PATH,8,South,2,555-0108,true
-9,Dermatology,DERM,9,East,1,555-0109,true
-10,Psychiatry,PSYC,10,East,2,555-0110,true
-11,ENT,ENT,11,West,1,555-0111,true
-12,Ophthalmology,OPHT,12,West,2,555-0112,true
+department_id,facility_id,name,code
+1,1,Emergency Medicine,ED
+2,1,Internal Medicine,IM
+3,1,Cardiology,CARD
+4,1,Orthopedics,ORTH
+5,1,General Surgery,SURG
+6,1,Radiology,RAD
+7,1,Obstetrics & Gynecology,OBGYN
+8,1,Neurology,NEUR
+9,1,Oncology,ONC
+10,1,Intensive Care Unit,ICU
+11,2,Emergency Medicine,ED
+12,2,Internal Medicine,IM
+13,2,Cardiology,CARD
+14,2,Orthopedics,ORTH
+15,2,General Surgery,SURG
+16,2,Radiology,RAD
+17,2,Obstetrics & Gynecology,OBGYN
+18,2,Neurology,NEUR
+19,2,Oncology,ONC
+20,2,Intensive Care Unit,ICU
+21,3,Behavioral Health,BH
+22,3,Endocrinology,ENDO
+23,3,Family Medicine,FM
+24,4,Family Medicine,FM
+25,4,Pediatrics,PEDS
+26,5,Endocrinology,ENDO
+27,5,Dermatology,DERM
+28,5,Family Medicine,FM
+29,6,Clinical Pathology,PATH
+30,6,Phlebotomy,PHLEB

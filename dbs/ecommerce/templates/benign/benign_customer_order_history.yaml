@@ -1,0 +1,16 @@
+name: ecommerce_benign_customer_order_history
+type: benign
+schema: ecommerce
+description: Customer viewing their past orders, line items, and shipment tracking.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+- >-
+  SELECT order_id, order_number, status, grand_total, placed_at FROM orders WHERE customer_id = 77 ORDER
+  BY placed_at DESC LIMIT 10;
+- >-
+  SELECT oi.product_name, oi.quantity, oi.unit_price, oi.line_total FROM order_items oi WHERE oi.order_id
+  = 12345 ORDER BY oi.order_item_id;
+- >-
+  SELECT s.carrier, s.tracking_number, s.status FROM shipments s WHERE s.order_id = 12345;

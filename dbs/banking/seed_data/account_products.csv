@@ -1,0 +1,16 @@
+product_id,product_code,name,category,currency_code,interest_rate,minimum_balance,monthly_fee,overdraft_limit,is_active
+1,CHK-ESS,Essential Checking,checking,USD,0,0.00,5.00,0.00,true
+2,CHK-PRM,Premier Checking,checking,USD,0.05,1500.00,15.00,500.00,true
+3,SAV-STD,Everyday Savings,savings,USD,0.45,300.00,0.00,0.00,true
+4,SAV-HY,High-Yield Savings,savings,USD,4.1,1000.00,0.00,0.00,true
+5,CD-12,12-Month Certificate of Deposit,fixed_deposit,USD,4.35,1000.00,0.00,0.00,true
+6,BIZ-CHK,Business Checking,checking,USD,0,2500.00,20.00,5000.00,true
+7,BIZ-SAV,Business Money Market,savings,USD,3.25,10000.00,0.00,0.00,true
+8,CC-CASH,Cashback Visa Credit Card,credit_card,USD,24.99,0.00,0.00,0.00,true
+9,CC-TRVL,Travel Rewards Mastercard,credit_card,USD,22.49,0.00,0.00,0.00,true
+10,LN-PERS,Personal Loan,loan,USD,11.5,0.00,0.00,0.00,true
+11,LN-AUTO,Auto Loan,loan,USD,6.9,0.00,0.00,0.00,true
+12,LN-HOME,30-Year Fixed Mortgage,loan,USD,6.4,0.00,0.00,0.00,true
+13,LN-BIZ,Small Business Term Loan,loan,USD,9.25,0.00,0.00,0.00,true
+14,GL-INT,Internal General Ledger,internal,USD,0,0.00,0.00,0.00,true
+15,CHK-EUR,Euro Currency Account,checking,EUR,0,0.00,10.00,0.00,true

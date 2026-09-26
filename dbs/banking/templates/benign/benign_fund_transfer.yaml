@@ -1,15 +1,30 @@
-name: banking_fund_transfer
+name: banking_benign_fund_transfer
 type: benign
 schema: banking
-description: >
-  Simulates an internal fund transfer from checking to savings account.
+description: >-
+  Internal transfer: one balanced double-entry transaction moving funds between two accounts.
 delay_seconds:
   min: 0.1
   max: 0.4
 commands:
-  - "SELECT balance FROM accounts WHERE account_id = 1 AND balance >= 1000.00 FOR UPDATE;"
-  - "UPDATE accounts SET balance = balance - 1000.00 WHERE account_id = 1;"
-  - "INSERT INTO transactions (account_id, txn_type, amount, balance_after, description) VALUES (1, 'TRANSFER_OUT', 1000.00, (SELECT balance FROM accounts WHERE account_id = 1), 'Transfer to savings');"
-  - "UPDATE accounts SET balance = balance + 1000.00 WHERE account_id = 2;"
-  - "INSERT INTO transactions (account_id, txn_type, amount, balance_after, description) VALUES (2, 'TRANSFER_IN', 1000.00, (SELECT balance FROM accounts WHERE account_id = 2), 'Transfer from checking');"
-
+- >-
+  SELECT account_id, ledger_balance FROM accounts WHERE account_id = 1 AND ledger_balance >= 1000.00 FOR
+  UPDATE;
+- >-
+  INSERT INTO transactions (reference, transaction_type, channel, description, status, value_date, posted_at)
+  VALUES ('TXDEMO0000000001', 'transfer', 'online', 'Transfer to savings', 'posted', CURRENT_DATE, now())
+  RETURNING transaction_id;
+- >-
+  INSERT INTO ledger_entries (transaction_id, account_id, direction, amount, currency_code, balance_after)
+  VALUES (currval(pg_get_serial_sequence('transactions','transaction_id')), 1, 'debit', 1000.00, 'USD',
+  (SELECT ledger_balance - 1000.00 FROM accounts WHERE account_id = 1));
+- >-
+  INSERT INTO ledger_entries (transaction_id, account_id, direction, amount, currency_code, balance_after)
+  VALUES (currval(pg_get_serial_sequence('transactions','transaction_id')), 2, 'credit', 1000.00, 'USD',
+  (SELECT ledger_balance + 1000.00 FROM accounts WHERE account_id = 2));
+- >-
+  UPDATE accounts SET ledger_balance = ledger_balance - 1000.00, available_balance = available_balance
+  - 1000.00 WHERE account_id = 1;
+- >-
+  UPDATE accounts SET ledger_balance = ledger_balance + 1000.00, available_balance = available_balance
+  + 1000.00 WHERE account_id = 2;

@@ -1,0 +1,13 @@
+name: logistics_benign_client_invoice_summary
+type: benign
+schema: logistics
+description: Account manager reviewing a client's recent invoices and charge breakdown.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+- >-
+  SELECT invoice_id, invoice_number, status, grand_total, issued_on, due_on FROM invoices WHERE client_id
+  = 30 ORDER BY issued_on DESC LIMIT 12;
+- >-
+  SELECT charge_type, SUM(amount) AS total FROM shipment_charges WHERE invoice_id = 400 GROUP BY charge_type;

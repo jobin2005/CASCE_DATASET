@@ -1,0 +1,5 @@
+warehouse_id,code,name,city,country,is_active
+1,NJ1,Edison Fulfillment Center,Edison,US,true
+2,TX1,Dallas Fulfillment Center,Dallas,US,true
+3,CA1,Ontario Fulfillment Center,Ontario,US,true
+4,GA1,Atlanta Returns & Overflow,Atlanta,US,true

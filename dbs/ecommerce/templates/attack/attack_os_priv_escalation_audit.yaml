@@ -1,14 +1,16 @@
 name: ecommerce_attack_os_priv_escalation_audit
 type: attack
 schema: ecommerce
-description: >
-  Diagnostic template evaluating database user roles, grant privileges, and superuser delegation paths.
-  (Functional exploit payloads omitted per security policy).
+description: >-
+  Diagnostic template inspecting role inheritance, superuser/createrole grants, and access levels on the
+  'payments' table, plus the current vs. session role (to reveal SET ROLE or SECURITY DEFINER context).
+  (Functional exploit payloads omitted per security policy.)
 delay_seconds:
   min: 0.1
-  max: 0.4
+  max: 0.3
 commands:
-  - "SELECT rolname, rolsuper, rolinherit, rolcreaterole, rolcreatedb, rolcanlogin FROM pg_roles;"
-  - "SELECT grantee, privilege_type FROM information_schema.role_table_grants WHERE table_name = 'customers' LIMIT 10;"
-  - "SELECT session_user, current_user, current_setting('is_superuser');"
-
+- SELECT rolname, rolsuper, rolcreaterole, rolinherit FROM pg_roles;
+- >-
+  SELECT table_name, privilege_type FROM information_schema.table_privileges WHERE table_name = 'payments'
+  LIMIT 10;
+- SELECT current_user, session_user;

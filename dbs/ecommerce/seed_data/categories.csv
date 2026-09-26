@@ -1,21 +1,44 @@
-category_id,name,slug,parent_category_id,description,is_active,created_at
-1,Electronics,electronics,,Description for Electronics,TRUE,2024-09-15T21:02:46.818336
-2,Apparel,apparel,,Description for Apparel,TRUE,2024-09-15T21:02:46.818336
-3,Home & Kitchen,home-and-kitchen,,Description for Home & Kitchen,TRUE,2024-09-15T21:02:46.818336
-4,Sports & Outdoors,sports-and-outdoors,,Description for Sports & Outdoors,TRUE,2024-09-15T21:02:46.818336
-5,Beauty & Personal Care,beauty-and-personal-care,,Description for Beauty & Personal Care,TRUE,2024-09-15T21:02:46.818336
-6,Books,books,,Description for Books,TRUE,2024-09-15T21:02:46.818336
-7,Toys & Games,toys-and-games,,Description for Toys & Games,TRUE,2024-09-15T21:02:46.818336
-8,Food & Grocery,food-and-grocery,,Description for Food & Grocery,TRUE,2024-09-15T21:02:46.818336
-9,Mobiles,mobiles,5,Description for Mobiles,TRUE,2024-09-15T21:02:46.818336
-10,Laptops,laptops,1,Description for Laptops,TRUE,2024-09-15T21:02:46.818336
-11,Men Clothing,men-clothing,7,Description for Men Clothing,TRUE,2024-09-15T21:02:46.818336
-12,Women Clothing,women-clothing,4,Description for Women Clothing,TRUE,2024-09-15T21:02:46.818336
-13,Furniture,furniture,8,Description for Furniture,TRUE,2024-09-15T21:02:46.818336
-14,Decor,decor,7,Description for Decor,TRUE,2024-09-15T21:02:46.818336
-15,Fitness,fitness,2,Description for Fitness,TRUE,2024-09-15T21:02:46.818336
-16,Camping,camping,2,Description for Camping,TRUE,2024-09-15T21:02:46.818336
-17,Makeup,makeup,6,Description for Makeup,TRUE,2024-09-15T21:02:46.818336
-18,Skincare,skincare,2,Description for Skincare,TRUE,2024-09-15T21:02:46.818336
-19,Fiction,fiction,5,Description for Fiction,TRUE,2024-09-15T21:02:46.818336
-20,Non-Fiction,non-fiction,7,Description for Non-Fiction,TRUE,2024-09-15T21:02:46.818336
+category_id,parent_id,name,slug,description,sort_order,is_active
+1,,Electronics,electronics,Shop electronics.,1,true
+2,1,Headphones,electronics-headphones,,1,true
+3,1,Smartphone Accessories,electronics-smartphone-accessories,,2,true
+4,1,Smart Home,electronics-smart-home,,3,true
+5,1,Laptops & Tablets,electronics-laptops-tablets,,4,true
+6,1,Cameras,electronics-cameras,,5,true
+7,,Home & Kitchen,home-kitchen,Shop home & kitchen.,7,true
+8,7,Cookware,home-kitchen-cookware,,1,true
+9,7,Small Appliances,home-kitchen-small-appliances,,2,true
+10,7,Bedding,home-kitchen-bedding,,3,true
+11,7,Home Decor,home-kitchen-home-decor,,4,true
+12,7,Storage & Organization,home-kitchen-storage-organization,,5,true
+13,,Clothing,clothing,Shop clothing.,13,true
+14,13,Men's Tops,clothing-men-s-tops,,1,true
+15,13,Women's Tops,clothing-women-s-tops,,2,true
+16,13,Jeans & Pants,clothing-jeans-pants,,3,true
+17,13,Outerwear,clothing-outerwear,,4,true
+18,13,Activewear,clothing-activewear,,5,true
+19,,Shoes,shoes,Shop shoes.,19,true
+20,19,Running Shoes,shoes-running-shoes,,1,true
+21,19,Casual Sneakers,shoes-casual-sneakers,,2,true
+22,19,Boots,shoes-boots,,3,true
+23,19,Sandals,shoes-sandals,,4,true
+24,,Beauty & Personal Care,beauty-personal-care,Shop beauty & personal care.,24,true
+25,24,Skincare,beauty-personal-care-skincare,,1,true
+26,24,Hair Care,beauty-personal-care-hair-care,,2,true
+27,24,Fragrance,beauty-personal-care-fragrance,,3,true
+28,24,Makeup,beauty-personal-care-makeup,,4,true
+29,,Sports & Outdoors,sports-outdoors,Shop sports & outdoors.,29,true
+30,29,Camping Gear,sports-outdoors-camping-gear,,1,true
+31,29,Fitness Equipment,sports-outdoors-fitness-equipment,,2,true
+32,29,Cycling,sports-outdoors-cycling,,3,true
+33,29,Water Bottles,sports-outdoors-water-bottles,,4,true
+34,,Toys & Games,toys-games,Shop toys & games.,34,true
+35,34,Board Games,toys-games-board-games,,1,true
+36,34,Building Sets,toys-games-building-sets,,2,true
+37,34,Puzzles,toys-games-puzzles,,3,true
+38,34,Outdoor Play,toys-games-outdoor-play,,4,true
+39,,Pet Supplies,pet-supplies,Shop pet supplies.,39,true
+40,39,Dog Supplies,pet-supplies-dog-supplies,,1,true
+41,39,Cat Supplies,pet-supplies-cat-supplies,,2,true
+42,,Holiday Gift Guide,holiday-gift-guide,Seasonal collection,99,false
+43,,New Arrivals,new-arrivals,Just landed,0,true

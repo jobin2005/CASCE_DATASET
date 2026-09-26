@@ -1,0 +1,14 @@
+name: healthcare_benign_provider_schedule
+type: benign
+schema: healthcare
+description: Front-desk staff loading a provider's appointment schedule for the day.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+- >-
+  SELECT appointment_id, patient_id, scheduled_start, scheduled_end, status, reason FROM appointments
+  WHERE provider_id = 15 AND scheduled_start::date = DATE '2026-09-22' ORDER BY scheduled_start;
+- >-
+  SELECT d.name, d.code FROM departments d JOIN provider_departments pd ON pd.department_id = d.department_id
+  WHERE pd.provider_id = 15;

@@ -1,0 +1,7 @@
+facility_id,name,facility_type,npi,address_line1,city,state,postal_code,address_line2,country,phone,created_at,updated_at
+1,Bay State General Hospital,hospital,1295310485,43321 Brittany Bypass,Framingham,MA,01714,,US,(617) 013-3890,2015-02-15T16:04:16+00:00,2015-02-15T16:04:16+00:00
+2,Riverside Medical Center,hospital,1110053353,863 Lawrence Valleys,Cambridge,MA,02128,,US,(617) 026-5423,2015-09-12T19:06:36+00:00,2015-09-12T19:06:36+00:00
+3,Northside Family Clinic,clinic,1093349856,16155 Roman Stream Suite 816,Framingham,MA,01794,,US,(617) 184-9593,2019-06-18T02:52:38+00:00,2019-06-18T02:52:38+00:00
+4,Harborview Pediatrics & Primary Care,clinic,1100604502,34131 Ramirez Roads,Newton,MA,02454,,US,(617) 525-5341,2015-02-28T00:50:38+00:00,2015-02-28T00:50:38+00:00
+5,Westfield Specialty Clinic,clinic,1028492780,327 Nelson Route,Cambridge,MA,02129,,US,(617) 835-0305,2017-07-11T18:41:24+00:00,2017-07-11T18:41:24+00:00
+6,Commonwealth Diagnostic Laboratory,lab,1753041955,1395 Diana Locks Suite 242,Newton,MA,02425,,US,(617) 388-4969,2018-07-31T10:50:36+00:00,2018-07-31T10:50:36+00:00

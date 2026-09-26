@@ -1,0 +1,23 @@
+name: ecommerce_benign_checkout
+type: benign
+schema: ecommerce
+description: >-
+  Checkout flow: read cart, reserve stock, create the order, and authorize payment.
+delay_seconds:
+  min: 0.1
+  max: 0.4
+commands:
+- SELECT variant_id, quantity FROM cart_items WHERE cart_id = 9001;
+- >-
+  SELECT variant_id, quantity_on_hand - quantity_reserved AS available FROM inventory WHERE variant_id
+  = 500 AND warehouse_id = 1 FOR UPDATE;
+- >-
+  INSERT INTO orders (order_number, customer_id, status, subtotal, discount_total, shipping_total, tax_total,
+  grand_total, shipping_address, billing_address) VALUES ('ORD-2000777', 77, 'pending_payment', 79.98,
+  0, 5.00, 5.00, 89.98, '{}'::jsonb, '{}'::jsonb) RETURNING order_id;
+- >-
+  UPDATE inventory SET quantity_reserved = quantity_reserved + 2 WHERE variant_id = 500 AND warehouse_id
+  = 1;
+- >-
+  INSERT INTO payments (order_id, provider, method, amount, currency_code, status) VALUES (currval(pg_get_serial_sequence('orders','order_id')),
+  'stripe', 'card', 89.98, 'USD', 'authorized');

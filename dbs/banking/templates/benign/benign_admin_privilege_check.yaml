@@ -1,0 +1,15 @@
+name: banking_benign_admin_privilege_check
+type: benign
+schema: banking
+description: >-
+  Monitoring job verifying the application role has exactly the grants it needs on 'accounts'. Resembles
+  OS privilege-escalation recon but is a read-only least-privilege audit.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+- SELECT current_user, session_user;
+- >-
+  SELECT has_table_privilege(CURRENT_USER, 'accounts', 'SELECT') AS can_read, has_table_privilege(CURRENT_USER,
+  'accounts', 'UPDATE') AS can_write;
+- SELECT rolname, rolcanlogin FROM pg_roles WHERE rolname = CURRENT_USER;

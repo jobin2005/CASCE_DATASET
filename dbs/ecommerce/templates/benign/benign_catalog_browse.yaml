@@ -1,0 +1,18 @@
+name: ecommerce_benign_catalog_browse
+type: benign
+schema: ecommerce
+description: >-
+  Shopper browsing the catalog: active products, variant prices, and stock availability.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+- >-
+  SELECT p.product_id, p.name, b.name AS brand FROM products p LEFT JOIN brands b ON b.brand_id = p.brand_id
+  WHERE p.status = 'active' ORDER BY p.product_id LIMIT 24;
+- >-
+  SELECT v.variant_id, v.sku, v.price FROM product_variants v WHERE v.product_id = 100 AND v.is_active
+  = true;
+- >-
+  SELECT variant_id, SUM(quantity_on_hand - quantity_reserved) AS available FROM inventory WHERE variant_id
+  = 500 GROUP BY variant_id;

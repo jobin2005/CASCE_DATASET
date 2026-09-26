@@ -1,31 +1,41 @@
-brand_id,name,slug,country_of_origin,website_url,is_active
-1,Brand 1,brand-1,Japan,https://www.brand1.com,TRUE
-2,Brand 2,brand-2,Japan,https://www.brand2.com,TRUE
-3,Brand 3,brand-3,China,https://www.brand3.com,TRUE
-4,Brand 4,brand-4,China,https://www.brand4.com,TRUE
-5,Brand 5,brand-5,China,https://www.brand5.com,TRUE
-6,Brand 6,brand-6,Germany,https://www.brand6.com,TRUE
-7,Brand 7,brand-7,USA,https://www.brand7.com,TRUE
-8,Brand 8,brand-8,Germany,https://www.brand8.com,TRUE
-9,Brand 9,brand-9,India,https://www.brand9.com,TRUE
-10,Brand 10,brand-10,China,https://www.brand10.com,TRUE
-11,Brand 11,brand-11,Germany,https://www.brand11.com,TRUE
-12,Brand 12,brand-12,UK,https://www.brand12.com,TRUE
-13,Brand 13,brand-13,USA,https://www.brand13.com,TRUE
-14,Brand 14,brand-14,UK,https://www.brand14.com,TRUE
-15,Brand 15,brand-15,UK,https://www.brand15.com,TRUE
-16,Brand 16,brand-16,Germany,https://www.brand16.com,TRUE
-17,Brand 17,brand-17,Germany,https://www.brand17.com,TRUE
-18,Brand 18,brand-18,UK,https://www.brand18.com,TRUE
-19,Brand 19,brand-19,China,https://www.brand19.com,TRUE
-20,Brand 20,brand-20,Japan,https://www.brand20.com,TRUE
-21,Brand 21,brand-21,Japan,https://www.brand21.com,TRUE
-22,Brand 22,brand-22,USA,https://www.brand22.com,TRUE
-23,Brand 23,brand-23,USA,https://www.brand23.com,TRUE
-24,Brand 24,brand-24,India,https://www.brand24.com,TRUE
-25,Brand 25,brand-25,UK,https://www.brand25.com,TRUE
-26,Brand 26,brand-26,USA,https://www.brand26.com,TRUE
-27,Brand 27,brand-27,China,https://www.brand27.com,TRUE
-28,Brand 28,brand-28,Germany,https://www.brand28.com,TRUE
-29,Brand 29,brand-29,UK,https://www.brand29.com,TRUE
-30,Brand 30,brand-30,Germany,https://www.brand30.com,TRUE
+brand_id,name,slug,logo_url
+1,Northwind,northwind,https://cdn.shopnorth.example/brands/northwind.svg
+2,Alder & Pine,alder-pine,https://cdn.shopnorth.example/brands/alder-pine.svg
+3,Lumora,lumora,https://cdn.shopnorth.example/brands/lumora.svg
+4,Kestrel,kestrel,https://cdn.shopnorth.example/brands/kestrel.svg
+5,Brightfield,brightfield,https://cdn.shopnorth.example/brands/brightfield.svg
+6,Halcyon Home,halcyon-home,https://cdn.shopnorth.example/brands/halcyon-home.svg
+7,Voltix,voltix,https://cdn.shopnorth.example/brands/voltix.svg
+8,Ember & Oak,ember-oak,https://cdn.shopnorth.example/brands/ember-oak.svg
+9,Tidewater,tidewater,https://cdn.shopnorth.example/brands/tidewater.svg
+10,Summit Supply,summit-supply,https://cdn.shopnorth.example/brands/summit-supply.svg
+11,Marlowe,marlowe,https://cdn.shopnorth.example/brands/marlowe.svg
+12,Fernway,fernway,https://cdn.shopnorth.example/brands/fernway.svg
+13,Apex Motion,apex-motion,https://cdn.shopnorth.example/brands/apex-motion.svg
+14,Cobalt Audio,cobalt-audio,https://cdn.shopnorth.example/brands/cobalt-audio.svg
+15,Juniper Lane,juniper-lane,https://cdn.shopnorth.example/brands/juniper-lane.svg
+16,Stratus,stratus,https://cdn.shopnorth.example/brands/stratus.svg
+17,Wren & Co.,wren-co,https://cdn.shopnorth.example/brands/wren-co.svg
+18,Ironbark,ironbark,https://cdn.shopnorth.example/brands/ironbark.svg
+19,Luxe Botanica,luxe-botanica,https://cdn.shopnorth.example/brands/luxe-botanica.svg
+20,PawPal,pawpal,https://cdn.shopnorth.example/brands/pawpal.svg
+21,Trailhead,trailhead,https://cdn.shopnorth.example/brands/trailhead.svg
+22,Nimbus Tech,nimbus-tech,https://cdn.shopnorth.example/brands/nimbus-tech.svg
+23,Saltwater,saltwater,https://cdn.shopnorth.example/brands/saltwater.svg
+24,Oakridge,oakridge,https://cdn.shopnorth.example/brands/oakridge.svg
+25,Veloce,veloce,https://cdn.shopnorth.example/brands/veloce.svg
+26,Mosaic Kids,mosaic-kids,https://cdn.shopnorth.example/brands/mosaic-kids.svg
+27,Cinder,cinder,https://cdn.shopnorth.example/brands/cinder.svg
+28,Harbor Goods,harbor-goods,https://cdn.shopnorth.example/brands/harbor-goods.svg
+29,Quill,quill,https://cdn.shopnorth.example/brands/quill.svg
+30,Solstice,solstice,https://cdn.shopnorth.example/brands/solstice.svg
+31,Everkind,everkind,https://cdn.shopnorth.example/brands/everkind.svg
+32,Rove,rove,https://cdn.shopnorth.example/brands/rove.svg
+33,Glowbar,glowbar,https://cdn.shopnorth.example/brands/glowbar.svg
+34,Fable Toys,fable-toys,https://cdn.shopnorth.example/brands/fable-toys.svg
+35,Kinfolk Kitchen,kinfolk-kitchen,https://cdn.shopnorth.example/brands/kinfolk-kitchen.svg
+36,Arcadia,arcadia,https://cdn.shopnorth.example/brands/arcadia.svg
+37,Birchwood,birchwood,https://cdn.shopnorth.example/brands/birchwood.svg
+38,Pulse Fitness,pulse-fitness,https://cdn.shopnorth.example/brands/pulse-fitness.svg
+39,Seaside Skin,seaside-skin,https://cdn.shopnorth.example/brands/seaside-skin.svg
+40,Urban Nomad,urban-nomad,https://cdn.shopnorth.example/brands/urban-nomad.svg

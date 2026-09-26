@@ -1,0 +1,19 @@
+name: healthcare_benign_patient_chart_review
+type: benign
+schema: healthcare
+description: >-
+  Clinician opening a patient chart: demographics, recent encounters, active medications and allergies.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+- >-
+  SELECT patient_id, mrn, first_name, last_name, date_of_birth, sex_at_birth FROM patients WHERE patient_id
+  = 42;
+- >-
+  SELECT encounter_id, encounter_type, admitted_at, chief_complaint FROM encounters WHERE patient_id =
+  42 ORDER BY admitted_at DESC LIMIT 5;
+- >-
+  SELECT p.prescription_id, m.generic_name, p.dose, p.frequency, p.status FROM prescriptions p JOIN medications
+  m ON m.medication_id = p.medication_id WHERE p.patient_id = 42 AND p.status = 'active';
+- SELECT a.allergen, a.severity FROM allergies a WHERE a.patient_id = 42;

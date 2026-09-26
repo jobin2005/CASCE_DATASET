@@ -1,0 +1,16 @@
+name: logistics_benign_dispatch_board
+type: benign
+schema: logistics
+description: Dispatcher loading a driver's trips and stops for the day.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+- >-
+  SELECT trip_id, trip_number, status, planned_start, planned_end FROM trips WHERE driver_id = 12 AND
+  planned_start::date = DATE '2026-09-22' ORDER BY planned_start;
+- >-
+  SELECT ts.sequence_no, ts.stop_type, ts.location_id, ts.planned_arrival FROM trip_stops ts WHERE ts.trip_id
+  = 3001 ORDER BY ts.sequence_no;
+- >-
+  SELECT registration_no, vehicle_type, status FROM vehicles WHERE vehicle_id = 55;

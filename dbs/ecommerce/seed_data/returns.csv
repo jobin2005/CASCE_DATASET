@@ -1,0 +1,1639 @@
+return_id,rma_number,order_id,status,reason,customer_comment,refund_id,requested_at,received_at
+1,RMA100001,3,refunded,changed_mind,No longer needed,16,2024-01-13T16:20:07+00:00,2024-01-22T16:20:07+00:00
+2,RMA100002,22,refunded,wrong_size,Found a better price,12,2024-01-11T00:46:16+00:00,2024-01-20T00:46:16+00:00
+3,RMA100003,60,refunded,arrived_late,Box was crushed,23,2024-01-21T23:08:31+00:00,2024-01-30T23:08:31+00:00
+4,RMA100004,71,refunded,wrong_item,No longer needed,35,2024-01-30T13:01:52+00:00,2024-02-08T13:01:52+00:00
+5,RMA100005,115,refunded,wrong_size,Box was crushed,33,2024-01-29T13:46:18+00:00,2024-02-05T13:46:18+00:00
+6,RMA100006,127,refunded,not_as_described,Color looked different online,28,2024-01-26T16:06:05+00:00,2024-02-03T16:06:05+00:00
+7,RMA100007,129,refunded,damaged,Didn't fit,40,2024-02-03T23:30:35+00:00,2024-02-12T23:30:35+00:00
+8,RMA100008,137,refunded,damaged,Box was crushed,29,2024-01-29T23:33:48+00:00,2024-02-03T23:33:48+00:00
+9,RMA100009,170,requested,changed_mind,,,2024-02-03T16:17:41+00:00,
+10,RMA100010,178,requested,changed_mind,Color looked different online,,2024-01-26T00:44:59+00:00,
+11,RMA100011,180,refunded,damaged,Box was crushed,47,2024-02-13T20:22:29+00:00,2024-02-18T20:22:29+00:00
+12,RMA100012,184,refunded,wrong_item,Color looked different online,34,2024-02-02T08:55:36+00:00,2024-02-06T08:55:36+00:00
+13,RMA100013,185,refunded,damaged,,48,2024-02-14T01:21:48+00:00,2024-02-19T01:21:48+00:00
+14,RMA100014,189,refunded,not_as_described,Color looked different online,30,2024-01-28T16:27:37+00:00,2024-02-04T16:27:37+00:00
+15,RMA100015,200,refunded,changed_mind,Box was crushed,45,2024-02-08T05:29:25+00:00,2024-02-18T05:29:25+00:00
+16,RMA100016,228,refunded,arrived_late,Color looked different online,52,2024-02-13T06:50:53+00:00,2024-02-22T06:50:53+00:00
+17,RMA100017,258,refunded,changed_mind,No longer needed,37,2024-02-02T05:28:07+00:00,2024-02-12T05:28:07+00:00
+18,RMA100018,270,refunded,changed_mind,Found a better price,43,2024-02-11T17:49:08+00:00,2024-02-15T17:49:08+00:00
+19,RMA100019,295,approved,wrong_size,,,2024-02-15T02:14:43+00:00,
+20,RMA100020,310,refunded,wrong_size,Didn't fit,59,2024-02-20T16:36:54+00:00,2024-02-27T16:36:54+00:00
+21,RMA100021,325,received,changed_mind,Color looked different online,,2024-02-07T13:53:23+00:00,2024-02-11T13:53:23+00:00
+22,RMA100022,326,refunded,wrong_size,Found a better price,46,2024-02-09T15:45:13+00:00,2024-02-18T15:45:13+00:00
+23,RMA100023,327,refunded,damaged,Box was crushed,60,2024-02-22T10:23:33+00:00,2024-02-28T10:23:33+00:00
+24,RMA100024,388,refunded,changed_mind,Didn't fit,64,2024-02-23T02:25:09+00:00,2024-03-04T02:25:09+00:00
+25,RMA100025,390,refunded,not_as_described,Box was crushed,50,2024-02-14T03:54:40+00:00,2024-02-20T03:54:40+00:00
+26,RMA100026,401,rejected,wrong_size,,,2024-03-03T21:58:20+00:00,
+27,RMA100027,407,refunded,changed_mind,Color looked different online,44,2024-02-12T06:32:33+00:00,2024-02-17T06:32:33+00:00
+28,RMA100028,413,refunded,arrived_late,No longer needed,76,2024-03-02T21:41:05+00:00,2024-03-12T21:41:05+00:00
+29,RMA100029,416,refunded,wrong_size,Color looked different online,71,2024-03-02T17:32:16+00:00,2024-03-08T17:32:16+00:00
+30,RMA100030,422,refunded,damaged,,58,2024-02-21T02:59:30+00:00,2024-02-27T02:59:30+00:00
+31,RMA100031,435,refunded,not_as_described,Color looked different online,80,2024-03-07T17:17:23+00:00,2024-03-14T17:17:23+00:00
+32,RMA100032,442,refunded,not_as_described,Didn't fit,51,2024-02-13T19:44:49+00:00,2024-02-20T19:44:49+00:00
+33,RMA100033,443,refunded,changed_mind,Box was crushed,61,2024-02-23T09:08:58+00:00,2024-03-01T09:08:58+00:00
+34,RMA100034,444,refunded,not_as_described,Color looked different online,85,2024-03-07T08:18:57+00:00,2024-03-17T08:18:57+00:00
+35,RMA100035,465,refunded,wrong_item,Box was crushed,56,2024-02-21T08:26:52+00:00,2024-02-25T08:26:52+00:00
+36,RMA100036,487,refunded,not_as_described,Color looked different online,77,2024-03-04T10:41:37+00:00,2024-03-13T10:41:37+00:00
+37,RMA100037,488,approved,not_as_described,No longer needed,,2024-02-23T03:40:41+00:00,
+38,RMA100038,494,refunded,wrong_size,No longer needed,82,2024-03-07T16:52:43+00:00,2024-03-15T16:52:43+00:00
+39,RMA100039,512,approved,wrong_item,Found a better price,,2024-03-06T10:03:39+00:00,
+40,RMA100040,515,received,changed_mind,Didn't fit,,2024-03-09T20:00:04+00:00,2024-03-16T20:00:04+00:00
+41,RMA100041,527,refunded,wrong_item,Box was crushed,63,2024-02-26T07:15:37+00:00,2024-03-02T07:15:37+00:00
+42,RMA100042,547,refunded,changed_mind,,73,2024-03-03T14:42:50+00:00,2024-03-10T14:42:50+00:00
+43,RMA100043,552,refunded,wrong_size,,74,2024-03-06T00:41:50+00:00,2024-03-12T00:41:50+00:00
+44,RMA100044,563,refunded,wrong_size,Color looked different online,54,2024-02-21T02:24:43+00:00,2024-02-25T02:24:43+00:00
+45,RMA100045,565,refunded,damaged,Found a better price,86,2024-03-11T12:11:49+00:00,2024-03-17T12:11:49+00:00
+46,RMA100046,566,refunded,changed_mind,Found a better price,78,2024-03-07T12:26:20+00:00,2024-03-14T12:26:20+00:00
+47,RMA100047,568,refunded,wrong_size,,65,2024-02-28T06:16:12+00:00,2024-03-04T06:16:12+00:00
+48,RMA100048,584,refunded,arrived_late,Found a better price,89,2024-03-10T03:58:20+00:00,2024-03-18T03:58:20+00:00
+49,RMA100049,594,received,arrived_late,Found a better price,,2024-03-10T15:17:13+00:00,2024-03-19T15:17:13+00:00
+50,RMA100050,643,refunded,changed_mind,Box was crushed,87,2024-03-10T13:12:02+00:00,2024-03-17T13:12:02+00:00
+51,RMA100051,647,refunded,changed_mind,No longer needed,66,2024-02-28T18:15:12+00:00,2024-03-04T18:15:12+00:00
+52,RMA100052,649,refunded,changed_mind,Found a better price,90,2024-03-09T21:00:14+00:00,2024-03-18T21:00:14+00:00
+53,RMA100053,659,refunded,changed_mind,Didn't fit,67,2024-03-03T06:35:03+00:00,2024-03-07T06:35:03+00:00
+54,RMA100054,666,received,wrong_size,No longer needed,,2024-03-14T21:06:16+00:00,2024-03-23T21:06:16+00:00
+55,RMA100055,673,refunded,wrong_size,Didn't fit,83,2024-03-06T16:57:28+00:00,2024-03-16T16:57:28+00:00
+56,RMA100056,676,refunded,changed_mind,No longer needed,84,2024-03-07T22:38:38+00:00,2024-03-16T22:38:38+00:00
+57,RMA100057,688,refunded,changed_mind,Color looked different online,72,2024-03-04T17:33:00+00:00,2024-03-08T17:33:00+00:00
+58,RMA100058,738,refunded,wrong_item,Found a better price,97,2024-03-18T14:55:02+00:00,2024-03-27T14:55:02+00:00
+59,RMA100059,787,requested,wrong_item,Didn't fit,,2024-03-29T23:31:39+00:00,
+60,RMA100060,798,refunded,damaged,No longer needed,107,2024-03-31T04:36:00+00:00,2024-04-04T04:36:00+00:00
+61,RMA100061,832,refunded,wrong_size,,94,2024-03-19T12:03:30+00:00,2024-03-23T12:03:30+00:00
+62,RMA100062,833,refunded,damaged,Didn't fit,110,2024-03-26T00:42:54+00:00,2024-04-05T00:42:54+00:00
+63,RMA100063,872,refunded,changed_mind,Box was crushed,95,2024-03-17T16:48:39+00:00,2024-03-23T16:48:39+00:00
+64,RMA100064,874,refunded,wrong_size,Box was crushed,117,2024-04-02T22:03:35+00:00,2024-04-08T22:03:35+00:00
+65,RMA100065,884,refunded,not_as_described,,102,2024-03-21T08:32:10+00:00,2024-03-31T08:32:10+00:00
+66,RMA100066,899,refunded,wrong_size,Color looked different online,130,2024-04-11T23:33:36+00:00,2024-04-16T23:33:36+00:00
+67,RMA100067,901,refunded,wrong_size,Found a better price,93,2024-03-19T11:39:14+00:00,2024-03-23T11:39:14+00:00
+68,RMA100068,912,refunded,wrong_size,,103,2024-03-27T11:54:15+00:00,2024-03-31T11:54:15+00:00
+69,RMA100069,913,approved,wrong_size,Found a better price,,2024-03-21T11:54:06+00:00,
+70,RMA100070,919,refunded,wrong_size,Found a better price,135,2024-04-09T07:49:56+00:00,2024-04-19T07:49:56+00:00
+71,RMA100071,940,refunded,not_as_described,No longer needed,101,2024-03-25T00:02:41+00:00,2024-03-29T00:02:41+00:00
+72,RMA100072,989,refunded,wrong_size,Color looked different online,113,2024-03-31T09:06:57+00:00,2024-04-07T09:06:57+00:00
+73,RMA100073,997,rejected,wrong_size,Color looked different online,,2024-04-05T15:00:15+00:00,
+74,RMA100074,1008,refunded,changed_mind,,134,2024-04-09T20:35:47+00:00,2024-04-18T20:35:47+00:00
+75,RMA100075,1021,refunded,wrong_size,,123,2024-04-07T22:53:39+00:00,2024-04-11T22:53:39+00:00
+76,RMA100076,1030,approved,not_as_described,Didn't fit,,2024-04-02T11:37:54+00:00,
+77,RMA100077,1046,rejected,damaged,Color looked different online,,2024-04-11T07:48:32+00:00,
+78,RMA100078,1059,refunded,wrong_size,Found a better price,151,2024-04-22T08:18:20+00:00,2024-04-29T08:18:20+00:00
+79,RMA100079,1114,refunded,changed_mind,Box was crushed,139,2024-04-18T02:19:35+00:00,2024-04-22T02:19:35+00:00
+80,RMA100080,1117,refunded,wrong_item,Found a better price,165,2024-04-22T19:44:44+00:00,2024-05-02T19:44:44+00:00
+81,RMA100081,1133,refunded,not_as_described,Box was crushed,131,2024-04-12T19:48:09+00:00,2024-04-17T19:48:09+00:00
+82,RMA100082,1149,requested,wrong_size,Box was crushed,,2024-04-04T16:51:41+00:00,
+83,RMA100083,1154,refunded,wrong_item,Box was crushed,142,2024-04-18T00:40:07+00:00,2024-04-24T00:40:07+00:00
+84,RMA100084,1161,refunded,wrong_size,Color looked different online,153,2024-04-22T20:03:57+00:00,2024-04-29T20:03:57+00:00
+85,RMA100085,1180,refunded,changed_mind,Didn't fit,172,2024-04-28T00:14:24+00:00,2024-05-06T00:14:24+00:00
+86,RMA100086,1184,refunded,not_as_described,No longer needed,164,2024-04-22T17:44:45+00:00,2024-05-02T17:44:45+00:00
+87,RMA100087,1188,refunded,wrong_size,No longer needed,138,2024-04-17T02:18:55+00:00,2024-04-22T02:18:55+00:00
+88,RMA100088,1197,refunded,not_as_described,Box was crushed,168,2024-04-29T14:30:56+00:00,2024-05-04T14:30:56+00:00
+89,RMA100089,1199,refunded,wrong_size,Didn't fit,133,2024-04-13T19:39:29+00:00,2024-04-18T19:39:29+00:00
+90,RMA100090,1217,refunded,changed_mind,Didn't fit,143,2024-04-15T13:33:40+00:00,2024-04-24T13:33:40+00:00
+91,RMA100091,1221,requested,wrong_size,Found a better price,,2024-04-15T14:19:07+00:00,
+92,RMA100092,1252,refunded,arrived_late,Didn't fit,170,2024-04-28T15:02:09+00:00,2024-05-05T15:02:09+00:00
+93,RMA100093,1258,refunded,wrong_size,Didn't fit,166,2024-04-26T10:08:45+00:00,2024-05-03T10:08:45+00:00
+94,RMA100094,1271,refunded,changed_mind,No longer needed,173,2024-04-30T05:57:31+00:00,2024-05-08T05:57:31+00:00
+95,RMA100095,1318,refunded,wrong_item,No longer needed,156,2024-04-21T10:21:00+00:00,2024-04-30T10:21:00+00:00
+96,RMA100096,1321,requested,changed_mind,,,2024-05-08T21:16:55+00:00,
+97,RMA100097,1324,approved,arrived_late,Found a better price,,2024-04-23T15:55:57+00:00,
+98,RMA100098,1341,refunded,wrong_item,Box was crushed,188,2024-05-06T09:21:51+00:00,2024-05-15T09:21:51+00:00
+99,RMA100099,1342,refunded,wrong_size,No longer needed,148,2024-04-19T17:45:20+00:00,2024-04-27T17:45:20+00:00
+100,RMA100100,1345,refunded,changed_mind,Box was crushed,149,2024-04-24T18:09:15+00:00,2024-04-28T18:09:15+00:00
+101,RMA100101,1359,refunded,damaged,No longer needed,200,2024-05-10T00:15:19+00:00,2024-05-19T00:15:19+00:00
+102,RMA100102,1383,rejected,damaged,No longer needed,,2024-05-12T06:32:05+00:00,
+103,RMA100103,1390,refunded,damaged,Didn't fit,150,2024-04-21T19:05:23+00:00,2024-04-28T19:05:23+00:00
+104,RMA100104,1404,refunded,not_as_described,Box was crushed,194,2024-05-06T17:36:16+00:00,2024-05-16T17:36:16+00:00
+105,RMA100105,1421,refunded,wrong_size,No longer needed,179,2024-05-03T06:39:47+00:00,2024-05-12T06:39:47+00:00
+106,RMA100106,1428,refunded,not_as_described,Found a better price,198,2024-05-10T00:18:52+00:00,2024-05-18T00:18:52+00:00
+107,RMA100107,1435,refunded,wrong_size,Color looked different online,167,2024-04-28T13:40:29+00:00,2024-05-04T13:40:29+00:00
+108,RMA100108,1453,refunded,not_as_described,Box was crushed,186,2024-05-09T19:25:16+00:00,2024-05-13T19:25:16+00:00
+109,RMA100109,1462,refunded,wrong_size,,193,2024-05-06T16:00:06+00:00,2024-05-16T16:00:06+00:00
+110,RMA100110,1477,refunded,not_as_described,Found a better price,171,2024-05-01T15:53:53+00:00,2024-05-05T15:53:53+00:00
+111,RMA100111,1516,refunded,changed_mind,No longer needed,189,2024-05-11T16:03:11+00:00,2024-05-15T16:03:11+00:00
+112,RMA100112,1520,refunded,changed_mind,Box was crushed,177,2024-05-03T11:09:06+00:00,2024-05-10T11:09:06+00:00
+113,RMA100113,1521,refunded,changed_mind,Didn't fit,197,2024-05-13T00:16:34+00:00,2024-05-18T00:16:34+00:00
+114,RMA100114,1538,refunded,changed_mind,No longer needed,205,2024-05-18T23:02:25+00:00,2024-05-24T23:02:25+00:00
+115,RMA100115,1548,received,changed_mind,Box was crushed,,2024-05-12T06:41:43+00:00,2024-05-17T06:41:43+00:00
+116,RMA100116,1549,refunded,changed_mind,No longer needed,195,2024-05-10T22:06:21+00:00,2024-05-16T22:06:21+00:00
+117,RMA100117,1555,refunded,wrong_size,Found a better price,220,2024-05-27T10:39:38+00:00,2024-06-02T10:39:38+00:00
+118,RMA100118,1587,refunded,not_as_described,Didn't fit,175,2024-05-04T15:00:24+00:00,2024-05-08T15:00:24+00:00
+119,RMA100119,1590,refunded,wrong_size,No longer needed,216,2024-05-22T18:04:12+00:00,2024-05-31T18:04:12+00:00
+120,RMA100120,1614,refunded,wrong_size,No longer needed,184,2024-05-04T10:59:49+00:00,2024-05-13T10:59:49+00:00
+121,RMA100121,1646,refunded,not_as_described,Didn't fit,196,2024-05-08T23:12:31+00:00,2024-05-16T23:12:31+00:00
+122,RMA100122,1648,refunded,wrong_size,Didn't fit,218,2024-05-26T10:42:21+00:00,2024-06-01T10:42:21+00:00
+123,RMA100123,1665,refunded,arrived_late,No longer needed,223,2024-05-30T12:41:54+00:00,2024-06-04T12:41:54+00:00
+124,RMA100124,1681,rejected,arrived_late,No longer needed,,2024-05-26T09:19:58+00:00,
+125,RMA100125,1689,refunded,changed_mind,Box was crushed,201,2024-05-14T09:03:29+00:00,2024-05-19T09:03:29+00:00
+126,RMA100126,1694,refunded,damaged,Color looked different online,207,2024-05-18T19:47:50+00:00,2024-05-25T19:47:50+00:00
+127,RMA100127,1718,refunded,changed_mind,Didn't fit,222,2024-05-24T18:22:49+00:00,2024-06-02T18:22:49+00:00
+128,RMA100128,1743,refunded,changed_mind,,214,2024-05-22T14:27:25+00:00,2024-05-30T14:27:25+00:00
+129,RMA100129,1754,refunded,wrong_size,No longer needed,212,2024-05-23T21:38:27+00:00,2024-05-29T21:38:27+00:00
+130,RMA100130,1755,refunded,wrong_size,,233,2024-06-05T14:28:29+00:00,2024-06-09T14:28:29+00:00
+131,RMA100131,1798,refunded,not_as_described,Found a better price,234,2024-06-03T02:09:18+00:00,2024-06-10T02:09:18+00:00
+132,RMA100132,1812,refunded,not_as_described,Didn't fit,241,2024-06-08T13:17:31+00:00,2024-06-13T13:17:31+00:00
+133,RMA100133,1836,requested,not_as_described,Box was crushed,,2024-05-30T07:07:33+00:00,
+134,RMA100134,1838,refunded,wrong_size,Didn't fit,242,2024-06-03T19:17:15+00:00,2024-06-13T19:17:15+00:00
+135,RMA100135,1890,refunded,wrong_size,,235,2024-06-01T06:15:40+00:00,2024-06-10T06:15:40+00:00
+136,RMA100136,1892,refunded,changed_mind,Didn't fit,228,2024-05-29T23:09:19+00:00,2024-06-07T23:09:19+00:00
+137,RMA100137,1898,refunded,arrived_late,,248,2024-06-07T02:18:03+00:00,2024-06-15T02:18:03+00:00
+138,RMA100138,1900,refunded,damaged,Found a better price,246,2024-06-05T03:29:46+00:00,2024-06-14T03:29:46+00:00
+139,RMA100139,1908,refunded,changed_mind,Box was crushed,225,2024-05-27T17:23:27+00:00,2024-06-05T17:23:27+00:00
+140,RMA100140,1918,rejected,changed_mind,,,2024-06-18T10:25:57+00:00,
+141,RMA100141,1923,refunded,wrong_size,No longer needed,215,2024-05-26T16:36:49+00:00,2024-05-31T16:36:49+00:00
+142,RMA100142,1987,refunded,changed_mind,Didn't fit,256,2024-06-09T16:20:54+00:00,2024-06-19T16:20:54+00:00
+143,RMA100143,2001,received,changed_mind,,,2024-06-17T05:40:25+00:00,2024-06-22T05:40:25+00:00
+144,RMA100144,2025,refunded,wrong_size,Color looked different online,266,2024-06-17T16:19:12+00:00,2024-06-26T16:19:12+00:00
+145,RMA100145,2027,refunded,not_as_described,Box was crushed,243,2024-06-09T19:39:24+00:00,2024-06-13T19:39:24+00:00
+146,RMA100146,2049,received,wrong_size,,,2024-06-16T21:51:56+00:00,2024-06-20T21:51:56+00:00
+147,RMA100147,2053,refunded,changed_mind,Box was crushed,274,2024-06-24T22:26:27+00:00,2024-07-03T22:26:27+00:00
+148,RMA100148,2067,refunded,wrong_size,Color looked different online,264,2024-06-18T18:12:06+00:00,2024-06-25T18:12:06+00:00
+149,RMA100149,2077,requested,changed_mind,Color looked different online,,2024-06-29T14:47:57+00:00,
+150,RMA100150,2104,refunded,not_as_described,,263,2024-06-17T12:48:34+00:00,2024-06-24T12:48:34+00:00
+151,RMA100151,2106,refunded,wrong_size,Box was crushed,278,2024-07-03T15:46:51+00:00,2024-07-08T15:46:51+00:00
+152,RMA100152,2117,refunded,damaged,Didn't fit,245,2024-06-08T22:08:51+00:00,2024-06-13T22:08:51+00:00
+153,RMA100153,2154,refunded,not_as_described,Didn't fit,252,2024-06-13T16:43:38+00:00,2024-06-18T16:43:38+00:00
+154,RMA100154,2176,rejected,changed_mind,No longer needed,,2024-06-16T11:35:13+00:00,
+155,RMA100155,2259,refunded,changed_mind,No longer needed,283,2024-07-06T00:46:54+00:00,2024-07-11T00:46:54+00:00
+156,RMA100156,2266,refunded,changed_mind,No longer needed,284,2024-07-07T11:38:32+00:00,2024-07-11T11:38:32+00:00
+157,RMA100157,2267,rejected,changed_mind,,,2024-07-07T18:41:57+00:00,
+158,RMA100158,2271,refunded,wrong_item,Box was crushed,290,2024-07-10T16:56:47+00:00,2024-07-14T16:56:47+00:00
+159,RMA100159,2282,refunded,changed_mind,Didn't fit,275,2024-06-30T15:57:03+00:00,2024-07-05T15:57:03+00:00
+160,RMA100160,2284,refunded,changed_mind,Color looked different online,271,2024-06-23T14:58:55+00:00,2024-07-01T14:58:55+00:00
+161,RMA100161,2304,refunded,changed_mind,Color looked different online,270,2024-06-21T10:09:08+00:00,2024-06-30T10:09:08+00:00
+162,RMA100162,2311,refunded,not_as_described,,285,2024-07-03T05:18:22+00:00,2024-07-12T05:18:22+00:00
+163,RMA100163,2332,rejected,changed_mind,Didn't fit,,2024-06-24T23:09:52+00:00,
+164,RMA100164,2355,refunded,changed_mind,Didn't fit,306,2024-07-16T04:08:53+00:00,2024-07-22T04:08:53+00:00
+165,RMA100165,2374,refunded,wrong_item,Color looked different online,294,2024-07-12T17:22:31+00:00,2024-07-17T17:22:31+00:00
+166,RMA100166,2379,refunded,wrong_size,Found a better price,286,2024-07-08T14:16:34+00:00,2024-07-12T14:16:34+00:00
+167,RMA100167,2404,refunded,arrived_late,,288,2024-07-06T22:17:24+00:00,2024-07-13T22:17:24+00:00
+168,RMA100168,2427,refunded,damaged,Found a better price,302,2024-07-10T07:27:25+00:00,2024-07-20T07:27:25+00:00
+169,RMA100169,2444,rejected,wrong_size,Didn't fit,,2024-07-08T10:34:39+00:00,
+170,RMA100170,2477,refunded,arrived_late,,289,2024-07-10T05:48:18+00:00,2024-07-14T05:48:18+00:00
+171,RMA100171,2481,refunded,wrong_size,Box was crushed,298,2024-07-12T06:04:11+00:00,2024-07-19T06:04:11+00:00
+172,RMA100172,2491,refunded,changed_mind,Box was crushed,293,2024-07-13T10:46:58+00:00,2024-07-17T10:46:58+00:00
+173,RMA100173,2497,rejected,not_as_described,Color looked different online,,2024-07-14T11:24:53+00:00,
+174,RMA100174,2521,refunded,wrong_size,No longer needed,301,2024-07-16T05:31:32+00:00,2024-07-20T05:31:32+00:00
+175,RMA100175,2531,refunded,wrong_item,Box was crushed,291,2024-07-09T08:04:27+00:00,2024-07-15T08:04:27+00:00
+176,RMA100176,2539,refunded,not_as_described,Didn't fit,292,2024-07-05T15:20:29+00:00,2024-07-15T15:20:29+00:00
+177,RMA100177,2560,refunded,not_as_described,,303,2024-07-18T00:10:36+00:00,2024-07-22T00:10:36+00:00
+178,RMA100178,2567,requested,not_as_described,,,2024-07-30T04:22:21+00:00,
+179,RMA100179,2578,requested,changed_mind,No longer needed,,2024-07-13T08:35:06+00:00,
+180,RMA100180,2586,refunded,damaged,,296,2024-07-14T00:21:51+00:00,2024-07-19T00:21:51+00:00
+181,RMA100181,2607,received,changed_mind,Color looked different online,,2024-07-29T06:52:20+00:00,2024-08-04T06:52:20+00:00
+182,RMA100182,2629,approved,changed_mind,Didn't fit,,2024-07-16T20:18:26+00:00,
+183,RMA100183,2638,refunded,wrong_size,Didn't fit,307,2024-07-14T18:22:40+00:00,2024-07-22T18:22:40+00:00
+184,RMA100184,2642,refunded,wrong_size,,317,2024-07-18T09:15:06+00:00,2024-07-28T09:15:06+00:00
+185,RMA100185,2707,received,arrived_late,No longer needed,,2024-07-21T16:58:59+00:00,2024-07-30T16:58:59+00:00
+186,RMA100186,2715,received,arrived_late,Found a better price,,2024-07-23T23:11:09+00:00,2024-08-02T23:11:09+00:00
+187,RMA100187,2723,refunded,not_as_described,Found a better price,322,2024-07-29T09:32:42+00:00,2024-08-03T09:32:42+00:00
+188,RMA100188,2738,approved,arrived_late,,,2024-07-15T21:07:21+00:00,
+189,RMA100189,2745,refunded,wrong_size,Color looked different online,326,2024-07-29T13:52:50+00:00,2024-08-07T13:52:50+00:00
+190,RMA100190,2748,refunded,changed_mind,,342,2024-08-10T07:03:29+00:00,2024-08-14T07:03:29+00:00
+191,RMA100191,2759,received,arrived_late,Color looked different online,,2024-07-30T00:34:06+00:00,2024-08-07T00:34:06+00:00
+192,RMA100192,2762,refunded,wrong_size,Box was crushed,313,2024-07-17T08:55:43+00:00,2024-07-27T08:55:43+00:00
+193,RMA100193,2777,received,changed_mind,Didn't fit,,2024-07-20T17:22:03+00:00,2024-07-29T17:22:03+00:00
+194,RMA100194,2790,refunded,not_as_described,Didn't fit,352,2024-08-12T04:18:17+00:00,2024-08-21T04:18:17+00:00
+195,RMA100195,2802,refunded,changed_mind,Color looked different online,324,2024-07-27T06:45:18+00:00,2024-08-05T06:45:18+00:00
+196,RMA100196,2806,refunded,changed_mind,Box was crushed,350,2024-08-12T20:33:24+00:00,2024-08-18T20:33:24+00:00
+197,RMA100197,2856,refunded,changed_mind,Color looked different online,331,2024-08-01T22:11:09+00:00,2024-08-08T22:11:09+00:00
+198,RMA100198,2874,refunded,not_as_described,,325,2024-07-28T06:50:07+00:00,2024-08-05T06:50:07+00:00
+199,RMA100199,2884,refunded,changed_mind,,333,2024-08-03T10:41:55+00:00,2024-08-10T10:41:55+00:00
+200,RMA100200,2895,refunded,damaged,Didn't fit,319,2024-07-23T13:06:08+00:00,2024-07-31T13:06:08+00:00
+201,RMA100201,2904,refunded,wrong_size,,338,2024-08-02T08:05:22+00:00,2024-08-11T08:05:22+00:00
+202,RMA100202,2918,requested,wrong_item,Color looked different online,,2024-08-10T05:45:42+00:00,
+203,RMA100203,2930,refunded,not_as_described,,356,2024-08-17T20:29:01+00:00,2024-08-25T20:29:01+00:00
+204,RMA100204,2931,refunded,damaged,Box was crushed,328,2024-08-01T08:25:12+00:00,2024-08-08T08:25:12+00:00
+205,RMA100205,2938,refunded,arrived_late,Color looked different online,353,2024-08-13T02:07:29+00:00,2024-08-23T02:07:29+00:00
+206,RMA100206,2948,refunded,not_as_described,,337,2024-08-05T19:39:40+00:00,2024-08-10T19:39:40+00:00
+207,RMA100207,2949,refunded,changed_mind,Found a better price,347,2024-08-07T22:57:07+00:00,2024-08-16T22:57:07+00:00
+208,RMA100208,2955,refunded,wrong_size,No longer needed,332,2024-08-01T02:15:58+00:00,2024-08-10T02:15:58+00:00
+209,RMA100209,2966,refunded,changed_mind,Box was crushed,323,2024-07-28T19:49:04+00:00,2024-08-04T19:49:04+00:00
+210,RMA100210,2977,refunded,wrong_size,Didn't fit,329,2024-07-31T14:28:45+00:00,2024-08-08T14:28:45+00:00
+211,RMA100211,3020,refunded,damaged,No longer needed,362,2024-08-25T18:08:14+00:00,2024-08-29T18:08:14+00:00
+212,RMA100212,3041,refunded,changed_mind,Color looked different online,340,2024-08-08T17:42:55+00:00,2024-08-12T17:42:55+00:00
+213,RMA100213,3068,refunded,wrong_size,Box was crushed,366,2024-08-24T18:48:05+00:00,2024-09-01T18:48:05+00:00
+214,RMA100214,3080,refunded,not_as_described,No longer needed,358,2024-08-22T00:22:10+00:00,2024-08-27T00:22:10+00:00
+215,RMA100215,3081,refunded,wrong_size,No longer needed,373,2024-08-31T13:28:42+00:00,2024-09-05T13:28:42+00:00
+216,RMA100216,3089,refunded,changed_mind,,344,2024-08-10T01:10:25+00:00,2024-08-15T01:10:25+00:00
+217,RMA100217,3116,refunded,wrong_item,Found a better price,354,2024-08-16T19:23:14+00:00,2024-08-24T19:23:14+00:00
+218,RMA100218,3149,rejected,wrong_size,Found a better price,,2024-08-16T05:22:27+00:00,
+219,RMA100219,3206,approved,wrong_size,Didn't fit,,2024-08-20T23:45:32+00:00,
+220,RMA100220,3210,refunded,damaged,Box was crushed,371,2024-08-31T10:19:49+00:00,2024-09-04T10:19:49+00:00
+221,RMA100221,3219,refunded,wrong_size,Color looked different online,363,2024-08-22T23:30:20+00:00,2024-08-29T23:30:20+00:00
+222,RMA100222,3222,refunded,wrong_size,No longer needed,397,2024-09-07T13:36:22+00:00,2024-09-17T13:36:22+00:00
+223,RMA100223,3230,refunded,wrong_size,Box was crushed,385,2024-09-06T13:12:28+00:00,2024-09-12T13:12:28+00:00
+224,RMA100224,3233,refunded,changed_mind,,355,2024-08-15T02:09:32+00:00,2024-08-25T02:09:32+00:00
+225,RMA100225,3235,refunded,damaged,No longer needed,392,2024-09-08T13:32:30+00:00,2024-09-14T13:32:30+00:00
+226,RMA100226,3241,rejected,wrong_size,Found a better price,,2024-08-22T00:57:21+00:00,
+227,RMA100227,3248,refunded,wrong_size,Didn't fit,377,2024-08-29T17:41:36+00:00,2024-09-06T17:41:36+00:00
+228,RMA100228,3250,refunded,changed_mind,Box was crushed,388,2024-09-03T22:04:33+00:00,2024-09-13T22:04:33+00:00
+229,RMA100229,3257,refunded,arrived_late,Didn't fit,393,2024-09-08T22:23:30+00:00,2024-09-14T22:23:30+00:00
+230,RMA100230,3282,refunded,not_as_described,Didn't fit,361,2024-08-23T04:40:09+00:00,2024-08-29T04:40:09+00:00
+231,RMA100231,3285,refunded,changed_mind,No longer needed,367,2024-08-26T22:17:26+00:00,2024-09-01T22:17:26+00:00
+232,RMA100232,3295,refunded,wrong_size,No longer needed,390,2024-09-04T12:09:57+00:00,2024-09-14T12:09:57+00:00
+233,RMA100233,3304,refunded,changed_mind,Didn't fit,364,2024-08-22T00:47:57+00:00,2024-09-01T00:47:57+00:00
+234,RMA100234,3308,received,changed_mind,,,2024-09-08T11:45:08+00:00,2024-09-18T11:45:08+00:00
+235,RMA100235,3334,refunded,changed_mind,Didn't fit,383,2024-09-05T21:20:40+00:00,2024-09-10T21:20:40+00:00
+236,RMA100236,3337,refunded,changed_mind,,407,2024-09-16T23:02:38+00:00,2024-09-22T23:02:38+00:00
+237,RMA100237,3349,refunded,changed_mind,,378,2024-08-28T23:35:19+00:00,2024-09-06T23:35:19+00:00
+238,RMA100238,3357,refunded,changed_mind,Found a better price,396,2024-09-09T02:14:05+00:00,2024-09-17T02:14:05+00:00
+239,RMA100239,3369,refunded,arrived_late,Didn't fit,413,2024-09-18T03:26:09+00:00,2024-09-26T03:26:09+00:00
+240,RMA100240,3398,received,damaged,Box was crushed,,2024-08-24T08:28:02+00:00,2024-09-02T08:28:02+00:00
+241,RMA100241,3424,refunded,damaged,Color looked different online,381,2024-09-03T13:52:13+00:00,2024-09-09T13:52:13+00:00
+242,RMA100242,3439,refunded,changed_mind,Found a better price,405,2024-09-12T09:10:45+00:00,2024-09-22T09:10:45+00:00
+243,RMA100243,3449,refunded,changed_mind,Box was crushed,400,2024-09-14T15:57:03+00:00,2024-09-19T15:57:03+00:00
+244,RMA100244,3495,refunded,wrong_size,,421,2024-09-22T22:25:13+00:00,2024-10-01T22:25:13+00:00
+245,RMA100245,3500,refunded,wrong_size,Didn't fit,412,2024-09-19T17:51:46+00:00,2024-09-25T17:51:46+00:00
+246,RMA100246,3517,rejected,arrived_late,No longer needed,,2024-09-22T06:12:34+00:00,
+247,RMA100247,3580,refunded,wrong_size,Color looked different online,399,2024-09-11T12:41:47+00:00,2024-09-19T12:41:47+00:00
+248,RMA100248,3593,refunded,changed_mind,No longer needed,409,2024-09-16T14:53:01+00:00,2024-09-24T14:53:01+00:00
+249,RMA100249,3616,requested,wrong_size,No longer needed,,2024-09-11T09:50:36+00:00,
+250,RMA100250,3657,refunded,changed_mind,,427,2024-09-26T08:20:04+00:00,2024-10-06T08:20:04+00:00
+251,RMA100251,3660,refunded,not_as_described,No longer needed,424,2024-10-01T21:31:52+00:00,2024-10-05T21:31:52+00:00
+252,RMA100252,3669,received,changed_mind,Didn't fit,,2024-09-25T08:56:39+00:00,2024-09-30T08:56:39+00:00
+253,RMA100253,3672,refunded,not_as_described,,423,2024-10-01T14:17:31+00:00,2024-10-05T14:17:31+00:00
+254,RMA100254,3678,approved,changed_mind,Box was crushed,,2024-09-12T16:01:47+00:00,
+255,RMA100255,3692,refunded,arrived_late,Found a better price,417,2024-09-23T20:05:01+00:00,2024-09-29T20:05:01+00:00
+256,RMA100256,3710,refunded,arrived_late,Found a better price,431,2024-09-29T23:11:16+00:00,2024-10-09T23:11:16+00:00
+257,RMA100257,3716,refunded,wrong_size,No longer needed,435,2024-10-05T23:53:12+00:00,2024-10-10T23:53:12+00:00
+258,RMA100258,3749,refunded,wrong_size,Found a better price,459,2024-10-12T08:06:47+00:00,2024-10-22T08:06:47+00:00
+259,RMA100259,3774,rejected,not_as_described,,,2024-09-22T21:31:17+00:00,
+260,RMA100260,3784,refunded,not_as_described,Didn't fit,428,2024-09-28T13:12:56+00:00,2024-10-07T13:12:56+00:00
+261,RMA100261,3796,refunded,wrong_size,Color looked different online,430,2024-10-04T23:04:28+00:00,2024-10-09T23:04:28+00:00
+262,RMA100262,3802,refunded,wrong_item,Found a better price,437,2024-10-02T13:17:27+00:00,2024-10-11T13:17:27+00:00
+263,RMA100263,3807,refunded,wrong_size,Color looked different online,433,2024-10-06T18:43:04+00:00,2024-10-10T18:43:04+00:00
+264,RMA100264,3835,refunded,arrived_late,,416,2024-09-24T22:09:20+00:00,2024-09-28T22:09:20+00:00
+265,RMA100265,3852,requested,changed_mind,Found a better price,,2024-10-12T01:50:57+00:00,
+266,RMA100266,3884,rejected,wrong_size,Didn't fit,,2024-09-27T02:32:05+00:00,
+267,RMA100267,3908,rejected,wrong_size,Color looked different online,,2024-10-19T18:50:22+00:00,
+268,RMA100268,3913,approved,wrong_size,No longer needed,,2024-10-18T14:46:33+00:00,
+269,RMA100269,3927,refunded,changed_mind,No longer needed,451,2024-10-12T12:35:09+00:00,2024-10-17T12:35:09+00:00
+270,RMA100270,3934,refunded,not_as_described,Found a better price,447,2024-10-06T20:14:30+00:00,2024-10-14T20:14:30+00:00
+271,RMA100271,3936,refunded,changed_mind,Found a better price,436,2024-10-07T00:57:19+00:00,2024-10-11T00:57:19+00:00
+272,RMA100272,3939,refunded,wrong_size,Color looked different online,442,2024-10-06T21:25:22+00:00,2024-10-12T21:25:22+00:00
+273,RMA100273,3958,refunded,arrived_late,,445,2024-10-09T12:18:13+00:00,2024-10-14T12:18:13+00:00
+274,RMA100274,3973,received,not_as_described,Color looked different online,,2024-10-04T20:39:31+00:00,2024-10-10T20:39:31+00:00
+275,RMA100275,3975,refunded,wrong_size,Color looked different online,439,2024-10-08T04:28:31+00:00,2024-10-12T04:28:31+00:00
+276,RMA100276,3993,refunded,changed_mind,,458,2024-10-11T20:28:57+00:00,2024-10-21T20:28:57+00:00
+277,RMA100277,3999,refunded,not_as_described,Found a better price,475,2024-10-25T19:15:55+00:00,2024-10-31T19:15:55+00:00
+278,RMA100278,4020,refunded,changed_mind,Found a better price,444,2024-10-10T07:48:10+00:00,2024-10-14T07:48:10+00:00
+279,RMA100279,4026,refunded,wrong_size,,461,2024-10-19T21:37:44+00:00,2024-10-23T21:37:44+00:00
+280,RMA100280,4031,refunded,wrong_size,No longer needed,426,2024-10-01T06:17:21+00:00,2024-10-06T06:17:21+00:00
+281,RMA100281,4032,rejected,wrong_size,Found a better price,,2024-10-24T16:30:12+00:00,
+282,RMA100282,4061,refunded,changed_mind,Didn't fit,476,2024-10-22T20:26:41+00:00,2024-10-31T20:26:41+00:00
+283,RMA100283,4063,refunded,wrong_size,Color looked different online,446,2024-10-04T12:26:43+00:00,2024-10-14T12:26:43+00:00
+284,RMA100284,4081,refunded,changed_mind,Didn't fit,440,2024-10-06T06:54:02+00:00,2024-10-12T06:54:02+00:00
+285,RMA100285,4113,approved,changed_mind,Color looked different online,,2024-10-20T13:47:27+00:00,
+286,RMA100286,4127,approved,arrived_late,Didn't fit,,2024-10-23T16:32:31+00:00,
+287,RMA100287,4131,refunded,wrong_size,Found a better price,496,2024-10-29T20:28:36+00:00,2024-11-06T20:28:36+00:00
+288,RMA100288,4135,refunded,wrong_size,Box was crushed,482,2024-10-29T21:41:21+00:00,2024-11-02T21:41:21+00:00
+289,RMA100289,4147,approved,wrong_size,No longer needed,,2024-10-04T20:17:17+00:00,
+290,RMA100290,4152,refunded,damaged,No longer needed,472,2024-10-20T21:43:55+00:00,2024-10-30T21:43:55+00:00
+291,RMA100291,4168,refunded,changed_mind,Box was crushed,460,2024-10-16T03:20:03+00:00,2024-10-23T03:20:03+00:00
+292,RMA100292,4174,refunded,changed_mind,Didn't fit,464,2024-10-18T13:52:49+00:00,2024-10-26T13:52:49+00:00
+293,RMA100293,4207,refunded,changed_mind,Color looked different online,457,2024-10-15T21:21:57+00:00,2024-10-19T21:21:57+00:00
+294,RMA100294,4239,refunded,wrong_item,No longer needed,485,2024-10-29T12:39:08+00:00,2024-11-03T12:39:08+00:00
+295,RMA100295,4268,refunded,damaged,Box was crushed,479,2024-10-28T22:53:05+00:00,2024-11-01T22:53:05+00:00
+296,RMA100296,4269,refunded,changed_mind,Didn't fit,502,2024-10-31T13:39:55+00:00,2024-11-08T13:39:55+00:00
+297,RMA100297,4282,approved,wrong_size,,,2024-10-16T04:27:10+00:00,
+298,RMA100298,4294,refunded,arrived_late,Didn't fit,488,2024-10-28T23:46:36+00:00,2024-11-04T23:46:36+00:00
+299,RMA100299,4315,received,not_as_described,No longer needed,,2024-10-30T16:48:09+00:00,2024-11-09T16:48:09+00:00
+300,RMA100300,4352,refunded,wrong_size,Box was crushed,490,2024-10-28T15:39:05+00:00,2024-11-05T15:39:05+00:00
+301,RMA100301,4356,refunded,damaged,Box was crushed,516,2024-11-09T13:32:05+00:00,2024-11-13T13:32:05+00:00
+302,RMA100302,4364,refunded,not_as_described,No longer needed,494,2024-11-01T17:57:39+00:00,2024-11-06T17:57:39+00:00
+303,RMA100303,4369,refunded,changed_mind,,462,2024-10-19T11:25:05+00:00,2024-10-25T11:25:05+00:00
+304,RMA100304,4396,refunded,changed_mind,Box was crushed,486,2024-10-25T22:38:57+00:00,2024-11-03T22:38:57+00:00
+305,RMA100305,4405,refunded,changed_mind,Box was crushed,524,2024-11-08T13:03:30+00:00,2024-11-17T13:03:30+00:00
+306,RMA100306,4415,refunded,arrived_late,Box was crushed,519,2024-11-12T11:58:23+00:00,2024-11-16T11:58:23+00:00
+307,RMA100307,4434,refunded,wrong_size,,493,2024-10-28T17:38:29+00:00,2024-11-06T17:38:29+00:00
+308,RMA100308,4438,refunded,not_as_described,Didn't fit,530,2024-11-12T14:41:59+00:00,2024-11-19T14:41:59+00:00
+309,RMA100309,4460,rejected,wrong_size,Box was crushed,,2024-11-16T12:54:40+00:00,
+310,RMA100310,4480,refunded,not_as_described,Didn't fit,528,2024-11-12T09:01:26+00:00,2024-11-19T09:01:26+00:00
+311,RMA100311,4483,refunded,damaged,Didn't fit,514,2024-11-09T06:54:41+00:00,2024-11-13T06:54:41+00:00
+312,RMA100312,4485,refunded,changed_mind,,487,2024-10-26T16:01:55+00:00,2024-11-04T16:01:55+00:00
+313,RMA100313,4488,refunded,arrived_late,,498,2024-10-31T10:23:18+00:00,2024-11-07T10:23:18+00:00
+314,RMA100314,4493,refunded,wrong_size,No longer needed,495,2024-10-29T18:04:16+00:00,2024-11-06T18:04:16+00:00
+315,RMA100315,4495,refunded,changed_mind,Box was crushed,477,2024-10-27T16:11:42+00:00,2024-11-01T16:11:42+00:00
+316,RMA100316,4497,refunded,not_as_described,No longer needed,546,2024-11-16T06:51:41+00:00,2024-11-25T06:51:41+00:00
+317,RMA100317,4499,refunded,damaged,Didn't fit,508,2024-10-31T17:26:36+00:00,2024-11-10T17:26:36+00:00
+318,RMA100318,4517,refunded,changed_mind,Didn't fit,500,2024-10-30T15:52:58+00:00,2024-11-07T15:52:58+00:00
+319,RMA100319,4528,refunded,changed_mind,No longer needed,509,2024-11-05T01:03:35+00:00,2024-11-11T01:03:35+00:00
+320,RMA100320,4548,refunded,changed_mind,,540,2024-11-18T16:20:50+00:00,2024-11-22T16:20:50+00:00
+321,RMA100321,4565,refunded,changed_mind,Color looked different online,551,2024-11-18T19:18:19+00:00,2024-11-26T19:18:19+00:00
+322,RMA100322,4569,refunded,wrong_size,Found a better price,520,2024-11-06T15:33:54+00:00,2024-11-16T15:33:54+00:00
+323,RMA100323,4573,requested,changed_mind,Found a better price,,2024-10-30T15:11:32+00:00,
+324,RMA100324,4622,refunded,damaged,Didn't fit,504,2024-11-01T10:10:18+00:00,2024-11-09T10:10:18+00:00
+325,RMA100325,4623,refunded,wrong_size,No longer needed,527,2024-11-09T05:30:21+00:00,2024-11-19T05:30:21+00:00
+326,RMA100326,4624,refunded,arrived_late,Color looked different online,517,2024-11-05T18:13:28+00:00,2024-11-13T18:13:28+00:00
+327,RMA100327,4627,refunded,changed_mind,Color looked different online,550,2024-11-18T04:55:07+00:00,2024-11-26T04:55:07+00:00
+328,RMA100328,4635,refunded,wrong_size,Didn't fit,518,2024-11-10T03:41:23+00:00,2024-11-15T03:41:23+00:00
+329,RMA100329,4670,refunded,damaged,Didn't fit,522,2024-11-11T19:44:21+00:00,2024-11-16T19:44:21+00:00
+330,RMA100330,4674,refunded,changed_mind,Box was crushed,521,2024-11-07T17:16:26+00:00,2024-11-16T17:16:26+00:00
+331,RMA100331,4675,refunded,wrong_size,,529,2024-11-12T11:00:15+00:00,2024-11-19T11:00:15+00:00
+332,RMA100332,4708,requested,changed_mind,,,2024-11-11T14:23:46+00:00,
+333,RMA100333,4719,refunded,changed_mind,,534,2024-11-11T20:50:10+00:00,2024-11-20T20:50:10+00:00
+334,RMA100334,4723,requested,damaged,Box was crushed,,2024-11-26T13:48:06+00:00,
+335,RMA100335,4742,refunded,changed_mind,Box was crushed,526,2024-11-09T19:32:07+00:00,2024-11-18T19:32:07+00:00
+336,RMA100336,4781,approved,wrong_size,Found a better price,,2024-11-10T14:19:52+00:00,
+337,RMA100337,4786,rejected,not_as_described,,,2024-11-25T13:23:25+00:00,
+338,RMA100338,4792,refunded,wrong_size,Box was crushed,588,2024-12-01T22:07:40+00:00,2024-12-09T22:07:40+00:00
+339,RMA100339,4848,refunded,wrong_size,No longer needed,545,2024-11-15T03:21:22+00:00,2024-11-25T03:21:22+00:00
+340,RMA100340,4897,refunded,not_as_described,,566,2024-11-29T12:57:26+00:00,2024-12-03T12:57:26+00:00
+341,RMA100341,4916,refunded,wrong_size,Color looked different online,539,2024-11-13T12:05:26+00:00,2024-11-22T12:05:26+00:00
+342,RMA100342,4921,refunded,damaged,,575,2024-11-28T07:16:52+00:00,2024-12-06T07:16:52+00:00
+343,RMA100343,4979,refunded,damaged,,573,2024-11-26T10:52:37+00:00,2024-12-05T10:52:37+00:00
+344,RMA100344,4997,refunded,changed_mind,Box was crushed,563,2024-11-24T10:01:10+00:00,2024-12-03T10:01:10+00:00
+345,RMA100345,5002,refunded,wrong_item,Found a better price,542,2024-11-15T04:40:08+00:00,2024-11-23T04:40:08+00:00
+346,RMA100346,5033,received,changed_mind,Color looked different online,,2024-12-06T19:43:34+00:00,2024-12-16T19:43:34+00:00
+347,RMA100347,5035,rejected,changed_mind,Found a better price,,2024-11-17T11:16:12+00:00,
+348,RMA100348,5046,refunded,changed_mind,Box was crushed,586,2024-12-03T07:26:17+00:00,2024-12-09T07:26:17+00:00
+349,RMA100349,5051,refunded,wrong_size,No longer needed,592,2024-12-07T21:38:50+00:00,2024-12-11T21:38:50+00:00
+350,RMA100350,5053,refunded,changed_mind,Box was crushed,578,2024-11-30T16:50:37+00:00,2024-12-06T16:50:37+00:00
+351,RMA100351,5061,refunded,wrong_size,Didn't fit,590,2024-12-06T05:33:29+00:00,2024-12-11T05:33:29+00:00
+352,RMA100352,5062,refunded,wrong_item,Box was crushed,606,2024-12-10T02:37:41+00:00,2024-12-16T02:37:41+00:00
+353,RMA100353,5082,requested,changed_mind,Didn't fit,,2024-11-25T15:24:14+00:00,
+354,RMA100354,5091,refunded,changed_mind,Found a better price,577,2024-11-26T14:18:09+00:00,2024-12-06T14:18:09+00:00
+355,RMA100355,5124,refunded,changed_mind,Color looked different online,576,2024-12-01T09:12:17+00:00,2024-12-06T09:12:17+00:00
+356,RMA100356,5126,refunded,changed_mind,No longer needed,625,2024-12-15T10:23:10+00:00,2024-12-20T10:23:10+00:00
+357,RMA100357,5128,requested,not_as_described,No longer needed,,2024-11-26T04:52:54+00:00,
+358,RMA100358,5136,refunded,not_as_described,Box was crushed,609,2024-12-12T02:24:01+00:00,2024-12-17T02:24:01+00:00
+359,RMA100359,5157,refunded,arrived_late,Found a better price,582,2024-11-28T09:51:58+00:00,2024-12-08T09:51:58+00:00
+360,RMA100360,5161,refunded,damaged,No longer needed,565,2024-11-23T10:16:35+00:00,2024-12-03T10:16:35+00:00
+361,RMA100361,5172,refunded,changed_mind,Color looked different online,549,2024-11-20T21:07:35+00:00,2024-11-25T21:07:35+00:00
+362,RMA100362,5189,refunded,not_as_described,No longer needed,570,2024-11-27T18:31:04+00:00,2024-12-04T18:31:04+00:00
+363,RMA100363,5194,requested,not_as_described,,,2024-11-29T04:51:33+00:00,
+364,RMA100364,5198,refunded,damaged,Didn't fit,579,2024-11-29T08:00:11+00:00,2024-12-07T08:00:11+00:00
+365,RMA100365,5201,rejected,wrong_size,,,2024-12-01T00:00:07+00:00,
+366,RMA100366,5206,rejected,wrong_size,Color looked different online,,2024-12-11T06:53:38+00:00,
+367,RMA100367,5233,refunded,not_as_described,,569,2024-11-27T16:44:06+00:00,2024-12-04T16:44:06+00:00
+368,RMA100368,5250,refunded,wrong_size,No longer needed,642,2024-12-18T14:43:19+00:00,2024-12-25T14:43:19+00:00
+369,RMA100369,5267,refunded,changed_mind,Didn't fit,601,2024-12-07T11:07:44+00:00,2024-12-14T11:07:44+00:00
+370,RMA100370,5274,refunded,wrong_size,Found a better price,560,2024-11-23T21:10:30+00:00,2024-12-02T21:10:30+00:00
+371,RMA100371,5284,refunded,not_as_described,,574,2024-11-28T00:46:18+00:00,2024-12-06T00:46:18+00:00
+372,RMA100372,5285,refunded,wrong_size,Box was crushed,615,2024-12-12T08:30:33+00:00,2024-12-18T08:30:33+00:00
+373,RMA100373,5291,refunded,wrong_item,No longer needed,571,2024-11-27T05:38:59+00:00,2024-12-05T05:38:59+00:00
+374,RMA100374,5295,received,damaged,No longer needed,,2024-11-25T09:42:24+00:00,2024-12-01T09:42:24+00:00
+375,RMA100375,5308,refunded,not_as_described,Color looked different online,624,2024-12-14T04:12:46+00:00,2024-12-20T04:12:46+00:00
+376,RMA100376,5324,refunded,wrong_item,Color looked different online,613,2024-12-11T15:49:12+00:00,2024-12-17T15:49:12+00:00
+377,RMA100377,5338,refunded,not_as_described,No longer needed,564,2024-11-26T10:13:03+00:00,2024-12-03T10:13:03+00:00
+378,RMA100378,5378,refunded,not_as_described,Didn't fit,603,2024-12-09T03:41:08+00:00,2024-12-15T03:41:08+00:00
+379,RMA100379,5393,refunded,changed_mind,,614,2024-12-11T22:38:16+00:00,2024-12-17T22:38:16+00:00
+380,RMA100380,5442,refunded,wrong_size,Box was crushed,604,2024-12-10T10:42:54+00:00,2024-12-15T10:42:54+00:00
+381,RMA100381,5448,refunded,changed_mind,Found a better price,668,2024-12-23T19:13:31+00:00,2025-01-02T19:13:31+00:00
+382,RMA100382,5452,refunded,changed_mind,No longer needed,599,2024-12-03T13:48:19+00:00,2024-12-13T13:48:19+00:00
+383,RMA100383,5461,rejected,arrived_late,,,2024-12-21T14:38:21+00:00,
+384,RMA100384,5495,refunded,wrong_size,Box was crushed,657,2024-12-18T18:52:02+00:00,2024-12-28T18:52:02+00:00
+385,RMA100385,5500,refunded,not_as_described,Box was crushed,634,2024-12-18T19:07:21+00:00,2024-12-22T19:07:21+00:00
+386,RMA100386,5519,refunded,not_as_described,,584,2024-12-01T19:23:11+00:00,2024-12-08T19:23:11+00:00
+387,RMA100387,5520,requested,wrong_size,Didn't fit,,2024-12-05T00:36:04+00:00,
+388,RMA100388,5531,refunded,arrived_late,Didn't fit,632,2024-12-17T12:25:15+00:00,2024-12-22T12:25:15+00:00
+389,RMA100389,5533,refunded,not_as_described,No longer needed,621,2024-12-09T18:26:48+00:00,2024-12-19T18:26:48+00:00
+390,RMA100390,5553,refunded,wrong_size,Color looked different online,644,2024-12-21T16:48:33+00:00,2024-12-25T16:48:33+00:00
+391,RMA100391,5596,refunded,changed_mind,,652,2024-12-19T07:19:25+00:00,2024-12-27T07:19:25+00:00
+392,RMA100392,5600,refunded,changed_mind,Box was crushed,667,2024-12-24T17:17:34+00:00,2025-01-02T17:17:34+00:00
+393,RMA100393,5602,refunded,not_as_described,Box was crushed,628,2024-12-14T12:29:13+00:00,2024-12-21T12:29:13+00:00
+394,RMA100394,5619,refunded,not_as_described,Found a better price,683,2024-12-28T07:35:36+00:00,2025-01-07T07:35:36+00:00
+395,RMA100395,5629,requested,not_as_described,Found a better price,,2024-12-10T04:36:36+00:00,
+396,RMA100396,5650,refunded,not_as_described,Color looked different online,595,2024-12-06T21:04:51+00:00,2024-12-12T21:04:51+00:00
+397,RMA100397,5658,refunded,not_as_described,Box was crushed,654,2024-12-19T13:56:11+00:00,2024-12-27T13:56:11+00:00
+398,RMA100398,5663,refunded,damaged,Box was crushed,633,2024-12-15T12:54:39+00:00,2024-12-22T12:54:39+00:00
+399,RMA100399,5665,rejected,changed_mind,Box was crushed,,2024-12-07T10:39:54+00:00,
+400,RMA100400,5667,refunded,wrong_size,No longer needed,596,2024-12-06T00:15:51+00:00,2024-12-13T00:15:51+00:00
+401,RMA100401,5675,requested,wrong_item,,,2025-01-01T03:04:07+00:00,
+402,RMA100402,5694,refunded,wrong_size,No longer needed,641,2024-12-17T01:33:03+00:00,2024-12-25T01:33:03+00:00
+403,RMA100403,5704,refunded,changed_mind,Didn't fit,672,2024-12-26T22:31:49+00:00,2025-01-03T22:31:49+00:00
+404,RMA100404,5710,received,wrong_size,Didn't fit,,2024-12-21T22:21:28+00:00,2024-12-27T22:21:28+00:00
+405,RMA100405,5740,refunded,changed_mind,Color looked different online,678,2024-12-31T11:28:44+00:00,2025-01-05T11:28:44+00:00
+406,RMA100406,5757,received,wrong_size,Found a better price,,2024-12-24T03:45:22+00:00,2025-01-02T03:45:22+00:00
+407,RMA100407,5765,refunded,not_as_described,Didn't fit,676,2024-12-27T09:01:39+00:00,2025-01-05T09:01:39+00:00
+408,RMA100408,5806,refunded,wrong_size,No longer needed,629,2024-12-15T23:40:26+00:00,2024-12-21T23:40:26+00:00
+409,RMA100409,5813,refunded,not_as_described,Found a better price,594,2024-12-07T15:48:05+00:00,2024-12-12T15:48:05+00:00
+410,RMA100410,5837,refunded,wrong_size,No longer needed,695,2025-01-01T14:21:12+00:00,2025-01-09T14:21:12+00:00
+411,RMA100411,5846,approved,damaged,,,2024-12-23T12:50:39+00:00,
+412,RMA100412,5863,refunded,changed_mind,Found a better price,698,2025-01-02T07:55:40+00:00,2025-01-10T07:55:40+00:00
+413,RMA100413,5871,refunded,changed_mind,Box was crushed,661,2024-12-25T03:05:34+00:00,2024-12-30T03:05:34+00:00
+414,RMA100414,5893,refunded,wrong_size,No longer needed,659,2024-12-23T12:03:02+00:00,2024-12-29T12:03:02+00:00
+415,RMA100415,5907,refunded,changed_mind,Color looked different online,671,2024-12-30T07:18:27+00:00,2025-01-03T07:18:27+00:00
+416,RMA100416,5923,refunded,changed_mind,Found a better price,669,2024-12-24T21:04:29+00:00,2025-01-02T21:04:29+00:00
+417,RMA100417,5933,rejected,changed_mind,Didn't fit,,2024-12-22T20:21:58+00:00,
+418,RMA100418,5951,refunded,damaged,,651,2024-12-21T06:03:45+00:00,2024-12-27T06:03:45+00:00
+419,RMA100419,5970,refunded,wrong_size,Found a better price,656,2024-12-19T12:54:07+00:00,2024-12-28T12:54:07+00:00
+420,RMA100420,5978,refunded,changed_mind,Didn't fit,623,2024-12-13T22:57:31+00:00,2024-12-19T22:57:31+00:00
+421,RMA100421,5984,refunded,wrong_size,No longer needed,663,2024-12-24T09:21:41+00:00,2024-12-31T09:21:41+00:00
+422,RMA100422,6010,refunded,arrived_late,Color looked different online,655,2024-12-21T09:21:59+00:00,2024-12-28T09:21:59+00:00
+423,RMA100423,6013,refunded,not_as_described,Box was crushed,664,2024-12-25T22:08:11+00:00,2024-12-31T22:08:11+00:00
+424,RMA100424,6014,refunded,changed_mind,,660,2024-12-19T15:37:41+00:00,2024-12-29T15:37:41+00:00
+425,RMA100425,6051,refunded,not_as_described,,626,2024-12-15T14:50:11+00:00,2024-12-20T14:50:11+00:00
+426,RMA100426,6059,refunded,damaged,Color looked different online,675,2024-12-29T07:31:18+00:00,2025-01-05T07:31:18+00:00
+427,RMA100427,6070,refunded,changed_mind,Box was crushed,694,2025-01-03T08:04:45+00:00,2025-01-09T08:04:45+00:00
+428,RMA100428,6075,refunded,wrong_size,Box was crushed,697,2025-01-01T00:55:13+00:00,2025-01-10T00:55:13+00:00
+429,RMA100429,6083,refunded,wrong_size,Found a better price,711,2025-01-06T20:26:01+00:00,2025-01-14T20:26:01+00:00
+430,RMA100430,6096,refunded,not_as_described,Didn't fit,635,2024-12-16T02:01:23+00:00,2024-12-23T02:01:23+00:00
+431,RMA100431,6108,refunded,not_as_described,Found a better price,688,2024-12-30T10:45:58+00:00,2025-01-08T10:45:58+00:00
+432,RMA100432,6123,refunded,changed_mind,Found a better price,705,2025-01-07T17:15:10+00:00,2025-01-12T17:15:10+00:00
+433,RMA100433,6124,refunded,wrong_size,,710,2025-01-06T04:09:27+00:00,2025-01-14T04:09:27+00:00
+434,RMA100434,6137,refunded,damaged,Didn't fit,681,2024-12-30T17:32:11+00:00,2025-01-06T17:32:11+00:00
+435,RMA100435,6150,requested,wrong_size,Didn't fit,,2024-12-17T23:15:10+00:00,
+436,RMA100436,6175,refunded,wrong_size,Box was crushed,699,2025-01-02T18:40:51+00:00,2025-01-10T18:40:51+00:00
+437,RMA100437,6194,refunded,not_as_described,Box was crushed,703,2025-01-07T06:42:31+00:00,2025-01-12T06:42:31+00:00
+438,RMA100438,6198,refunded,changed_mind,,687,2024-12-30T13:55:50+00:00,2025-01-07T13:55:50+00:00
+439,RMA100439,6229,refunded,changed_mind,Didn't fit,707,2025-01-08T03:40:39+00:00,2025-01-13T03:40:39+00:00
+440,RMA100440,6251,refunded,wrong_size,Color looked different online,674,2024-12-25T17:31:48+00:00,2025-01-04T17:31:48+00:00
+441,RMA100441,6264,refunded,changed_mind,Color looked different online,690,2024-12-31T16:00:08+00:00,2025-01-08T16:00:08+00:00
+442,RMA100442,6271,refunded,arrived_late,Box was crushed,679,2024-12-27T01:50:42+00:00,2025-01-06T01:50:42+00:00
+443,RMA100443,6293,refunded,wrong_size,Box was crushed,717,2025-01-13T05:49:45+00:00,2025-01-17T05:49:45+00:00
+444,RMA100444,6357,rejected,damaged,Box was crushed,,2025-01-13T15:39:49+00:00,
+445,RMA100445,6391,approved,damaged,Found a better price,,2024-12-24T14:41:14+00:00,
+446,RMA100446,6399,refunded,wrong_size,,718,2025-01-12T07:35:42+00:00,2025-01-18T07:35:42+00:00
+447,RMA100447,6411,refunded,damaged,Color looked different online,726,2025-01-11T22:49:52+00:00,2025-01-21T22:49:52+00:00
+448,RMA100448,6423,refunded,wrong_size,Color looked different online,692,2024-12-30T02:00:10+00:00,2025-01-09T02:00:10+00:00
+449,RMA100449,6445,refunded,wrong_size,Didn't fit,728,2025-01-16T23:32:59+00:00,2025-01-22T23:32:59+00:00
+450,RMA100450,6450,refunded,changed_mind,Box was crushed,680,2024-12-28T15:44:21+00:00,2025-01-06T15:44:21+00:00
+451,RMA100451,6460,refunded,wrong_size,Didn't fit,737,2025-01-15T08:58:16+00:00,2025-01-25T08:58:16+00:00
+452,RMA100452,6465,refunded,not_as_described,Box was crushed,708,2025-01-08T22:33:43+00:00,2025-01-13T22:33:43+00:00
+453,RMA100453,6474,refunded,changed_mind,Found a better price,714,2025-01-06T12:10:29+00:00,2025-01-15T12:10:29+00:00
+454,RMA100454,6475,requested,wrong_size,No longer needed,,2025-01-10T03:58:27+00:00,
+455,RMA100455,6479,refunded,changed_mind,Didn't fit,741,2025-01-17T10:40:41+00:00,2025-01-26T10:40:41+00:00
+456,RMA100456,6501,rejected,changed_mind,Didn't fit,,2025-01-06T16:56:50+00:00,
+457,RMA100457,6504,refunded,changed_mind,Box was crushed,706,2025-01-06T20:53:35+00:00,2025-01-12T20:53:35+00:00
+458,RMA100458,6537,refunded,wrong_size,Found a better price,732,2025-01-19T17:03:13+00:00,2025-01-23T17:03:13+00:00
+459,RMA100459,6574,refunded,damaged,Box was crushed,712,2025-01-09T02:46:35+00:00,2025-01-15T02:46:35+00:00
+460,RMA100460,6584,refunded,changed_mind,Found a better price,720,2025-01-15T07:56:23+00:00,2025-01-20T07:56:23+00:00
+461,RMA100461,6588,refunded,changed_mind,Didn't fit,716,2025-01-08T05:15:18+00:00,2025-01-17T05:15:18+00:00
+462,RMA100462,6589,received,damaged,Color looked different online,,2025-01-12T01:16:50+00:00,2025-01-19T01:16:50+00:00
+463,RMA100463,6594,refunded,not_as_described,Found a better price,729,2025-01-16T23:49:40+00:00,2025-01-22T23:49:40+00:00
+464,RMA100464,6598,refunded,changed_mind,Box was crushed,700,2024-12-31T19:58:17+00:00,2025-01-10T19:58:17+00:00
+465,RMA100465,6616,refunded,wrong_size,Didn't fit,743,2025-01-19T15:09:25+00:00,2025-01-26T15:09:25+00:00
+466,RMA100466,6624,refunded,not_as_described,,766,2025-01-27T00:26:22+00:00,2025-02-03T00:26:22+00:00
+467,RMA100467,6633,approved,changed_mind,Found a better price,,2025-01-23T17:50:29+00:00,
+468,RMA100468,6635,refunded,wrong_size,No longer needed,722,2025-01-15T05:55:25+00:00,2025-01-21T05:55:25+00:00
+469,RMA100469,6648,refunded,wrong_size,Found a better price,740,2025-01-22T04:13:52+00:00,2025-01-26T04:13:52+00:00
+470,RMA100470,6657,refunded,not_as_described,Didn't fit,731,2025-01-16T07:31:29+00:00,2025-01-23T07:31:29+00:00
+471,RMA100471,6667,refunded,wrong_size,Color looked different online,696,2025-01-05T14:34:07+00:00,2025-01-09T14:34:07+00:00
+472,RMA100472,6690,refunded,wrong_item,Color looked different online,746,2025-01-19T11:45:30+00:00,2025-01-27T11:45:30+00:00
+473,RMA100473,6715,received,wrong_size,Didn't fit,,2025-01-20T09:49:44+00:00,2025-01-29T09:49:44+00:00
+474,RMA100474,6719,received,damaged,No longer needed,,2025-01-02T06:52:51+00:00,2025-01-07T06:52:51+00:00
+475,RMA100475,6726,refunded,damaged,Didn't fit,750,2025-01-20T22:32:38+00:00,2025-01-28T22:32:38+00:00
+476,RMA100476,6735,refunded,damaged,,739,2025-01-21T20:03:19+00:00,2025-01-25T20:03:19+00:00
+477,RMA100477,6753,refunded,changed_mind,,724,2025-01-16T17:43:57+00:00,2025-01-21T17:43:57+00:00
+478,RMA100478,6757,refunded,wrong_size,Didn't fit,721,2025-01-12T13:10:59+00:00,2025-01-20T13:10:59+00:00
+479,RMA100479,6781,refunded,wrong_size,,759,2025-01-23T14:09:31+00:00,2025-02-01T14:09:31+00:00
+480,RMA100480,6801,requested,damaged,,,2025-01-09T10:45:23+00:00,
+481,RMA100481,6825,approved,wrong_item,Didn't fit,,2025-01-11T08:31:49+00:00,
+482,RMA100482,6827,refunded,changed_mind,No longer needed,769,2025-01-25T15:56:48+00:00,2025-02-03T15:56:48+00:00
+483,RMA100483,6829,refunded,changed_mind,Didn't fit,765,2025-01-23T15:29:10+00:00,2025-02-02T15:29:10+00:00
+484,RMA100484,6835,refunded,changed_mind,Found a better price,719,2025-01-13T10:03:14+00:00,2025-01-19T10:03:14+00:00
+485,RMA100485,6836,refunded,changed_mind,No longer needed,734,2025-01-14T22:25:11+00:00,2025-01-23T22:25:11+00:00
+486,RMA100486,6849,refunded,not_as_described,Box was crushed,744,2025-01-17T20:15:26+00:00,2025-01-26T20:15:26+00:00
+487,RMA100487,6862,refunded,damaged,Found a better price,760,2025-01-26T03:53:23+00:00,2025-02-02T03:53:23+00:00
+488,RMA100488,6870,refunded,wrong_size,Color looked different online,725,2025-01-12T17:45:00+00:00,2025-01-21T17:45:00+00:00
+489,RMA100489,6880,refunded,changed_mind,Found a better price,748,2025-01-24T15:22:56+00:00,2025-01-28T15:22:56+00:00
+490,RMA100490,6887,refunded,not_as_described,Color looked different online,733,2025-01-16T20:57:21+00:00,2025-01-23T20:57:21+00:00
+491,RMA100491,6895,refunded,changed_mind,Found a better price,774,2025-01-29T04:27:36+00:00,2025-02-07T04:27:36+00:00
+492,RMA100492,6902,refunded,wrong_size,Didn't fit,709,2025-01-09T23:52:40+00:00,2025-01-13T23:52:40+00:00
+493,RMA100493,6931,refunded,wrong_size,Didn't fit,755,2025-01-24T19:27:16+00:00,2025-01-30T19:27:16+00:00
+494,RMA100494,6940,refunded,damaged,,764,2025-01-24T09:58:02+00:00,2025-02-02T09:58:02+00:00
+495,RMA100495,6950,requested,changed_mind,Color looked different online,,2025-01-17T19:02:56+00:00,
+496,RMA100496,6956,refunded,changed_mind,No longer needed,757,2025-01-26T02:22:33+00:00,2025-01-31T02:22:33+00:00
+497,RMA100497,6961,refunded,wrong_size,,786,2025-02-06T08:55:37+00:00,2025-02-14T08:55:37+00:00
+498,RMA100498,6976,rejected,wrong_size,Found a better price,,2025-02-07T13:00:20+00:00,
+499,RMA100499,6988,approved,not_as_described,Color looked different online,,2025-02-01T19:26:18+00:00,
+500,RMA100500,6990,refunded,damaged,Box was crushed,787,2025-02-07T20:34:00+00:00,2025-02-14T20:34:00+00:00
+501,RMA100501,7066,refunded,wrong_size,,758,2025-01-28T07:13:08+00:00,2025-02-01T07:13:08+00:00
+502,RMA100502,7076,refunded,not_as_described,Didn't fit,799,2025-02-13T17:17:23+00:00,2025-02-21T17:17:23+00:00
+503,RMA100503,7089,refunded,wrong_size,No longer needed,789,2025-02-11T02:02:23+00:00,2025-02-16T02:02:23+00:00
+504,RMA100504,7090,refunded,damaged,Color looked different online,756,2025-01-24T21:13:17+00:00,2025-01-30T21:13:17+00:00
+505,RMA100505,7096,refunded,damaged,Found a better price,802,2025-02-17T23:53:26+00:00,2025-02-23T23:53:26+00:00
+506,RMA100506,7131,refunded,changed_mind,Didn't fit,771,2025-01-29T13:39:05+00:00,2025-02-04T13:39:05+00:00
+507,RMA100507,7151,refunded,wrong_size,Color looked different online,777,2025-01-31T08:10:35+00:00,2025-02-08T08:10:35+00:00
+508,RMA100508,7159,refunded,changed_mind,Color looked different online,793,2025-02-12T17:33:16+00:00,2025-02-19T17:33:16+00:00
+509,RMA100509,7161,refunded,wrong_size,No longer needed,809,2025-02-17T12:57:50+00:00,2025-02-25T12:57:50+00:00
+510,RMA100510,7164,refunded,wrong_size,Found a better price,791,2025-02-10T23:21:23+00:00,2025-02-16T23:21:23+00:00
+511,RMA100511,7169,rejected,arrived_late,Found a better price,,2025-02-03T12:12:42+00:00,
+512,RMA100512,7185,refunded,wrong_size,Found a better price,801,2025-02-15T17:24:12+00:00,2025-02-23T17:24:12+00:00
+513,RMA100513,7199,refunded,wrong_size,Color looked different online,785,2025-02-08T04:07:02+00:00,2025-02-14T04:07:02+00:00
+514,RMA100514,7213,refunded,wrong_size,Didn't fit,788,2025-02-06T15:15:40+00:00,2025-02-15T15:15:40+00:00
+515,RMA100515,7247,rejected,not_as_described,,,2025-02-20T07:40:55+00:00,
+516,RMA100516,7265,rejected,arrived_late,,,2025-02-26T05:48:12+00:00,
+517,RMA100517,7280,refunded,changed_mind,Color looked different online,783,2025-02-05T17:04:56+00:00,2025-02-12T17:04:56+00:00
+518,RMA100518,7281,refunded,changed_mind,Color looked different online,792,2025-02-10T12:02:05+00:00,2025-02-18T12:02:05+00:00
+519,RMA100519,7286,refunded,changed_mind,No longer needed,831,2025-03-02T18:25:42+00:00,2025-03-08T18:25:42+00:00
+520,RMA100520,7314,refunded,wrong_size,Color looked different online,805,2025-02-20T12:16:09+00:00,2025-02-24T12:16:09+00:00
+521,RMA100521,7360,refunded,changed_mind,No longer needed,827,2025-02-24T17:33:48+00:00,2025-03-06T17:33:48+00:00
+522,RMA100522,7361,refunded,arrived_late,Color looked different online,832,2025-02-28T17:36:49+00:00,2025-03-09T17:36:49+00:00
+523,RMA100523,7424,refunded,arrived_late,Didn't fit,798,2025-02-16T16:23:35+00:00,2025-02-21T16:23:35+00:00
+524,RMA100524,7468,refunded,not_as_described,No longer needed,820,2025-02-25T10:40:48+00:00,2025-03-04T10:40:48+00:00
+525,RMA100525,7486,approved,arrived_late,,,2025-03-05T18:22:06+00:00,
+526,RMA100526,7492,refunded,wrong_size,Found a better price,817,2025-02-25T13:39:17+00:00,2025-03-02T13:39:17+00:00
+527,RMA100527,7505,refunded,changed_mind,Box was crushed,841,2025-03-03T13:50:21+00:00,2025-03-13T13:50:21+00:00
+528,RMA100528,7506,refunded,wrong_size,,851,2025-03-09T23:55:16+00:00,2025-03-17T23:55:16+00:00
+529,RMA100529,7514,refunded,not_as_described,Box was crushed,824,2025-02-28T00:25:26+00:00,2025-03-06T00:25:26+00:00
+530,RMA100530,7521,refunded,not_as_described,,870,2025-03-19T20:32:03+00:00,2025-03-24T20:32:03+00:00
+531,RMA100531,7533,refunded,wrong_size,Found a better price,822,2025-03-01T01:42:05+00:00,2025-03-05T01:42:05+00:00
+532,RMA100532,7535,refunded,changed_mind,Box was crushed,819,2025-02-27T14:24:30+00:00,2025-03-03T14:24:30+00:00
+533,RMA100533,7553,refunded,not_as_described,Box was crushed,828,2025-03-01T03:45:03+00:00,2025-03-07T03:45:03+00:00
+534,RMA100534,7554,rejected,not_as_described,Color looked different online,,2025-03-04T21:43:03+00:00,
+535,RMA100535,7562,refunded,wrong_size,,842,2025-03-05T02:24:40+00:00,2025-03-14T02:24:40+00:00
+536,RMA100536,7574,refunded,wrong_item,,854,2025-03-11T18:28:45+00:00,2025-03-18T18:28:45+00:00
+537,RMA100537,7585,refunded,changed_mind,No longer needed,859,2025-03-11T08:21:50+00:00,2025-03-20T08:21:50+00:00
+538,RMA100538,7589,refunded,changed_mind,Didn't fit,825,2025-02-27T02:03:49+00:00,2025-03-06T02:03:49+00:00
+539,RMA100539,7620,refunded,wrong_size,,840,2025-03-05T05:51:28+00:00,2025-03-12T05:51:28+00:00
+540,RMA100540,7634,refunded,wrong_size,Color looked different online,844,2025-03-06T19:11:41+00:00,2025-03-14T19:11:41+00:00
+541,RMA100541,7644,refunded,not_as_described,,845,2025-03-05T00:29:10+00:00,2025-03-15T00:29:10+00:00
+542,RMA100542,7647,refunded,wrong_size,No longer needed,878,2025-03-19T19:10:58+00:00,2025-03-27T19:10:58+00:00
+543,RMA100543,7651,refunded,wrong_size,,850,2025-03-07T18:40:13+00:00,2025-03-17T18:40:13+00:00
+544,RMA100544,7662,refunded,wrong_item,Color looked different online,834,2025-03-06T09:46:35+00:00,2025-03-10T09:46:35+00:00
+545,RMA100545,7680,refunded,wrong_size,No longer needed,846,2025-03-09T13:23:03+00:00,2025-03-16T13:23:03+00:00
+546,RMA100546,7707,rejected,not_as_described,Box was crushed,,2025-03-03T09:00:39+00:00,
+547,RMA100547,7733,refunded,changed_mind,Color looked different online,826,2025-02-26T14:29:48+00:00,2025-03-06T14:29:48+00:00
+548,RMA100548,7757,refunded,wrong_size,Box was crushed,886,2025-03-23T14:00:07+00:00,2025-04-02T14:00:07+00:00
+549,RMA100549,7782,requested,damaged,Found a better price,,2025-03-16T01:36:09+00:00,
+550,RMA100550,7791,refunded,wrong_size,,868,2025-03-13T11:59:35+00:00,2025-03-23T11:59:35+00:00
+551,RMA100551,7799,refunded,changed_mind,Found a better price,835,2025-03-04T12:45:35+00:00,2025-03-10T12:45:35+00:00
+552,RMA100552,7811,refunded,changed_mind,Box was crushed,871,2025-03-21T05:32:21+00:00,2025-03-25T05:32:21+00:00
+553,RMA100553,7814,refunded,wrong_size,,849,2025-03-08T18:39:46+00:00,2025-03-17T18:39:46+00:00
+554,RMA100554,7821,approved,wrong_item,Found a better price,,2025-03-07T07:25:32+00:00,
+555,RMA100555,7822,refunded,not_as_described,Box was crushed,836,2025-03-06T16:10:23+00:00,2025-03-10T16:10:23+00:00
+556,RMA100556,7824,refunded,arrived_late,,862,2025-03-15T03:30:47+00:00,2025-03-21T03:30:47+00:00
+557,RMA100557,7847,refunded,not_as_described,,876,2025-03-22T05:45:14+00:00,2025-03-27T05:45:14+00:00
+558,RMA100558,7853,refunded,changed_mind,Found a better price,875,2025-03-18T05:38:46+00:00,2025-03-27T05:38:46+00:00
+559,RMA100559,7854,refunded,changed_mind,No longer needed,883,2025-03-26T18:13:50+00:00,2025-04-01T18:13:50+00:00
+560,RMA100560,7863,refunded,wrong_size,,873,2025-03-20T21:57:01+00:00,2025-03-25T21:57:01+00:00
+561,RMA100561,7871,refunded,not_as_described,No longer needed,887,2025-03-26T23:43:09+00:00,2025-04-02T23:43:09+00:00
+562,RMA100562,7887,refunded,wrong_size,Found a better price,852,2025-03-13T03:33:03+00:00,2025-03-18T03:33:03+00:00
+563,RMA100563,7892,received,damaged,Box was crushed,,2025-03-19T10:25:52+00:00,2025-03-28T10:25:52+00:00
+564,RMA100564,7918,refunded,damaged,Didn't fit,866,2025-03-13T00:11:58+00:00,2025-03-22T00:11:58+00:00
+565,RMA100565,7919,rejected,changed_mind,Color looked different online,,2025-03-23T13:07:08+00:00,
+566,RMA100566,7931,refunded,not_as_described,Box was crushed,906,2025-03-31T06:37:39+00:00,2025-04-10T06:37:39+00:00
+567,RMA100567,7939,refunded,changed_mind,Didn't fit,867,2025-03-18T14:07:47+00:00,2025-03-22T14:07:47+00:00
+568,RMA100568,7954,refunded,changed_mind,Color looked different online,892,2025-03-25T18:26:52+00:00,2025-04-04T18:26:52+00:00
+569,RMA100569,7957,requested,damaged,Box was crushed,,2025-03-19T04:29:50+00:00,
+570,RMA100570,7960,requested,changed_mind,,,2025-03-12T01:04:23+00:00,
+571,RMA100571,7969,refunded,not_as_described,No longer needed,890,2025-03-29T17:03:31+00:00,2025-04-03T17:03:31+00:00
+572,RMA100572,7975,refunded,arrived_late,Box was crushed,872,2025-03-19T18:27:52+00:00,2025-03-25T18:27:52+00:00
+573,RMA100573,8013,refunded,arrived_late,Found a better price,909,2025-04-04T17:59:04+00:00,2025-04-10T17:59:04+00:00
+574,RMA100574,8015,refunded,arrived_late,Found a better price,922,2025-04-05T19:15:27+00:00,2025-04-15T19:15:27+00:00
+575,RMA100575,8021,refunded,not_as_described,No longer needed,908,2025-04-03T13:16:25+00:00,2025-04-10T13:16:25+00:00
+576,RMA100576,8026,rejected,damaged,Box was crushed,,2025-03-20T19:16:56+00:00,
+577,RMA100577,8031,refunded,changed_mind,Color looked different online,881,2025-03-27T20:16:33+00:00,2025-03-31T20:16:33+00:00
+578,RMA100578,8033,refunded,damaged,Box was crushed,885,2025-03-23T01:50:24+00:00,2025-04-02T01:50:24+00:00
+579,RMA100579,8041,received,damaged,Box was crushed,,2025-03-30T15:14:03+00:00,2025-04-07T15:14:03+00:00
+580,RMA100580,8061,requested,wrong_size,No longer needed,,2025-03-31T23:47:37+00:00,
+581,RMA100581,8071,refunded,wrong_size,Box was crushed,895,2025-03-31T23:20:47+00:00,2025-04-05T23:20:47+00:00
+582,RMA100582,8079,refunded,wrong_item,Box was crushed,889,2025-03-25T12:38:12+00:00,2025-04-03T12:38:12+00:00
+583,RMA100583,8083,refunded,changed_mind,Didn't fit,897,2025-03-27T21:57:54+00:00,2025-04-06T21:57:54+00:00
+584,RMA100584,8095,refunded,changed_mind,,882,2025-03-27T16:05:55+00:00,2025-04-01T16:05:55+00:00
+585,RMA100585,8111,refunded,damaged,Didn't fit,884,2025-03-22T20:53:40+00:00,2025-04-01T20:53:40+00:00
+586,RMA100586,8117,refunded,wrong_size,Didn't fit,936,2025-04-11T01:07:59+00:00,2025-04-20T01:07:59+00:00
+587,RMA100587,8119,refunded,changed_mind,No longer needed,921,2025-04-11T14:42:57+00:00,2025-04-15T14:42:57+00:00
+588,RMA100588,8137,refunded,wrong_size,,910,2025-04-06T20:18:12+00:00,2025-04-10T20:18:12+00:00
+589,RMA100589,8172,refunded,changed_mind,Didn't fit,901,2025-04-02T00:53:10+00:00,2025-04-08T00:53:10+00:00
+590,RMA100590,8177,received,wrong_size,No longer needed,,2025-04-12T01:48:49+00:00,2025-04-20T01:48:49+00:00
+591,RMA100591,8198,refunded,wrong_item,No longer needed,904,2025-03-30T17:17:55+00:00,2025-04-08T17:17:55+00:00
+592,RMA100592,8200,rejected,changed_mind,Found a better price,,2025-04-02T03:37:55+00:00,
+593,RMA100593,8202,refunded,wrong_size,No longer needed,947,2025-04-15T20:52:21+00:00,2025-04-25T20:52:21+00:00
+594,RMA100594,8225,refunded,wrong_item,Didn't fit,933,2025-04-09T01:16:18+00:00,2025-04-19T01:16:18+00:00
+595,RMA100595,8227,approved,wrong_size,Box was crushed,,2025-04-11T05:10:29+00:00,
+596,RMA100596,8233,refunded,changed_mind,Box was crushed,911,2025-04-07T12:07:03+00:00,2025-04-11T12:07:03+00:00
+597,RMA100597,8239,refunded,damaged,Didn't fit,920,2025-04-04T22:29:47+00:00,2025-04-14T22:29:47+00:00
+598,RMA100598,8242,refunded,damaged,Box was crushed,918,2025-04-07T15:14:34+00:00,2025-04-14T15:14:34+00:00
+599,RMA100599,8244,refunded,changed_mind,Didn't fit,934,2025-04-09T10:25:19+00:00,2025-04-19T10:25:19+00:00
+600,RMA100600,8251,refunded,damaged,Found a better price,943,2025-04-16T05:34:33+00:00,2025-04-25T05:34:33+00:00
+601,RMA100601,8294,refunded,wrong_size,Found a better price,916,2025-04-09T20:50:29+00:00,2025-04-13T20:50:29+00:00
+602,RMA100602,8296,received,changed_mind,Color looked different online,,2025-04-03T22:12:25+00:00,2025-04-13T22:12:25+00:00
+603,RMA100603,8298,refunded,wrong_size,,914,2025-04-03T06:47:37+00:00,2025-04-13T06:47:37+00:00
+604,RMA100604,8301,refunded,not_as_described,Color looked different online,894,2025-04-01T17:05:45+00:00,2025-04-05T17:05:45+00:00
+605,RMA100605,8307,refunded,not_as_described,,913,2025-04-07T08:14:59+00:00,2025-04-12T08:14:59+00:00
+606,RMA100606,8313,refunded,changed_mind,Didn't fit,945,2025-04-18T14:38:54+00:00,2025-04-25T14:38:54+00:00
+607,RMA100607,8346,refunded,wrong_size,Color looked different online,937,2025-04-13T03:11:37+00:00,2025-04-21T03:11:37+00:00
+608,RMA100608,8354,refunded,changed_mind,Box was crushed,935,2025-04-11T15:59:28+00:00,2025-04-19T15:59:28+00:00
+609,RMA100609,8355,refunded,changed_mind,Didn't fit,899,2025-03-31T08:42:38+00:00,2025-04-07T08:42:38+00:00
+610,RMA100610,8359,refunded,wrong_item,,929,2025-04-10T02:15:25+00:00,2025-04-17T02:15:25+00:00
+611,RMA100611,8403,refunded,damaged,,940,2025-04-17T19:14:14+00:00,2025-04-23T19:14:14+00:00
+612,RMA100612,8405,refunded,wrong_size,Color looked different online,969,2025-04-28T04:13:11+00:00,2025-05-08T04:13:11+00:00
+613,RMA100613,8410,approved,wrong_size,Didn't fit,,2025-04-30T21:08:09+00:00,
+614,RMA100614,8412,approved,wrong_item,Box was crushed,,2025-04-08T06:46:55+00:00,
+615,RMA100615,8430,refunded,damaged,,955,2025-04-25T11:10:53+00:00,2025-05-01T11:10:53+00:00
+616,RMA100616,8434,refunded,changed_mind,Color looked different online,919,2025-04-06T17:01:02+00:00,2025-04-14T17:01:02+00:00
+617,RMA100617,8453,refunded,wrong_item,Color looked different online,942,2025-04-16T10:06:19+00:00,2025-04-24T10:06:19+00:00
+618,RMA100618,8463,refunded,wrong_size,Didn't fit,926,2025-04-11T23:53:22+00:00,2025-04-16T23:53:22+00:00
+619,RMA100619,8477,refunded,wrong_item,Box was crushed,939,2025-04-14T12:21:01+00:00,2025-04-23T12:21:01+00:00
+620,RMA100620,8498,refunded,changed_mind,Box was crushed,968,2025-05-01T22:50:54+00:00,2025-05-07T22:50:54+00:00
+621,RMA100621,8500,refunded,not_as_described,,950,2025-04-21T09:54:44+00:00,2025-04-28T09:54:44+00:00
+622,RMA100622,8516,refunded,not_as_described,Didn't fit,925,2025-04-11T19:33:58+00:00,2025-04-16T19:33:58+00:00
+623,RMA100623,8536,refunded,wrong_size,Didn't fit,973,2025-05-01T20:23:26+00:00,2025-05-08T20:23:26+00:00
+624,RMA100624,8537,refunded,arrived_late,,932,2025-04-13T03:26:24+00:00,2025-04-18T03:26:24+00:00
+625,RMA100625,8594,rejected,wrong_size,Box was crushed,,2025-05-11T09:20:13+00:00,
+626,RMA100626,8603,approved,changed_mind,,,2025-05-06T16:36:12+00:00,
+627,RMA100627,8631,refunded,wrong_size,Didn't fit,1008,2025-05-14T01:38:57+00:00,2025-05-22T01:38:57+00:00
+628,RMA100628,8637,refunded,changed_mind,Color looked different online,987,2025-05-06T17:53:12+00:00,2025-05-13T17:53:12+00:00
+629,RMA100629,8654,refunded,changed_mind,Didn't fit,981,2025-05-08T07:18:11+00:00,2025-05-12T07:18:11+00:00
+630,RMA100630,8655,requested,wrong_size,Found a better price,,2025-04-30T06:50:22+00:00,
+631,RMA100631,8668,refunded,wrong_size,Box was crushed,961,2025-04-25T18:15:47+00:00,2025-05-04T18:15:47+00:00
+632,RMA100632,8693,refunded,changed_mind,,975,2025-05-03T14:44:13+00:00,2025-05-09T14:44:13+00:00
+633,RMA100633,8698,refunded,arrived_late,Color looked different online,970,2025-05-04T09:20:02+00:00,2025-05-08T09:20:02+00:00
+634,RMA100634,8702,refunded,changed_mind,Color looked different online,977,2025-04-30T11:05:21+00:00,2025-05-10T11:05:21+00:00
+635,RMA100635,8707,refunded,wrong_size,Color looked different online,982,2025-05-03T16:02:34+00:00,2025-05-12T16:02:34+00:00
+636,RMA100636,8729,approved,wrong_size,,,2025-05-09T05:32:20+00:00,
+637,RMA100637,8741,refunded,arrived_late,Box was crushed,992,2025-05-05T16:41:59+00:00,2025-05-15T16:41:59+00:00
+638,RMA100638,8751,refunded,changed_mind,No longer needed,1007,2025-05-11T23:40:38+00:00,2025-05-21T23:40:38+00:00
+639,RMA100639,8788,refunded,damaged,,995,2025-05-08T20:27:55+00:00,2025-05-16T20:27:55+00:00
+640,RMA100640,8802,refunded,changed_mind,Color looked different online,1019,2025-05-17T17:09:51+00:00,2025-05-26T17:09:51+00:00
+641,RMA100641,8807,refunded,changed_mind,No longer needed,985,2025-05-03T05:06:00+00:00,2025-05-13T05:06:00+00:00
+642,RMA100642,8808,refunded,wrong_size,Didn't fit,951,2025-04-22T10:03:33+00:00,2025-04-28T10:03:33+00:00
+643,RMA100643,8813,refunded,changed_mind,,976,2025-04-30T02:45:11+00:00,2025-05-10T02:45:11+00:00
+644,RMA100644,8825,refunded,changed_mind,Color looked different online,966,2025-04-30T19:17:51+00:00,2025-05-06T19:17:51+00:00
+645,RMA100645,8861,refunded,changed_mind,No longer needed,1021,2025-05-18T08:49:01+00:00,2025-05-27T08:49:01+00:00
+646,RMA100646,8863,refunded,not_as_described,Color looked different online,971,2025-05-03T11:58:27+00:00,2025-05-08T11:58:27+00:00
+647,RMA100647,8867,refunded,damaged,No longer needed,999,2025-05-09T23:49:27+00:00,2025-05-17T23:49:27+00:00
+648,RMA100648,8888,refunded,changed_mind,Color looked different online,994,2025-05-11T16:20:58+00:00,2025-05-16T16:20:58+00:00
+649,RMA100649,8891,refunded,not_as_described,No longer needed,1020,2025-05-16T20:49:48+00:00,2025-05-26T20:49:48+00:00
+650,RMA100650,8898,refunded,changed_mind,Box was crushed,993,2025-05-10T21:12:20+00:00,2025-05-15T21:12:20+00:00
+651,RMA100651,8907,refunded,wrong_size,Didn't fit,974,2025-04-30T22:09:47+00:00,2025-05-08T22:09:47+00:00
+652,RMA100652,8913,rejected,changed_mind,No longer needed,,2025-05-15T01:18:31+00:00,
+653,RMA100653,8922,refunded,not_as_described,,1009,2025-05-13T18:06:22+00:00,2025-05-23T18:06:22+00:00
+654,RMA100654,8943,refunded,changed_mind,Found a better price,978,2025-05-02T08:18:38+00:00,2025-05-11T08:18:38+00:00
+655,RMA100655,8953,refunded,changed_mind,No longer needed,1005,2025-05-13T17:16:03+00:00,2025-05-19T17:16:03+00:00
+656,RMA100656,8966,refunded,wrong_size,Color looked different online,989,2025-05-08T06:07:23+00:00,2025-05-15T06:07:23+00:00
+657,RMA100657,8977,refunded,not_as_described,Box was crushed,1015,2025-05-15T13:58:00+00:00,2025-05-25T13:58:00+00:00
+658,RMA100658,8992,refunded,damaged,Didn't fit,1040,2025-05-30T11:59:08+00:00,2025-06-06T11:59:08+00:00
+659,RMA100659,9003,refunded,wrong_item,Didn't fit,1025,2025-05-22T18:44:49+00:00,2025-05-28T18:44:49+00:00
+660,RMA100660,9010,refunded,damaged,Found a better price,1000,2025-05-10T02:40:35+00:00,2025-05-18T02:40:35+00:00
+661,RMA100661,9015,refunded,damaged,Color looked different online,1028,2025-05-26T11:56:39+00:00,2025-05-31T11:56:39+00:00
+662,RMA100662,9073,refunded,wrong_size,Found a better price,1002,2025-05-11T03:29:06+00:00,2025-05-19T03:29:06+00:00
+663,RMA100663,9080,refunded,not_as_described,Didn't fit,1006,2025-05-12T21:37:56+00:00,2025-05-21T21:37:56+00:00
+664,RMA100664,9107,refunded,wrong_size,Didn't fit,1030,2025-05-23T07:37:54+00:00,2025-06-01T07:37:54+00:00
+665,RMA100665,9126,refunded,changed_mind,Found a better price,1004,2025-05-13T15:50:11+00:00,2025-05-19T15:50:11+00:00
+666,RMA100666,9135,refunded,changed_mind,Box was crushed,1031,2025-05-22T15:17:46+00:00,2025-06-01T15:17:46+00:00
+667,RMA100667,9154,refunded,not_as_described,Color looked different online,1011,2025-05-17T17:17:30+00:00,2025-05-24T17:17:30+00:00
+668,RMA100668,9186,approved,damaged,Found a better price,,2025-06-01T13:45:08+00:00,
+669,RMA100669,9194,refunded,wrong_size,No longer needed,997,2025-05-13T15:42:02+00:00,2025-05-17T15:42:02+00:00
+670,RMA100670,9201,refunded,damaged,Box was crushed,1027,2025-05-20T06:32:24+00:00,2025-05-30T06:32:24+00:00
+671,RMA100671,9203,refunded,not_as_described,No longer needed,1010,2025-05-19T01:17:13+00:00,2025-05-24T01:17:13+00:00
+672,RMA100672,9248,refunded,not_as_described,Found a better price,1032,2025-05-25T16:08:24+00:00,2025-06-02T16:08:24+00:00
+673,RMA100673,9253,rejected,wrong_size,Box was crushed,,2025-05-31T17:12:45+00:00,
+674,RMA100674,9258,refunded,changed_mind,No longer needed,1079,2025-06-13T23:11:42+00:00,2025-06-22T23:11:42+00:00
+675,RMA100675,9260,refunded,wrong_size,,1075,2025-06-12T09:31:21+00:00,2025-06-22T09:31:21+00:00
+676,RMA100676,9278,refunded,wrong_size,Box was crushed,1038,2025-05-25T09:12:27+00:00,2025-06-04T09:12:27+00:00
+677,RMA100677,9279,refunded,arrived_late,Found a better price,1036,2025-05-25T02:21:38+00:00,2025-06-04T02:21:38+00:00
+678,RMA100678,9280,refunded,not_as_described,No longer needed,1051,2025-06-06T22:40:29+00:00,2025-06-11T22:40:29+00:00
+679,RMA100679,9311,refunded,changed_mind,,1043,2025-05-31T02:01:37+00:00,2025-06-09T02:01:37+00:00
+680,RMA100680,9322,requested,wrong_size,Found a better price,,2025-06-03T08:01:56+00:00,
+681,RMA100681,9342,refunded,wrong_item,Didn't fit,1050,2025-06-05T20:36:33+00:00,2025-06-11T20:36:33+00:00
+682,RMA100682,9363,refunded,arrived_late,No longer needed,1041,2025-05-31T18:53:20+00:00,2025-06-07T18:53:20+00:00
+683,RMA100683,9373,refunded,changed_mind,No longer needed,1060,2025-06-09T16:07:42+00:00,2025-06-14T16:07:42+00:00
+684,RMA100684,9388,refunded,not_as_described,Found a better price,1046,2025-06-05T17:36:39+00:00,2025-06-09T17:36:39+00:00
+685,RMA100685,9399,refunded,damaged,Color looked different online,1029,2025-05-27T04:04:49+00:00,2025-06-01T04:04:49+00:00
+686,RMA100686,9402,refunded,wrong_item,Didn't fit,1073,2025-06-17T06:27:55+00:00,2025-06-22T06:27:55+00:00
+687,RMA100687,9414,refunded,changed_mind,Color looked different online,1080,2025-06-16T23:50:14+00:00,2025-06-23T23:50:14+00:00
+688,RMA100688,9438,refunded,damaged,Didn't fit,1064,2025-06-12T13:03:05+00:00,2025-06-18T13:03:05+00:00
+689,RMA100689,9469,refunded,wrong_size,Didn't fit,1044,2025-06-01T10:36:07+00:00,2025-06-09T10:36:07+00:00
+690,RMA100690,9498,refunded,not_as_described,Box was crushed,1069,2025-06-10T21:04:10+00:00,2025-06-20T21:04:10+00:00
+691,RMA100691,9500,refunded,arrived_late,Box was crushed,1049,2025-06-01T15:04:42+00:00,2025-06-11T15:04:42+00:00
+692,RMA100692,9516,refunded,damaged,Color looked different online,1056,2025-06-07T16:05:34+00:00,2025-06-13T16:05:34+00:00
+693,RMA100693,9521,refunded,changed_mind,No longer needed,1053,2025-06-07T21:28:34+00:00,2025-06-12T21:28:34+00:00
+694,RMA100694,9534,refunded,wrong_size,No longer needed,1047,2025-05-31T04:36:37+00:00,2025-06-10T04:36:37+00:00
+695,RMA100695,9556,refunded,wrong_size,Didn't fit,1074,2025-06-18T07:56:14+00:00,2025-06-22T07:56:14+00:00
+696,RMA100696,9558,refunded,arrived_late,Didn't fit,1057,2025-06-06T18:29:43+00:00,2025-06-13T18:29:43+00:00
+697,RMA100697,9592,refunded,changed_mind,Found a better price,1081,2025-06-15T23:21:45+00:00,2025-06-24T23:21:45+00:00
+698,RMA100698,9602,refunded,changed_mind,Box was crushed,1068,2025-06-14T02:34:50+00:00,2025-06-20T02:34:50+00:00
+699,RMA100699,9607,refunded,changed_mind,No longer needed,1098,2025-06-22T15:18:43+00:00,2025-07-02T15:18:43+00:00
+700,RMA100700,9628,refunded,damaged,No longer needed,1102,2025-06-28T02:49:58+00:00,2025-07-05T02:49:58+00:00
+701,RMA100701,9632,refunded,damaged,No longer needed,1072,2025-06-14T01:37:30+00:00,2025-06-22T01:37:30+00:00
+702,RMA100702,9645,refunded,wrong_size,Color looked different online,1091,2025-06-22T11:49:36+00:00,2025-06-30T11:49:36+00:00
+703,RMA100703,9647,refunded,damaged,Found a better price,1048,2025-06-05T10:28:24+00:00,2025-06-10T10:28:24+00:00
+704,RMA100704,9650,refunded,changed_mind,Box was crushed,1067,2025-06-12T23:48:46+00:00,2025-06-19T23:48:46+00:00
+705,RMA100705,9652,refunded,wrong_size,No longer needed,1066,2025-06-09T18:01:31+00:00,2025-06-19T18:01:31+00:00
+706,RMA100706,9669,rejected,damaged,Box was crushed,,2025-06-22T09:20:54+00:00,
+707,RMA100707,9684,refunded,arrived_late,No longer needed,1065,2025-06-13T05:01:49+00:00,2025-06-19T05:01:49+00:00
+708,RMA100708,9691,refunded,changed_mind,Found a better price,1078,2025-06-15T16:15:53+00:00,2025-06-22T16:15:53+00:00
+709,RMA100709,9702,refunded,changed_mind,Box was crushed,1082,2025-06-18T06:32:12+00:00,2025-06-25T06:32:12+00:00
+710,RMA100710,9715,refunded,wrong_size,,1114,2025-07-03T05:39:20+00:00,2025-07-10T05:39:20+00:00
+711,RMA100711,9722,refunded,changed_mind,Didn't fit,1108,2025-06-29T02:20:19+00:00,2025-07-09T02:20:19+00:00
+712,RMA100712,9723,refunded,wrong_size,No longer needed,1096,2025-06-25T15:39:15+00:00,2025-07-01T15:39:15+00:00
+713,RMA100713,9746,refunded,wrong_size,No longer needed,1105,2025-07-01T09:18:52+00:00,2025-07-06T09:18:52+00:00
+714,RMA100714,9752,refunded,changed_mind,Didn't fit,1084,2025-06-18T02:25:40+00:00,2025-06-28T02:25:40+00:00
+715,RMA100715,9762,refunded,wrong_size,Color looked different online,1115,2025-07-02T07:08:42+00:00,2025-07-10T07:08:42+00:00
+716,RMA100716,9770,refunded,wrong_size,Box was crushed,1100,2025-06-24T00:05:19+00:00,2025-07-04T00:05:19+00:00
+717,RMA100717,9787,refunded,wrong_size,Color looked different online,1109,2025-06-30T02:58:46+00:00,2025-07-09T02:58:46+00:00
+718,RMA100718,9798,received,not_as_described,Color looked different online,,2025-06-29T15:11:40+00:00,2025-07-06T15:11:40+00:00
+719,RMA100719,9811,refunded,wrong_size,Didn't fit,1113,2025-07-03T02:29:07+00:00,2025-07-10T02:29:07+00:00
+720,RMA100720,9855,refunded,wrong_size,No longer needed,1131,2025-07-11T07:04:45+00:00,2025-07-16T07:04:45+00:00
+721,RMA100721,9862,refunded,wrong_size,,1104,2025-06-27T00:46:07+00:00,2025-07-06T00:46:07+00:00
+722,RMA100722,9875,refunded,arrived_late,Color looked different online,1138,2025-07-10T15:09:26+00:00,2025-07-17T15:09:26+00:00
+723,RMA100723,9896,refunded,arrived_late,Didn't fit,1118,2025-07-06T18:38:38+00:00,2025-07-11T18:38:38+00:00
+724,RMA100724,9908,refunded,not_as_described,Box was crushed,1092,2025-06-25T01:14:16+00:00,2025-07-01T01:14:16+00:00
+725,RMA100725,9910,rejected,arrived_late,,,2025-07-05T05:25:52+00:00,
+726,RMA100726,9944,refunded,changed_mind,No longer needed,1142,2025-07-10T09:18:02+00:00,2025-07-20T09:18:02+00:00
+727,RMA100727,9952,refunded,wrong_size,Color looked different online,1147,2025-07-16T15:44:17+00:00,2025-07-22T15:44:17+00:00
+728,RMA100728,9957,refunded,damaged,Found a better price,1085,2025-06-21T02:59:17+00:00,2025-06-28T02:59:17+00:00
+729,RMA100729,9961,refunded,wrong_item,,1121,2025-07-07T12:17:41+00:00,2025-07-12T12:17:41+00:00
+730,RMA100730,9975,refunded,changed_mind,Didn't fit,1140,2025-07-13T20:26:07+00:00,2025-07-18T20:26:07+00:00
+731,RMA100731,10006,refunded,wrong_size,Color looked different online,1107,2025-06-30T08:05:55+00:00,2025-07-08T08:05:55+00:00
+732,RMA100732,10010,refunded,not_as_described,No longer needed,1126,2025-07-09T21:18:36+00:00,2025-07-14T21:18:36+00:00
+733,RMA100733,10012,refunded,wrong_item,No longer needed,1161,2025-07-19T09:35:23+00:00,2025-07-26T09:35:23+00:00
+734,RMA100734,10016,refunded,arrived_late,Found a better price,1101,2025-06-27T07:53:39+00:00,2025-07-04T07:53:39+00:00
+735,RMA100735,10031,refunded,changed_mind,Box was crushed,1119,2025-07-06T04:24:47+00:00,2025-07-12T04:24:47+00:00
+736,RMA100736,10039,refunded,wrong_size,Didn't fit,1123,2025-07-07T18:57:32+00:00,2025-07-12T18:57:32+00:00
+737,RMA100737,10051,refunded,changed_mind,Found a better price,1143,2025-07-13T00:28:17+00:00,2025-07-21T00:28:17+00:00
+738,RMA100738,10056,refunded,wrong_size,Color looked different online,1112,2025-07-01T18:08:17+00:00,2025-07-09T18:08:17+00:00
+739,RMA100739,10063,approved,changed_mind,Found a better price,,2025-07-06T16:50:31+00:00,
+740,RMA100740,10073,refunded,changed_mind,Color looked different online,1116,2025-07-06T07:28:42+00:00,2025-07-10T07:28:42+00:00
+741,RMA100741,10074,rejected,changed_mind,Found a better price,,2025-07-13T02:01:59+00:00,
+742,RMA100742,10083,refunded,changed_mind,Color looked different online,1139,2025-07-11T01:22:41+00:00,2025-07-18T01:22:41+00:00
+743,RMA100743,10098,refunded,changed_mind,No longer needed,1135,2025-07-12T01:28:01+00:00,2025-07-17T01:28:01+00:00
+744,RMA100744,10111,rejected,changed_mind,Box was crushed,,2025-07-04T12:44:31+00:00,
+745,RMA100745,10120,refunded,wrong_size,Didn't fit,1134,2025-07-09T13:59:17+00:00,2025-07-16T13:59:17+00:00
+746,RMA100746,10128,refunded,wrong_size,Didn't fit,1170,2025-07-20T23:06:56+00:00,2025-07-28T23:06:56+00:00
+747,RMA100747,10138,refunded,not_as_described,Found a better price,1166,2025-07-20T10:21:12+00:00,2025-07-28T10:21:12+00:00
+748,RMA100748,10143,refunded,damaged,Color looked different online,1136,2025-07-07T03:25:44+00:00,2025-07-17T03:25:44+00:00
+749,RMA100749,10146,refunded,not_as_described,Found a better price,1158,2025-07-15T18:13:24+00:00,2025-07-25T18:13:24+00:00
+750,RMA100750,10163,refunded,damaged,Didn't fit,1164,2025-07-18T17:42:09+00:00,2025-07-27T17:42:09+00:00
+751,RMA100751,10166,refunded,wrong_size,Found a better price,1172,2025-07-24T08:35:48+00:00,2025-07-29T08:35:48+00:00
+752,RMA100752,10179,refunded,arrived_late,Found a better price,1191,2025-07-29T00:27:14+00:00,2025-08-08T00:27:14+00:00
+753,RMA100753,10190,refunded,wrong_size,Found a better price,1160,2025-07-17T09:31:05+00:00,2025-07-26T09:31:05+00:00
+754,RMA100754,10219,refunded,wrong_size,Color looked different online,1175,2025-07-26T11:42:44+00:00,2025-07-30T11:42:44+00:00
+755,RMA100755,10224,refunded,changed_mind,No longer needed,1178,2025-07-21T22:59:00+00:00,2025-07-30T22:59:00+00:00
+756,RMA100756,10243,refunded,damaged,,1193,2025-07-31T04:24:37+00:00,2025-08-08T04:24:37+00:00
+757,RMA100757,10255,refunded,wrong_item,Box was crushed,1167,2025-07-22T11:32:52+00:00,2025-07-28T11:32:52+00:00
+758,RMA100758,10268,requested,not_as_described,,,2025-07-22T23:32:56+00:00,
+759,RMA100759,10296,approved,changed_mind,Found a better price,,2025-07-09T06:19:44+00:00,
+760,RMA100760,10309,refunded,wrong_item,Color looked different online,1176,2025-07-22T14:26:11+00:00,2025-07-30T14:26:11+00:00
+761,RMA100761,10310,refunded,wrong_size,Box was crushed,1182,2025-07-28T12:03:43+00:00,2025-08-02T12:03:43+00:00
+762,RMA100762,10313,refunded,arrived_late,No longer needed,1195,2025-07-31T13:48:12+00:00,2025-08-08T13:48:12+00:00
+763,RMA100763,10321,refunded,not_as_described,Color looked different online,1189,2025-07-28T08:07:30+00:00,2025-08-07T08:07:30+00:00
+764,RMA100764,10326,refunded,wrong_size,Color looked different online,1202,2025-08-04T05:08:10+00:00,2025-08-10T05:08:10+00:00
+765,RMA100765,10332,requested,wrong_size,Color looked different online,,2025-07-17T01:22:06+00:00,
+766,RMA100766,10342,refunded,wrong_size,Color looked different online,1146,2025-07-14T11:14:14+00:00,2025-07-22T11:14:14+00:00
+767,RMA100767,10372,refunded,changed_mind,,1194,2025-07-30T11:05:57+00:00,2025-08-08T11:05:57+00:00
+768,RMA100768,10379,refunded,wrong_size,Found a better price,1163,2025-07-18T08:27:41+00:00,2025-07-27T08:27:41+00:00
+769,RMA100769,10381,approved,not_as_described,Didn't fit,,2025-07-17T04:49:16+00:00,
+770,RMA100770,10385,refunded,arrived_late,,1152,2025-07-17T09:21:25+00:00,2025-07-24T09:21:25+00:00
+771,RMA100771,10386,requested,wrong_size,Box was crushed,,2025-07-17T22:31:20+00:00,
+772,RMA100772,10388,refunded,changed_mind,Found a better price,1200,2025-07-31T14:38:40+00:00,2025-08-09T14:38:40+00:00
+773,RMA100773,10396,refunded,changed_mind,Color looked different online,1180,2025-07-26T19:33:56+00:00,2025-08-01T19:33:56+00:00
+774,RMA100774,10450,refunded,changed_mind,Found a better price,1212,2025-08-09T05:42:48+00:00,2025-08-17T05:42:48+00:00
+775,RMA100775,10453,refunded,changed_mind,Color looked different online,1206,2025-08-04T11:26:56+00:00,2025-08-13T11:26:56+00:00
+776,RMA100776,10458,refunded,not_as_described,,1168,2025-07-21T12:28:07+00:00,2025-07-28T12:28:07+00:00
+777,RMA100777,10467,refunded,wrong_item,Found a better price,1198,2025-08-01T10:14:51+00:00,2025-08-09T10:14:51+00:00
+778,RMA100778,10489,refunded,wrong_size,Found a better price,1155,2025-07-21T02:26:37+00:00,2025-07-25T02:26:37+00:00
+779,RMA100779,10517,refunded,wrong_size,Found a better price,1205,2025-08-03T07:21:44+00:00,2025-08-13T07:21:44+00:00
+780,RMA100780,10528,refunded,changed_mind,No longer needed,1196,2025-08-04T14:20:57+00:00,2025-08-08T14:20:57+00:00
+781,RMA100781,10549,refunded,changed_mind,Didn't fit,1223,2025-08-12T18:50:21+00:00,2025-08-22T18:50:21+00:00
+782,RMA100782,10552,approved,not_as_described,,,2025-08-04T22:05:52+00:00,
+783,RMA100783,10560,refunded,wrong_size,Found a better price,1217,2025-08-14T01:07:29+00:00,2025-08-20T01:07:29+00:00
+784,RMA100784,10583,rejected,damaged,Found a better price,,2025-07-26T18:26:54+00:00,
+785,RMA100785,10591,refunded,changed_mind,Box was crushed,1204,2025-08-09T07:04:22+00:00,2025-08-13T07:04:22+00:00
+786,RMA100786,10625,approved,not_as_described,,,2025-07-27T22:20:59+00:00,
+787,RMA100787,10628,received,changed_mind,Found a better price,,2025-08-16T07:12:51+00:00,2025-08-24T07:12:51+00:00
+788,RMA100788,10630,refunded,wrong_size,No longer needed,1220,2025-08-14T12:50:56+00:00,2025-08-21T12:50:56+00:00
+789,RMA100789,10637,refunded,wrong_size,Color looked different online,1184,2025-07-24T15:19:50+00:00,2025-08-02T15:19:50+00:00
+790,RMA100790,10638,refunded,wrong_size,,1229,2025-08-17T01:02:33+00:00,2025-08-26T01:02:33+00:00
+791,RMA100791,10646,refunded,not_as_described,Box was crushed,1222,2025-08-17T23:07:48+00:00,2025-08-21T23:07:48+00:00
+792,RMA100792,10680,refunded,damaged,Color looked different online,1192,2025-07-31T00:42:42+00:00,2025-08-08T00:42:42+00:00
+793,RMA100793,10698,refunded,arrived_late,Didn't fit,1231,2025-08-17T04:55:01+00:00,2025-08-27T04:55:01+00:00
+794,RMA100794,10711,refunded,changed_mind,Didn't fit,1237,2025-08-24T21:26:05+00:00,2025-08-29T21:26:05+00:00
+795,RMA100795,10712,refunded,damaged,Color looked different online,1228,2025-08-17T16:18:14+00:00,2025-08-25T16:18:14+00:00
+796,RMA100796,10727,refunded,arrived_late,Didn't fit,1235,2025-08-22T06:50:24+00:00,2025-08-29T06:50:24+00:00
+797,RMA100797,10728,refunded,changed_mind,,1207,2025-08-05T14:12:24+00:00,2025-08-13T14:12:24+00:00
+798,RMA100798,10733,refunded,changed_mind,Box was crushed,1221,2025-08-17T17:07:59+00:00,2025-08-21T17:07:59+00:00
+799,RMA100799,10800,refunded,wrong_item,,1203,2025-08-03T23:09:50+00:00,2025-08-12T23:09:50+00:00
+800,RMA100800,10855,refunded,arrived_late,Didn't fit,1219,2025-08-11T21:16:56+00:00,2025-08-20T21:16:56+00:00
+801,RMA100801,10858,refunded,damaged,Box was crushed,1209,2025-08-05T00:03:32+00:00,2025-08-15T00:03:32+00:00
+802,RMA100802,10865,refunded,damaged,,1216,2025-08-12T16:42:43+00:00,2025-08-19T16:42:43+00:00
+803,RMA100803,10875,refunded,wrong_size,Found a better price,1250,2025-08-25T03:53:57+00:00,2025-09-04T03:53:57+00:00
+804,RMA100804,10932,refunded,changed_mind,No longer needed,1226,2025-08-19T09:00:42+00:00,2025-08-25T09:00:42+00:00
+805,RMA100805,10949,refunded,changed_mind,Didn't fit,1211,2025-08-12T12:47:19+00:00,2025-08-16T12:47:19+00:00
+806,RMA100806,10969,refunded,not_as_described,Didn't fit,1269,2025-08-31T01:19:44+00:00,2025-09-10T01:19:44+00:00
+807,RMA100807,11034,refunded,arrived_late,Found a better price,1218,2025-08-15T20:05:32+00:00,2025-08-20T20:05:32+00:00
+808,RMA100808,11064,rejected,changed_mind,No longer needed,,2025-08-15T10:40:14+00:00,
+809,RMA100809,11078,approved,changed_mind,Color looked different online,,2025-08-28T22:59:55+00:00,
+810,RMA100810,11080,refunded,changed_mind,Box was crushed,1233,2025-08-22T03:22:20+00:00,2025-08-28T03:22:20+00:00
+811,RMA100811,11089,refunded,not_as_described,,1252,2025-08-30T14:37:22+00:00,2025-09-04T14:37:22+00:00
+812,RMA100812,11095,refunded,wrong_item,Found a better price,1247,2025-08-24T02:34:01+00:00,2025-09-03T02:34:01+00:00
+813,RMA100813,11101,refunded,wrong_item,Found a better price,1266,2025-08-31T12:29:20+00:00,2025-09-08T12:29:20+00:00
+814,RMA100814,11105,refunded,wrong_size,Didn't fit,1225,2025-08-17T22:15:41+00:00,2025-08-24T22:15:41+00:00
+815,RMA100815,11111,refunded,not_as_described,Box was crushed,1255,2025-08-28T00:07:26+00:00,2025-09-05T00:07:26+00:00
+816,RMA100816,11116,refunded,changed_mind,Found a better price,1265,2025-08-29T22:42:33+00:00,2025-09-07T22:42:33+00:00
+817,RMA100817,11134,refunded,wrong_size,Found a better price,1240,2025-08-23T13:21:31+00:00,2025-08-30T13:21:31+00:00
+818,RMA100818,11168,refunded,damaged,Box was crushed,1259,2025-08-27T06:23:33+00:00,2025-09-06T06:23:33+00:00
+819,RMA100819,11181,refunded,wrong_size,Didn't fit,1263,2025-08-31T10:41:56+00:00,2025-09-07T10:41:56+00:00
+820,RMA100820,11182,approved,changed_mind,Found a better price,,2025-08-20T09:02:13+00:00,
+821,RMA100821,11193,refunded,wrong_size,,1293,2025-09-10T07:22:45+00:00,2025-09-20T07:22:45+00:00
+822,RMA100822,11198,refunded,arrived_late,,1249,2025-08-26T13:36:12+00:00,2025-09-03T13:36:12+00:00
+823,RMA100823,11244,received,arrived_late,Box was crushed,,2025-09-02T15:34:43+00:00,2025-09-12T15:34:43+00:00
+824,RMA100824,11247,refunded,wrong_item,No longer needed,1246,2025-08-25T21:31:45+00:00,2025-09-01T21:31:45+00:00
+825,RMA100825,11250,refunded,arrived_late,No longer needed,1260,2025-08-31T21:27:40+00:00,2025-09-06T21:27:40+00:00
+826,RMA100826,11254,received,wrong_size,Color looked different online,,2025-09-09T01:54:49+00:00,2025-09-18T01:54:49+00:00
+827,RMA100827,11255,refunded,changed_mind,Didn't fit,1242,2025-08-27T20:35:51+00:00,2025-08-31T20:35:51+00:00
+828,RMA100828,11261,refunded,wrong_size,Didn't fit,1257,2025-08-27T19:34:02+00:00,2025-09-05T19:34:02+00:00
+829,RMA100829,11267,refunded,wrong_size,Color looked different online,1295,2025-09-12T14:50:38+00:00,2025-09-20T14:50:38+00:00
+830,RMA100830,11281,refunded,changed_mind,Didn't fit,1297,2025-09-11T20:42:30+00:00,2025-09-20T20:42:30+00:00
+831,RMA100831,11283,refunded,damaged,Didn't fit,1308,2025-09-17T05:26:16+00:00,2025-09-26T05:26:16+00:00
+832,RMA100832,11289,refunded,wrong_item,Color looked different online,1278,2025-09-07T11:37:31+00:00,2025-09-14T11:37:31+00:00
+833,RMA100833,11305,refunded,changed_mind,Box was crushed,1273,2025-09-06T01:11:36+00:00,2025-09-13T01:11:36+00:00
+834,RMA100834,11308,refunded,arrived_late,,1275,2025-09-07T03:20:10+00:00,2025-09-14T03:20:10+00:00
+835,RMA100835,11309,rejected,damaged,No longer needed,,2025-09-03T04:28:14+00:00,
+836,RMA100836,11326,requested,wrong_size,No longer needed,,2025-08-28T14:40:19+00:00,
+837,RMA100837,11330,refunded,changed_mind,Color looked different online,1243,2025-08-26T02:51:10+00:00,2025-09-01T02:51:10+00:00
+838,RMA100838,11333,refunded,changed_mind,,1314,2025-09-22T07:20:01+00:00,2025-10-01T07:20:01+00:00
+839,RMA100839,11347,refunded,arrived_late,,1294,2025-09-10T12:54:23+00:00,2025-09-20T12:54:23+00:00
+840,RMA100840,11359,refunded,wrong_size,No longer needed,1239,2025-08-26T02:42:47+00:00,2025-08-30T02:42:47+00:00
+841,RMA100841,11386,refunded,wrong_size,,1253,2025-08-30T21:48:46+00:00,2025-09-04T21:48:46+00:00
+842,RMA100842,11389,refunded,damaged,Box was crushed,1280,2025-09-11T13:05:55+00:00,2025-09-15T13:05:55+00:00
+843,RMA100843,11391,refunded,not_as_described,Didn't fit,1309,2025-09-19T07:40:11+00:00,2025-09-26T07:40:11+00:00
+844,RMA100844,11436,refunded,changed_mind,Didn't fit,1270,2025-09-07T14:40:31+00:00,2025-09-11T14:40:31+00:00
+845,RMA100845,11438,refunded,wrong_size,Color looked different online,1274,2025-09-08T04:31:16+00:00,2025-09-13T04:31:16+00:00
+846,RMA100846,11440,refunded,arrived_late,No longer needed,1272,2025-09-08T00:16:51+00:00,2025-09-13T00:16:51+00:00
+847,RMA100847,11446,refunded,wrong_size,No longer needed,1306,2025-09-17T05:45:54+00:00,2025-09-24T05:45:54+00:00
+848,RMA100848,11461,refunded,wrong_item,Found a better price,1289,2025-09-14T16:59:01+00:00,2025-09-18T16:59:01+00:00
+849,RMA100849,11466,refunded,wrong_size,Didn't fit,1285,2025-09-07T02:50:54+00:00,2025-09-17T02:50:54+00:00
+850,RMA100850,11477,refunded,not_as_described,Found a better price,1261,2025-09-02T23:32:44+00:00,2025-09-06T23:32:44+00:00
+851,RMA100851,11497,refunded,wrong_size,Found a better price,1299,2025-09-16T04:10:49+00:00,2025-09-21T04:10:49+00:00
+852,RMA100852,11502,refunded,wrong_size,Box was crushed,1326,2025-10-01T01:34:47+00:00,2025-10-11T01:34:47+00:00
+853,RMA100853,11536,refunded,changed_mind,No longer needed,1298,2025-09-12T03:46:25+00:00,2025-09-21T03:46:25+00:00
+854,RMA100854,11543,refunded,wrong_size,Box was crushed,1302,2025-09-12T20:33:04+00:00,2025-09-21T20:33:04+00:00
+855,RMA100855,11570,rejected,wrong_size,Box was crushed,,2025-09-10T16:04:29+00:00,
+856,RMA100856,11585,refunded,changed_mind,Found a better price,1287,2025-09-12T07:29:08+00:00,2025-09-18T07:29:08+00:00
+857,RMA100857,11595,refunded,arrived_late,Didn't fit,1322,2025-09-26T00:28:33+00:00,2025-10-06T00:28:33+00:00
+858,RMA100858,11598,approved,changed_mind,Box was crushed,,2025-09-07T21:20:48+00:00,
+859,RMA100859,11606,received,changed_mind,,,2025-09-17T14:07:39+00:00,2025-09-21T14:07:39+00:00
+860,RMA100860,11616,refunded,not_as_described,Color looked different online,1296,2025-09-14T19:50:10+00:00,2025-09-20T19:50:10+00:00
+861,RMA100861,11618,refunded,damaged,,1307,2025-09-19T08:10:53+00:00,2025-09-24T08:10:53+00:00
+862,RMA100862,11633,refunded,wrong_size,Didn't fit,1312,2025-09-25T08:27:27+00:00,2025-09-29T08:27:27+00:00
+863,RMA100863,11648,refunded,wrong_size,No longer needed,1300,2025-09-13T11:18:01+00:00,2025-09-21T11:18:01+00:00
+864,RMA100864,11649,refunded,wrong_size,Didn't fit,1311,2025-09-23T09:19:07+00:00,2025-09-28T09:19:07+00:00
+865,RMA100865,11664,refunded,wrong_size,Color looked different online,1332,2025-10-01T13:14:15+00:00,2025-10-11T13:14:15+00:00
+866,RMA100866,11669,refunded,wrong_size,,1320,2025-10-01T08:49:12+00:00,2025-10-05T08:49:12+00:00
+867,RMA100867,11687,refunded,damaged,,1324,2025-09-29T15:19:01+00:00,2025-10-09T15:19:01+00:00
+868,RMA100868,11695,refunded,not_as_described,Found a better price,1292,2025-09-15T22:38:36+00:00,2025-09-19T22:38:36+00:00
+869,RMA100869,11720,refunded,changed_mind,Box was crushed,1337,2025-10-05T11:31:47+00:00,2025-10-13T11:31:47+00:00
+870,RMA100870,11742,refunded,wrong_size,Didn't fit,1331,2025-10-06T11:00:19+00:00,2025-10-11T11:00:19+00:00
+871,RMA100871,11757,refunded,damaged,Color looked different online,1330,2025-10-02T09:32:30+00:00,2025-10-11T09:32:30+00:00
+872,RMA100872,11790,refunded,not_as_described,Found a better price,1325,2025-10-03T21:06:56+00:00,2025-10-09T21:06:56+00:00
+873,RMA100873,11802,refunded,changed_mind,,1344,2025-10-10T14:25:22+00:00,2025-10-16T14:25:22+00:00
+874,RMA100874,11804,refunded,changed_mind,Found a better price,1328,2025-10-02T07:37:26+00:00,2025-10-11T07:37:26+00:00
+875,RMA100875,11885,received,wrong_size,No longer needed,,2025-09-26T14:04:23+00:00,2025-10-01T14:04:23+00:00
+876,RMA100876,11922,approved,damaged,No longer needed,,2025-10-17T15:55:48+00:00,
+877,RMA100877,11937,refunded,wrong_size,,1319,2025-09-24T18:49:25+00:00,2025-10-04T18:49:25+00:00
+878,RMA100878,11957,approved,arrived_late,,,2025-10-11T12:07:47+00:00,
+879,RMA100879,11958,refunded,changed_mind,Didn't fit,1341,2025-10-09T04:32:26+00:00,2025-10-15T04:32:26+00:00
+880,RMA100880,11986,refunded,damaged,No longer needed,1350,2025-10-10T04:47:28+00:00,2025-10-19T04:47:28+00:00
+881,RMA100881,12019,refunded,changed_mind,No longer needed,1329,2025-10-02T08:55:29+00:00,2025-10-11T08:55:29+00:00
+882,RMA100882,12020,refunded,not_as_described,Box was crushed,1378,2025-10-24T01:24:43+00:00,2025-10-30T01:24:43+00:00
+883,RMA100883,12023,refunded,damaged,Box was crushed,1376,2025-10-23T14:55:02+00:00,2025-10-29T14:55:02+00:00
+884,RMA100884,12024,refunded,changed_mind,Color looked different online,1333,2025-10-06T14:38:29+00:00,2025-10-11T14:38:29+00:00
+885,RMA100885,12032,refunded,changed_mind,Didn't fit,1323,2025-09-28T04:45:25+00:00,2025-10-06T04:45:25+00:00
+886,RMA100886,12055,refunded,wrong_size,Found a better price,1327,2025-10-04T04:52:00+00:00,2025-10-11T04:52:00+00:00
+887,RMA100887,12077,refunded,changed_mind,Didn't fit,1352,2025-10-15T06:34:41+00:00,2025-10-20T06:34:41+00:00
+888,RMA100888,12095,refunded,not_as_described,Didn't fit,1345,2025-10-08T15:53:13+00:00,2025-10-16T15:53:13+00:00
+889,RMA100889,12100,refunded,wrong_item,Didn't fit,1367,2025-10-21T09:17:32+00:00,2025-10-26T09:17:32+00:00
+890,RMA100890,12117,requested,changed_mind,,,2025-10-19T00:24:09+00:00,
+891,RMA100891,12119,refunded,changed_mind,Color looked different online,1363,2025-10-18T07:51:01+00:00,2025-10-25T07:51:01+00:00
+892,RMA100892,12125,refunded,changed_mind,Found a better price,1338,2025-10-08T13:20:23+00:00,2025-10-13T13:20:23+00:00
+893,RMA100893,12143,refunded,wrong_size,,1379,2025-10-25T04:13:37+00:00,2025-10-30T04:13:37+00:00
+894,RMA100894,12169,received,damaged,Didn't fit,,2025-10-24T17:10:55+00:00,2025-10-29T17:10:55+00:00
+895,RMA100895,12190,refunded,damaged,Box was crushed,1361,2025-10-20T05:17:50+00:00,2025-10-24T05:17:50+00:00
+896,RMA100896,12192,refunded,wrong_size,Color looked different online,1346,2025-10-10T03:29:58+00:00,2025-10-17T03:29:58+00:00
+897,RMA100897,12226,refunded,arrived_late,Didn't fit,1406,2025-10-31T19:43:41+00:00,2025-11-09T19:43:41+00:00
+898,RMA100898,12228,refunded,wrong_size,No longer needed,1362,2025-10-19T19:32:49+00:00,2025-10-24T19:32:49+00:00
+899,RMA100899,12237,refunded,not_as_described,,1370,2025-10-19T02:12:38+00:00,2025-10-27T02:12:38+00:00
+900,RMA100900,12263,refunded,damaged,,1364,2025-10-19T15:06:23+00:00,2025-10-25T15:06:23+00:00
+901,RMA100901,12273,requested,wrong_size,Didn't fit,,2025-10-24T00:53:08+00:00,
+902,RMA100902,12276,approved,changed_mind,No longer needed,,2025-10-19T09:25:33+00:00,
+903,RMA100903,12280,refunded,wrong_size,,1356,2025-10-12T09:19:25+00:00,2025-10-21T09:19:25+00:00
+904,RMA100904,12305,refunded,changed_mind,Box was crushed,1396,2025-10-30T12:42:53+00:00,2025-11-07T12:42:53+00:00
+905,RMA100905,12307,approved,wrong_item,,,2025-10-13T09:03:24+00:00,
+906,RMA100906,12309,refunded,wrong_size,Didn't fit,1373,2025-10-18T08:50:23+00:00,2025-10-28T08:50:23+00:00
+907,RMA100907,12328,refunded,wrong_size,Color looked different online,1412,2025-11-06T17:01:33+00:00,2025-11-11T17:01:33+00:00
+908,RMA100908,12347,refunded,wrong_size,No longer needed,1369,2025-10-18T18:29:47+00:00,2025-10-26T18:29:47+00:00
+909,RMA100909,12348,refunded,wrong_size,No longer needed,1359,2025-10-15T13:01:45+00:00,2025-10-23T13:01:45+00:00
+910,RMA100910,12354,approved,wrong_size,Found a better price,,2025-10-26T03:54:24+00:00,
+911,RMA100911,12370,refunded,not_as_described,Didn't fit,1420,2025-11-04T15:36:56+00:00,2025-11-14T15:36:56+00:00
+912,RMA100912,12371,refunded,not_as_described,No longer needed,1381,2025-10-21T18:54:18+00:00,2025-10-31T18:54:18+00:00
+913,RMA100913,12375,refunded,arrived_late,Found a better price,1374,2025-10-22T14:55:54+00:00,2025-10-28T14:55:54+00:00
+914,RMA100914,12392,refunded,changed_mind,Color looked different online,1375,2025-10-23T03:10:59+00:00,2025-10-29T03:10:59+00:00
+915,RMA100915,12394,refunded,changed_mind,Box was crushed,1380,2025-10-20T08:37:16+00:00,2025-10-30T08:37:16+00:00
+916,RMA100916,12396,refunded,not_as_described,Box was crushed,1391,2025-10-27T21:44:21+00:00,2025-11-04T21:44:21+00:00
+917,RMA100917,12427,refunded,not_as_described,Didn't fit,1426,2025-11-06T20:21:07+00:00,2025-11-16T20:21:07+00:00
+918,RMA100918,12471,requested,changed_mind,No longer needed,,2025-11-09T06:43:42+00:00,
+919,RMA100919,12478,refunded,not_as_described,Box was crushed,1417,2025-11-06T17:15:10+00:00,2025-11-13T17:15:10+00:00
+920,RMA100920,12480,refunded,changed_mind,Didn't fit,1408,2025-11-06T00:00:30+00:00,2025-11-10T00:00:30+00:00
+921,RMA100921,12485,refunded,wrong_size,No longer needed,1425,2025-11-09T01:51:36+00:00,2025-11-16T01:51:36+00:00
+922,RMA100922,12489,refunded,arrived_late,Found a better price,1429,2025-11-11T15:18:16+00:00,2025-11-17T15:18:16+00:00
+923,RMA100923,12497,refunded,not_as_described,Color looked different online,1448,2025-11-13T04:28:37+00:00,2025-11-22T04:28:37+00:00
+924,RMA100924,12501,refunded,not_as_described,Found a better price,1421,2025-11-06T00:59:27+00:00,2025-11-15T00:59:27+00:00
+925,RMA100925,12507,refunded,changed_mind,Found a better price,1377,2025-10-24T16:44:01+00:00,2025-10-29T16:44:01+00:00
+926,RMA100926,12524,refunded,wrong_size,No longer needed,1414,2025-11-04T05:04:46+00:00,2025-11-13T05:04:46+00:00
+927,RMA100927,12529,refunded,changed_mind,,1366,2025-10-20T08:14:38+00:00,2025-10-26T08:14:38+00:00
+928,RMA100928,12565,refunded,wrong_size,,1422,2025-11-09T03:14:05+00:00,2025-11-15T03:14:05+00:00
+929,RMA100929,12591,refunded,damaged,,1399,2025-11-02T17:50:56+00:00,2025-11-08T17:50:56+00:00
+930,RMA100930,12594,refunded,damaged,Color looked different online,1400,2025-11-02T21:27:04+00:00,2025-11-08T21:27:04+00:00
+931,RMA100931,12595,refunded,not_as_described,Box was crushed,1401,2025-10-29T21:47:43+00:00,2025-11-08T21:47:43+00:00
+932,RMA100932,12608,refunded,wrong_size,Didn't fit,1402,2025-10-30T22:08:54+00:00,2025-11-08T22:08:54+00:00
+933,RMA100933,12623,refunded,changed_mind,Box was crushed,1387,2025-10-26T17:45:16+00:00,2025-11-02T17:45:16+00:00
+934,RMA100934,12629,requested,wrong_size,Color looked different online,,2025-10-29T07:44:12+00:00,
+935,RMA100935,12648,refunded,changed_mind,Color looked different online,1445,2025-11-16T20:44:09+00:00,2025-11-21T20:44:09+00:00
+936,RMA100936,12709,refunded,damaged,No longer needed,1415,2025-11-08T13:01:38+00:00,2025-11-13T13:01:38+00:00
+937,RMA100937,12712,refunded,damaged,No longer needed,1491,2025-11-23T06:16:51+00:00,2025-12-01T06:16:51+00:00
+938,RMA100938,12715,refunded,changed_mind,Color looked different online,1398,2025-10-31T13:09:59+00:00,2025-11-08T13:09:59+00:00
+939,RMA100939,12726,rejected,wrong_size,Box was crushed,,2025-11-14T09:36:53+00:00,
+940,RMA100940,12741,refunded,changed_mind,Didn't fit,1428,2025-11-11T12:47:59+00:00,2025-11-17T12:47:59+00:00
+941,RMA100941,12756,requested,wrong_size,Box was crushed,,2025-11-07T02:48:50+00:00,
+942,RMA100942,12761,refunded,wrong_size,Color looked different online,1473,2025-11-18T02:15:42+00:00,2025-11-28T02:15:42+00:00
+943,RMA100943,12796,refunded,wrong_size,No longer needed,1432,2025-11-10T23:54:46+00:00,2025-11-18T23:54:46+00:00
+944,RMA100944,12802,approved,wrong_size,,,2025-11-02T22:08:34+00:00,
+945,RMA100945,12819,approved,wrong_size,No longer needed,,2025-11-14T07:05:22+00:00,
+946,RMA100946,12822,refunded,damaged,Box was crushed,1407,2025-11-04T19:48:25+00:00,2025-11-09T19:48:25+00:00
+947,RMA100947,12832,refunded,wrong_size,Found a better price,1468,2025-11-22T03:18:57+00:00,2025-11-27T03:18:57+00:00
+948,RMA100948,12850,approved,changed_mind,No longer needed,,2025-11-28T08:36:15+00:00,
+949,RMA100949,12865,approved,wrong_size,No longer needed,,2025-11-19T08:44:43+00:00,
+950,RMA100950,12868,refunded,arrived_late,Color looked different online,1418,2025-11-09T05:27:33+00:00,2025-11-14T05:27:33+00:00
+951,RMA100951,12873,refunded,not_as_described,Box was crushed,1430,2025-11-10T02:42:15+00:00,2025-11-18T02:42:15+00:00
+952,RMA100952,12878,refunded,wrong_size,Box was crushed,1507,2025-11-27T18:47:29+00:00,2025-12-03T18:47:29+00:00
+953,RMA100953,12883,refunded,not_as_described,Didn't fit,1459,2025-11-18T09:29:20+00:00,2025-11-24T09:29:20+00:00
+954,RMA100954,12909,approved,wrong_size,Color looked different online,,2025-11-28T13:42:38+00:00,
+955,RMA100955,12915,refunded,wrong_size,Found a better price,1442,2025-11-12T07:16:45+00:00,2025-11-21T07:16:45+00:00
+956,RMA100956,12984,received,wrong_item,Color looked different online,,2025-11-20T21:09:11+00:00,2025-11-29T21:09:11+00:00
+957,RMA100957,12989,refunded,damaged,Color looked different online,1477,2025-11-23T11:06:30+00:00,2025-11-28T11:06:30+00:00
+958,RMA100958,12991,refunded,not_as_described,Color looked different online,1466,2025-11-19T23:46:36+00:00,2025-11-25T23:46:36+00:00
+959,RMA100959,13009,refunded,changed_mind,Box was crushed,1441,2025-11-16T06:59:29+00:00,2025-11-21T06:59:29+00:00
+960,RMA100960,13012,refunded,wrong_size,Box was crushed,1451,2025-11-16T16:06:27+00:00,2025-11-22T16:06:27+00:00
+961,RMA100961,13026,refunded,not_as_described,Didn't fit,1544,2025-12-06T03:00:02+00:00,2025-12-12T03:00:02+00:00
+962,RMA100962,13038,refunded,not_as_described,Color looked different online,1452,2025-11-18T16:38:49+00:00,2025-11-22T16:38:49+00:00
+963,RMA100963,13053,received,wrong_size,Color looked different online,,2025-11-15T01:21:16+00:00,2025-11-25T01:21:16+00:00
+964,RMA100964,13060,refunded,changed_mind,Box was crushed,1472,2025-11-20T16:50:16+00:00,2025-11-27T16:50:16+00:00
+965,RMA100965,13077,refunded,not_as_described,Box was crushed,1529,2025-12-02T21:08:22+00:00,2025-12-09T21:08:22+00:00
+966,RMA100966,13081,approved,changed_mind,,,2025-11-21T12:41:45+00:00,
+967,RMA100967,13091,refunded,wrong_size,Color looked different online,1556,2025-12-05T02:07:42+00:00,2025-12-14T02:07:42+00:00
+968,RMA100968,13097,refunded,damaged,Color looked different online,1493,2025-11-22T16:16:24+00:00,2025-12-01T16:16:24+00:00
+969,RMA100969,13110,refunded,arrived_late,,1465,2025-11-16T17:46:43+00:00,2025-11-25T17:46:43+00:00
+970,RMA100970,13124,refunded,wrong_size,No longer needed,1512,2025-11-27T01:22:54+00:00,2025-12-05T01:22:54+00:00
+971,RMA100971,13125,refunded,wrong_size,Color looked different online,1554,2025-12-04T18:20:48+00:00,2025-12-13T18:20:48+00:00
+972,RMA100972,13137,refunded,wrong_size,,1486,2025-11-21T20:00:40+00:00,2025-11-29T20:00:40+00:00
+973,RMA100973,13147,rejected,changed_mind,Found a better price,,2025-11-20T21:09:48+00:00,
+974,RMA100974,13148,refunded,changed_mind,Color looked different online,1522,2025-11-27T14:11:16+00:00,2025-12-07T14:11:16+00:00
+975,RMA100975,13157,refunded,changed_mind,,1471,2025-11-18T06:13:46+00:00,2025-11-27T06:13:46+00:00
+976,RMA100976,13160,refunded,not_as_described,Color looked different online,1576,2025-12-07T12:39:45+00:00,2025-12-16T12:39:45+00:00
+977,RMA100977,13168,refunded,not_as_described,Color looked different online,1534,2025-11-30T10:45:00+00:00,2025-12-10T10:45:00+00:00
+978,RMA100978,13171,refunded,changed_mind,,1470,2025-11-22T05:22:04+00:00,2025-11-27T05:22:04+00:00
+979,RMA100979,13176,refunded,wrong_size,Found a better price,1545,2025-12-05T05:41:27+00:00,2025-12-12T05:41:27+00:00
+980,RMA100980,13183,approved,changed_mind,Didn't fit,,2025-11-27T01:42:36+00:00,
+981,RMA100981,13263,refunded,not_as_described,Box was crushed,1536,2025-12-05T20:37:40+00:00,2025-12-10T20:37:40+00:00
+982,RMA100982,13269,refunded,wrong_size,,1480,2025-11-20T14:29:52+00:00,2025-11-28T14:29:52+00:00
+983,RMA100983,13270,refunded,changed_mind,,1485,2025-11-24T08:51:19+00:00,2025-11-29T08:51:19+00:00
+984,RMA100984,13279,refunded,wrong_size,Box was crushed,1475,2025-11-20T08:05:21+00:00,2025-11-28T08:05:21+00:00
+985,RMA100985,13281,refunded,not_as_described,Color looked different online,1560,2025-12-06T21:22:27+00:00,2025-12-14T21:22:27+00:00
+986,RMA100986,13283,refunded,wrong_size,No longer needed,1582,2025-12-08T22:36:27+00:00,2025-12-16T22:36:27+00:00
+987,RMA100987,13291,refunded,changed_mind,Box was crushed,1478,2025-11-21T11:42:14+00:00,2025-11-28T11:42:14+00:00
+988,RMA100988,13293,refunded,arrived_late,No longer needed,1517,2025-11-26T12:52:03+00:00,2025-12-06T12:52:03+00:00
+989,RMA100989,13307,refunded,changed_mind,Color looked different online,1563,2025-12-05T11:46:19+00:00,2025-12-15T11:46:19+00:00
+990,RMA100990,13316,refunded,changed_mind,,1487,2025-11-19T22:54:58+00:00,2025-11-29T22:54:58+00:00
+991,RMA100991,13327,refunded,changed_mind,No longer needed,1474,2025-11-24T07:44:55+00:00,2025-11-28T07:44:55+00:00
+992,RMA100992,13338,refunded,wrong_size,No longer needed,1538,2025-12-03T21:39:42+00:00,2025-12-10T21:39:42+00:00
+993,RMA100993,13367,refunded,changed_mind,No longer needed,1583,2025-12-11T23:41:48+00:00,2025-12-16T23:41:48+00:00
+994,RMA100994,13378,refunded,wrong_size,No longer needed,1518,2025-12-02T18:14:34+00:00,2025-12-06T18:14:34+00:00
+995,RMA100995,13383,refunded,not_as_described,Didn't fit,1519,2025-11-26T22:56:59+00:00,2025-12-06T22:56:59+00:00
+996,RMA100996,13387,refunded,wrong_size,No longer needed,1592,2025-12-09T11:48:35+00:00,2025-12-18T11:48:35+00:00
+997,RMA100997,13396,refunded,not_as_described,Found a better price,1562,2025-12-07T00:33:37+00:00,2025-12-15T00:33:37+00:00
+998,RMA100998,13406,refunded,not_as_described,Didn't fit,1482,2025-11-20T02:56:32+00:00,2025-11-29T02:56:32+00:00
+999,RMA100999,13412,refunded,wrong_item,Box was crushed,1604,2025-12-11T15:21:34+00:00,2025-12-20T15:21:34+00:00
+1000,RMA101000,13416,refunded,not_as_described,,1546,2025-12-02T13:18:56+00:00,2025-12-12T13:18:56+00:00
+1001,RMA101001,13419,refunded,arrived_late,,1532,2025-12-02T03:52:34+00:00,2025-12-10T03:52:34+00:00
+1002,RMA101002,13425,refunded,changed_mind,,1591,2025-12-10T08:39:52+00:00,2025-12-18T08:39:52+00:00
+1003,RMA101003,13452,refunded,changed_mind,No longer needed,1457,2025-11-18T21:09:10+00:00,2025-11-23T21:09:10+00:00
+1004,RMA101004,13474,refunded,wrong_size,Didn't fit,1549,2025-12-07T06:48:53+00:00,2025-12-13T06:48:53+00:00
+1005,RMA101005,13479,approved,changed_mind,Didn't fit,,2025-12-12T13:19:51+00:00,
+1006,RMA101006,13484,refunded,wrong_item,Didn't fit,1498,2025-11-26T18:56:56+00:00,2025-12-02T18:56:56+00:00
+1007,RMA101007,13488,refunded,changed_mind,Didn't fit,1575,2025-12-10T09:43:02+00:00,2025-12-16T09:43:02+00:00
+1008,RMA101008,13491,refunded,wrong_item,No longer needed,1533,2025-12-03T04:04:25+00:00,2025-12-10T04:04:25+00:00
+1009,RMA101009,13501,refunded,changed_mind,Color looked different online,1530,2025-12-04T22:53:19+00:00,2025-12-09T22:53:19+00:00
+1010,RMA101010,13539,refunded,not_as_described,Box was crushed,1600,2025-12-10T11:03:31+00:00,2025-12-19T11:03:31+00:00
+1011,RMA101011,13543,refunded,arrived_late,Box was crushed,1559,2025-12-05T13:27:10+00:00,2025-12-14T13:27:10+00:00
+1012,RMA101012,13578,refunded,damaged,Color looked different online,1511,2025-11-28T22:56:50+00:00,2025-12-04T22:56:50+00:00
+1013,RMA101013,13584,approved,wrong_size,No longer needed,,2025-12-14T17:53:10+00:00,
+1014,RMA101014,13588,refunded,changed_mind,Didn't fit,1531,2025-11-30T00:36:30+00:00,2025-12-10T00:36:30+00:00
+1015,RMA101015,13606,refunded,changed_mind,,1521,2025-11-28T13:37:06+00:00,2025-12-07T13:37:06+00:00
+1016,RMA101016,13608,refunded,wrong_size,,1501,2025-11-26T02:28:46+00:00,2025-12-03T02:28:46+00:00
+1017,RMA101017,13618,refunded,wrong_size,,1492,2025-11-23T10:40:29+00:00,2025-12-01T10:40:29+00:00
+1018,RMA101018,13628,requested,wrong_size,Found a better price,,2025-11-24T04:43:29+00:00,
+1019,RMA101019,13630,requested,changed_mind,,,2025-12-09T19:51:22+00:00,
+1020,RMA101020,13650,rejected,not_as_described,Box was crushed,,2025-12-16T23:17:04+00:00,
+1021,RMA101021,13659,approved,changed_mind,,,2025-11-28T02:40:39+00:00,
+1022,RMA101022,13664,refunded,wrong_item,Found a better price,1520,2025-12-01T01:10:50+00:00,2025-12-07T01:10:50+00:00
+1023,RMA101023,13679,refunded,changed_mind,Color looked different online,1500,2025-11-28T01:51:22+00:00,2025-12-03T01:51:22+00:00
+1024,RMA101024,13687,refunded,changed_mind,Box was crushed,1572,2025-12-11T05:00:09+00:00,2025-12-16T05:00:09+00:00
+1025,RMA101025,13696,refunded,not_as_described,,1593,2025-12-13T14:47:05+00:00,2025-12-18T14:47:05+00:00
+1026,RMA101026,13699,refunded,arrived_late,Color looked different online,1494,2025-11-27T18:56:27+00:00,2025-12-01T18:56:27+00:00
+1027,RMA101027,13717,refunded,wrong_size,Box was crushed,1513,2025-11-29T03:09:01+00:00,2025-12-05T03:09:01+00:00
+1028,RMA101028,13767,refunded,wrong_size,Color looked different online,1632,2025-12-15T22:46:59+00:00,2025-12-24T22:46:59+00:00
+1029,RMA101029,13779,rejected,not_as_described,Color looked different online,,2025-12-03T20:42:41+00:00,
+1030,RMA101030,13799,refunded,changed_mind,Didn't fit,1618,2025-12-18T03:48:07+00:00,2025-12-23T03:48:07+00:00
+1031,RMA101031,13804,refunded,wrong_item,,1597,2025-12-13T00:03:08+00:00,2025-12-19T00:03:08+00:00
+1032,RMA101032,13805,refunded,changed_mind,No longer needed,1503,2025-11-29T05:18:07+00:00,2025-12-03T05:18:07+00:00
+1033,RMA101033,13820,refunded,damaged,,1626,2025-12-18T21:22:05+00:00,2025-12-23T21:22:05+00:00
+1034,RMA101034,13826,refunded,wrong_size,Found a better price,1535,2025-12-04T14:07:28+00:00,2025-12-10T14:07:28+00:00
+1035,RMA101035,13859,refunded,wrong_size,Box was crushed,1645,2025-12-19T09:25:34+00:00,2025-12-27T09:25:34+00:00
+1036,RMA101036,13889,requested,changed_mind,No longer needed,,2025-12-15T16:41:55+00:00,
+1037,RMA101037,13893,refunded,wrong_size,Box was crushed,1638,2025-12-19T02:04:07+00:00,2025-12-26T02:04:07+00:00
+1038,RMA101038,13904,refunded,not_as_described,No longer needed,1640,2025-12-22T09:48:52+00:00,2025-12-26T09:48:52+00:00
+1039,RMA101039,13918,refunded,changed_mind,Box was crushed,1649,2025-12-21T16:40:37+00:00,2025-12-28T16:40:37+00:00
+1040,RMA101040,13937,refunded,changed_mind,,1555,2025-12-06T19:17:43+00:00,2025-12-13T19:17:43+00:00
+1041,RMA101041,13939,refunded,damaged,Didn't fit,1628,2025-12-17T06:23:28+00:00,2025-12-24T06:23:28+00:00
+1042,RMA101042,13947,refunded,not_as_described,Box was crushed,1668,2025-12-22T21:32:39+00:00,2025-12-31T21:32:39+00:00
+1043,RMA101043,13958,refunded,damaged,No longer needed,1528,2025-12-04T19:07:11+00:00,2025-12-09T19:07:11+00:00
+1044,RMA101044,13985,refunded,changed_mind,Didn't fit,1610,2025-12-14T02:22:20+00:00,2025-12-22T02:22:20+00:00
+1045,RMA101045,13992,refunded,changed_mind,,1624,2025-12-18T17:58:47+00:00,2025-12-23T17:58:47+00:00
+1046,RMA101046,14007,refunded,changed_mind,No longer needed,1644,2025-12-23T01:31:11+00:00,2025-12-27T01:31:11+00:00
+1047,RMA101047,14014,refunded,changed_mind,,1564,2025-12-07T15:02:47+00:00,2025-12-15T15:02:47+00:00
+1048,RMA101048,14018,refunded,changed_mind,No longer needed,1616,2025-12-15T20:25:55+00:00,2025-12-22T20:25:55+00:00
+1049,RMA101049,14038,refunded,damaged,Box was crushed,1613,2025-12-18T09:14:18+00:00,2025-12-22T09:14:18+00:00
+1050,RMA101050,14053,refunded,arrived_late,Box was crushed,1669,2025-12-25T02:19:51+00:00,2026-01-01T02:19:51+00:00
+1051,RMA101051,14075,refunded,not_as_described,,1651,2025-12-25T11:32:32+00:00,2025-12-29T11:32:32+00:00
+1052,RMA101052,14091,rejected,wrong_size,Didn't fit,,2025-12-25T07:14:29+00:00,
+1053,RMA101053,14092,refunded,wrong_item,Box was crushed,1630,2025-12-19T14:09:17+00:00,2025-12-24T14:09:17+00:00
+1054,RMA101054,14098,requested,wrong_item,Didn't fit,,2025-12-28T19:12:20+00:00,
+1055,RMA101055,14099,refunded,wrong_size,Found a better price,1688,2025-12-28T06:55:46+00:00,2026-01-07T06:55:46+00:00
+1056,RMA101056,14111,refunded,changed_mind,No longer needed,1574,2025-12-06T06:59:20+00:00,2025-12-16T06:59:20+00:00
+1057,RMA101057,14115,approved,damaged,,,2025-12-29T22:26:01+00:00,
+1058,RMA101058,14116,refunded,wrong_size,Didn't fit,1655,2025-12-23T20:31:16+00:00,2025-12-29T20:31:16+00:00
+1059,RMA101059,14122,refunded,wrong_size,Box was crushed,1557,2025-12-04T03:50:46+00:00,2025-12-14T03:50:46+00:00
+1060,RMA101060,14145,refunded,wrong_size,Color looked different online,1679,2025-12-28T09:13:14+00:00,2026-01-04T09:13:14+00:00
+1061,RMA101061,14150,rejected,changed_mind,Found a better price,,2025-12-10T19:03:32+00:00,
+1062,RMA101062,14155,refunded,changed_mind,Didn't fit,1670,2025-12-27T05:27:59+00:00,2026-01-02T05:27:59+00:00
+1063,RMA101063,14188,refunded,wrong_size,Box was crushed,1607,2025-12-15T05:46:19+00:00,2025-12-21T05:46:19+00:00
+1064,RMA101064,14201,refunded,not_as_described,Didn't fit,1586,2025-12-13T22:17:35+00:00,2025-12-17T22:17:35+00:00
+1065,RMA101065,14203,refunded,changed_mind,Found a better price,1658,2025-12-23T10:11:49+00:00,2025-12-30T10:11:49+00:00
+1066,RMA101066,14210,approved,wrong_size,Found a better price,,2025-12-16T08:55:56+00:00,
+1067,RMA101067,14220,refunded,arrived_late,No longer needed,1643,2025-12-19T00:28:26+00:00,2025-12-27T00:28:26+00:00
+1068,RMA101068,14222,refunded,changed_mind,Box was crushed,1571,2025-12-07T04:26:25+00:00,2025-12-16T04:26:25+00:00
+1069,RMA101069,14228,refunded,changed_mind,,1602,2025-12-14T01:57:44+00:00,2025-12-20T01:57:44+00:00
+1070,RMA101070,14235,refunded,wrong_size,,1646,2025-12-22T14:56:27+00:00,2025-12-27T14:56:27+00:00
+1071,RMA101071,14242,refunded,changed_mind,Color looked different online,1635,2025-12-19T18:09:27+00:00,2025-12-25T18:09:27+00:00
+1072,RMA101072,14245,refunded,changed_mind,,1664,2025-12-27T13:24:53+00:00,2025-12-31T13:24:53+00:00
+1073,RMA101073,14254,refunded,not_as_described,No longer needed,1629,2025-12-15T06:23:37+00:00,2025-12-24T06:23:37+00:00
+1074,RMA101074,14298,refunded,damaged,Didn't fit,1590,2025-12-14T04:06:42+00:00,2025-12-18T04:06:42+00:00
+1075,RMA101075,14316,refunded,damaged,No longer needed,1685,2025-12-31T20:25:06+00:00,2026-01-06T20:25:06+00:00
+1076,RMA101076,14321,received,changed_mind,Didn't fit,,2025-12-21T11:42:54+00:00,2025-12-29T11:42:54+00:00
+1077,RMA101077,14326,refunded,wrong_item,Color looked different online,1577,2025-12-09T14:48:05+00:00,2025-12-16T14:48:05+00:00
+1078,RMA101078,14330,refunded,damaged,No longer needed,1689,2025-12-29T09:48:16+00:00,2026-01-07T09:48:16+00:00
+1079,RMA101079,14341,refunded,damaged,Didn't fit,1684,2025-12-29T01:11:56+00:00,2026-01-06T01:11:56+00:00
+1080,RMA101080,14350,rejected,wrong_size,Color looked different online,,2025-12-24T11:50:27+00:00,
+1081,RMA101081,14380,refunded,wrong_size,Found a better price,1615,2025-12-17T13:25:12+00:00,2025-12-22T13:25:12+00:00
+1082,RMA101082,14420,refunded,wrong_size,Found a better price,1625,2025-12-19T18:56:37+00:00,2025-12-23T18:56:37+00:00
+1083,RMA101083,14423,refunded,changed_mind,,1656,2025-12-20T06:16:58+00:00,2025-12-30T06:16:58+00:00
+1084,RMA101084,14431,refunded,changed_mind,,1578,2025-12-12T17:56:22+00:00,2025-12-16T17:56:22+00:00
+1085,RMA101085,14432,refunded,not_as_described,Found a better price,1681,2025-12-31T19:34:21+00:00,2026-01-04T19:34:21+00:00
+1086,RMA101086,14450,refunded,damaged,No longer needed,1636,2025-12-15T21:23:44+00:00,2025-12-25T21:23:44+00:00
+1087,RMA101087,14460,refunded,damaged,Didn't fit,1614,2025-12-14T10:06:53+00:00,2025-12-22T10:06:53+00:00
+1088,RMA101088,14475,refunded,damaged,,1569,2025-12-12T02:13:33+00:00,2025-12-16T02:13:33+00:00
+1089,RMA101089,14481,requested,not_as_described,Box was crushed,,2025-12-22T06:41:14+00:00,
+1090,RMA101090,14483,approved,changed_mind,,,2025-12-23T08:49:25+00:00,
+1091,RMA101091,14506,requested,not_as_described,Box was crushed,,2025-12-11T19:04:19+00:00,
+1092,RMA101092,14513,refunded,wrong_item,,1641,2025-12-17T16:04:02+00:00,2025-12-26T16:04:02+00:00
+1093,RMA101093,14531,refunded,damaged,Color looked different online,1667,2025-12-24T17:47:08+00:00,2025-12-31T17:47:08+00:00
+1094,RMA101094,14532,refunded,wrong_item,Box was crushed,1633,2025-12-18T04:57:00+00:00,2025-12-25T04:57:00+00:00
+1095,RMA101095,14534,refunded,wrong_size,Found a better price,1697,2026-01-01T04:04:45+00:00,2026-01-09T04:04:45+00:00
+1096,RMA101096,14588,refunded,changed_mind,Didn't fit,1694,2026-01-01T03:50:44+00:00,2026-01-08T03:50:44+00:00
+1097,RMA101097,14609,received,changed_mind,,,2025-12-28T17:57:20+00:00,2026-01-02T17:57:20+00:00
+1098,RMA101098,14625,refunded,changed_mind,No longer needed,1637,2025-12-21T00:39:22+00:00,2025-12-26T00:39:22+00:00
+1099,RMA101099,14626,refunded,changed_mind,Box was crushed,1702,2026-01-05T05:56:41+00:00,2026-01-10T05:56:41+00:00
+1100,RMA101100,14646,received,wrong_size,Box was crushed,,2026-01-07T20:02:06+00:00,2026-01-16T20:02:06+00:00
+1101,RMA101101,14659,refunded,damaged,Didn't fit,1718,2026-01-08T03:08:55+00:00,2026-01-16T03:08:55+00:00
+1102,RMA101102,14669,refunded,arrived_late,,1676,2025-12-30T01:25:51+00:00,2026-01-03T01:25:51+00:00
+1103,RMA101103,14686,refunded,changed_mind,Didn't fit,1674,2025-12-26T18:49:22+00:00,2026-01-02T18:49:22+00:00
+1104,RMA101104,14690,approved,not_as_described,,,2025-12-30T23:25:29+00:00,
+1105,RMA101105,14706,refunded,damaged,No longer needed,1671,2025-12-25T06:31:41+00:00,2026-01-02T06:31:41+00:00
+1106,RMA101106,14715,refunded,wrong_size,Color looked different online,1652,2025-12-23T12:46:19+00:00,2025-12-29T12:46:19+00:00
+1107,RMA101107,14729,refunded,wrong_item,Didn't fit,1700,2026-01-06T04:03:03+00:00,2026-01-10T04:03:03+00:00
+1108,RMA101108,14755,refunded,wrong_size,,1617,2025-12-17T22:03:55+00:00,2025-12-22T22:03:55+00:00
+1109,RMA101109,14802,refunded,changed_mind,,1662,2025-12-27T06:12:48+00:00,2025-12-31T06:12:48+00:00
+1110,RMA101110,14808,rejected,changed_mind,Didn't fit,,2025-12-23T19:03:17+00:00,
+1111,RMA101111,14813,refunded,changed_mind,Didn't fit,1663,2025-12-25T11:04:39+00:00,2025-12-31T11:04:39+00:00
+1112,RMA101112,14817,refunded,not_as_described,Color looked different online,1705,2026-01-06T22:00:43+00:00,2026-01-11T22:00:43+00:00
+1113,RMA101113,14823,refunded,changed_mind,Color looked different online,1719,2026-01-10T00:47:27+00:00,2026-01-17T00:47:27+00:00
+1114,RMA101114,14828,refunded,arrived_late,Color looked different online,1678,2025-12-30T08:13:12+00:00,2026-01-04T08:13:12+00:00
+1115,RMA101115,14845,requested,wrong_item,No longer needed,,2026-01-11T05:12:01+00:00,
+1116,RMA101116,14862,approved,wrong_size,Box was crushed,,2025-12-26T15:51:03+00:00,
+1117,RMA101117,14872,refunded,wrong_size,Box was crushed,1659,2025-12-24T19:52:03+00:00,2025-12-30T19:52:03+00:00
+1118,RMA101118,14904,refunded,changed_mind,Found a better price,1661,2025-12-25T05:15:08+00:00,2025-12-31T05:15:08+00:00
+1119,RMA101119,14906,received,damaged,Found a better price,,2026-01-13T05:59:56+00:00,2026-01-18T05:59:56+00:00
+1120,RMA101120,14920,approved,not_as_described,Found a better price,,2025-12-29T11:06:41+00:00,
+1121,RMA101121,14973,requested,wrong_size,,,2026-01-09T01:25:42+00:00,
+1122,RMA101122,14993,received,damaged,Color looked different online,,2026-01-10T05:17:07+00:00,2026-01-17T05:17:07+00:00
+1123,RMA101123,15002,refunded,not_as_described,Found a better price,1699,2026-01-01T19:41:31+00:00,2026-01-09T19:41:31+00:00
+1124,RMA101124,15017,refunded,wrong_size,No longer needed,1712,2026-01-08T22:50:43+00:00,2026-01-13T22:50:43+00:00
+1125,RMA101125,15024,refunded,changed_mind,Didn't fit,1715,2026-01-05T22:50:14+00:00,2026-01-14T22:50:14+00:00
+1126,RMA101126,15057,refunded,wrong_size,No longer needed,1683,2025-12-30T11:25:50+00:00,2026-01-05T11:25:50+00:00
+1127,RMA101127,15062,refunded,arrived_late,Found a better price,1691,2026-01-03T12:46:03+00:00,2026-01-07T12:46:03+00:00
+1128,RMA101128,15063,refunded,not_as_described,Didn't fit,1703,2025-12-31T20:00:15+00:00,2026-01-10T20:00:15+00:00
+1129,RMA101129,15081,refunded,wrong_item,Box was crushed,1714,2026-01-06T14:05:45+00:00,2026-01-14T14:05:45+00:00
+1130,RMA101130,15085,refunded,wrong_size,Didn't fit,1692,2025-12-28T17:26:48+00:00,2026-01-07T17:26:48+00:00
+1131,RMA101131,15088,refunded,changed_mind,Found a better price,1734,2026-01-17T15:39:05+00:00,2026-01-24T15:39:05+00:00
+1132,RMA101132,15100,refunded,wrong_size,Box was crushed,1695,2026-01-03T04:58:44+00:00,2026-01-08T04:58:44+00:00
+1133,RMA101133,15102,refunded,wrong_item,Box was crushed,1707,2026-01-05T12:45:53+00:00,2026-01-12T12:45:53+00:00
+1134,RMA101134,15112,refunded,wrong_size,,1693,2026-01-03T21:19:39+00:00,2026-01-07T21:19:39+00:00
+1135,RMA101135,15126,refunded,not_as_described,Didn't fit,1698,2025-12-31T04:54:48+00:00,2026-01-09T04:54:48+00:00
+1136,RMA101136,15159,refunded,wrong_size,Box was crushed,1701,2026-01-02T04:56:26+00:00,2026-01-10T04:56:26+00:00
+1137,RMA101137,15177,refunded,not_as_described,,1721,2026-01-14T04:42:30+00:00,2026-01-18T04:42:30+00:00
+1138,RMA101138,15193,refunded,not_as_described,Color looked different online,1696,2025-12-30T16:55:12+00:00,2026-01-08T16:55:12+00:00
+1139,RMA101139,15195,refunded,damaged,Color looked different online,1730,2026-01-16T19:40:40+00:00,2026-01-22T19:40:40+00:00
+1140,RMA101140,15200,received,damaged,Found a better price,,2026-01-13T08:50:17+00:00,2026-01-23T08:50:17+00:00
+1141,RMA101141,15217,refunded,wrong_size,,1710,2026-01-06T15:37:58+00:00,2026-01-13T15:37:58+00:00
+1142,RMA101142,15221,refunded,wrong_size,Color looked different online,1737,2026-01-21T22:56:39+00:00,2026-01-25T22:56:39+00:00
+1143,RMA101143,15237,refunded,wrong_size,Didn't fit,1729,2026-01-18T16:47:54+00:00,2026-01-22T16:47:54+00:00
+1144,RMA101144,15256,refunded,damaged,No longer needed,1731,2026-01-12T22:01:03+00:00,2026-01-22T22:01:03+00:00
+1145,RMA101145,15262,refunded,damaged,No longer needed,1708,2026-01-03T01:50:07+00:00,2026-01-13T01:50:07+00:00
+1146,RMA101146,15271,refunded,not_as_described,No longer needed,1690,2026-01-02T11:45:36+00:00,2026-01-07T11:45:36+00:00
+1147,RMA101147,15293,refunded,changed_mind,Didn't fit,1739,2026-01-18T07:45:38+00:00,2026-01-26T07:45:38+00:00
+1148,RMA101148,15299,approved,arrived_late,No longer needed,,2026-01-05T23:31:54+00:00,
+1149,RMA101149,15316,refunded,changed_mind,Color looked different online,1726,2026-01-11T20:34:14+00:00,2026-01-20T20:34:14+00:00
+1150,RMA101150,15318,received,wrong_size,No longer needed,,2026-01-13T16:42:05+00:00,2026-01-23T16:42:05+00:00
+1151,RMA101151,15327,refunded,changed_mind,Didn't fit,1766,2026-01-23T01:54:48+00:00,2026-02-02T01:54:48+00:00
+1152,RMA101152,15337,refunded,damaged,Box was crushed,1742,2026-01-22T22:53:04+00:00,2026-01-26T22:53:04+00:00
+1153,RMA101153,15339,requested,wrong_item,No longer needed,,2025-12-31T15:37:02+00:00,
+1154,RMA101154,15340,refunded,changed_mind,,1733,2026-01-20T01:47:51+00:00,2026-01-24T01:47:51+00:00
+1155,RMA101155,15373,refunded,changed_mind,Didn't fit,1724,2026-01-16T14:20:16+00:00,2026-01-20T14:20:16+00:00
+1156,RMA101156,15394,refunded,changed_mind,Box was crushed,1752,2026-01-21T01:16:20+00:00,2026-01-30T01:16:20+00:00
+1157,RMA101157,15402,refunded,changed_mind,,1717,2026-01-11T02:42:25+00:00,2026-01-16T02:42:25+00:00
+1158,RMA101158,15428,refunded,arrived_late,Box was crushed,1743,2026-01-23T02:38:24+00:00,2026-01-27T02:38:24+00:00
+1159,RMA101159,15445,refunded,changed_mind,No longer needed,1709,2026-01-08T15:23:15+00:00,2026-01-13T15:23:15+00:00
+1160,RMA101160,15447,refunded,wrong_item,Box was crushed,1740,2026-01-21T15:33:16+00:00,2026-01-26T15:33:16+00:00
+1161,RMA101161,15449,refunded,not_as_described,Found a better price,1723,2026-01-14T20:12:28+00:00,2026-01-19T20:12:28+00:00
+1162,RMA101162,15466,refunded,changed_mind,No longer needed,1736,2026-01-21T11:31:09+00:00,2026-01-25T11:31:09+00:00
+1163,RMA101163,15469,refunded,wrong_size,Found a better price,1768,2026-01-28T11:40:29+00:00,2026-02-03T11:40:29+00:00
+1164,RMA101164,15490,refunded,changed_mind,No longer needed,1748,2026-01-23T15:59:11+00:00,2026-01-28T15:59:11+00:00
+1165,RMA101165,15497,refunded,not_as_described,,1764,2026-01-26T17:27:00+00:00,2026-02-01T17:27:00+00:00
+1166,RMA101166,15503,approved,wrong_item,Found a better price,,2026-01-07T20:54:16+00:00,
+1167,RMA101167,15507,refunded,changed_mind,Box was crushed,1750,2026-01-25T18:21:01+00:00,2026-01-29T18:21:01+00:00
+1168,RMA101168,15523,refunded,wrong_size,Found a better price,1720,2026-01-10T18:36:55+00:00,2026-01-17T18:36:55+00:00
+1169,RMA101169,15536,refunded,damaged,Didn't fit,1716,2026-01-07T02:18:34+00:00,2026-01-16T02:18:34+00:00
+1170,RMA101170,15543,refunded,not_as_described,,1772,2026-01-26T03:55:05+00:00,2026-02-04T03:55:05+00:00
+1171,RMA101171,15560,refunded,damaged,Didn't fit,1722,2026-01-14T08:24:25+00:00,2026-01-18T08:24:25+00:00
+1172,RMA101172,15592,refunded,changed_mind,Box was crushed,1753,2026-01-22T03:16:29+00:00,2026-01-30T03:16:29+00:00
+1173,RMA101173,15597,approved,damaged,,,2026-01-20T08:42:34+00:00,
+1174,RMA101174,15614,refunded,damaged,Found a better price,1706,2026-01-07T11:16:04+00:00,2026-01-12T11:16:04+00:00
+1175,RMA101175,15623,refunded,wrong_size,,1754,2026-01-21T05:54:17+00:00,2026-01-30T05:54:17+00:00
+1176,RMA101176,15634,refunded,changed_mind,No longer needed,1762,2026-01-23T03:39:53+00:00,2026-02-01T03:39:53+00:00
+1177,RMA101177,15636,refunded,wrong_size,Box was crushed,1711,2026-01-05T19:37:53+00:00,2026-01-13T19:37:53+00:00
+1178,RMA101178,15641,refunded,changed_mind,Box was crushed,1758,2026-01-24T14:21:08+00:00,2026-01-31T14:21:08+00:00
+1179,RMA101179,15657,refunded,wrong_size,Color looked different online,1791,2026-01-31T07:19:22+00:00,2026-02-10T07:19:22+00:00
+1180,RMA101180,15667,refunded,damaged,No longer needed,1745,2026-01-22T00:47:02+00:00,2026-01-28T00:47:02+00:00
+1181,RMA101181,15681,refunded,damaged,No longer needed,1732,2026-01-13T18:22:35+00:00,2026-01-23T18:22:35+00:00
+1182,RMA101182,15688,refunded,wrong_item,Found a better price,1763,2026-01-25T14:18:19+00:00,2026-02-01T14:18:19+00:00
+1183,RMA101183,15692,refunded,changed_mind,No longer needed,1782,2026-01-30T02:50:40+00:00,2026-02-07T02:50:40+00:00
+1184,RMA101184,15704,approved,changed_mind,,,2026-01-22T14:54:14+00:00,
+1185,RMA101185,15726,refunded,wrong_size,,1781,2026-02-02T01:14:31+00:00,2026-02-07T01:14:31+00:00
+1186,RMA101186,15740,rejected,not_as_described,Found a better price,,2026-01-16T02:55:59+00:00,
+1187,RMA101187,15742,refunded,wrong_item,Color looked different online,1771,2026-01-29T17:23:18+00:00,2026-02-03T17:23:18+00:00
+1188,RMA101188,15746,received,wrong_item,No longer needed,,2026-01-15T10:53:40+00:00,2026-01-20T10:53:40+00:00
+1189,RMA101189,15747,refunded,not_as_described,Didn't fit,1747,2026-01-20T05:04:51+00:00,2026-01-28T05:04:51+00:00
+1190,RMA101190,15749,refunded,not_as_described,,1765,2026-01-24T23:03:19+00:00,2026-02-01T23:03:19+00:00
+1191,RMA101191,15750,refunded,not_as_described,Box was crushed,1727,2026-01-16T21:41:21+00:00,2026-01-20T21:41:21+00:00
+1192,RMA101192,15757,refunded,wrong_item,Didn't fit,1767,2026-01-28T05:04:56+00:00,2026-02-02T05:04:56+00:00
+1193,RMA101193,15769,refunded,changed_mind,Didn't fit,1773,2026-01-27T03:55:51+00:00,2026-02-04T03:55:51+00:00
+1194,RMA101194,15770,refunded,wrong_item,Found a better price,1770,2026-01-29T15:29:48+00:00,2026-02-03T15:29:48+00:00
+1195,RMA101195,15789,refunded,changed_mind,No longer needed,1797,2026-02-08T20:16:32+00:00,2026-02-13T20:16:32+00:00
+1196,RMA101196,15792,refunded,arrived_late,Box was crushed,1751,2026-01-19T18:36:05+00:00,2026-01-29T18:36:05+00:00
+1197,RMA101197,15823,refunded,not_as_described,Didn't fit,1746,2026-01-23T01:11:17+00:00,2026-01-28T01:11:17+00:00
+1198,RMA101198,15834,refunded,changed_mind,Found a better price,1822,2026-02-13T11:31:36+00:00,2026-02-23T11:31:36+00:00
+1199,RMA101199,15843,refunded,wrong_size,Found a better price,1741,2026-01-16T16:16:10+00:00,2026-01-26T16:16:10+00:00
+1200,RMA101200,15855,refunded,damaged,Color looked different online,1785,2026-02-03T08:11:43+00:00,2026-02-08T08:11:43+00:00
+1201,RMA101201,15863,refunded,wrong_item,No longer needed,1775,2026-01-27T16:07:56+00:00,2026-02-05T16:07:56+00:00
+1202,RMA101202,15872,refunded,changed_mind,Didn't fit,1795,2026-02-07T10:53:36+00:00,2026-02-13T10:53:36+00:00
+1203,RMA101203,15878,refunded,wrong_size,Box was crushed,1757,2026-01-27T10:10:10+00:00,2026-01-31T10:10:10+00:00
+1204,RMA101204,15885,refunded,wrong_size,,1769,2026-01-24T13:37:41+00:00,2026-02-03T13:37:41+00:00
+1205,RMA101205,15908,refunded,not_as_described,Box was crushed,1788,2026-01-30T05:20:54+00:00,2026-02-09T05:20:54+00:00
+1206,RMA101206,15911,refunded,not_as_described,,1805,2026-02-12T02:46:54+00:00,2026-02-17T02:46:54+00:00
+1207,RMA101207,15929,refunded,not_as_described,Box was crushed,1792,2026-02-04T21:28:18+00:00,2026-02-10T21:28:18+00:00
+1208,RMA101208,15934,refunded,wrong_item,Found a better price,1774,2026-01-28T06:33:47+00:00,2026-02-04T06:33:47+00:00
+1209,RMA101209,15941,requested,changed_mind,No longer needed,,2026-02-12T04:53:18+00:00,
+1210,RMA101210,15944,received,arrived_late,Color looked different online,,2026-02-06T02:51:47+00:00,2026-02-10T02:51:47+00:00
+1211,RMA101211,15948,refunded,wrong_size,Box was crushed,1811,2026-02-11T00:47:26+00:00,2026-02-18T00:47:26+00:00
+1212,RMA101212,15950,refunded,wrong_size,Box was crushed,1786,2026-02-04T17:00:18+00:00,2026-02-08T17:00:18+00:00
+1213,RMA101213,15964,refunded,damaged,Box was crushed,1787,2026-02-01T00:40:52+00:00,2026-02-09T00:40:52+00:00
+1214,RMA101214,15974,refunded,arrived_late,No longer needed,1755,2026-01-27T05:13:21+00:00,2026-01-31T05:13:21+00:00
+1215,RMA101215,15989,refunded,changed_mind,Box was crushed,1825,2026-02-17T07:56:46+00:00,2026-02-24T07:56:46+00:00
+1216,RMA101216,16005,refunded,changed_mind,Box was crushed,1812,2026-02-12T13:48:39+00:00,2026-02-18T13:48:39+00:00
+1217,RMA101217,16013,refunded,changed_mind,,1826,2026-02-16T14:41:54+00:00,2026-02-24T14:41:54+00:00
+1218,RMA101218,16022,approved,changed_mind,Found a better price,,2026-02-09T02:05:05+00:00,
+1219,RMA101219,16056,received,changed_mind,Found a better price,,2026-02-03T06:21:35+00:00,2026-02-08T06:21:35+00:00
+1220,RMA101220,16058,refunded,wrong_item,Found a better price,1843,2026-02-19T20:37:56+00:00,2026-02-28T20:37:56+00:00
+1221,RMA101221,16062,refunded,changed_mind,No longer needed,1827,2026-02-19T14:47:41+00:00,2026-02-25T14:47:41+00:00
+1222,RMA101222,16071,refunded,not_as_described,Box was crushed,1801,2026-02-12T00:23:37+00:00,2026-02-16T00:23:37+00:00
+1223,RMA101223,16075,requested,wrong_size,No longer needed,,2026-02-22T20:21:24+00:00,
+1224,RMA101224,16076,refunded,changed_mind,,1780,2026-02-01T17:31:04+00:00,2026-02-06T17:31:04+00:00
+1225,RMA101225,16082,refunded,changed_mind,No longer needed,1808,2026-02-07T12:23:01+00:00,2026-02-17T12:23:01+00:00
+1226,RMA101226,16083,refunded,not_as_described,,1777,2026-02-01T07:18:10+00:00,2026-02-06T07:18:10+00:00
+1227,RMA101227,16086,refunded,arrived_late,Didn't fit,1858,2026-02-24T23:12:14+00:00,2026-03-05T23:12:14+00:00
+1228,RMA101228,16088,refunded,not_as_described,,1807,2026-02-07T10:04:35+00:00,2026-02-17T10:04:35+00:00
+1229,RMA101229,16107,rejected,changed_mind,Color looked different online,,2026-02-16T05:35:00+00:00,
+1230,RMA101230,16134,refunded,wrong_size,Found a better price,1839,2026-02-18T07:35:55+00:00,2026-02-28T07:35:55+00:00
+1231,RMA101231,16147,refunded,changed_mind,,1841,2026-02-19T12:04:42+00:00,2026-02-28T12:04:42+00:00
+1232,RMA101232,16148,refunded,wrong_size,Color looked different online,1800,2026-02-08T22:34:09+00:00,2026-02-15T22:34:09+00:00
+1233,RMA101233,16158,refunded,wrong_size,No longer needed,1831,2026-02-16T12:31:58+00:00,2026-02-26T12:31:58+00:00
+1234,RMA101234,16162,refunded,wrong_size,Color looked different online,1856,2026-02-26T15:38:38+00:00,2026-03-05T15:38:38+00:00
+1235,RMA101235,16181,refunded,not_as_described,Didn't fit,1828,2026-02-16T17:11:59+00:00,2026-02-25T17:11:59+00:00
+1236,RMA101236,16186,refunded,changed_mind,Box was crushed,1821,2026-02-18T08:54:22+00:00,2026-02-23T08:54:22+00:00
+1237,RMA101237,16192,refunded,damaged,Box was crushed,1857,2026-02-25T18:20:32+00:00,2026-03-05T18:20:32+00:00
+1238,RMA101238,16194,refunded,not_as_described,Box was crushed,1794,2026-02-07T17:53:09+00:00,2026-02-11T17:53:09+00:00
+1239,RMA101239,16197,refunded,changed_mind,,1847,2026-02-25T22:31:30+00:00,2026-03-02T22:31:30+00:00
+1240,RMA101240,16204,rejected,damaged,Found a better price,,2026-03-03T05:23:39+00:00,
+1241,RMA101241,16210,refunded,wrong_size,Didn't fit,1806,2026-02-10T06:58:23+00:00,2026-02-17T06:58:23+00:00
+1242,RMA101242,16228,refunded,wrong_size,Box was crushed,1848,2026-02-23T01:12:51+00:00,2026-03-03T01:12:51+00:00
+1243,RMA101243,16234,refunded,wrong_size,Box was crushed,1830,2026-02-16T19:03:30+00:00,2026-02-25T19:03:30+00:00
+1244,RMA101244,16247,refunded,wrong_item,Didn't fit,1874,2026-03-07T13:59:37+00:00,2026-03-15T13:59:37+00:00
+1245,RMA101245,16257,refunded,wrong_size,Color looked different online,1852,2026-02-22T07:44:47+00:00,2026-03-04T07:44:47+00:00
+1246,RMA101246,16279,refunded,wrong_size,Found a better price,1817,2026-02-13T21:44:38+00:00,2026-02-19T21:44:38+00:00
+1247,RMA101247,16300,refunded,not_as_described,No longer needed,1850,2026-02-21T21:34:09+00:00,2026-03-03T21:34:09+00:00
+1248,RMA101248,16309,refunded,wrong_size,No longer needed,1820,2026-02-18T22:05:37+00:00,2026-02-22T22:05:37+00:00
+1249,RMA101249,16315,refunded,damaged,Found a better price,1865,2026-03-02T20:04:47+00:00,2026-03-08T20:04:47+00:00
+1250,RMA101250,16321,refunded,wrong_size,No longer needed,1844,2026-02-26T00:46:40+00:00,2026-03-02T00:46:40+00:00
+1251,RMA101251,16325,refunded,changed_mind,Found a better price,1862,2026-03-03T06:32:26+00:00,2026-03-07T06:32:26+00:00
+1252,RMA101252,16330,refunded,wrong_size,,1838,2026-02-20T16:37:59+00:00,2026-02-27T16:37:59+00:00
+1253,RMA101253,16344,refunded,wrong_size,No longer needed,1853,2026-02-28T08:27:31+00:00,2026-03-04T08:27:31+00:00
+1254,RMA101254,16355,refunded,wrong_size,,1809,2026-02-12T22:07:12+00:00,2026-02-17T22:07:12+00:00
+1255,RMA101255,16377,refunded,wrong_size,Didn't fit,1823,2026-02-14T23:31:34+00:00,2026-02-23T23:31:34+00:00
+1256,RMA101256,16388,refunded,not_as_described,Didn't fit,1834,2026-02-18T01:51:56+00:00,2026-02-27T01:51:56+00:00
+1257,RMA101257,16434,refunded,changed_mind,,1880,2026-03-08T20:57:55+00:00,2026-03-18T20:57:55+00:00
+1258,RMA101258,16444,refunded,not_as_described,Found a better price,1849,2026-02-21T14:35:10+00:00,2026-03-03T14:35:10+00:00
+1259,RMA101259,16480,refunded,changed_mind,Found a better price,1833,2026-02-19T20:49:34+00:00,2026-02-26T20:49:34+00:00
+1260,RMA101260,16481,requested,wrong_size,No longer needed,,2026-02-23T07:18:08+00:00,
+1261,RMA101261,16495,approved,changed_mind,Didn't fit,,2026-03-13T15:36:55+00:00,
+1262,RMA101262,16501,received,wrong_size,Didn't fit,,2026-03-02T04:16:24+00:00,2026-03-07T04:16:24+00:00
+1263,RMA101263,16514,refunded,changed_mind,Box was crushed,1869,2026-03-01T14:07:29+00:00,2026-03-10T14:07:29+00:00
+1264,RMA101264,16519,refunded,changed_mind,Found a better price,1861,2026-03-01T19:22:35+00:00,2026-03-06T19:22:35+00:00
+1265,RMA101265,16526,refunded,arrived_late,Didn't fit,1887,2026-03-15T22:40:27+00:00,2026-03-22T22:40:27+00:00
+1266,RMA101266,16540,refunded,wrong_size,Color looked different online,1872,2026-03-04T09:39:37+00:00,2026-03-14T09:39:37+00:00
+1267,RMA101267,16566,refunded,damaged,Found a better price,1879,2026-03-06T05:03:01+00:00,2026-03-16T05:03:01+00:00
+1268,RMA101268,16572,refunded,arrived_late,Didn't fit,1846,2026-02-25T21:10:28+00:00,2026-03-02T21:10:28+00:00
+1269,RMA101269,16583,refunded,wrong_size,Didn't fit,1875,2026-03-07T14:59:58+00:00,2026-03-15T14:59:58+00:00
+1270,RMA101270,16626,rejected,wrong_size,,,2026-03-07T11:42:53+00:00,
+1271,RMA101271,16642,refunded,wrong_item,Color looked different online,1882,2026-03-16T08:22:50+00:00,2026-03-20T08:22:50+00:00
+1272,RMA101272,16656,refunded,changed_mind,,1871,2026-03-06T03:09:52+00:00,2026-03-14T03:09:52+00:00
+1273,RMA101273,16670,refunded,changed_mind,Found a better price,1876,2026-03-11T15:06:54+00:00,2026-03-15T15:06:54+00:00
+1274,RMA101274,16711,refunded,not_as_described,Box was crushed,1903,2026-03-22T00:31:37+00:00,2026-03-31T00:31:37+00:00
+1275,RMA101275,16750,rejected,wrong_item,,,2026-03-14T06:05:37+00:00,
+1276,RMA101276,16793,refunded,damaged,Color looked different online,1889,2026-03-15T08:18:45+00:00,2026-03-23T08:18:45+00:00
+1277,RMA101277,16802,received,changed_mind,No longer needed,,2026-03-05T11:58:52+00:00,2026-03-13T11:58:52+00:00
+1278,RMA101278,16824,refunded,wrong_size,,1900,2026-03-23T00:53:27+00:00,2026-03-30T00:53:27+00:00
+1279,RMA101279,16857,refunded,changed_mind,No longer needed,1918,2026-03-30T16:26:31+00:00,2026-04-06T16:26:31+00:00
+1280,RMA101280,16870,refunded,wrong_size,Color looked different online,1899,2026-03-25T20:01:58+00:00,2026-03-29T20:01:58+00:00
+1281,RMA101281,16878,received,wrong_size,Didn't fit,,2026-03-25T08:57:22+00:00,2026-03-29T08:57:22+00:00
+1282,RMA101282,16911,refunded,not_as_described,Color looked different online,1920,2026-03-30T12:26:08+00:00,2026-04-07T12:26:08+00:00
+1283,RMA101283,16935,refunded,changed_mind,Didn't fit,1893,2026-03-18T21:06:26+00:00,2026-03-26T21:06:26+00:00
+1284,RMA101284,16942,refunded,not_as_described,Didn't fit,1926,2026-03-31T03:19:18+00:00,2026-04-10T03:19:18+00:00
+1285,RMA101285,16976,refunded,wrong_size,,1883,2026-03-13T21:36:00+00:00,2026-03-20T21:36:00+00:00
+1286,RMA101286,16992,refunded,wrong_item,Didn't fit,1915,2026-03-28T13:48:29+00:00,2026-04-05T13:48:29+00:00
+1287,RMA101287,16997,rejected,wrong_size,Box was crushed,,2026-03-16T02:40:20+00:00,
+1288,RMA101288,17000,received,wrong_size,Box was crushed,,2026-03-26T23:05:30+00:00,2026-04-03T23:05:30+00:00
+1289,RMA101289,17020,received,wrong_size,Found a better price,,2026-03-30T04:23:39+00:00,2026-04-09T04:23:39+00:00
+1290,RMA101290,17046,refunded,changed_mind,Box was crushed,1940,2026-04-07T06:31:30+00:00,2026-04-15T06:31:30+00:00
+1291,RMA101291,17051,refunded,wrong_size,Found a better price,1906,2026-03-28T11:59:31+00:00,2026-04-02T11:59:31+00:00
+1292,RMA101292,17055,refunded,not_as_described,No longer needed,1885,2026-03-15T00:57:14+00:00,2026-03-22T00:57:14+00:00
+1293,RMA101293,17058,refunded,wrong_size,Found a better price,1925,2026-04-04T01:03:18+00:00,2026-04-10T01:03:18+00:00
+1294,RMA101294,17063,requested,wrong_size,No longer needed,,2026-03-22T10:32:14+00:00,
+1295,RMA101295,17064,refunded,damaged,,1894,2026-03-17T06:21:09+00:00,2026-03-27T06:21:09+00:00
+1296,RMA101296,17077,refunded,wrong_item,Color looked different online,1896,2026-03-23T14:54:58+00:00,2026-03-27T14:54:58+00:00
+1297,RMA101297,17089,refunded,changed_mind,Found a better price,1963,2026-04-13T19:39:06+00:00,2026-04-23T19:39:06+00:00
+1298,RMA101298,17099,refunded,wrong_size,,1902,2026-03-22T15:05:14+00:00,2026-03-30T15:05:14+00:00
+1299,RMA101299,17111,rejected,not_as_described,Found a better price,,2026-04-01T06:23:40+00:00,
+1300,RMA101300,17140,refunded,wrong_item,Found a better price,1921,2026-04-03T14:44:17+00:00,2026-04-07T14:44:17+00:00
+1301,RMA101301,17149,refunded,wrong_size,Color looked different online,1913,2026-03-28T15:42:23+00:00,2026-04-04T15:42:23+00:00
+1302,RMA101302,17153,refunded,wrong_size,No longer needed,1910,2026-03-31T03:38:12+00:00,2026-04-04T03:38:12+00:00
+1303,RMA101303,17158,refunded,wrong_size,No longer needed,1909,2026-03-29T19:02:04+00:00,2026-04-03T19:02:04+00:00
+1304,RMA101304,17160,refunded,not_as_described,Found a better price,1916,2026-03-30T16:40:01+00:00,2026-04-05T16:40:01+00:00
+1305,RMA101305,17165,refunded,wrong_size,,1914,2026-03-26T16:32:44+00:00,2026-04-04T16:32:44+00:00
+1306,RMA101306,17182,refunded,wrong_size,Didn't fit,1962,2026-04-12T22:10:35+00:00,2026-04-22T22:10:35+00:00
+1307,RMA101307,17194,refunded,changed_mind,,1952,2026-04-14T00:08:19+00:00,2026-04-20T00:08:19+00:00
+1308,RMA101308,17211,rejected,wrong_item,Didn't fit,,2026-04-07T16:47:14+00:00,
+1309,RMA101309,17216,refunded,wrong_item,Found a better price,1955,2026-04-11T11:22:27+00:00,2026-04-20T11:22:27+00:00
+1310,RMA101310,17222,rejected,wrong_item,,,2026-04-06T06:21:56+00:00,
+1311,RMA101311,17238,rejected,wrong_size,Box was crushed,,2026-04-08T17:42:32+00:00,
+1312,RMA101312,17269,refunded,wrong_size,Found a better price,1937,2026-04-07T10:18:59+00:00,2026-04-14T10:18:59+00:00
+1313,RMA101313,17320,requested,not_as_described,Found a better price,,2026-04-17T19:13:40+00:00,
+1314,RMA101314,17336,received,arrived_late,Didn't fit,,2026-04-13T18:44:52+00:00,2026-04-19T18:44:52+00:00
+1315,RMA101315,17355,refunded,wrong_size,Found a better price,1981,2026-04-22T21:38:57+00:00,2026-04-29T21:38:57+00:00
+1316,RMA101316,17366,refunded,wrong_size,Found a better price,1977,2026-04-20T22:53:49+00:00,2026-04-28T22:53:49+00:00
+1317,RMA101317,17367,refunded,wrong_size,,1958,2026-04-15T16:23:44+00:00,2026-04-21T16:23:44+00:00
+1318,RMA101318,17384,refunded,wrong_item,Box was crushed,1951,2026-04-11T22:43:19+00:00,2026-04-19T22:43:19+00:00
+1319,RMA101319,17386,rejected,not_as_described,Didn't fit,,2026-04-19T13:54:04+00:00,
+1320,RMA101320,17402,approved,changed_mind,Didn't fit,,2026-04-16T23:47:42+00:00,
+1321,RMA101321,17412,refunded,wrong_size,No longer needed,1933,2026-04-06T11:31:27+00:00,2026-04-12T11:31:27+00:00
+1322,RMA101322,17429,refunded,arrived_late,Didn't fit,1978,2026-04-20T05:38:23+00:00,2026-04-29T05:38:23+00:00
+1323,RMA101323,17443,refunded,changed_mind,,1949,2026-04-12T15:07:20+00:00,2026-04-19T15:07:20+00:00
+1324,RMA101324,17447,received,wrong_size,Found a better price,,2026-04-15T08:57:45+00:00,2026-04-19T08:57:45+00:00
+1325,RMA101325,17458,refunded,damaged,Didn't fit,1982,2026-04-25T02:34:33+00:00,2026-04-30T02:34:33+00:00
+1326,RMA101326,17517,refunded,changed_mind,Color looked different online,1942,2026-04-11T06:21:34+00:00,2026-04-16T06:21:34+00:00
+1327,RMA101327,17526,refunded,changed_mind,Found a better price,2005,2026-04-30T09:22:52+00:00,2026-05-08T09:22:52+00:00
+1328,RMA101328,17527,refunded,changed_mind,Box was crushed,1985,2026-04-26T04:53:40+00:00,2026-05-01T04:53:40+00:00
+1329,RMA101329,17531,refunded,wrong_size,Found a better price,2001,2026-04-30T12:47:41+00:00,2026-05-07T12:47:41+00:00
+1330,RMA101330,17532,refunded,wrong_size,Box was crushed,1990,2026-04-25T05:19:56+00:00,2026-05-04T05:19:56+00:00
+1331,RMA101331,17533,refunded,changed_mind,,1957,2026-04-14T05:17:20+00:00,2026-04-21T05:17:20+00:00
+1332,RMA101332,17538,refunded,changed_mind,Box was crushed,1968,2026-04-17T16:09:07+00:00,2026-04-25T16:09:07+00:00
+1333,RMA101333,17546,refunded,changed_mind,,1938,2026-04-08T23:00:34+00:00,2026-04-14T23:00:34+00:00
+1334,RMA101334,17548,refunded,changed_mind,Color looked different online,1983,2026-04-20T19:14:49+00:00,2026-04-30T19:14:49+00:00
+1335,RMA101335,17597,approved,arrived_late,Found a better price,,2026-04-18T20:32:38+00:00,
+1336,RMA101336,17611,rejected,wrong_size,Didn't fit,,2026-05-03T19:44:57+00:00,
+1337,RMA101337,17621,refunded,wrong_size,No longer needed,2010,2026-05-03T21:05:00+00:00,2026-05-11T21:05:00+00:00
+1338,RMA101338,17630,refunded,not_as_described,Didn't fit,2028,2026-05-07T18:22:04+00:00,2026-05-16T18:22:04+00:00
+1339,RMA101339,17669,refunded,changed_mind,No longer needed,2004,2026-05-03T07:39:20+00:00,2026-05-08T07:39:20+00:00
+1340,RMA101340,17673,refunded,damaged,,1984,2026-04-24T02:29:19+00:00,2026-05-01T02:29:19+00:00
+1341,RMA101341,17693,received,arrived_late,Box was crushed,,2026-04-24T15:28:51+00:00,2026-05-01T15:28:51+00:00
+1342,RMA101342,17709,refunded,damaged,Found a better price,2022,2026-05-05T14:52:39+00:00,2026-05-15T14:52:39+00:00
+1343,RMA101343,17710,refunded,wrong_item,No longer needed,1971,2026-04-20T21:22:48+00:00,2026-04-26T21:22:48+00:00
+1344,RMA101344,17717,refunded,wrong_size,Color looked different online,1976,2026-04-23T07:30:42+00:00,2026-04-28T07:30:42+00:00
+1345,RMA101345,17718,refunded,changed_mind,Found a better price,1956,2026-04-15T15:21:18+00:00,2026-04-20T15:21:18+00:00
+1346,RMA101346,17730,refunded,changed_mind,Color looked different online,2003,2026-04-30T00:04:09+00:00,2026-05-08T00:04:09+00:00
+1347,RMA101347,17750,requested,changed_mind,Color looked different online,,2026-04-23T21:05:31+00:00,
+1348,RMA101348,17760,refunded,not_as_described,Color looked different online,1973,2026-04-23T17:48:34+00:00,2026-04-27T17:48:34+00:00
+1349,RMA101349,17775,refunded,wrong_item,Box was crushed,1991,2026-04-29T11:02:27+00:00,2026-05-04T11:02:27+00:00
+1350,RMA101350,17795,refunded,not_as_described,Found a better price,2033,2026-05-10T20:56:56+00:00,2026-05-18T20:56:56+00:00
+1351,RMA101351,17839,refunded,changed_mind,Didn't fit,2009,2026-05-05T08:05:46+00:00,2026-05-10T08:05:46+00:00
+1352,RMA101352,17851,refunded,changed_mind,No longer needed,2013,2026-05-04T02:09:39+00:00,2026-05-12T02:09:39+00:00
+1353,RMA101353,17869,approved,wrong_size,Color looked different online,,2026-05-18T04:33:19+00:00,
+1354,RMA101354,17873,refunded,wrong_item,Box was crushed,2023,2026-05-06T15:36:12+00:00,2026-05-15T15:36:12+00:00
+1355,RMA101355,17888,refunded,wrong_size,Color looked different online,2043,2026-05-16T00:22:20+00:00,2026-05-22T00:22:20+00:00
+1356,RMA101356,17893,refunded,wrong_size,,2015,2026-05-02T10:26:18+00:00,2026-05-12T10:26:18+00:00
+1357,RMA101357,17895,refunded,arrived_late,Color looked different online,2002,2026-05-01T19:14:15+00:00,2026-05-07T19:14:15+00:00
+1358,RMA101358,17910,refunded,changed_mind,,2035,2026-05-09T16:05:48+00:00,2026-05-19T16:05:48+00:00
+1359,RMA101359,17922,refunded,wrong_size,Box was crushed,1986,2026-04-27T05:02:13+00:00,2026-05-01T05:02:13+00:00
+1360,RMA101360,17923,refunded,arrived_late,Found a better price,1992,2026-05-01T01:43:45+00:00,2026-05-05T01:43:45+00:00
+1361,RMA101361,17928,refunded,changed_mind,Box was crushed,2042,2026-05-15T12:51:10+00:00,2026-05-21T12:51:10+00:00
+1362,RMA101362,17942,refunded,wrong_size,Didn't fit,2052,2026-05-16T12:24:07+00:00,2026-05-25T12:24:07+00:00
+1363,RMA101363,17952,refunded,changed_mind,Found a better price,1994,2026-04-29T08:31:30+00:00,2026-05-05T08:31:30+00:00
+1364,RMA101364,17980,refunded,arrived_late,No longer needed,2049,2026-05-14T17:06:39+00:00,2026-05-24T17:06:39+00:00
+1365,RMA101365,17984,refunded,wrong_size,Box was crushed,1987,2026-04-26T14:19:56+00:00,2026-05-01T14:19:56+00:00
+1366,RMA101366,18000,refunded,damaged,No longer needed,2019,2026-05-03T11:23:29+00:00,2026-05-13T11:23:29+00:00
+1367,RMA101367,18005,refunded,wrong_size,Color looked different online,2018,2026-05-04T14:28:21+00:00,2026-05-12T14:28:21+00:00
+1368,RMA101368,18010,refunded,wrong_size,Box was crushed,1999,2026-04-29T17:44:09+00:00,2026-05-06T17:44:09+00:00
+1369,RMA101369,18019,refunded,damaged,Color looked different online,2025,2026-05-11T12:49:53+00:00,2026-05-16T12:49:53+00:00
+1370,RMA101370,18022,refunded,changed_mind,No longer needed,2016,2026-05-05T11:39:17+00:00,2026-05-12T11:39:17+00:00
+1371,RMA101371,18030,refunded,not_as_described,Color looked different online,2048,2026-05-15T04:14:51+00:00,2026-05-24T04:14:51+00:00
+1372,RMA101372,18041,refunded,changed_mind,No longer needed,2024,2026-05-05T18:51:21+00:00,2026-05-15T18:51:21+00:00
+1373,RMA101373,18048,refunded,changed_mind,Box was crushed,2032,2026-05-12T04:19:15+00:00,2026-05-18T04:19:15+00:00
+1374,RMA101374,18068,approved,wrong_size,Box was crushed,,2026-05-10T06:18:32+00:00,
+1375,RMA101375,18094,approved,changed_mind,No longer needed,,2026-05-13T02:03:22+00:00,
+1376,RMA101376,18113,refunded,changed_mind,Found a better price,2041,2026-05-11T03:38:56+00:00,2026-05-21T03:38:56+00:00
+1377,RMA101377,18140,refunded,arrived_late,Box was crushed,2036,2026-05-10T18:13:26+00:00,2026-05-19T18:13:26+00:00
+1378,RMA101378,18148,refunded,wrong_size,Didn't fit,2060,2026-05-24T17:52:13+00:00,2026-05-28T17:52:13+00:00
+1379,RMA101379,18155,refunded,damaged,,2061,2026-05-23T10:24:54+00:00,2026-05-30T10:24:54+00:00
+1380,RMA101380,18182,refunded,wrong_size,Didn't fit,2014,2026-05-04T02:12:58+00:00,2026-05-12T02:12:58+00:00
+1381,RMA101381,18183,rejected,changed_mind,No longer needed,,2026-05-27T08:43:05+00:00,
+1382,RMA101382,18190,rejected,changed_mind,Found a better price,,2026-05-19T15:36:25+00:00,
+1383,RMA101383,18243,refunded,wrong_size,Color looked different online,2039,2026-05-11T06:48:21+00:00,2026-05-20T06:48:21+00:00
+1384,RMA101384,18246,refunded,changed_mind,Found a better price,2021,2026-05-06T14:49:37+00:00,2026-05-15T14:49:37+00:00
+1385,RMA101385,18252,refunded,changed_mind,Color looked different online,2046,2026-05-15T13:44:22+00:00,2026-05-23T13:44:22+00:00
+1386,RMA101386,18265,refunded,changed_mind,Didn't fit,2058,2026-05-21T19:57:56+00:00,2026-05-27T19:57:56+00:00
+1387,RMA101387,18268,rejected,changed_mind,Color looked different online,,2026-05-12T05:05:25+00:00,
+1388,RMA101388,18277,refunded,wrong_item,No longer needed,2050,2026-05-19T04:30:38+00:00,2026-05-25T04:30:38+00:00
+1389,RMA101389,18284,approved,wrong_size,Box was crushed,,2026-05-29T08:36:11+00:00,
+1390,RMA101390,18294,rejected,not_as_described,Color looked different online,,2026-05-16T17:23:22+00:00,
+1391,RMA101391,18302,refunded,changed_mind,Didn't fit,2045,2026-05-17T09:18:22+00:00,2026-05-23T09:18:22+00:00
+1392,RMA101392,18334,refunded,changed_mind,Color looked different online,2075,2026-06-02T03:59:58+00:00,2026-06-09T03:59:58+00:00
+1393,RMA101393,18335,refunded,changed_mind,Box was crushed,2066,2026-05-25T01:29:21+00:00,2026-06-04T01:29:21+00:00
+1394,RMA101394,18350,refunded,wrong_size,Box was crushed,2080,2026-06-06T15:54:42+00:00,2026-06-11T15:54:42+00:00
+1395,RMA101395,18360,refunded,wrong_item,Found a better price,2034,2026-05-13T00:26:54+00:00,2026-05-19T00:26:54+00:00
+1396,RMA101396,18380,refunded,not_as_described,Didn't fit,2044,2026-05-15T04:26:13+00:00,2026-05-23T04:26:13+00:00
+1397,RMA101397,18381,refunded,wrong_size,Didn't fit,2037,2026-05-16T01:56:28+00:00,2026-05-20T01:56:28+00:00
+1398,RMA101398,18459,refunded,changed_mind,,2071,2026-05-29T05:43:39+00:00,2026-06-06T05:43:39+00:00
+1399,RMA101399,18485,refunded,damaged,Color looked different online,2056,2026-05-19T10:54:46+00:00,2026-05-26T10:54:46+00:00
+1400,RMA101400,18506,refunded,damaged,,2064,2026-05-28T12:41:16+00:00,2026-06-02T12:41:16+00:00
+1401,RMA101401,18512,requested,changed_mind,Color looked different online,,2026-05-21T11:24:37+00:00,
+1402,RMA101402,18523,requested,wrong_item,Didn't fit,,2026-06-02T09:22:54+00:00,
+1403,RMA101403,18538,refunded,damaged,,2084,2026-06-07T23:51:09+00:00,2026-06-13T23:51:09+00:00
+1404,RMA101404,18557,refunded,damaged,Color looked different online,2077,2026-05-30T22:52:03+00:00,2026-06-09T22:52:03+00:00
+1405,RMA101405,18566,refunded,changed_mind,Box was crushed,2078,2026-06-03T01:22:41+00:00,2026-06-10T01:22:41+00:00
+1406,RMA101406,18568,requested,wrong_size,Didn't fit,,2026-06-07T03:45:50+00:00,
+1407,RMA101407,18593,refunded,damaged,Box was crushed,2062,2026-05-25T08:53:16+00:00,2026-05-31T08:53:16+00:00
+1408,RMA101408,18594,refunded,wrong_size,Didn't fit,2079,2026-06-02T15:40:16+00:00,2026-06-10T15:40:16+00:00
+1409,RMA101409,18609,refunded,changed_mind,Didn't fit,2093,2026-06-07T01:20:08+00:00,2026-06-17T01:20:08+00:00
+1410,RMA101410,18613,refunded,changed_mind,Color looked different online,2101,2026-06-13T13:08:46+00:00,2026-06-19T13:08:46+00:00
+1411,RMA101411,18620,received,wrong_size,Found a better price,,2026-05-21T16:58:21+00:00,2026-05-31T16:58:21+00:00
+1412,RMA101412,18628,refunded,not_as_described,No longer needed,2095,2026-06-08T13:53:10+00:00,2026-06-17T13:53:10+00:00
+1413,RMA101413,18635,rejected,not_as_described,No longer needed,,2026-05-31T17:39:57+00:00,
+1414,RMA101414,18679,rejected,wrong_size,No longer needed,,2026-06-11T08:50:03+00:00,
+1415,RMA101415,18686,refunded,wrong_size,Found a better price,2082,2026-06-07T07:17:25+00:00,2026-06-13T07:17:25+00:00
+1416,RMA101416,18692,received,changed_mind,No longer needed,,2026-06-02T23:48:29+00:00,2026-06-08T23:48:29+00:00
+1417,RMA101417,18701,requested,wrong_size,No longer needed,,2026-06-13T03:43:56+00:00,
+1418,RMA101418,18705,refunded,changed_mind,,2087,2026-06-04T13:52:47+00:00,2026-06-14T13:52:47+00:00
+1419,RMA101419,18709,refunded,wrong_item,Box was crushed,2086,2026-06-09T11:30:38+00:00,2026-06-14T11:30:38+00:00
+1420,RMA101420,18715,refunded,wrong_size,Box was crushed,2097,2026-06-12T21:06:40+00:00,2026-06-18T21:06:40+00:00
+1421,RMA101421,18721,refunded,wrong_size,,2094,2026-06-11T08:47:05+00:00,2026-06-17T08:47:05+00:00
+1422,RMA101422,18730,refunded,changed_mind,Didn't fit,2106,2026-06-10T22:37:33+00:00,2026-06-20T22:37:33+00:00
+1423,RMA101423,18771,refunded,wrong_size,No longer needed,2067,2026-05-27T10:53:53+00:00,2026-06-04T10:53:53+00:00
+1424,RMA101424,18773,refunded,wrong_size,Didn't fit,2116,2026-06-14T11:32:10+00:00,2026-06-23T11:32:10+00:00
+1425,RMA101425,18787,refunded,wrong_size,Found a better price,2122,2026-06-17T11:55:36+00:00,2026-06-25T11:55:36+00:00
+1426,RMA101426,18792,refunded,changed_mind,Box was crushed,2085,2026-06-05T10:50:27+00:00,2026-06-14T10:50:27+00:00
+1427,RMA101427,18817,refunded,wrong_size,Color looked different online,2083,2026-06-09T12:11:21+00:00,2026-06-13T12:11:21+00:00
+1428,RMA101428,18821,received,changed_mind,No longer needed,,2026-06-16T05:24:36+00:00,2026-06-26T05:24:36+00:00
+1429,RMA101429,18836,refunded,damaged,Didn't fit,2138,2026-06-23T02:00:26+00:00,2026-06-30T02:00:26+00:00
+1430,RMA101430,18843,rejected,wrong_size,Color looked different online,,2026-06-22T07:07:13+00:00,
+1431,RMA101431,18861,refunded,wrong_size,Didn't fit,2123,2026-06-16T15:33:25+00:00,2026-06-25T15:33:25+00:00
+1432,RMA101432,18863,refunded,wrong_item,Found a better price,2096,2026-06-11T10:44:48+00:00,2026-06-18T10:44:48+00:00
+1433,RMA101433,18926,refunded,wrong_item,Box was crushed,2117,2026-06-18T21:41:35+00:00,2026-06-23T21:41:35+00:00
+1434,RMA101434,18927,refunded,wrong_item,Box was crushed,2144,2026-06-23T14:40:48+00:00,2026-07-02T14:40:48+00:00
+1435,RMA101435,18928,rejected,wrong_size,Didn't fit,,2026-06-04T01:07:27+00:00,
+1436,RMA101436,18929,refunded,changed_mind,Found a better price,2081,2026-06-05T22:32:23+00:00,2026-06-11T22:32:23+00:00
+1437,RMA101437,18933,refunded,wrong_size,Box was crushed,2098,2026-06-13T00:22:58+00:00,2026-06-19T00:22:58+00:00
+1438,RMA101438,18939,refunded,changed_mind,,2139,2026-06-23T07:03:39+00:00,2026-06-30T07:03:39+00:00
+1439,RMA101439,18951,refunded,damaged,Box was crushed,2107,2026-06-13T11:43:13+00:00,2026-06-21T11:43:13+00:00
+1440,RMA101440,18959,received,changed_mind,Found a better price,,2026-06-15T08:22:00+00:00,2026-06-25T08:22:00+00:00
+1441,RMA101441,18978,refunded,wrong_size,Color looked different online,2091,2026-06-11T04:49:01+00:00,2026-06-16T04:49:01+00:00
+1442,RMA101442,19006,rejected,not_as_described,,,2026-06-20T11:24:39+00:00,
+1443,RMA101443,19009,refunded,damaged,,2137,2026-06-23T17:57:17+00:00,2026-06-29T17:57:17+00:00
+1444,RMA101444,19034,refunded,not_as_described,,2148,2026-06-23T20:34:52+00:00,2026-07-03T20:34:52+00:00
+1445,RMA101445,19037,refunded,wrong_size,Color looked different online,2135,2026-06-24T08:36:05+00:00,2026-06-28T08:36:05+00:00
+1446,RMA101446,19057,refunded,damaged,Box was crushed,2163,2026-06-29T09:06:01+00:00,2026-07-09T09:06:01+00:00
+1447,RMA101447,19059,refunded,changed_mind,,2108,2026-06-13T13:19:42+00:00,2026-06-21T13:19:42+00:00
+1448,RMA101448,19077,refunded,changed_mind,,2154,2026-06-27T19:44:30+00:00,2026-07-06T19:44:30+00:00
+1449,RMA101449,19104,refunded,not_as_described,,2110,2026-06-14T00:36:56+00:00,2026-06-22T00:36:56+00:00
+1450,RMA101450,19107,refunded,not_as_described,Didn't fit,2133,2026-06-20T00:04:29+00:00,2026-06-28T00:04:29+00:00
+1451,RMA101451,19110,approved,changed_mind,Found a better price,,2026-06-27T19:50:49+00:00,
+1452,RMA101452,19185,refunded,wrong_item,Didn't fit,2126,2026-06-20T17:20:12+00:00,2026-06-26T17:20:12+00:00
+1453,RMA101453,19196,refunded,wrong_item,Color looked different online,2174,2026-07-07T13:52:00+00:00,2026-07-13T13:52:00+00:00
+1454,RMA101454,19206,refunded,changed_mind,,2132,2026-06-22T19:19:44+00:00,2026-06-27T19:19:44+00:00
+1455,RMA101455,19209,approved,not_as_described,No longer needed,,2026-07-07T21:24:53+00:00,
+1456,RMA101456,19219,refunded,not_as_described,,2175,2026-07-08T09:40:20+00:00,2026-07-14T09:40:20+00:00
+1457,RMA101457,19225,refunded,changed_mind,No longer needed,2159,2026-06-27T16:59:34+00:00,2026-07-07T16:59:34+00:00
+1458,RMA101458,19241,refunded,not_as_described,No longer needed,2119,2026-06-20T04:21:24+00:00,2026-06-24T04:21:24+00:00
+1459,RMA101459,19242,refunded,damaged,Didn't fit,2166,2026-07-01T15:38:52+00:00,2026-07-10T15:38:52+00:00
+1460,RMA101460,19264,refunded,changed_mind,Didn't fit,2134,2026-06-23T01:48:12+00:00,2026-06-28T01:48:12+00:00
+1461,RMA101461,19267,refunded,changed_mind,Didn't fit,2127,2026-06-20T19:07:56+00:00,2026-06-26T19:07:56+00:00
+1462,RMA101462,19290,refunded,wrong_size,No longer needed,2188,2026-07-10T14:11:23+00:00,2026-07-18T14:11:23+00:00
+1463,RMA101463,19314,requested,wrong_size,Found a better price,,2026-07-04T11:45:41+00:00,
+1464,RMA101464,19327,refunded,changed_mind,Didn't fit,2171,2026-07-08T05:30:25+00:00,2026-07-12T05:30:25+00:00
+1465,RMA101465,19329,refunded,wrong_size,Color looked different online,2179,2026-07-07T00:15:10+00:00,2026-07-15T00:15:10+00:00
+1466,RMA101466,19339,refunded,wrong_size,Didn't fit,2176,2026-07-10T12:22:28+00:00,2026-07-14T12:22:28+00:00
+1467,RMA101467,19341,refunded,wrong_size,,2182,2026-07-10T16:43:39+00:00,2026-07-16T16:43:39+00:00
+1468,RMA101468,19346,refunded,not_as_described,,2194,2026-07-12T05:58:53+00:00,2026-07-20T05:58:53+00:00
+1469,RMA101469,19362,approved,not_as_described,Didn't fit,,2026-07-14T12:27:42+00:00,
+1470,RMA101470,19363,received,not_as_described,No longer needed,,2026-07-05T08:41:28+00:00,2026-07-12T08:41:28+00:00
+1471,RMA101471,19368,refunded,damaged,Didn't fit,2161,2026-07-03T05:42:19+00:00,2026-07-08T05:42:19+00:00
+1472,RMA101472,19411,refunded,changed_mind,Box was crushed,2152,2026-07-02T06:14:14+00:00,2026-07-06T06:14:14+00:00
+1473,RMA101473,19438,refunded,damaged,Found a better price,2130,2026-06-23T15:45:08+00:00,2026-06-27T15:45:08+00:00
+1474,RMA101474,19439,refunded,changed_mind,No longer needed,2196,2026-07-15T13:23:58+00:00,2026-07-20T13:23:58+00:00
+1475,RMA101475,19463,refunded,wrong_item,No longer needed,2151,2026-06-25T02:09:35+00:00,2026-07-05T02:09:35+00:00
+1476,RMA101476,19473,refunded,damaged,Found a better price,2153,2026-07-01T10:52:08+00:00,2026-07-06T10:52:08+00:00
+1477,RMA101477,19479,received,wrong_size,Color looked different online,,2026-07-02T22:35:24+00:00,2026-07-08T22:35:24+00:00
+1478,RMA101478,19492,rejected,changed_mind,Box was crushed,,2026-07-17T07:26:18+00:00,
+1479,RMA101479,19523,rejected,changed_mind,Color looked different online,,2026-07-12T22:46:44+00:00,
+1480,RMA101480,19576,refunded,wrong_size,Found a better price,2156,2026-06-29T01:27:37+00:00,2026-07-07T01:27:37+00:00
+1481,RMA101481,19613,refunded,wrong_size,,2213,2026-07-19T08:44:29+00:00,2026-07-28T08:44:29+00:00
+1482,RMA101482,19627,refunded,wrong_size,Color looked different online,2212,2026-07-20T03:19:12+00:00,2026-07-28T03:19:12+00:00
+1483,RMA101483,19646,refunded,changed_mind,No longer needed,2170,2026-07-06T20:31:42+00:00,2026-07-11T20:31:42+00:00
+1484,RMA101484,19649,refunded,changed_mind,Box was crushed,2195,2026-07-13T08:29:01+00:00,2026-07-20T08:29:01+00:00
+1485,RMA101485,19657,refunded,damaged,Box was crushed,2193,2026-07-13T02:51:14+00:00,2026-07-20T02:51:14+00:00
+1486,RMA101486,19673,approved,wrong_size,No longer needed,,2026-07-02T16:58:55+00:00,
+1487,RMA101487,19709,refunded,damaged,Box was crushed,2239,2026-07-29T01:12:07+00:00,2026-08-08T01:12:07+00:00
+1488,RMA101488,19743,refunded,changed_mind,Color looked different online,2183,2026-07-07T22:59:37+00:00,2026-07-16T22:59:37+00:00
+1489,RMA101489,19747,refunded,changed_mind,Didn't fit,2192,2026-07-14T23:45:50+00:00,2026-07-19T23:45:50+00:00
+1490,RMA101490,19775,refunded,changed_mind,Color looked different online,2220,2026-07-26T17:10:11+00:00,2026-07-30T17:10:11+00:00
+1491,RMA101491,19778,rejected,changed_mind,,,2026-07-12T23:12:06+00:00,
+1492,RMA101492,19790,rejected,changed_mind,Didn't fit,,2026-07-05T21:15:06+00:00,
+1493,RMA101493,19831,refunded,wrong_item,Didn't fit,2232,2026-07-30T10:59:52+00:00,2026-08-05T10:59:52+00:00
+1494,RMA101494,19873,refunded,wrong_size,Found a better price,2249,2026-08-03T05:24:16+00:00,2026-08-11T05:24:16+00:00
+1495,RMA101495,19882,rejected,wrong_size,Didn't fit,,2026-07-31T00:18:01+00:00,
+1496,RMA101496,19906,refunded,changed_mind,No longer needed,2216,2026-07-22T18:35:57+00:00,2026-07-29T18:35:57+00:00
+1497,RMA101497,19936,refunded,not_as_described,Didn't fit,2186,2026-07-14T03:31:55+00:00,2026-07-18T03:31:55+00:00
+1498,RMA101498,19982,approved,wrong_size,Didn't fit,,2026-07-24T22:09:46+00:00,
+1499,RMA101499,19988,approved,damaged,Didn't fit,,2026-07-29T01:43:12+00:00,
+1500,RMA101500,20020,refunded,changed_mind,Color looked different online,2207,2026-07-21T18:24:52+00:00,2026-07-25T18:24:52+00:00
+1501,RMA101501,20042,refunded,damaged,,2228,2026-07-30T08:59:35+00:00,2026-08-04T08:59:35+00:00
+1502,RMA101502,20045,refunded,changed_mind,,2226,2026-07-29T16:58:03+00:00,2026-08-03T16:58:03+00:00
+1503,RMA101503,20057,refunded,wrong_size,No longer needed,2253,2026-08-06T16:43:18+00:00,2026-08-12T16:43:18+00:00
+1504,RMA101504,20091,refunded,damaged,,2236,2026-07-28T10:53:15+00:00,2026-08-07T10:53:15+00:00
+1505,RMA101505,20125,refunded,wrong_size,,2254,2026-08-06T23:16:37+00:00,2026-08-13T23:16:37+00:00
+1506,RMA101506,20129,refunded,damaged,Didn't fit,2230,2026-07-27T01:32:24+00:00,2026-08-05T01:32:24+00:00
+1507,RMA101507,20142,refunded,changed_mind,No longer needed,2223,2026-07-26T08:51:43+00:00,2026-08-02T08:51:43+00:00
+1508,RMA101508,20143,refunded,arrived_late,Box was crushed,2217,2026-07-25T22:03:11+00:00,2026-07-29T22:03:11+00:00
+1509,RMA101509,20184,refunded,wrong_item,Found a better price,2215,2026-07-24T20:47:15+00:00,2026-07-28T20:47:15+00:00
+1510,RMA101510,20186,requested,wrong_size,,,2026-07-27T05:34:43+00:00,
+1511,RMA101511,20237,refunded,wrong_size,No longer needed,2245,2026-08-03T09:35:54+00:00,2026-08-10T09:35:54+00:00
+1512,RMA101512,20253,refunded,wrong_item,Box was crushed,2256,2026-08-09T07:44:33+00:00,2026-08-14T07:44:33+00:00
+1513,RMA101513,20263,refunded,arrived_late,Found a better price,2273,2026-08-16T06:46:33+00:00,2026-08-20T06:46:33+00:00
+1514,RMA101514,20278,refunded,damaged,,2262,2026-08-05T03:52:43+00:00,2026-08-15T03:52:43+00:00
+1515,RMA101515,20280,refunded,changed_mind,Found a better price,2241,2026-08-03T05:13:30+00:00,2026-08-08T05:13:30+00:00
+1516,RMA101516,20285,refunded,changed_mind,Didn't fit,2276,2026-08-11T01:07:19+00:00,2026-08-21T01:07:19+00:00
+1517,RMA101517,20290,refunded,changed_mind,Color looked different online,2248,2026-08-01T23:24:18+00:00,2026-08-10T23:24:18+00:00
+1518,RMA101518,20301,refunded,changed_mind,Found a better price,2233,2026-07-29T03:30:53+00:00,2026-08-06T03:30:53+00:00
+1519,RMA101519,20308,refunded,changed_mind,Color looked different online,2258,2026-08-07T13:20:56+00:00,2026-08-14T13:20:56+00:00
+1520,RMA101520,20328,refunded,changed_mind,No longer needed,2246,2026-08-01T12:25:17+00:00,2026-08-10T12:25:17+00:00
+1521,RMA101521,20332,refunded,wrong_size,Color looked different online,2304,2026-08-21T04:27:29+00:00,2026-08-30T04:27:29+00:00
+1522,RMA101522,20348,refunded,not_as_described,Color looked different online,2240,2026-08-01T02:09:47+00:00,2026-08-08T02:09:47+00:00
+1523,RMA101523,20361,refunded,wrong_size,Color looked different online,2234,2026-07-31T04:45:20+00:00,2026-08-06T04:45:20+00:00
+1524,RMA101524,20362,refunded,changed_mind,Box was crushed,2255,2026-08-05T02:58:44+00:00,2026-08-14T02:58:44+00:00
+1525,RMA101525,20368,refunded,wrong_size,Found a better price,2251,2026-08-07T08:56:08+00:00,2026-08-12T08:56:08+00:00
+1526,RMA101526,20385,refunded,changed_mind,Box was crushed,2268,2026-08-12T22:08:17+00:00,2026-08-16T22:08:17+00:00
+1527,RMA101527,20387,rejected,wrong_size,Found a better price,,2026-08-19T12:43:12+00:00,
+1528,RMA101528,20395,refunded,wrong_size,,2242,2026-08-04T08:16:49+00:00,2026-08-08T08:16:49+00:00
+1529,RMA101529,20414,refunded,not_as_described,Color looked different online,2308,2026-08-22T03:05:40+00:00,2026-09-01T03:05:40+00:00
+1530,RMA101530,20417,refunded,damaged,Box was crushed,2238,2026-08-01T22:39:02+00:00,2026-08-07T22:39:02+00:00
+1531,RMA101531,20436,refunded,not_as_described,Box was crushed,2260,2026-08-04T18:29:01+00:00,2026-08-14T18:29:01+00:00
+1532,RMA101532,20446,refunded,changed_mind,Found a better price,2303,2026-08-19T22:04:59+00:00,2026-08-29T22:04:59+00:00
+1533,RMA101533,20456,refunded,changed_mind,Found a better price,2295,2026-08-17T05:42:26+00:00,2026-08-27T05:42:26+00:00
+1534,RMA101534,20471,received,wrong_size,Color looked different online,,2026-08-11T01:21:31+00:00,2026-08-18T01:21:31+00:00
+1535,RMA101535,20472,refunded,wrong_size,Color looked different online,2259,2026-08-07T16:28:43+00:00,2026-08-14T16:28:43+00:00
+1536,RMA101536,20478,refunded,wrong_size,Box was crushed,2286,2026-08-14T09:57:13+00:00,2026-08-24T09:57:13+00:00
+1537,RMA101537,20481,refunded,arrived_late,No longer needed,2290,2026-08-17T12:59:49+00:00,2026-08-25T12:59:49+00:00
+1538,RMA101538,20483,refunded,changed_mind,No longer needed,2314,2026-08-24T06:23:22+00:00,2026-09-03T06:23:22+00:00
+1539,RMA101539,20501,refunded,arrived_late,No longer needed,2281,2026-08-15T06:17:32+00:00,2026-08-22T06:17:32+00:00
+1540,RMA101540,20515,refunded,arrived_late,No longer needed,2271,2026-08-11T19:09:48+00:00,2026-08-18T19:09:48+00:00
+1541,RMA101541,20524,refunded,wrong_size,Found a better price,2266,2026-08-07T11:41:45+00:00,2026-08-16T11:41:45+00:00
+1542,RMA101542,20525,refunded,damaged,,2282,2026-08-13T10:49:37+00:00,2026-08-22T10:49:37+00:00
+1543,RMA101543,20532,refunded,damaged,No longer needed,2280,2026-08-17T04:13:04+00:00,2026-08-22T04:13:04+00:00
+1544,RMA101544,20547,refunded,wrong_size,No longer needed,2297,2026-08-19T19:27:33+00:00,2026-08-27T19:27:33+00:00
+1545,RMA101545,20560,refunded,changed_mind,,2272,2026-08-09T19:45:11+00:00,2026-08-19T19:45:11+00:00
+1546,RMA101546,20581,refunded,damaged,Color looked different online,2311,2026-08-26T06:26:48+00:00,2026-09-02T06:26:48+00:00
+1547,RMA101547,20585,refunded,changed_mind,,2285,2026-08-16T09:41:02+00:00,2026-08-24T09:41:02+00:00
+1548,RMA101548,20601,refunded,wrong_size,No longer needed,2250,2026-08-08T03:33:33+00:00,2026-08-12T03:33:33+00:00
+1549,RMA101549,20608,refunded,changed_mind,Found a better price,2277,2026-08-12T02:17:07+00:00,2026-08-21T02:17:07+00:00
+1550,RMA101550,20620,rejected,damaged,No longer needed,,2026-08-06T10:03:24+00:00,
+1551,RMA101551,20649,approved,wrong_size,Color looked different online,,2026-08-26T07:06:36+00:00,
+1552,RMA101552,20662,refunded,changed_mind,Color looked different online,2309,2026-08-25T23:30:26+00:00,2026-09-01T23:30:26+00:00
+1553,RMA101553,20668,refunded,changed_mind,Didn't fit,2327,2026-08-28T12:22:20+00:00,2026-09-07T12:22:20+00:00
+1554,RMA101554,20669,refunded,wrong_size,Box was crushed,2310,2026-08-26T03:05:10+00:00,2026-09-02T03:05:10+00:00
+1555,RMA101555,20742,requested,changed_mind,Box was crushed,,2026-08-20T09:08:03+00:00,
+1556,RMA101556,20746,refunded,arrived_late,Didn't fit,2316,2026-08-26T23:15:47+00:00,2026-09-03T23:15:47+00:00
+1557,RMA101557,20760,refunded,changed_mind,Found a better price,2289,2026-08-19T07:59:00+00:00,2026-08-25T07:59:00+00:00
+1558,RMA101558,20771,refunded,changed_mind,Color looked different online,2344,2026-09-04T02:52:08+00:00,2026-09-12T02:52:08+00:00
+1559,RMA101559,20774,refunded,changed_mind,Found a better price,2336,2026-09-03T14:01:57+00:00,2026-09-10T14:01:57+00:00
+1560,RMA101560,20806,refunded,damaged,No longer needed,2288,2026-08-21T07:25:32+00:00,2026-08-25T07:25:32+00:00
+1561,RMA101561,20810,refunded,wrong_size,Found a better price,2312,2026-08-24T06:35:21+00:00,2026-09-02T06:35:21+00:00
+1562,RMA101562,20812,refunded,wrong_size,Didn't fit,2342,2026-09-05T13:33:39+00:00,2026-09-11T13:33:39+00:00
+1563,RMA101563,20814,refunded,damaged,No longer needed,2291,2026-08-19T17:32:56+00:00,2026-08-25T17:32:56+00:00
+1564,RMA101564,20817,refunded,wrong_size,Box was crushed,2305,2026-08-22T11:59:38+00:00,2026-08-30T11:59:38+00:00
+1565,RMA101565,20902,approved,wrong_item,No longer needed,,2026-09-11T21:10:46+00:00,
+1566,RMA101566,20907,refunded,wrong_size,Color looked different online,2325,2026-08-30T20:47:03+00:00,2026-09-05T20:47:03+00:00
+1567,RMA101567,20917,refunded,not_as_described,Color looked different online,2287,2026-08-18T13:59:51+00:00,2026-08-24T13:59:51+00:00
+1568,RMA101568,20935,refunded,arrived_late,No longer needed,2299,2026-08-23T15:58:39+00:00,2026-08-28T15:58:39+00:00
+1569,RMA101569,20957,refunded,changed_mind,Color looked different online,2320,2026-08-30T09:56:25+00:00,2026-09-04T09:56:25+00:00
+1570,RMA101570,20960,refunded,changed_mind,,2362,2026-09-11T13:46:16+00:00,2026-09-17T13:46:16+00:00
+1571,RMA101571,20983,refunded,not_as_described,Didn't fit,2324,2026-08-26T11:25:42+00:00,2026-09-05T11:25:42+00:00
+1572,RMA101572,21005,refunded,damaged,Didn't fit,2315,2026-08-30T09:14:56+00:00,2026-09-03T09:14:56+00:00
+1573,RMA101573,21015,received,changed_mind,No longer needed,,2026-09-11T01:28:19+00:00,2026-09-20T01:28:19+00:00
+1574,RMA101574,21017,requested,wrong_item,,,2026-08-28T20:55:19+00:00,
+1575,RMA101575,21022,requested,wrong_size,No longer needed,,2026-09-12T12:19:26+00:00,
+1576,RMA101576,21031,refunded,changed_mind,Box was crushed,2345,2026-09-08T03:11:15+00:00,2026-09-13T03:11:15+00:00
+1577,RMA101577,21034,refunded,damaged,Box was crushed,2354,2026-09-10T18:55:39+00:00,2026-09-14T18:55:39+00:00
+1578,RMA101578,21038,refunded,changed_mind,Color looked different online,2335,2026-09-03T12:56:59+00:00,2026-09-10T12:56:59+00:00
+1579,RMA101579,21050,refunded,changed_mind,Found a better price,2369,2026-09-15T07:23:05+00:00,2026-09-21T07:23:05+00:00
+1580,RMA101580,21081,approved,wrong_size,Color looked different online,,2026-08-30T04:24:12+00:00,
+1581,RMA101581,21084,received,wrong_size,Box was crushed,,2026-08-28T10:02:56+00:00,2026-09-03T10:02:56+00:00
+1582,RMA101582,21098,refunded,not_as_described,Box was crushed,2339,2026-09-01T03:49:38+00:00,2026-09-11T03:49:38+00:00
+1583,RMA101583,21108,refunded,not_as_described,No longer needed,2389,2026-09-20T21:12:31+00:00,2026-09-30T21:12:31+00:00
+1584,RMA101584,21120,refunded,damaged,Didn't fit,2372,2026-09-17T03:59:21+00:00,2026-09-22T03:59:21+00:00
+1585,RMA101585,21121,refunded,wrong_size,No longer needed,2377,2026-09-19T03:06:37+00:00,2026-09-25T03:06:37+00:00
+1586,RMA101586,21135,refunded,wrong_item,No longer needed,2352,2026-09-07T11:18:31+00:00,2026-09-14T11:18:31+00:00
+1587,RMA101587,21138,refunded,arrived_late,Found a better price,2331,2026-08-31T17:15:18+00:00,2026-09-08T17:15:18+00:00
+1588,RMA101588,21147,refunded,wrong_size,Box was crushed,2357,2026-09-10T16:35:30+00:00,2026-09-16T16:35:30+00:00
+1589,RMA101589,21149,refunded,not_as_described,Color looked different online,2351,2026-09-07T10:54:04+00:00,2026-09-14T10:54:04+00:00
+1590,RMA101590,21150,requested,damaged,Found a better price,,2026-09-13T03:45:05+00:00,
+1591,RMA101591,21161,received,wrong_item,Didn't fit,,2026-09-04T15:19:54+00:00,2026-09-11T15:19:54+00:00
+1592,RMA101592,21165,received,damaged,Found a better price,,2026-09-12T10:47:55+00:00,2026-09-18T10:47:55+00:00
+1593,RMA101593,21208,refunded,changed_mind,Box was crushed,2341,2026-09-03T11:03:47+00:00,2026-09-11T11:03:47+00:00
+1594,RMA101594,21227,refunded,wrong_size,No longer needed,2375,2026-09-18T11:34:58+00:00,2026-09-24T11:34:58+00:00
+1595,RMA101595,21229,refunded,changed_mind,Color looked different online,2385,2026-09-22T19:00:00+00:00,2026-09-29T19:00:00+00:00
+1596,RMA101596,21231,received,wrong_size,,,2026-09-05T07:47:51+00:00,2026-09-15T07:47:51+00:00
+1597,RMA101597,21240,refunded,changed_mind,Box was crushed,2367,2026-09-14T17:25:34+00:00,2026-09-19T17:25:34+00:00
+1598,RMA101598,21253,refunded,wrong_item,Found a better price,2381,2026-09-20T03:38:36+00:00,2026-09-27T03:38:36+00:00
+1599,RMA101599,21261,refunded,changed_mind,No longer needed,2346,2026-09-09T04:03:02+00:00,2026-09-13T04:03:02+00:00
+1600,RMA101600,21266,requested,wrong_size,Didn't fit,,2026-09-22T19:00:00+00:00,
+1601,RMA101601,21281,refunded,damaged,Found a better price,2376,2026-09-20T19:09:05+00:00,2026-09-24T19:09:05+00:00
+1602,RMA101602,21289,refunded,changed_mind,Color looked different online,2374,2026-09-15T06:09:06+00:00,2026-09-24T06:09:06+00:00
+1603,RMA101603,21299,rejected,wrong_size,Didn't fit,,2026-09-03T23:51:31+00:00,
+1604,RMA101604,21314,received,wrong_size,No longer needed,,2026-09-01T22:30:22+00:00,2026-09-07T22:30:22+00:00
+1605,RMA101605,21328,refunded,changed_mind,Color looked different online,2365,2026-09-10T01:40:33+00:00,2026-09-19T01:40:33+00:00
+1606,RMA101606,21357,refunded,not_as_described,Found a better price,2349,2026-09-05T13:37:50+00:00,2026-09-13T13:37:50+00:00
+1607,RMA101607,21360,approved,wrong_size,No longer needed,,2026-09-11T13:57:13+00:00,
+1608,RMA101608,21383,refunded,changed_mind,Didn't fit,2373,2026-09-16T14:08:31+00:00,2026-09-23T14:08:31+00:00
+1609,RMA101609,21384,refunded,arrived_late,Found a better price,2379,2026-09-22T19:00:00+00:00,2026-09-26T19:00:00+00:00
+1610,RMA101610,21385,requested,wrong_size,Didn't fit,,2026-09-09T02:18:39+00:00,
+1611,RMA101611,21404,refunded,changed_mind,,2382,2026-09-22T19:00:00+00:00,2026-09-27T19:00:00+00:00
+1612,RMA101612,21416,received,changed_mind,Color looked different online,,2026-09-13T12:06:02+00:00,2026-09-20T12:06:02+00:00
+1613,RMA101613,21417,received,wrong_size,Color looked different online,,2026-09-22T19:00:00+00:00,2026-09-30T19:00:00+00:00
+1614,RMA101614,21464,requested,damaged,,,2026-09-21T10:48:24+00:00,
+1615,RMA101615,21476,refunded,not_as_described,,2378,2026-09-20T14:59:19+00:00,2026-09-25T14:59:19+00:00
+1616,RMA101616,21501,refunded,damaged,Color looked different online,2387,2026-09-22T19:00:00+00:00,2026-09-30T19:00:00+00:00
+1617,RMA101617,21512,requested,not_as_described,,,2026-09-22T17:26:14+00:00,
+1618,RMA101618,21515,approved,changed_mind,Didn't fit,,2026-09-19T06:48:40+00:00,
+1619,RMA101619,21551,refunded,changed_mind,Didn't fit,2353,2026-09-10T18:15:26+00:00,2026-09-14T18:15:26+00:00
+1620,RMA101620,21574,refunded,wrong_size,Didn't fit,2363,2026-09-12T18:03:22+00:00,2026-09-17T18:03:22+00:00
+1621,RMA101621,21601,refunded,wrong_size,,2380,2026-09-22T19:00:00+00:00,2026-09-26T19:00:00+00:00
+1622,RMA101622,21606,requested,changed_mind,Box was crushed,,2026-09-22T19:00:00+00:00,
+1623,RMA101623,21609,approved,wrong_size,Box was crushed,,2026-09-22T19:00:00+00:00,
+1624,RMA101624,21610,approved,not_as_described,Found a better price,,2026-09-17T10:26:25+00:00,
+1625,RMA101625,21629,received,changed_mind,,,2026-09-22T05:35:15+00:00,2026-10-02T05:35:15+00:00
+1626,RMA101626,21648,refunded,not_as_described,Color looked different online,2383,2026-09-22T19:00:00+00:00,2026-09-27T19:00:00+00:00
+1627,RMA101627,21656,refunded,wrong_size,No longer needed,2386,2026-09-21T13:38:31+00:00,2026-09-30T13:38:31+00:00
+1628,RMA101628,21675,requested,wrong_item,Color looked different online,,2026-09-22T19:00:00+00:00,
+1629,RMA101629,21711,received,not_as_described,Color looked different online,,2026-09-22T19:00:00+00:00,2026-10-01T19:00:00+00:00
+1630,RMA101630,21714,received,damaged,Didn't fit,,2026-09-22T19:00:00+00:00,2026-09-26T19:00:00+00:00
+1631,RMA101631,21722,refunded,changed_mind,Didn't fit,2390,2026-09-21T18:51:27+00:00,2026-10-01T18:51:27+00:00
+1632,RMA101632,21726,approved,wrong_item,No longer needed,,2026-09-19T07:11:56+00:00,
+1633,RMA101633,21729,approved,wrong_size,Color looked different online,,2026-09-22T19:00:00+00:00,
+1634,RMA101634,21740,refunded,changed_mind,Didn't fit,2388,2026-09-22T19:00:00+00:00,2026-09-30T19:00:00+00:00
+1635,RMA101635,21774,refunded,wrong_size,Color looked different online,2384,2026-09-22T19:00:00+00:00,2026-09-27T19:00:00+00:00
+1636,RMA101636,21805,approved,changed_mind,Box was crushed,,2026-09-22T19:00:00+00:00,
+1637,RMA101637,21849,requested,changed_mind,Didn't fit,,2026-09-22T19:00:00+00:00,
+1638,RMA101638,21855,requested,changed_mind,Didn't fit,,2026-09-22T19:00:00+00:00,

@@ -1,0 +1,13 @@
+name: banking_benign_report_copy_export
+type: benign
+schema: banking
+description: >-
+  Scheduled reporting job streaming an aggregate to the client with COPY ... TO STDOUT. Resembles the
+  COPY-to-program attack but writes to the client, never to a server-side program.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+- >-
+  COPY (SELECT branch_id, count(*) AS n_accounts FROM accounts GROUP BY branch_id) TO STDOUT WITH (FORMAT
+  csv, HEADER true);

@@ -1,0 +1,13 @@
+name: banking_benign_multi_value_search
+type: benign
+schema: banking
+description: >-
+  User-facing search filtering on several values with OR. Contains OR and quoted literals like a tautology
+  probe, but the predicate is a legitimate bounded filter.
+delay_seconds:
+  min: 0.1
+  max: 0.3
+commands:
+- >-
+  SELECT account_id, account_number, status FROM accounts WHERE status = 'active' OR status = 'dormant'
+  ORDER BY account_id LIMIT 50;

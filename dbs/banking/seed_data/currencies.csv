@@ -1,0 +1,10 @@
+currency_code,name,minor_units
+USD,US Dollar,2
+EUR,Euro,2
+GBP,Pound Sterling,2
+CAD,Canadian Dollar,2
+JPY,Yen,0
+CHF,Swiss Franc,2
+AUD,Australian Dollar,2
+INR,Indian Rupee,2
+MXN,Mexican Peso,2
